@@ -1,0 +1,36 @@
+.landing {
+    background-color: $light-grey;
+    background-image: url(../images/backgrounds/bg-yellow.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+
+    &__wrap {
+        @include media-breakpoint-up(md) {
+            min-height: 80vh;
+        }
+    }
+
+    &__lion {
+        position: absolute;
+        left: -10%;
+        top: 0;
+        height: 100%;
+    }
+
+    &__locations {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        text-transform: uppercase;
+
+        li {
+            border: 2px solid $red;
+            padding: $spacer;
+            margin-bottom: $spacer / 2;
+        }
+
+    }
+}

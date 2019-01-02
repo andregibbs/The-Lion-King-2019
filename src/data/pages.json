@@ -1,0 +1,14 @@
+[
+    {
+        "id": "london",
+        "path": "/london",
+        "title": "London",
+        "template": "home-template"
+    },
+    {
+        "id": "bristol",
+        "path": "/bristol",
+        "title": "Bristol",
+        "template": "home-template"
+    }
+]
