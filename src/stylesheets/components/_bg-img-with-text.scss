@@ -1,0 +1,35 @@
+.bg-image-text {
+    position: relative;
+
+    &__content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: $spacer * 2;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        color: $white;
+
+        @include media-breakpoint-up(md) {
+            top: 0;
+            padding: $spacer;
+            padding-left: $spacer * 4;
+            justify-content: flex-start;
+        }
+
+        @include media-breakpoint-up(lg) {
+            padding-left: $spacer * 8;
+        }
+
+        @include media-breakpoint-up(xl) {
+            padding-left: $spacer * 10;
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+}

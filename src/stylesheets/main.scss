@@ -1,8 +1,21 @@
+// Fonts
+@import 'fonts/fonts';
+
 // Vendors
 @import 'vendor/bootstrap/bootstrap';
 
 // Base
 @import 'base/variables';
+@import 'base/base';
+@import 'base/buttons';
+@import 'base/helpers';
+@import 'base/type';
+
+// Components
+@import 'components/bg-img-with-text';
+@import 'components/footer-social';
+@import 'components/footer-links';
+@import 'components/navigation';
 
 // Page specifics
 @import 'pages/landing';

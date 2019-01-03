@@ -1,0 +1,17 @@
+.footer-social {
+    text-align: center;
+    padding: $spacer * 1.25 0 $spacer;
+
+    a {
+        color: $black;
+        transition: $transition-base;
+        font-size: $font-size-lg * 1.6;
+        padding: $spacer;
+        display: inline-block;
+
+        &:hover {
+            color: $tlk-red;
+            text-decoration: none;
+        }
+    }
+}

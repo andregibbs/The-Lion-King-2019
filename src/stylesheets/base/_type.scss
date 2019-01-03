@@ -1,0 +1,9 @@
+h1, 
+h2,
+h3 {
+    font-weight: $font-weight-bold;
+    letter-spacing: .5px;
+    span {
+        font-weight: $font-weight-light;
+    }
+}

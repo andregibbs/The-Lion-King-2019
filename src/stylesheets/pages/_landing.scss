@@ -1,11 +1,22 @@
 .landing {
-    background-color: $light-grey;
     background-image: url(../images/backgrounds/bg-yellow.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;
+    font-family: $special-font;
+
+    h2 {
+        font-weight: $special-font-weight;
+        letter-spacing: 2px;
+    }
+
+    .offset-md-6 {
+        @media (orientation: portrait) and (min-width: 768px) {
+            margin-left: 25%;
+        }
+    }
 
     &__wrap {
         @include media-breakpoint-up(md) {
@@ -14,10 +25,29 @@
     }
 
     &__lion {
-        position: absolute;
-        left: -10%;
-        top: 0;
-        height: 100%;
+        display: none;
+        max-width: none;
+
+        @include media-breakpoint-up(md) {
+            display: block;
+            position: absolute;
+            left: -22rem;
+            top: 0;
+            height: 100%;
+            min-height: 80vh;
+        }
+
+        @include media-breakpoint-up(lg) {
+            left: -15rem;
+        }
+
+        @include media-breakpoint-up(xl) {
+            left: -5rem;
+        }
+
+        @media only screen and (orientation: portrait) {
+            display: none;
+        }
     }
 
     &__locations {
@@ -25,11 +55,60 @@
         padding: 0;
         text-align: center;
         text-transform: uppercase;
+        padding-top: $spacer;
 
         li {
-            border: 2px solid $red;
-            padding: $spacer;
+            border: 2px solid $tlk-red;
             margin-bottom: $spacer / 2;
+
+            a {
+                display: block;
+                font-size: $font-size-lg;
+                letter-spacing: 2px;
+                transition: $transition-base;
+                padding: $spacer;
+                background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojQzQyODE5OyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyRjFGMDg7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
+                background-image: -webkit-gradient(linear, left top, 90deg, color-stop(0%, #C42819), color-stop(100%, #2F1F08));
+                background-image: -moz-linear-gradient(90deg,#C42819 0%,#2F1F08 100%);
+                background-image: -webkit-linear-gradient(90deg,#C42819 0%,#2F1F08 100%);
+                background-image: -o-linear-gradient(90deg,#C42819 0%,#2F1F08 100%);
+                background-image: -ms-linear-gradient(90deg,#C42819 0%,#2F1F08 100%);
+                background-image: linear-gradient(90deg,#C42819 0%,#2F1F08 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                position:relative;
+                // display:inline-block; /*required*/
+
+                @include media-breakpoint-up(md) {
+                    font-size: $font-size-lg * 1.25;
+                }
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background: linear-gradient(to top, rgba(0,0,0,0.4) 0%,rgba(255,255,255,0) 60%);
+                    transition: $transition-base;
+                    opacity: 0;
+                }
+
+                &:hover {
+                    text-decoration: none;
+                    background-color: $tlk-red;
+                    color: $white;
+                    background-image: none;
+                    -webkit-background-clip: initial;
+                    -webkit-text-fill-color: initial;
+
+                    &:before {
+                        opacity: .7;
+                    }
+                }
+
+            }
         }
 
     }

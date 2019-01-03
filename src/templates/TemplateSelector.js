@@ -4,7 +4,7 @@ import HomeTemplate from './HomeTemplate';
 
 class TemplateSelector extends Component {
     render() {
-        const data = this.props.data.pagesJson;
+        const data = this.props.data.pages;
         const template = data.template;
 
         switch (template) {
@@ -21,11 +21,43 @@ export default TemplateSelector
 
 export const query = graphql`
 query($path: String!) {
-    pagesJson( path: { eq: $path }) {
+    pages ( path: { eq: $path }) {
         id
         title
         path
         template
+        headerImage {
+            childImageSharp {
+                fluid {
+                    base64
+                    tracedSVG
+                    aspectRatio
+                    src
+                    srcSet
+                    srcWebp
+                    srcSetWebp
+                    sizes
+                    originalImg
+                    originalName
+                }
+            }
+        }
+        headerImageMobile {
+            childImageSharp {
+                fluid {
+                    base64
+                    tracedSVG
+                    aspectRatio
+                    src
+                    srcSet
+                    srcWebp
+                    srcSetWebp
+                    sizes
+                    originalImg
+                    originalName
+                }
+            }
+        }
     }
 }
 `

@@ -1,0 +1,59 @@
+.btn {
+    padding: $spacer $spacer * 1.5;
+    transition: $transition-base;
+    border-radius: 0;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-base;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    cursor: pointer;
+
+    span {
+        position: relative;
+        z-index: 1;
+    }
+
+    &--red {
+        background-color: $tlk-red;
+        color: $white;
+        position: relative;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.4) 0%,rgba(255,255,255,0) 60%);
+            transition: $transition-base;
+            opacity: 1;
+        }
+
+        &:hover {
+            // background-color: $black;
+            color: $white;
+            &:before {
+                opacity: .7;
+            }
+        }
+    }
+
+    &--block {
+        width: 100%;
+        display: block;
+    }
+
+    &--large {
+        font-size: $font-size-base * 1.25;
+        white-space: normal;
+    }
+
+    // &--medium {
+    //     font-size: $font-size-base;
+    //     white-space: normal;
+    //     height: 70px;
+    // }
+}

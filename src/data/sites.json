@@ -1,0 +1,48 @@
+[
+    {
+        "id": "london",
+        "path": "/london",
+        "title": "London",
+        "pages": [
+            {
+                "id": 1,
+                "template": "home-template",
+                "path": "/london",
+                "title": "Home",
+                "headerImage": "../images/headers/header-standard-1600px.jpg",
+                "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+            },
+            {
+                "id": 2,
+                "template": "about-template",
+                "path": "/london/about",
+                "title": "About the Show",
+                "headerImage": "../images/headers/header-standard-1600px.jpg",
+                "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+            }
+        ]
+    },
+    {
+        "id": "bristol",
+        "path": "/bristol",
+        "title": "Bristol",
+        "pages": [
+            {
+                "id": 1,
+                "template": "home-template",
+                "path": "/bristol",
+                "title": "Home",
+                "headerImage": "../images/headers/header-standard-1600px.jpg",
+                "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+            },
+            {
+                "id": 2,
+                "template": "about-template",
+                "path": "/bristol/about",
+                "title": "About the Show",
+                "headerImage": "../images/headers/header-standard-1600px.jpg",
+                "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+            }
+        ]
+    }
+]
