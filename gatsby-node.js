@@ -74,6 +74,7 @@ exports.createPages = ({ graphql, actions }) => {
 
                     // Add page to custom pages node
                     createNode({
+                        parentId: node.id, 
                         path: page.path,
                         title: page.title,
                         template: page.template,

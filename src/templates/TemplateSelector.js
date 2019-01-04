@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 
 import HomeTemplate from './HomeTemplate';
+import CastTemplate from './CastTemplate';
 
 class TemplateSelector extends Component {
     render() {
@@ -10,6 +11,8 @@ class TemplateSelector extends Component {
         switch (template) {
             case "home-template":
                 return <HomeTemplate data={data} />
+            case "cast-template":
+                return <CastTemplate data={data} />
             default:
                 return <></>
         }
@@ -23,6 +26,7 @@ export const query = graphql`
 query($path: String!) {
     pages ( path: { eq: $path }) {
         id
+        parentId
         title
         path
         template
