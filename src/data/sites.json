@@ -19,6 +19,14 @@
                 "title": "About the Show",
                 "headerImage": "../images/headers/header-standard-1600px.jpg",
                 "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+            },
+            {
+                "id": 3,
+                "template": "cast-template",
+                "path": "/london/cast-and-creatives",
+                "title": "Cast & Creatives",
+                "headerImage": "../images/headers/header-standard-1600px.jpg",
+                "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
             }
         ]
     },
@@ -40,6 +48,14 @@
                 "template": "about-template",
                 "path": "/bristol/about",
                 "title": "About the Show",
+                "headerImage": "../images/headers/header-standard-1600px.jpg",
+                "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+            },
+            {
+                "id": 3,
+                "template": "cast-template",
+                "path": "/bristol/cast-and-creatives",
+                "title": "Cast & Creatives",
                 "headerImage": "../images/headers/header-standard-1600px.jpg",
                 "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
             }

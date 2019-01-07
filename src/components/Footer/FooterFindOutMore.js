@@ -40,7 +40,7 @@ class FooterFindOutMore extends Component {
                                                     <span>Find out more</span>
                                                 </Link>
                                             </Col>
-                                            <Col md={6}>
+                                            <Col md={6} className="mt-2 mt-md-0">
                                                 <a href="#" onClick={this.toggleModal} className="btn btn--red btn--block btn--large">
                                                     <span>Watch trailer</span>
                                                 </a>

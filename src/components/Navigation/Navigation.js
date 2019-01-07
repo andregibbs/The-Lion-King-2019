@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'gatsby'
+import { Link, StaticQuery } from 'gatsby'
 import {
     Collapse,
     Navbar,
@@ -25,6 +25,9 @@ class Navigation extends Component {
     }
     
     render() {
+
+        const { parentId } = this.props
+
         return (
             <div className="m-nav-outer">
                 <Navbar color="light" light expand="md" className="m-nav">
@@ -35,21 +38,7 @@ class Navigation extends Component {
                     </button>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav navbar>
-                            <NavItem>
-                                <Link to="/" activeClassName="active">Home</Link>
-                            </NavItem>
-                            <NavItem>
-                                <Link to="/about-the-show/" activeClassName="active">About the Show</Link>
-                            </NavItem>
-                            <NavItem>
-                                <Link to="/cast-and-creative/" activeClassName="active">Cast &amp; Creative</Link>
-                            </NavItem>
-                            <NavItem>
-                                <Link to="/your-visit/" activeClassName="active">Your Visit</Link>
-                            </NavItem>
-                            <NavItem>
-                                <Link to="/access/" activeClassName="active">Access</Link>
-                            </NavItem>
+                            <NavLinks parentId={parentId} />
                         </Nav>
                     </Collapse>
                 </Navbar>
@@ -59,3 +48,56 @@ class Navigation extends Component {
 }
 
 export default Navigation
+
+
+const NavLinks = (parentId) => (
+    // Query all sites
+    <StaticQuery
+        query={graphql`
+            query {
+                allSitesJson {
+                    edges {
+                        node {
+                            id
+                            pages {
+                                path
+                                title
+                            }
+                        }
+                    }
+                }
+            }
+		`}
+        render={data => (
+            <>
+                {
+                    // loop all sites
+                    data.allSitesJson.edges.map(site => {
+                        
+                        // if site is equal to current page parentId
+                        if (site.node.id === parentId.parentId) {
+
+                            const pages = site.node.pages
+
+                            // loop pages and create link
+                            const links = pages.map( (page, i) => {
+                                return (
+                                    <NavItem key={i}>
+                                        <Link to={page.path} activeClassName="active">{page.title}</Link>
+                                    </NavItem>
+                                )
+                            })
+
+                            return links
+
+                        } else {
+                            return
+                        }
+                        
+                    })
+                }
+            </>
+        )}
+    />
+
+)

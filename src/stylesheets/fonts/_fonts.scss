@@ -44,8 +44,6 @@
     font-style: normal;
 }
 
-
-
 @font-face {
     font-family: "the-lion-king-2019";
     src:url("fonts/the-lion-king-2019.eot");
@@ -57,6 +55,7 @@
     font-style: normal;
 }
 
+.custom-icon,
 [data-icon]:before {
   font-family: "the-lion-king-2019" !important;
   content: attr(data-icon);

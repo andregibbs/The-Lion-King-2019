@@ -7,16 +7,15 @@ import 'stylesheets/main.scss'
 class Layout extends Component {
 	render() {
 
+		const { displayHeader, displayFooter } = this.props
+
 		return(
 			<>
-				{this.props.displayHeader === true &&
-					<Header 
-						headerImage={this.props.data.headerImage}
-						headerImageMobile={this.props.data.headerImageMobile}
-					/>
+				{displayHeader === true &&
+					<Header data={this.props.data} />
 				}
 				{this.props.children}
-				{this.props.displayFooter === true &&
+				{displayFooter === true &&
 					<Footer />
 				}
 			</>
@@ -29,8 +28,10 @@ Layout.propTypes = {
 }
 
 Layout.defaultProps = {
-	headerImage: false,
-	headerImageMobile: false,
+	data: {
+		headerImage: false,
+		headerImageMobile: false
+	},
 	displayHeader: true,
 	displayFooter: true
 };
