@@ -15,7 +15,7 @@
             {
                 "id": 2,
                 "template": "about-template",
-                "path": "/london/about",
+                "path": "/london/about-the-show",
                 "title": "About the Show",
                 "headerImage": "../images/headers/header-standard-1600px.jpg",
                 "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
@@ -46,7 +46,7 @@
             {
                 "id": 2,
                 "template": "about-template",
-                "path": "/bristol/about",
+                "path": "/bristol/about-the-show",
                 "title": "About the Show",
                 "headerImage": "../images/headers/header-standard-1600px.jpg",
                 "headerImageMobile": "../images/headers/header-standard-1600px.jpg"

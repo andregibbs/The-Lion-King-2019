@@ -1,16 +1,20 @@
 import React, { Component } from "react"
-
+import { graphql } from 'gatsby';
 import HomeTemplate from './HomeTemplate';
 import CastTemplate from './CastTemplate';
+import AboutTemplate from './AboutTemplate';
 
 class TemplateSelector extends Component {
     render() {
+
         const data = this.props.data.pages;
         const template = data.template;
 
         switch (template) {
             case "home-template":
                 return <HomeTemplate data={data} />
+            case "about-template":
+                return <AboutTemplate data={data} />
             case "cast-template":
                 return <CastTemplate data={data} />
             default:
@@ -34,31 +38,21 @@ query($path: String!) {
             childImageSharp {
                 fluid {
                     base64
-                    tracedSVG
                     aspectRatio
                     src
                     srcSet
-                    srcWebp
-                    srcSetWebp
                     sizes
-                    originalImg
-                    originalName
                 }
             }
         }
         headerImageMobile {
-            childImageSharp {
+            childImageSharp  {
                 fluid {
                     base64
-                    tracedSVG
                     aspectRatio
                     src
                     srcSet
-                    srcWebp
-                    srcSetWebp
                     sizes
-                    originalImg
-                    originalName
                 }
             }
         }

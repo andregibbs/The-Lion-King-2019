@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import { Container } from 'reactstrap'
+import { graphql, StaticQuery } from 'gatsby'
 import Img from 'gatsby-image'
-import cast from 'data/cast'
 
 class CastCollapse extends Component {
 
     constructor(props) {
         super(props)
         this.state = {
-            activeId: "",
+            activeId: 1,
             contentHeight: 0
         }
         this.clickHandler = this.clickHandler.bind(this);
@@ -23,7 +23,6 @@ class CastCollapse extends Component {
             });
         } else {
             const trigger = e.currentTarget;
-            // const container = trigger.parentElement;
             const content = trigger.nextSibling;
             const inner = content.children[0];
             const height = inner.offsetHeight;
@@ -37,25 +36,14 @@ class CastCollapse extends Component {
 
     render() {
 
-        const items = cast[this.props.parentId]
-
-        const collapseItems = items.map((item, i) => {
-
-            return <CastCollapseItem
-                key={i}
-                id={i}
-                name={item.name}
-                role={item.role}
-                bio={item.bio}
-                clickHandler={this.clickHandler}
-                contentHeight={this.state.activeId === i ? this.state.contentHeight : 0}
-                activeClass={this.state.activeId === i ? 'active' : ''}
-            />
-        });
-
         return (
             <Container fluid className="c-collapse">
-                {collapseItems}
+                <CastItems 
+                    parentId={this.props.parentId}
+                    clickHandler={this.clickHandler}
+                    activeId={this.state.activeId}
+                    contentHeight={this.state.contentHeight}
+                />
             </Container>
         )
     }
@@ -63,16 +51,85 @@ class CastCollapse extends Component {
 
 export default CastCollapse
 
+const CastItems = (props) => (
+    // Query all sites
+    <StaticQuery
+        query={graphql`
+            query {
+                allCastJson {
+                    edges {
+                        node {
+                            siteId
+                            cast {
+                                name
+                                role
+                                bio
+                                image {
+                                    childImageSharp {
+                                        fluid(maxWidth: 380) {
+                                            ...GatsbyImageSharpFluid
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+		`}
+        render={data => (
+            <>
+                {
+                    // loop all cast
+                    data.allCastJson.edges.map(node => {
+
+                        // if cast siteId is equal to current page parentId
+                        if (node.node.siteId === props.parentId) {
+
+                            const castList = node.node.cast
+
+                            // loop cast and create item
+                            const castItems = castList.map((c, i) => {
+                                return (
+                                    <CastCollapseItem
+                                        key={i}
+                                        id={i}
+                                        name={c.name}
+                                        role={c.role}
+                                        bio={c.bio}
+                                        image={c.image}
+                                        clickHandler={props.clickHandler}
+                                        contentHeight={props.activeId === i ? props.contentHeight : 0}
+                                        activeClass={props.activeId === i ? 'active' : ''}
+                                    />
+                                )
+                            })
+
+                            return castItems
+
+                        } else {
+                            return
+                        }
+
+                    })
+                }
+            </>
+        )}
+    />
+
+)
+
 class CastCollapseItem extends Component {
     render() {
-        
-        const { 
-            name, 
-            role, 
-            bio, 
-            id, 
-            clickHandler, 
-            contentHeight, 
+
+        const {
+            name,
+            role,
+            bio,
+            id,
+            image,
+            clickHandler,
+            contentHeight,
             activeClass
         } = this.props
 
@@ -83,7 +140,7 @@ class CastCollapseItem extends Component {
                 <div
                     className="c-collapse__item-trigger"
                     onClick={(e) => clickHandler(e, id)}>
-                    {/* <Img fluid={this.props.data.image.childImageSharp.fluid} alt={this.props.data.title} className="c-collapse__item-trigger-img" /> */}
+                    <Img fluid={image.childImageSharp.fluid} alt={name} className="c-collapse__item-trigger-img" />
                     <div className="c-collapse__item-trigger-title">
                         <span>{name}</span>
                         <span className="role">{role}</span>

@@ -1,0 +1,85 @@
+.gallery-slider-controls {
+    width: 100%;
+    text-align: center;
+    padding: $spacer / 2 0 $spacer;
+    font-weight: $font-weight-bold;
+}
+
+.gallery {
+    .slick-arrow {
+        top: auto;
+        bottom: -($spacer * 2.5);
+    }
+    .slick-prev {
+        left: $spacer;
+        &:before {
+            @extend .custom-icon;
+            content: "\6c";
+            color: $black;
+        }
+    }
+    .slick-next {
+        right: $spacer;
+        &:before {
+            @extend .custom-icon;
+            content: "\6d";
+            color: $black;
+        }
+    }
+
+    &__thumb {
+        position: relative;
+        cursor: pointer;
+
+        a {
+            img {
+                transform: scale(1);
+                transition: $transition-base !important;
+            }
+
+            &:before {
+                @extend .custom-icon;
+                content: "\6b";
+                font-size: $font-size-lg * 1.5;
+                position: absolute;
+                z-index: 1;
+                color: $white;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                opacity: 0;
+                transition: $transition-base;
+                padding: $spacer / 2;
+                border: 2px solid $white;
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                top: $spacer / 2;
+                left: $spacer / 2;
+                bottom: $spacer / 2;
+                right: $spacer / 2;
+                opacity: 0;
+                background-color: $black;
+                transition: $transition-base;
+            }
+
+            &:hover {
+
+                &:before {
+                    opacity: 1;
+                }
+
+                &:after {
+                    opacity: 0.5;
+                }
+
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+    }
+}

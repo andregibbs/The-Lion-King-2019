@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Link, StaticQuery } from "gatsby"
+import { graphql, Link, StaticQuery } from "gatsby"
 import { Container, Row, Col, Modal, ModalBody, ModalHeader, ModalFooter, Button } from "reactstrap"
 import Img from 'gatsby-image'
 

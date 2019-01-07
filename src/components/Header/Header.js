@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Container } from 'reactstrap'
 import Img from 'gatsby-image'
 import Navigation from 'components/Navigation/Navigation'
-import { throws } from 'assert';
 
 class Header extends Component {
 	render() {
@@ -13,10 +12,18 @@ class Header extends Component {
 			<header>
 				<Container fluid>
 					{headerImage !== false &&
-						<Img fluid={headerImage.childImageSharp.fluid} className={`${headerImageMobile !== false ? 'd-none d-md-block' : ''}`} />
+						<Img 
+							fluid={headerImage.childImageSharp.fluid} 
+							className={`${headerImageMobile !== false ? 'd-none d-md-block' : ''}`}
+							critical={true}
+						 />
 					}
 					{headerImageMobile !== false &&
-						<Img fluid={headerImageMobile.childImageSharp.fluid} className="d-block d-md-none" />
+						<Img 
+							fluid={headerImageMobile.childImageSharp.fluid} 
+							className="d-block d-md-none" 
+							critical={true}
+						/>
 					}
 				</Container>
 				<Navigation parentId={this.props.data.parentId} />

@@ -28,15 +28,10 @@ exports.createPages = ({ graphql, actions }) => {
                                     childImageSharp {
                                         fluid {
                                             base64
-                                            tracedSVG
                                             aspectRatio
                                             src
                                             srcSet
-                                            srcWebp
-                                            srcSetWebp
                                             sizes
-                                            originalImg
-                                            originalName
                                         }
                                     }
                                 }
@@ -44,15 +39,10 @@ exports.createPages = ({ graphql, actions }) => {
                                     childImageSharp {
                                         fluid {
                                             base64
-                                            tracedSVG
                                             aspectRatio
                                             src
                                             srcSet
-                                            srcWebp
-                                            srcSetWebp
                                             sizes
-                                            originalImg
-                                            originalName
                                         }
                                     }
                                 }

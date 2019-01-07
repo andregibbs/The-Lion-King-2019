@@ -3,6 +3,8 @@
 
 // Vendors
 @import 'vendor/bootstrap/bootstrap';
+@import 'vendor/slick';
+@import 'vendor/slick-theme';
 
 // Base
 @import 'base/variables';
@@ -17,6 +19,7 @@
 @import 'components/footer-links';
 @import 'components/navigation';
 @import 'components/cast-collapse';
+@import 'components/image-gallery';
 
 // Page specifics
 @import 'pages/landing';

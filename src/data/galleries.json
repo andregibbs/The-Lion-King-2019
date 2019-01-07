@@ -1,0 +1,28 @@
+[
+    {
+        "siteId": "bristol",
+        "images": [
+            {
+                "thumbnail": "../images/cast/Abigail-Climer.jpg",
+                "src": "../images/cast/Abigail-Climer.jpg"
+            },
+            {
+                "thumbnail": "../images/cast/Abigail-Climer.jpg",
+                "src": "../images/cast/Abigail-Climer.jpg"
+            }
+        ]
+    },
+    {
+        "siteId": "global",
+        "images": [
+            {
+                "thumbnail": "../images/cast/Abigail-Climer.jpg",
+                "src": "../images/cast/Abigail-Climer.jpg"
+            },
+            {
+                "thumbnail": "../images/cast/Abigail-Climer.jpg",
+                "src": "../images/cast/Abigail-Climer.jpg"
+            }
+        ]
+    }
+]

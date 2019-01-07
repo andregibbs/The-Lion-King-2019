@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link, StaticQuery } from 'gatsby'
+import { graphql, Link, StaticQuery } from 'gatsby'
 import {
     Collapse,
     Navbar,
@@ -39,6 +39,9 @@ class Navigation extends Component {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav navbar>
                             <NavLinks parentId={parentId} />
+                            <NavItem>
+                                <Link to="/" activeClassName="active">Select City</Link>
+                            </NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>
@@ -50,7 +53,7 @@ class Navigation extends Component {
 export default Navigation
 
 
-const NavLinks = (parentId) => (
+const NavLinks = (props) => (
     // Query all sites
     <StaticQuery
         query={graphql`
@@ -75,7 +78,7 @@ const NavLinks = (parentId) => (
                     data.allSitesJson.edges.map(site => {
                         
                         // if site is equal to current page parentId
-                        if (site.node.id === parentId.parentId) {
+                        if (site.node.id === props.parentId) {
 
                             const pages = site.node.pages
 
