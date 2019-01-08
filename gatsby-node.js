@@ -6,47 +6,17 @@
 
 // You can delete this file if you're not using it
 const path = require(`path`);
-const crypto = require(`crypto`);
 
 exports.createPages = ({ graphql, actions }) => {
-    const { createPage, createNode } = actions
+    const { createPage } = actions
     return new Promise((resolve, reject) => {
         graphql(`
             {
-                allSitesJson {
+                allPagesJson {
                     edges {
                         node {
                             id
                             path
-                            title
-                            pages {
-                                id
-                                template
-                                path
-                                title
-                                headerImage { 
-                                    childImageSharp {
-                                        fluid {
-                                            base64
-                                            aspectRatio
-                                            src
-                                            srcSet
-                                            sizes
-                                        }
-                                    }
-                                }
-                                headerImageMobile { 
-                                    childImageSharp {
-                                        fluid {
-                                            base64
-                                            aspectRatio
-                                            src
-                                            srcSet
-                                            sizes
-                                        }
-                                    }
-                                }
-                            }
                         }
                     }
                 }
@@ -55,47 +25,21 @@ exports.createPages = ({ graphql, actions }) => {
             if (result.errors) reject(result.errors)
 
             // Sites
-            const sites = result.data.allSitesJson.edges
+            const pages = result.data.allPagesJson.edges
 
-            sites.forEach(({ node }) => {
-
-                // Sites pages
-                node.pages.forEach( (page) => {
-
-                    // Add page to custom pages node
-                    createNode({
-                        parentId: node.id, 
-                        path: page.path,
-                        title: page.title,
-                        template: page.template,
-                        headerImage: page.headerImage,
-                        headerImageMobile: page.headerImageMobile,
-
-                        // Required fields.
-                        id: `${node.id}__${page.id}`,
-                        parent: null,
-                        children: [],
-                        internal: {
-                            type: `Pages`,
-                            contentDigest: crypto
-                                .createHash(`md5`)
-                                .update(JSON.stringify(page))
-                                .digest(`hex`)
-                        }
-                    })
-
-                    // Create the page
-                    createPage({
-                        path: page.path,
-                        component: path.resolve(`./src/templates/TemplateSelector.js`),
-                        context: {
-                            // Data passed to context is available in page queries as GraphQL variables.
-                            id: page.id,
-                        },
-                    });
+            // Sites pages
+            pages.forEach( ({ node })  => {
+                // Create the page
+                createPage({
+                    path: node.path,
+                    component: path.resolve(`./src/templates/TemplateSelector.js`),
+                    context: {
+                        // Data passed to context is available in page queries as GraphQL variables.
+                        id: node.id,
+                    },
                 })
+            })
 
-            });
             resolve()
         })
     })
