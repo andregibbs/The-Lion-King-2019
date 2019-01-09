@@ -4,6 +4,8 @@ import Layout from 'components/Layout/Layout'
 import SEO from 'components/seo'
 import logo from 'images/logo-nosub.svg'
 import lionsHead from 'images/backgrounds/lions-head.png'
+import { Container, Row, Col } from 'reactstrap'
+
 
 class IndexPage extends Component {
 
@@ -22,14 +24,14 @@ class IndexPage extends Component {
 
 		return (
 			<Layout displayHeader={false} displayFooter={false}>
-				<SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+				<SEO title="Home" keywords={[`The Lion King`, `Disney`, `Musical`]} />
 				<div className="p-3 bg-light-grey">
-					<div className="container-fluid landing py-3">
+					<Container fluid className="landing py-3">
 						<img src={lionsHead} alt="" className="landing__lion" />
-						<div className="row">
-							<div className="container">
-								<div className="row align-items-center landing__wrap">
-									<div className="col-md-6 offset-md-6 col-xl-5 offset-xl-7 text-center">
+						<Row>
+							<Container>
+								<Row className="align-items-center landing__wrap">
+									<Col className="col-md-6 offset-md-6 col-xl-5 offset-xl-7 text-center">
 										<h1>
 											<img src={logo} alt="Disney's The Lion King" />
 										</h1>
@@ -37,11 +39,11 @@ class IndexPage extends Component {
 										<ul className="landing__locations">
 											{locationLinks}
 										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+									</Col>
+								</Row>
+							</Container>
+						</Row>
+					</Container>
 				</div>
 			</Layout>
 		)

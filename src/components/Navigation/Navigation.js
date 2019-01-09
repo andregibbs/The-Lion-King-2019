@@ -5,6 +5,10 @@ import {
     Navbar,
     Nav,
     NavItem,
+    UncontrolledDropdown, 
+    DropdownItem, 
+    DropdownToggle, 
+    DropdownMenu
 } from 'reactstrap';
 
 class Navigation extends Component {
@@ -14,13 +18,20 @@ class Navigation extends Component {
 
         this.toggle = this.toggle.bind(this)
         this.state = {
-            isOpen: false
+            isNavOpen: false,
+            isCitiesOpen: false
         }
     }
 
-    toggle() {
+    toggleNav() {
         this.setState({
-            isOpen: !this.state.isOpen
+            isNavOpen: !this.state.isNavOpen
+        })
+    }
+    
+    toggleCities() {
+        this.setState({
+            isCitiesOpen: !this.state.isCitiesOpen
         })
     }
     
@@ -31,7 +42,7 @@ class Navigation extends Component {
         return (
             <div className="m-nav-outer">
                 <Navbar color="light" light expand="md" className="m-nav">
-                    <button type="button" className="navbar-toggler" onClick={this.toggle}>
+                    <button type="button" className="navbar-toggler" onClick={this.toggleNav}>
                         <span></span>
                         <span></span>
                         <span></span>
@@ -39,9 +50,19 @@ class Navigation extends Component {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav navbar>
                             <NavLinks siteId={siteId} />
-                            <NavItem>
-                                <Link to="/" activeClassName="active">Select City</Link>
-                            </NavItem>
+                            <UncontrolledDropdown nav isOpen={this.state.dropdownOpen} toggle={this.toggleCities}>
+                                <DropdownToggle nav caret className="no-interstitial-check">
+                                    Select City
+                                </DropdownToggle>
+                                <DropdownMenu>
+                                    <DropdownItem>
+                                        <Link to="/" activeClassName="active">London</Link>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <Link to="/" activeClassName="active">Bristol</Link>
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
                         </Nav>
                     </Collapse>
                 </Navbar>

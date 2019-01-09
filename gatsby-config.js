@@ -3,6 +3,7 @@ module.exports = {
 		title: `Gatsby Default Starter`,
 		description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
 		author: `@gatsbyjs`,
+		url: `thelionking.co.uk`
 	},
 	plugins: [
 		'gatsby-plugin-resolve-src',
@@ -30,7 +31,7 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-canonical-urls`,
 			options: {
-				siteUrl: 'https://www.thebookofmormonmusical.com'
+				siteUrl: 'https://www.thelionking.co.uk'
 			},
 		},
 		`gatsby-transformer-sharp`,

@@ -74,6 +74,7 @@ class ImageGallery extends Component {
                         style={{
                             display: 'block'
                         }}
+                        className="no-interstitial-check"
                     >
                         <Img fluid={obj.thumbnail.childImageSharp.fluid} />
                     </a>
