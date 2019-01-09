@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Layout from 'components/Layout/Layout'
 import ImageGallery from "components/ImageGallery/ImageGallery";
+import BookingInfo from "../components/BookingInfo/BookingInfo";
 
 class AboutTemplate extends Component {
     render() {
@@ -9,9 +10,8 @@ class AboutTemplate extends Component {
         const { siteId } = this.props.data
         return (
             <Layout data={data}>
-                <Images 
-                    siteId={siteId}
-                />
+                <Images siteId={siteId} />
+                <BookingInfo siteId={siteId} />
             </Layout>
         )
     }
@@ -60,7 +60,7 @@ const Images = (props) => (
                         const images = node.node.images
                         
                         // if site is equal to current page siteId
-                        if (node.node.siteId === props.siteId) {
+                        // if (node.node.siteId === props.siteId) {
 
                             return(
                                 <ImageGallery
@@ -69,9 +69,9 @@ const Images = (props) => (
                                 />
                             )
                             
-                        } else {
-                            return
-                        }
+                        // } else {
+                        //     return
+                        // }
 
                     })
                 }

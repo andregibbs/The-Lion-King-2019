@@ -51,9 +51,14 @@
         white-space: normal;
     }
 
-    // &--medium {
-    //     font-size: $font-size-base;
-    //     white-space: normal;
-    //     height: 70px;
-    // }
+    &--large-2 {
+        font-size: $font-size-base;
+        white-space: normal;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        span {
+
+        }
+    }
 }

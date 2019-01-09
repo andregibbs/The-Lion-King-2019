@@ -1,0 +1,50 @@
+[
+    {
+        "siteId": "london",
+        "online": {
+            "title": "Online",
+            "links": [
+                {
+                    "url": "//google.com",
+                    "title": "<span>This is link text</span>",
+                    "ignoreInterstitial": false
+                },
+                {
+                    "url": "//google.com",
+                    "title": "<span>This is link text</span>",
+                    "ignoreInterstitial": true
+                }
+            ]
+        },
+        "byPhone": {
+            "title": "By Phone"
+        },
+        "inPerson": {
+            "title": "In Person"
+        }
+    },
+    {
+        "siteId": "bristol",
+        "online": {
+            "title": "Online",
+            "links": [
+                {
+                    "url": "//google.com",
+                    "title": "<span>This is link text</span>",
+                    "ignoreInterstitial": false
+                },
+                {
+                    "url": "//google.com",
+                    "title": "<span>This is link text</span>",
+                    "ignoreInterstitial": true
+                }
+            ]
+        },
+        "byPhone": {
+            "title": "By Phone"
+        },
+        "inPerson": {
+            "title": "In Person"
+        }
+    }
+]

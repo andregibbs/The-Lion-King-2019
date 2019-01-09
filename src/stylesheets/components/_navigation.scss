@@ -1,7 +1,9 @@
 .m-nav {
 	text-align: center;
 	background-color: $white !important;
-	border-bottom: 1px solid $tlk-light-grey;
+	border-bottom: 1px solid $tlk-light-grey-2;
+	padding-top: 0; 
+	padding-bottom: 0; 
 
 	.navbar-nav {
 		display: block;
@@ -17,9 +19,9 @@
 
 		a {
 			display: block;
-			padding: $spacer;
+			padding: $spacer * 1.25 $spacer;
 			color: $black;
-			font-size: $font-size-lg;
+			font-size: $font-size-base;
 
 			&:hover {
 				text-decoration: none;
@@ -47,6 +49,43 @@
 			margin: 3px 0;
 			width: 100%;
 			background-color: $black;
+		}
+	}
+
+
+	.dropdown {
+		padding-right: $spacer / 2;
+		
+		&:after {
+			@extend .custom-icon;
+			content: "\69";
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			right: -$spacer / 2;
+			transition: $transition-base;
+		}
+
+		&.show {
+			&:after {
+				transform: translateY(-50%) rotate(180deg);
+			}
+		}
+
+	}
+
+	.dropdown-menu {
+		border-top: 0;
+		border-radius: 0;
+		top: calc(100% - 2px);
+
+		.dropdown-item {
+			padding: 0.25rem 1.5rem;
+
+			&:active,
+			&.active {
+				background-color: $tlk-light-grey;
+			}
 		}
 	}
 

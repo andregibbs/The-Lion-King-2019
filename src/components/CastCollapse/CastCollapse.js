@@ -83,12 +83,12 @@ const CastItems = (props) => (
             <>
                 {
                     // loop all cast
-                    data.allCastJson.edges.map(node => {
+                    data.allCastJson.edges.map(({node}) => {
 
                         // if cast siteId is equal to current page siteId
-                        if (node.node.siteId === props.siteId) {
+                        if (node.siteId === props.siteId) {
 
-                            const castList = node.node.cast
+                            const castList = node.cast
 
                             // loop cast and create item
                             const castItems = castList.map((c, i) => {
