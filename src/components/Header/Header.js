@@ -26,7 +26,7 @@ class Header extends Component {
 						/>
 					}
 				</Container>
-				<Navigation parentId={this.props.data.parentId} />
+				<Navigation siteId={this.props.data.siteId} />
 			</header>
 		)
 	}

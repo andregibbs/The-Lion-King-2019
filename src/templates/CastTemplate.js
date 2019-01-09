@@ -5,10 +5,10 @@ import CastCollapse from "components/CastCollapse/CastCollapse";
 class CastTemplate extends Component {
     render() {
         const data = this.props.data
-        const { parentId } = this.props.data
+        const { siteId } = this.props.data
         return (
             <Layout data={data}>
-                <CastCollapse parentId={parentId} />
+                <CastCollapse siteId={siteId} />
             </Layout>
         )
     }

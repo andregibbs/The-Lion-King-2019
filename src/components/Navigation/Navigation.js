@@ -26,7 +26,7 @@ class Navigation extends Component {
     
     render() {
 
-        const { parentId } = this.props
+        const { siteId } = this.props
 
         return (
             <div className="m-nav-outer">
@@ -38,7 +38,7 @@ class Navigation extends Component {
                     </button>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav navbar>
-                            <NavLinks parentId={parentId} />
+                            <NavLinks siteId={siteId} />
                             <NavItem>
                                 <Link to="/" activeClassName="active">Select City</Link>
                             </NavItem>
@@ -58,14 +58,13 @@ const NavLinks = (props) => (
     <StaticQuery
         query={graphql`
             query {
-                allSitesJson {
+                allPagesJson {
                     edges {
                         node {
                             id
-                            pages {
-                                path
-                                title
-                            }
+                            siteId
+                            path
+                            title
                         }
                     }
                 }
@@ -75,23 +74,17 @@ const NavLinks = (props) => (
             <>
                 {
                     // loop all sites
-                    data.allSitesJson.edges.map(site => {
+                    data.allPagesJson.edges.map( ({node}, i) => {
                         
-                        // if site is equal to current page parentId
-                        if (site.node.id === props.parentId) {
-
-                            const pages = site.node.pages
+                        // if site is equal to current page siteId
+                        if (node.siteId === props.siteId) {
 
                             // loop pages and create link
-                            const links = pages.map( (page, i) => {
-                                return (
-                                    <NavItem key={i}>
-                                        <Link to={page.path} activeClassName="active">{page.title}</Link>
-                                    </NavItem>
-                                )
-                            })
-
-                            return links
+                            return (
+                                <NavItem key={i}>
+                                    <Link to={node.path} activeClassName="active">{node.title}</Link>
+                                </NavItem>
+                            )
 
                         } else {
                             return

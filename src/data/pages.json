@@ -1,0 +1,87 @@
+[
+    {
+        "id": "1",
+        "siteId": "london",
+        "template": "home-template",
+        "path": "/london",
+        "title": "Home",
+        "headerImage": "../images/headers/header-standard-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-standard-1600px.jpg",
+        "contentBlocks": [
+            {
+                "bookTicketsBlock": {
+                    "column1": "<p>This is an example <a href='//google.com'>Test</a></p>"
+                }
+            },
+            {
+                "faqBlock": {
+                    "faqs": [
+                        {
+                            "question": "This is a question",
+                            "answer": "<p>his is the answer</p>"
+                        },
+                        {
+                            "question": "This is a question",
+                            "answer": "<p>his is the answer</p>"
+                        },
+                        {
+                            "question": "This is a question",
+                            "answer": "<p>his is the answer</p>"
+                        },
+                        {
+                            "question": "This is a question",
+                            "answer": "<p>his is the answer</p>"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "siteId": "london",
+        "template": "about-template",
+        "path": "/london/about-the-show",
+        "title": "About the Show",
+        "headerImage": "../images/headers/header-standard-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+    },
+    {
+        "id": "3",
+        "siteId": "london",
+        "template": "cast-template",
+        "path": "/london/cast-and-creatives",
+        "title": "Cast & Creatives",
+        "headerImage": "../images/headers/header-standard-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+    },
+
+
+    {
+        "id": "4",
+        "siteId": "bristol", 
+        "template": "home-template",
+        "path": "/bristol",
+        "title": "Home",
+        "headerImage": "../images/headers/header-standard-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+    },
+    {
+        "id": "5",
+        "siteId": "bristol",
+        "template": "about-template",
+        "path": "/bristol/about-the-show",
+        "title": "About the Show",
+        "headerImage": "../images/headers/header-standard-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+    },
+    {
+        "id": "6",
+        "siteId": "bristol",
+        "template": "cast-template",
+        "path": "/bristol/cast-and-creatives",
+        "title": "Cast & Creatives",
+        "headerImage": "../images/headers/header-standard-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+    }
+]

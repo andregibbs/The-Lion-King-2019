@@ -7,7 +7,7 @@ import AboutTemplate from './AboutTemplate';
 class TemplateSelector extends Component {
     render() {
 
-        const data = this.props.data.pages;
+        const data = this.props.data.pagesJson;
         const template = data.template;
 
         switch (template) {
@@ -27,32 +27,35 @@ class TemplateSelector extends Component {
 export default TemplateSelector
 
 export const query = graphql`
-query($path: String!) {
-    pages ( path: { eq: $path }) {
+query($id: String!) {
+    pagesJson ( id: { eq: $id }) {
         id
-        parentId
+        siteId
+        template
         title
         path
-        template
         headerImage {
-            childImageSharp {
-                fluid {
-                    base64
-                    aspectRatio
-                    src
-                    srcSet
-                    sizes
+            childImageSharp  {
+                fluid(maxWidth: 1600) {
+                    ...GatsbyImageSharpFluid
                 }
             }
         }
         headerImageMobile {
             childImageSharp  {
-                fluid {
-                    base64
-                    aspectRatio
-                    src
-                    srcSet
-                    sizes
+                fluid(maxWidth: 768) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+        contentBlocks {
+            bookTicketsBlock {
+                column1
+            }
+            faqBlock {
+                faqs {
+                    question
+                    answer
                 }
             }
         }

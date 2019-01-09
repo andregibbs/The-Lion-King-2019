@@ -6,11 +6,11 @@ import ImageGallery from "components/ImageGallery/ImageGallery";
 class AboutTemplate extends Component {
     render() {
         const data = this.props.data
-        const { parentId } = this.props.data
+        const { siteId } = this.props.data
         return (
             <Layout data={data}>
                 <Images 
-                    parentId={parentId}
+                    siteId={siteId}
                 />
             </Layout>
         )
@@ -59,8 +59,8 @@ const Images = (props) => (
 
                         const images = node.node.images
                         
-                        // if site is equal to current page parentId
-                        if (node.node.siteId === props.parentId) {
+                        // if site is equal to current page siteId
+                        if (node.node.siteId === props.siteId) {
 
                             return(
                                 <ImageGallery

@@ -30,17 +30,13 @@ class IndexPage extends Component {
 							<div className="container">
 								<div className="row align-items-center landing__wrap">
 									<div className="col-md-6 offset-md-6 col-xl-5 offset-xl-7 text-center">
-
 										<h1>
 											<img src={logo} alt="Disney's The Lion King" />
 										</h1>
-
 										<h2 className="pt-3">SELECT YOUR REGION</h2>
-
 										<ul className="landing__locations">
 											{locationLinks}
 										</ul>
-
 									</div>
 								</div>
 							</div>

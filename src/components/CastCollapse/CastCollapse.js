@@ -39,7 +39,7 @@ class CastCollapse extends Component {
         return (
             <Container fluid className="c-collapse">
                 <CastItems 
-                    parentId={this.props.parentId}
+                    siteId={this.props.siteId}
                     clickHandler={this.clickHandler}
                     activeId={this.state.activeId}
                     contentHeight={this.state.contentHeight}
@@ -65,9 +65,11 @@ const CastItems = (props) => (
                                 role
                                 bio
                                 image {
-                                    childImageSharp {
-                                        fluid(maxWidth: 380) {
-                                            ...GatsbyImageSharpFluid
+                                    ... on File {
+                                        childImageSharp {
+                                            fluid(maxWidth: 380) {
+                                                ...GatsbyImageSharpFluid
+                                            }
                                         }
                                     }
                                 }
@@ -83,8 +85,8 @@ const CastItems = (props) => (
                     // loop all cast
                     data.allCastJson.edges.map(node => {
 
-                        // if cast siteId is equal to current page parentId
-                        if (node.node.siteId === props.parentId) {
+                        // if cast siteId is equal to current page siteId
+                        if (node.node.siteId === props.siteId) {
 
                             const castList = node.node.cast
 
