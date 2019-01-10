@@ -12,6 +12,14 @@ strong {
     font-weight: $font-weight-bold;
 }
 
+.text-black {
+    color: $black;
+}
+
 .text-red {
     color: $tlk-red;
+}
+
+.text-sm {
+    font-size: $font-size-sm;
 }

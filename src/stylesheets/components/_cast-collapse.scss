@@ -175,6 +175,31 @@
                 }
             }
         }
+    }   
+}
+
+
+.c-collapse-nav {
+    justify-content: center;
+    border-bottom: 0;
+    padding: $spacer 0;
+
+    li {
+        a {
+            background-color: $tlk-grey;
+            border: 0;
+            font-size: $font-size-lg * 1.25;
+            cursor: pointer;
+            padding: $spacer / 2 $spacer * 2;
+
+            &.active {
+                box-shadow: 0 0 7px 0 $tlk-dark-grey;
+            }
+
+            &:hover {
+                background-color: $tlk-dark-grey;
+            }
+        }
     }
-    
+
 }

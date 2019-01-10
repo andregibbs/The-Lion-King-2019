@@ -5,33 +5,46 @@ class FaqBlock extends Component {
 
     render() {
 
-        const { faqs } = this.props.data.faqBlock
-        const faqCountHalf = faqs.length / 2
-        const faqs1 = faqs.slice(0, faqCountHalf)
-        const faqs2 = faqs.slice(faqCountHalf, faqs.length)
+        console.log(this.props.data)
 
-        return (
-            <Container fluid className="faq-block">
-                <Row>
-                    <Container fluid className="container-max">
+        const faqBlocks = this.props.data.faqBlock.map( (block, i) => {
+
+            const faqCountHalf = block.items.length / 2
+            const faqs1 = block.items.slice(0, faqCountHalf)
+            const faqs2 = block.items.slice(faqCountHalf, block.items.length)
+
+            return(
+                <>
+                    {block.title !== null &&
+                        <Container fluid className="text-center py-4 py-md-5">
+                            <h4 className="mb-0">{block.title}</h4>
+                        </Container>
+                    }
+                    <Container fluid className="faq-block">
                         <Row>
-                            <Col md={6}>
-                                {faqs1.map((faq, i) => (
-                                    <FaqItem faq={faq} key={i} />
-                                ))}
-                            </Col>
+                            <Container fluid className="container-max">
+                                <Row>
+                                    <Col md={6}>
+                                        {faqs1.map((faq, i) => (
+                                            <FaqItem faq={faq} key={i} />
+                                        ))}
+                                    </Col>
 
-                            <Col md={6}>
-                                {faqs2.map((faq, i) => (
-                                    <FaqItem faq={faq} key={i} />
-                                ))}
-                            </Col>
+                                    <Col md={6}>
+                                        {faqs2.map((faq, i) => (
+                                            <FaqItem faq={faq} key={i} />
+                                        ))}
+                                    </Col>
+                                </Row>
+                            </Container>
                         </Row>
                     </Container>
-                </Row>
-            </Container>
-        )
+                </>
+            )
 
+        })
+
+        return faqBlocks
     }
 }
 

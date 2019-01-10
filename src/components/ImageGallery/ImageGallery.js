@@ -128,7 +128,7 @@ class ImageGallery extends Component {
         const imageSrcs = this.props.data.map(image => image.src.childImageSharp.fluid )
 
         return (
-            <Container fluid className="pt-3 pb-3">
+            <Container fluid className="pt-3 pb-3 bg-light-grey">
                 <div className="pl-sm-2 pr-sm-2">
                     {this.renderGallery()}
                 </div>

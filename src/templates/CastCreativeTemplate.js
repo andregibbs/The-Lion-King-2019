@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Layout from 'components/Layout/Layout'
-import CastCollapse from "components/CastCollapse/CastCollapse";
+import CastCreativeCollapse from "components/CastCreativeCollapse/CastCreativeCollapse";
 import BookingInfo from "../components/BookingInfo/BookingInfo";
 
 class CastTemplate extends Component {
@@ -10,7 +10,7 @@ class CastTemplate extends Component {
 
         return (
             <Layout data={data}>
-                <CastCollapse siteId={siteId} />
+                <CastCreativeCollapse siteId={siteId} />
                 <BookingInfo siteId={siteId} />
             </Layout>
         )

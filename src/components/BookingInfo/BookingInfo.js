@@ -22,6 +22,10 @@ const BookingInfoBlocks = (props) => (
                     edges {
                         node {
                             siteId
+                            introText {
+                                title
+                                content
+                            }
                             online {
                                 title
                                 links {
@@ -32,9 +36,11 @@ const BookingInfoBlocks = (props) => (
                             }
                             byPhone {
                                 title
+                                content
                             }
                             inPerson {
                                 title
+                                content
                             }
                         }
                     }
@@ -55,6 +61,7 @@ const BookingInfoBlocks = (props) => (
                             return (
                                 <Container key={i} className="booking-info">
                                     <Row>
+                                        <IntroText data={node.introText} />
                                         <BookOnline data={node.online} />
                                         <ByPhone data={node.byPhone} />
                                         <InPerson data={node.inPerson} />
@@ -74,15 +81,21 @@ const BookingInfoBlocks = (props) => (
 )
 
 
+const IntroText = (props) => {
+    
+    return(
+        <Col className="text-center pt-4 pb-4" xs={12}>
+            <h2 className="h5 pb-3 text-red font-weight-bold">{ props.data.title }</h2>
+            <div dangerouslySetInnerHTML={{ __html: props.data.content }} />
+        </Col>
+    )
+}
+
 const BookOnline = (props) => {
     
-    console.log(props)
-
     return(
-        <Col md={4}>
-            <p className="text-red">
-                <strong>{props.data.title}</strong>
-            </p>
+        <Col md={4} className="booking-info__block">
+            <p className="text-red font-weight-bold">{props.data.title}</p>
             {
                 props.data.links.map((link, i) => {
                     return (
@@ -101,29 +114,22 @@ const BookOnline = (props) => {
 
 const ByPhone = (props) => {
     return(
-        <Col md={4}>
-            <p className="text-red">
-                <strong>{props.data.title}</strong>
-            </p>
-            <div className="booking-info__content">
-                <p>Call the Prince Edward Box Office</p>
-                <p><span className="icon icon-phone"></span>0844 482 5151</p>
-                <p>Calls cost 7p per min, plus your phone<br />company’s access charge</p>
-			</div>
+
+        <Col md={4} className="booking-info__block">
+            <p className="text-red font-weight-bold">{props.data.title}</p>
+            <div className="booking-info__content p-4">
+                <div dangerouslySetInnerHTML={{ __html: props.data.content }} />
+            </div>
         </Col>
     )
 }
 
 const InPerson = (props) => {
     return(
-        <Col md={4}>
-            <p className="text-red">
-                <strong>{props.data.title}</strong> 
-            </p>
-            <div className="booking-info__content">
-                <p>Call the Prince Edward Box Office</p>
-                <p><span className="icon icon-phone"></span>0844 482 5151</p>
-                <p>Calls cost 7p per min, plus your phone<br />company’s access charge</p>
+        <Col md={4} className="booking-info__block">
+            <p className="text-red font-weight-bold">{props.data.title}</p>
+            <div className="booking-info__content p-4">
+                <div dangerouslySetInnerHTML={{ __html: props.data.content }} />
             </div>
         </Col>
     )

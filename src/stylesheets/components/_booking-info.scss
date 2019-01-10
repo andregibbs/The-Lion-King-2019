@@ -1,4 +1,26 @@
 .booking-info {
-    text-align: center;
-    padding: $spacer 0;
+    padding-bottom: $spacer;
+
+    &__block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: $spacer;
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: 0;
+        }
+
+    }
+
+    &__content {
+        background-color: $tlk-light-grey;
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
 }

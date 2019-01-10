@@ -7,7 +7,9 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-                <FooterFindOutMore />
+                {this.props.displayFooterFindOutMore &&
+                    <FooterFindOutMore />
+                }
                 <FooterSocial />
                 <FooterLinks />
             </footer>

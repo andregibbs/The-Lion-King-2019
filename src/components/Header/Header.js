@@ -9,25 +9,27 @@ class Header extends Component {
 		const { headerImage, headerImageMobile } = this.props.data
 
 		return (
-			<header>
-				<Container fluid>
-					{headerImage !== false &&
-						<Img 
-							fluid={headerImage.childImageSharp.fluid} 
-							className={`${headerImageMobile !== false ? 'd-none d-md-block' : ''}`}
-							critical={true}
-						 />
-					}
-					{headerImageMobile !== false &&
-						<Img 
-							fluid={headerImageMobile.childImageSharp.fluid} 
-							className="d-block d-md-none" 
-							critical={true}
-						/>
-					}
-				</Container>
+			<>
+				<header>
+					<Container fluid>
+						{headerImage !== false &&
+							<Img 
+								fluid={headerImage.childImageSharp.fluid} 
+								className={`${headerImageMobile !== false ? 'd-none d-md-block' : ''}`}
+								critical={true}
+							/>
+						}
+						{headerImageMobile !== false &&
+							<Img 
+								fluid={headerImageMobile.childImageSharp.fluid} 
+								className="d-block d-md-none" 
+								critical={true}
+							/>
+						}
+					</Container>
+				</header>
 				<Navigation siteId={this.props.data.siteId} />
-			</header>
+			</>
 		)
 	}
 }

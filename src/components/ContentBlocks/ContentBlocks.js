@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import FaqBlock from "./blocks/FaqBlock"
 import BookTicketsBlock from "./blocks/BookTicketsBlock"
+import TextBlockFullWidth from "./blocks/TextBlockFullWidth"
 
 class ContentBlocks extends Component {
 
@@ -19,6 +20,10 @@ class ContentBlocks extends Component {
                 } else if (block.bookTicketsBlock !== null) {
 
                     return <BookTicketsBlock data={block} key={i} />
+
+                } else if (block.textBlockFullWidth !== null) {
+
+                    return <TextBlockFullWidth data={block} key={i} />
 
                 } else {
                     return

@@ -2,15 +2,15 @@ import React, { Component } from "react"
 import Layout from 'components/Layout/Layout'
 import ContentBlocks from 'components/ContentBlocks/ContentBlocks'
 
-class HomeTemplate extends Component {
+class DefaultTemplate extends Component {
     render() {
         const data = this.props.data
         return (
-            <Layout data={data} displayFooterFindOutMore={true}>
+            <Layout data={data}>
                 <ContentBlocks data={data} />
             </Layout>
         )
     }
 }
 
-export default HomeTemplate 
+export default DefaultTemplate

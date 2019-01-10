@@ -23,7 +23,7 @@ class Layout extends Component {
 			Array.prototype.forEach.call(links, link => {
 
 				// Skip links that have a class with no-interstitial-check
-				if (!link.classList.contains('no-interstitial-check')) {
+				if (!link.classList.contains('no-interstitial-check') && link.hasAttribute('href')) {
 
 					// Add event listener to each
 					link.addEventListener("click", function (event) {
@@ -63,7 +63,7 @@ class Layout extends Component {
 
 	render() {
 
-		const { displayHeader, displayFooter } = this.props
+		const { displayHeader, displayFooter, displayFooterFindOutMore } = this.props
 
 		return(
 			<>
@@ -72,7 +72,7 @@ class Layout extends Component {
 				}
 				{this.props.children}
 				{displayFooter === true &&
-					<Footer />
+					<Footer displayFooterFindOutMore={displayFooterFindOutMore} />
 				}
 			</>
 		)
@@ -89,7 +89,8 @@ Layout.defaultProps = {
 		headerImageMobile: false
 	},
 	displayHeader: true,
-	displayFooter: true
+	displayFooter: true,
+	displayFooterFindOutMore: false
 };
 
 export default Layout

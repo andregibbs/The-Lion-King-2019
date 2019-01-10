@@ -1,13 +1,15 @@
 import React, { Component } from "react"
 import { graphql } from 'gatsby';
 import HomeTemplate from './HomeTemplate';
-import CastTemplate from './CastTemplate';
+import CastCreativeTemplate from './CastCreativeTemplate';
 import AboutTemplate from './AboutTemplate';
+import DefaultTemplate from "./DefaultTemplate";
 
 class TemplateSelector extends Component {
     render() {
 
         const data = this.props.data.pagesJson;
+
         const template = data.template;
 
         switch (template) {
@@ -16,9 +18,11 @@ class TemplateSelector extends Component {
             case "about-template":
                 return <AboutTemplate data={data} />
             case "cast-template":
-                return <CastTemplate data={data} />
+                return <CastCreativeTemplate data={data} />
+            case "default-template": 
+                return <DefaultTemplate data={data} />
             default:
-                return <></>
+                return
         }
 
     }
@@ -49,11 +53,15 @@ query($id: String!) {
             }
         }
         contentBlocks {
+            textBlockFullWidth {
+                content
+            }
             bookTicketsBlock {
                 column1
             }
             faqBlock {
-                faqs {
+                title
+                items {
                     question
                     answer
                 }
