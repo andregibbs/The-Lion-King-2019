@@ -3,14 +3,18 @@ import { Container, Row, Col } from 'reactstrap'
 
 class TextBlockFullWidth extends Component {
 
+    constructor(props) {
+        super(props)
+    }
+
     render() {
 
         const { content, textCenter } = this.props.data
 
         return (
-            <Container className={`${textCenter ? 'text-center' : ''}`}>
+            <Container className={`${textCenter !== false ? 'text-center' : ''}`}>
                 <Row>
-                    <Col>
+                    <Col className="py-5">
                         <div dangerouslySetInnerHTML={{ __html: content }} />
                     </Col>
                 </Row>
@@ -19,11 +23,5 @@ class TextBlockFullWidth extends Component {
 
     }
 }
-
-TextBlockFullWidth.defaultProps = {
-    data: {
-        textCenter: true
-    }
-};
 
 export default TextBlockFullWidth

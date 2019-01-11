@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import FaqBlock from "./blocks/FaqBlock"
 import BookTicketsBlock from "./blocks/BookTicketsBlock"
 import TextBlockFullWidth from "./blocks/TextBlockFullWidth"
+import InfoBlock from "./blocks/InfoBlock"
+import BgImageTextBlock from "./blocks/BgImageTextBlock"
 
 class ContentBlocks extends Component {
 
@@ -13,20 +15,24 @@ class ContentBlocks extends Component {
         
             blocks = contentBlocks.map((block, i) => {
 
-                if (block.faqBlock !== null) {
+                switch (block.type) {
+                    case "bookTicketsBlock":
+                        return <BookTicketsBlock data={block.bookTicketsBlock} key={i} />
+                
+                    case "textBlockFullWidth":
+                        return <TextBlockFullWidth data={block.textBlockFullWidth} key={i} />
+                
+                    case "faqBlock": 
+                        return <FaqBlock data={block.faqBlock} key={i} />
+                        
+                    case "infoBlock": 
+                        return <InfoBlock data={block.infoBlock} key={i} />
 
-                    return <FaqBlock data={block} key={i} />
-
-                } else if (block.bookTicketsBlock !== null) {
-
-                    return <BookTicketsBlock data={block} key={i} />
-
-                } else if (block.textBlockFullWidth !== null) {
-
-                    return <TextBlockFullWidth data={block} key={i} />
-
-                } else {
-                    return
+                    case "bgImageTextBlock": 
+                        return <BgImageTextBlock data={block.bgImageTextBlock} key={i} />
+        
+                    default:
+                        return
                 }
 
             })

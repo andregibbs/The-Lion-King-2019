@@ -5,19 +5,17 @@ class FaqBlock extends Component {
 
     render() {
 
-        console.log(this.props.data)
+        const faqBlocks = this.props.data.map( (block, i) => {
 
-        const faqBlocks = this.props.data.faqBlock.map( (block, i) => {
-
-            const faqCountHalf = block.items.length / 2
+            const faqCountHalf = Math.round(block.items.length / 2)
             const faqs1 = block.items.slice(0, faqCountHalf)
             const faqs2 = block.items.slice(faqCountHalf, block.items.length)
 
             return(
-                <>
+                <div key={i}>
                     {block.title !== null &&
                         <Container fluid className="text-center py-4 py-md-5">
-                            <h4 className="mb-0">{block.title}</h4>
+                            <h4 className="mb-0 font-weight-bold">{block.title}</h4>
                         </Container>
                     }
                     <Container fluid className="faq-block">
@@ -39,7 +37,7 @@ class FaqBlock extends Component {
                             </Container>
                         </Row>
                     </Container>
-                </>
+                </div>
             )
 
         })

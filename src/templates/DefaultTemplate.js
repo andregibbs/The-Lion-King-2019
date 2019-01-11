@@ -5,6 +5,7 @@ import ContentBlocks from 'components/ContentBlocks/ContentBlocks'
 class DefaultTemplate extends Component {
     render() {
         const data = this.props.data
+
         return (
             <Layout data={data}>
                 <ContentBlocks data={data} />

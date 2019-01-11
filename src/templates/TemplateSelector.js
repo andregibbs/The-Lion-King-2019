@@ -52,12 +52,14 @@ query($id: String!) {
                 }
             }
         }
+
         contentBlocks {
-            textBlockFullWidth {
-                content
-            }
+            type
             bookTicketsBlock {
                 column1
+            }
+            textBlockFullWidth {
+                content
             }
             faqBlock {
                 title
@@ -66,7 +68,33 @@ query($id: String!) {
                     answer
                 }
             }
+            infoBlock {
+                items {
+                    title
+                    image 
+                    content
+                }
+            }
+            bgImageTextBlock {
+                imgDesktop {
+                    childImageSharp  {
+                        fluid(maxWidth: 1600) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+                imgMobile {
+                    childImageSharp  {
+                        fluid(maxWidth: 768) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+                text
+                links
+            }
         }
     }
 }
 `
+

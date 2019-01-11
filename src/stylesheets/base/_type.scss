@@ -1,3 +1,7 @@
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
 h1, 
 h2,
 h3 {
@@ -5,6 +9,12 @@ h3 {
     letter-spacing: .5px;
     span {
         font-weight: $font-weight-light;
+    }
+}
+
+a {
+    &:hover {
+        color: $black;
     }
 }
 

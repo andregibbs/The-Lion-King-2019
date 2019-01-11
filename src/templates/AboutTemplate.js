@@ -3,6 +3,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Layout from 'components/Layout/Layout'
 import ImageGallery from "components/ImageGallery/ImageGallery";
 import BookingInfo from "../components/BookingInfo/BookingInfo";
+import ContentBlocks from 'components/ContentBlocks/ContentBlocks'
 
 class AboutTemplate extends Component {
     render() {
@@ -11,6 +12,7 @@ class AboutTemplate extends Component {
         return (
             <Layout data={data}>
                 <Images siteId={siteId} />
+                <ContentBlocks data={data} />
                 <BookingInfo siteId={siteId} />
             </Layout>
         )

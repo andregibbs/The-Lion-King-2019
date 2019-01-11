@@ -1,0 +1,34 @@
+.info-block {
+    &__item {
+        background-color: $tlk-light-red;
+        padding: $spacer * 2;
+        padding-right: $spacer * 4;
+        margin-bottom: $spacer;
+        position: relative;
+
+        &-image {
+            position: absolute;
+            right: $spacer * 2;
+            top: $spacer * 2;
+            padding: 5px;
+            background-color: #fff;
+            width: 50px;
+            
+            img {
+                width: 100%;
+            }
+        }
+
+        h3 {
+            margin-top: 0;
+            color: $tlk-red;
+            font-weight: $font-weight-bold;
+        }
+
+        p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

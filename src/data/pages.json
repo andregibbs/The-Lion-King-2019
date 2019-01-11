@@ -9,11 +9,13 @@
         "headerImageMobile": "../images/headers/header-standard-1600px.jpg",
         "contentBlocks": [
             {
+                "type": "bookTicketsBlock",
                 "bookTicketsBlock": {
                     "column1": "<p>This is an example <a href='//google.com'>Test</a></p>"
                 }
             },
             {
+                "type": "faqBlock",
                 "faqBlock": [
                     {
                         "title": "Questions and answers",
@@ -60,7 +62,18 @@
         "path": "/london/about-the-show",
         "title": "About the Show",
         "headerImage": "../images/headers/header-standard-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+        "headerImageMobile": "../images/headers/header-standard-1600px.jpg",
+        "contentBlocks": [
+            {
+                "type": "bgImageTextBlock",
+                "bgImageTextBlock": {
+                    "imgDesktop": "../images/backgrounds/about-image-1600px.png",
+                    "imgMobile": "../images/backgrounds/about-image-576px.jpg",
+                    "text": "<p>Lorem ipsum dolor</p>",
+                    "links": ""
+                }
+            }
+        ]
     },
     {
         "id": "londonCast",
@@ -79,13 +92,40 @@
         "title": "Your Visit",
         "headerImage": "../images/headers/header-standard-1600px.jpg",
         "headerImageMobile": "../images/headers/header-standard-1600px.jpg",
+
         "contentBlocks": [
             {
+                "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
-                    "content": "<p>This is some text <br/> this som more text</p>"
+                    "content": "<h1 class='h4 font-weight-bold'>How do i get there?</h1><p>This is some text <br/> this som more text</p><p><a class='text-red font-weight-bold' href='https://www.google.co.uk/maps/place/21+Wellington+St,+London+WC2E+7RQ/@51.5115791,-0.1222818,17z/data=!3m1!4b1!4m5!3m4!1s0x487604ca4ea8fa11:0x205eabe798c1410a!8m2!3d51.5115037!4d-0.1200567'>Click to check your route</a></p>"
                 }
             },
             {
+                "type": "infoBlock",
+                "infoBlock": [
+                    {
+                        "items": [
+                            {
+                                "title": "Trains",
+                                "image": "/images/icons/trains.svg",
+                                "content": "<p>this is some text</p>"
+                            },
+                            {
+                                "title": "Tube",
+                                "image": "/images/icons/tube.svg",
+                                "content": "<p>this is some text</p>"
+                            },
+                            {
+                                "title": "Parking",
+                                "image": "/images/icons/car.svg",
+                                "content": "<p>this is some text</p>"
+                            }
+                        ]
+                    }
+                ] 
+            },
+            {
+                "type": "faqBlock",
                 "faqBlock": [
                     {
                         "title": "Questions and answers",
@@ -125,7 +165,6 @@
             }
         ]
     },
-
 
     {
         "id": "bristolHome",
