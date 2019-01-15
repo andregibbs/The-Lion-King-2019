@@ -11,7 +11,7 @@ class Header extends Component {
 		return (
 			<>
 				<header>
-					<Container fluid>
+					<Container fluid className="p-0">
 						{headerImage !== false &&
 							<Img 
 								fluid={headerImage.childImageSharp.fluid} 

@@ -1,9 +1,10 @@
 module.exports = {
+	// pathPrefix: `/v2`,
 	siteMetadata: {
-		title: `Gatsby Default Starter`,
-		description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-		author: `@gatsbyjs`,
-		url: `thelionking.co.uk`
+		title: `The Lion King`,
+		description: `See it now in London. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.`,
+		url: `thelionking.co.uk`,
+		author: `Disney`
 	},
 	plugins: [
 		'gatsby-plugin-resolve-src',

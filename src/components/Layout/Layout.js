@@ -63,7 +63,13 @@ class Layout extends Component {
 
 	render() {
 
-		const { displayHeader, displayFooter, displayFooterFindOutMore } = this.props
+		const { 
+			displayHeader, 
+			displayFooter, 
+			displayFooterFindOutMore
+		} = this.props
+
+		const { siteId } = this.props.data
 
 		return(
 			<>
@@ -72,7 +78,9 @@ class Layout extends Component {
 				}
 				{this.props.children}
 				{displayFooter === true &&
-					<Footer displayFooterFindOutMore={displayFooterFindOutMore} />
+					<Footer 
+						siteId={siteId}
+						displayFooterFindOutMore={displayFooterFindOutMore} />
 				}
 			</>
 		)

@@ -7,15 +7,13 @@ class InfoBlock extends Component {
 
         const infoBlocks = this.props.data.map((block, i) => {
 
-            console.log(block)
-
             const infoCountHalf = Math.round(block.items.length / 2)
             const info1 = block.items.slice(0, infoCountHalf)
             const info2 = block.items.slice(infoCountHalf, block.items.length)
 
             return (
                 <div key={i}>
-                    <Container fluid className="info-block">
+                    <Container fluid className="info-block py-4">
                         <Row>
                             <Container fluid className="container-max">
                                 <Row>
@@ -57,7 +55,7 @@ class InfoItem extends Component {
 
         return (
             <div className="info-block__item">
-                <div class="info-block__item-image">
+                <div className="info-block__item-image">
                     <img src={image} alt="" />
                 </div>
                 <h3 className="h4">{ title }</h3>

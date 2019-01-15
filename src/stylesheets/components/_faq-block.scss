@@ -15,6 +15,7 @@
         width: 100%;
         text-align: left;
         padding: $spacer * 1.5;
+        padding-right: $spacer * 4;
         margin-top: $spacer;
         position: relative;
 
@@ -61,6 +62,7 @@
 
     &__content {
         padding: $spacer * 1.5;
+        padding-top: 0;
         background-color: $white;
     }
 

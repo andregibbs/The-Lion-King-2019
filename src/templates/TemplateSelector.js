@@ -55,8 +55,13 @@ query($id: String!) {
 
         contentBlocks {
             type
-            bookTicketsBlock {
-                column1
+            twoColumnBlock {
+                column1 {
+                    content
+                }
+                column2 {
+                    content
+                }
             }
             textBlockFullWidth {
                 content

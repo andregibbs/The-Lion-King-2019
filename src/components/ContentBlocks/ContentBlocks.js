@@ -1,9 +1,9 @@
 import React, { Component } from "react"
 import FaqBlock from "./blocks/FaqBlock"
-import BookTicketsBlock from "./blocks/BookTicketsBlock"
 import TextBlockFullWidth from "./blocks/TextBlockFullWidth"
 import InfoBlock from "./blocks/InfoBlock"
 import BgImageTextBlock from "./blocks/BgImageTextBlock"
+import TwoColumnBlock from "./blocks/TwoColumnBlock"
 
 class ContentBlocks extends Component {
 
@@ -16,8 +16,6 @@ class ContentBlocks extends Component {
             blocks = contentBlocks.map((block, i) => {
 
                 switch (block.type) {
-                    case "bookTicketsBlock":
-                        return <BookTicketsBlock data={block.bookTicketsBlock} key={i} />
                 
                     case "textBlockFullWidth":
                         return <TextBlockFullWidth data={block.textBlockFullWidth} key={i} />
@@ -30,6 +28,9 @@ class ContentBlocks extends Component {
 
                     case "bgImageTextBlock": 
                         return <BgImageTextBlock data={block.bgImageTextBlock} key={i} />
+
+                    case "twoColumnBlock": 
+                        return <TwoColumnBlock data={block.twoColumnBlock} key={i} />
         
                     default:
                         return

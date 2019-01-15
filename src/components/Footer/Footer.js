@@ -4,11 +4,17 @@ import FooterSocial from 'components/Footer/FooterSocial'
 import FooterLinks from 'components/Footer/FooterLinks'
 
 class Footer extends Component {
+
+    constructor(props) {
+        super(props)
+    }
+
     render() {
+
         return (
             <footer>
                 {this.props.displayFooterFindOutMore &&
-                    <FooterFindOutMore />
+                    <FooterFindOutMore siteId={this.props.siteId} />
                 }
                 <FooterSocial />
                 <FooterLinks />
