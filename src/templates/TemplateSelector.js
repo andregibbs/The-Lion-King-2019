@@ -80,26 +80,28 @@ query($id: String!) {
                     content
                 }
             }
-            bgImageTextBlock {
-                imgDesktop {
-                    childImageSharp  {
-                        fluid(maxWidth: 1600) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-                imgMobile {
-                    childImageSharp  {
-                        fluid(maxWidth: 768) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-                text
-                links
-            }
         }
     }
 }
 `
 
+// Unused content blocks
+
+// bgImageTextBlock {
+//     imgDesktop {
+//         childImageSharp  {
+//             fluid(maxWidth: 1600) {
+//                             ...GatsbyImageSharpFluid
+//             }
+//         }
+//     }
+//     imgMobile {
+//         childImageSharp  {
+//             fluid(maxWidth: 768) {
+//                             ...GatsbyImageSharpFluid
+//             }
+//         }
+//     }
+//     text
+//     links
+// }
