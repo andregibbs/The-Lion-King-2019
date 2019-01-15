@@ -7,14 +7,23 @@ class TwoColumnBlock extends Component {
 
         const { column1, column2 } = this.props.data
 
+        let bgColour
+        const padding = "p-5";
+
+        console.log(this.props.data)
+
+        if (this.props.data.bgColour !== null) {
+            bgColour = "bg-" + this.props.data.bgColour
+        }
+
         return (
-            <Container className="text-center">
+            <Container fluid>
                 <Row className="justify-content-center pt-3">
-                    <Col lg={5} className="px-md-5 py-3">
-                        <div dangerouslySetInnerHTML={{ __html: column1.content }} />
+                    <Col lg={6} className="py-3">
+                        <div className={`${bgColour} ${padding}`} dangerouslySetInnerHTML={{ __html: column1.content }} />
                     </Col>
-                    <Col lg={5} className="px-md-5 py-3">
-                        <div dangerouslySetInnerHTML={{ __html: column2.content }} />
+                    <Col lg={6} className="py-3">
+                        <div className={`${bgColour} ${padding}`} dangerouslySetInnerHTML={{ __html: column2.content }} />
                     </Col>
                 </Row>
             </Container>

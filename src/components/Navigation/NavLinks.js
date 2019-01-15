@@ -11,6 +11,7 @@ const NavLinks = (props) => (
                     edges {
                         node {
                             id
+                            inNav
                             siteId
                             path
                             title
@@ -26,7 +27,7 @@ const NavLinks = (props) => (
                     data.allPagesJson.edges.map(({ node }, i) => {
 
                         // if site is equal to current page siteId
-                        if (node.siteId === props.siteId) {
+                        if (node.siteId === props.siteId && (node.inNav === null || node.inNav !== false )) {
 
                             // loop pages and create link
                             return (

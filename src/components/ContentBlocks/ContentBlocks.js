@@ -4,6 +4,7 @@ import TextBlockFullWidth from "./blocks/TextBlockFullWidth"
 import InfoBlock from "./blocks/InfoBlock"
 import BgImageTextBlock from "./blocks/BgImageTextBlock"
 import TwoColumnBlock from "./blocks/TwoColumnBlock"
+import ThinTwoColumnBlock from "./blocks/ThinTwoColumnBlock"
 
 class ContentBlocks extends Component {
 
@@ -29,6 +30,9 @@ class ContentBlocks extends Component {
                     case "bgImageTextBlock": 
                         return <BgImageTextBlock data={block.bgImageTextBlock} key={i} />
 
+                    case "thinTwoColumnBlock": 
+                        return <ThinTwoColumnBlock data={block.thinTwoColumnBlock} key={i} />
+                        
                     case "twoColumnBlock": 
                         return <TwoColumnBlock data={block.twoColumnBlock} key={i} />
         

@@ -11,7 +11,9 @@ class DefaultTemplate extends Component {
         return (
             <Layout data={data}>
                 <ContentBlocks data={data} />
-                <BookingInfo siteId={siteId} />
+                {this.props.data.bookingInfo === null &&
+                    <BookingInfo siteId={siteId} />
+                }
             </Layout>
         )
     }

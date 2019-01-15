@@ -32,7 +32,7 @@ class FooterFindOutMore extends Component {
                                 <Col md={10} lg={7} xl={6} className="bg-image-text__content">
                                     <div className="w-100">
                                         <h2>
-                                            <span>Learn more about</span> <br/>
+                                            <span className="font-weight-light">Learn more about</span> <br/>
                                             Disney's THE LION KING
                                         </h2>
                                         <AboutLink siteId={this.props.siteId} />

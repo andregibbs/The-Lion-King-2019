@@ -35,6 +35,7 @@ query($id: String!) {
     pagesJson ( id: { eq: $id }) {
         id
         siteId
+        bookingInfo
         template
         title
         path
@@ -56,6 +57,15 @@ query($id: String!) {
         contentBlocks {
             type
             twoColumnBlock {
+                bgColour
+                column1 {
+                    content
+                }
+                column2 {
+                    content
+                }
+            }
+            thinTwoColumnBlock {
                 column1 {
                     content
                 }
