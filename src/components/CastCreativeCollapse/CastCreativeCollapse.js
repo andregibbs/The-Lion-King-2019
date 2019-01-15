@@ -126,6 +126,8 @@ const CastItems = (props) => (
                                 </TabPane>
                             )
 
+                        } else {
+                            return ""
                         }
 
                     })
@@ -144,7 +146,9 @@ const CastItems = (props) => (
                                 </TabPane>
                             )
 
-                        } 
+                        } else {
+                            return ""
+                        }
 
                     })
                 }

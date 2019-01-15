@@ -36,7 +36,7 @@ const NavLinks = (props) => (
                             )
 
                         } else {
-                            return
+                            return ""
                         }
 
                     })

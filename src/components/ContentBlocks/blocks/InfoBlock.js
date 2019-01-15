@@ -45,10 +45,6 @@ export default InfoBlock
 
 class InfoItem extends Component {
 
-    constructor(props) {
-        super(props)
-    }
-
     render() {
 
         const { title, image, content } = this.props.info

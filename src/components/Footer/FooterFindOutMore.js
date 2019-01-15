@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { graphql, StaticQuery } from "gatsby"
-import { Container, Row, Col, Modal, ModalBody, ModalHeader, ModalFooter, Button } from "reactstrap"
+import { Container, Row, Col } from "reactstrap"
 import Img from 'gatsby-image'
 import AboutLink from './AboutLink'
 
@@ -35,9 +35,7 @@ class FooterFindOutMore extends Component {
                                             <span>Learn more about</span> <br/>
                                             Disney's THE LION KING
                                         </h2>
-                                        <Row className="mt-3">
-                                            <AboutLink siteId={this.props.siteId} />
-                                        </Row>
+                                        <AboutLink siteId={this.props.siteId} />
                                     </div>
                                 </Col>
                             </Row>

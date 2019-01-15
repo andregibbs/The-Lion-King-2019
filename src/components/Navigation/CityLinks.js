@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql, Link, StaticQuery } from 'gatsby'
 import {
     UncontrolledDropdown,
-    DropdownItem,
     DropdownToggle,
     DropdownMenu
 } from 'reactstrap';

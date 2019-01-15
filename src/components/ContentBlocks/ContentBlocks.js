@@ -33,7 +33,7 @@ class ContentBlocks extends Component {
                         return <TwoColumnBlock data={block.twoColumnBlock} key={i} />
         
                     default:
-                        return
+                        return ""
                 }
 
             })

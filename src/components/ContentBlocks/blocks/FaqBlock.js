@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Container, Row, Col, Collapse, Button } from "reactstrap"
+import { Container, Row, Col, Collapse } from "reactstrap"
 
 class FaqBlock extends Component {
 

@@ -3,10 +3,6 @@ import { Container, Row, Col } from 'reactstrap'
 
 class TwoColumnBlock extends Component {
 
-    constructor(props) {
-        super(props)
-    }
-
     render() {
 
         const { column1, column2 } = this.props.data

@@ -7,10 +7,6 @@ import 'stylesheets/main.scss'
 
 class Layout extends Component {
 
-	constructor(props) {
-		super(props);
-	}
-
 	interstitialCheck() {
 
 		// Do not fire following code if already on interstitial

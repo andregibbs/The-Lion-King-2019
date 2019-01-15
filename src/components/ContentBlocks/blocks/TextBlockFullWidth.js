@@ -3,10 +3,6 @@ import { Container, Row, Col } from 'reactstrap'
 
 class TextBlockFullWidth extends Component {
 
-    constructor(props) {
-        super(props)
-    }
-
     render() {
 
         const { content, textCenter } = this.props.data

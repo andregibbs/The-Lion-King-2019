@@ -1,5 +1,5 @@
 import React from "react"
-import { Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import { Link, StaticQuery, graphql } from 'gatsby'
 
 const AboutLink = (props) => (
@@ -35,7 +35,7 @@ const LinkToDisplay = (props) => {
 
         if (node.siteId === props.siteId && node.inFooter !== null) {
             return (
-                <div key={i}>
+                <Row key={i} className="mt-3">
                     <Col md={6}>
                         <Link to={node.path} className="btn btn--red btn--block btn--large">
                             <span>Find out more</span>
@@ -46,7 +46,7 @@ const LinkToDisplay = (props) => {
                             <span>Watch trailer</span>
                         </Link>
                     </Col>
-                </div>
+                </Row>
             )
         } else {
             return ""

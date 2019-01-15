@@ -5,10 +5,6 @@ import FooterLinks from 'components/Footer/FooterLinks'
 
 class Footer extends Component {
 
-    constructor(props) {
-        super(props)
-    }
-
     render() {
 
         return (
