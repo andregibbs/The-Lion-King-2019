@@ -7,16 +7,34 @@ import { Container, Row, Col } from 'reactstrap'
 
 class Interstitial extends Component {
 
-    render() {
+    constructor(props) {
+        super(props)
 
+        this.state = {
+            href: "",
+            previousUrl: ""
+        }
+    }
+
+    componentDidMount() {
         if (this.props.location.state === null || typeof this.props.location.state === undefined) {
             navigate("/");
             return true
         }
 
-        if (this.props.location.state !== null || typeof this.props.location.state !== undefined) {
+        const { href, previousUrl } = this.props.location.state
 
-            const { href, previousUrl } = this.props.location.state
+        this.setState({
+            href,
+            previousUrl
+        })
+    }
+
+    render() {
+
+        const { href, previousUrl } = this.state
+
+        if (href !== "" && previousUrl !== "") {
 
             return(
                 <Layout displayHeader={false} displayFooter={false}>

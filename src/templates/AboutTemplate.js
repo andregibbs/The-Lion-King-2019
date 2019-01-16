@@ -11,8 +11,8 @@ class AboutTemplate extends Component {
         const { siteId } = this.props.data
         return (
             <Layout data={data}>
-                <Images siteId={siteId} />
                 <ContentBlocks data={data} />
+                <Images siteId={siteId} />
                 <BookingInfo siteId={siteId} />
             </Layout>
         )
@@ -34,14 +34,14 @@ const Images = (props) => (
                             images {
                                 thumbnail {
                                     childImageSharp {
-                                        fluid {
+                                        fluid(maxWidth: 1200, quality: 100) {
                                             ...GatsbyImageSharpFluid
                                         }
                                     }
                                 }
                                 src {
                                     childImageSharp {
-                                        fluid {
+                                        fluid(maxWidth: 1200, quality: 100) {
                                             ...GatsbyImageSharpFluid
                                         }
                                     }

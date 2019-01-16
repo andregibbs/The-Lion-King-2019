@@ -10,8 +10,6 @@ class TwoColumnBlock extends Component {
         let bgColour
         const padding = "p-5";
 
-        console.log(this.props.data)
-
         if (this.props.data.bgColour !== null) {
             bgColour = "bg-" + this.props.data.bgColour
         }

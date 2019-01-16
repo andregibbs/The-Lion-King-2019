@@ -7,7 +7,6 @@ class ThinTwoColumnBlock extends Component {
 
         const { column1, column2 } = this.props.data
 
-
         return (
             <Container className="text-center">
                 <Row className="justify-content-center pt-3">

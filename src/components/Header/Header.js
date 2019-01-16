@@ -15,14 +15,14 @@ class Header extends Component {
 						{headerImage !== false &&
 							<Img 
 								fluid={headerImage.childImageSharp.fluid} 
-								className={`${headerImageMobile !== false ? 'd-none d-md-block' : ''}`}
+								className={`${headerImageMobile !== false ? 'd-none d-sm-block' : ''}`}
 								critical={true}
 							/>
 						}
 						{headerImageMobile !== false &&
 							<Img 
 								fluid={headerImageMobile.childImageSharp.fluid} 
-								className="d-block d-md-none" 
+								className="d-block d-sm-none" 
 								critical={true}
 							/>
 						}

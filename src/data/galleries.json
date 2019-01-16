@@ -53,6 +53,10 @@
             {
                 "thumbnail": "../images/gallery/13-thumb.jpg",
                 "src": "../images/gallery/13.jpg"
+            },
+            {
+                "thumbnail": "../images/gallery/14-thumb.jpg",
+                "src": "../images/gallery/14.jpg"
             }
         ]
     }

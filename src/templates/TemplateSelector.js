@@ -42,14 +42,14 @@ query($id: String!) {
         path
         headerImage {
             childImageSharp  {
-                fluid(maxWidth: 1600) {
+                fluid(maxWidth: 1600, quality: 100) {
                     ...GatsbyImageSharpFluid
                 }
             }
         }
         headerImageMobile {
             childImageSharp  {
-                fluid(maxWidth: 768) {
+                fluid(maxWidth: 576, quality: 100) {
                     ...GatsbyImageSharpFluid
                 }
             }
