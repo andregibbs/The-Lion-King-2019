@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from 'components/Layout/Layout'
-import SEO from 'components/seo'
 import logo from 'images/logo-nosub.svg'
 import lionsHead from 'images/backgrounds/lions-head.png'
 import { Container, Row, Col } from 'reactstrap'
@@ -24,7 +23,6 @@ class IndexPage extends Component {
 
 		return (
 			<Layout displayHeader={false} displayFooter={false}>
-				<SEO title="Home" keywords={[`The Lion King`, `Disney`, `Musical`]} />
 				<div className="p-3 bg-light-grey">
 					<Container fluid className="landing py-3">
 						<img src={lionsHead} alt="" className="landing__lion" />

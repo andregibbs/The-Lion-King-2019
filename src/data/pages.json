@@ -5,8 +5,9 @@
         "template": "home-template",
         "path": "/london/",
         "title": "Home",
+        "metaDescription": "",
         "headerImage": "../images/headers/header-standard-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-standard-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-standard-576px.jpg",
         "contentBlocks": [
             {
                 "type": "thinTwoColumnBlock",
@@ -56,9 +57,10 @@
         "template": "about-template",
         "path": "/london/about-the-show/",
         "title": "About the Show",
+        "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
         "inFooter": true,
         "headerImage": "../images/headers/header-standard-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+        "headerImageMobile": "../images/headers/header-standard-576px.jpg"
     },
     {
         "id": "londonCast",
@@ -66,8 +68,9 @@
         "template": "cast-template",
         "path": "/london/cast-and-creatives/",
         "title": "Cast & Creatives",
+        "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
         "headerImage": "../images/headers/header-standard-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+        "headerImageMobile": "../images/headers/header-standard-576px.jpg"
     },
     {
         "id": "londonYourVisit",
@@ -75,8 +78,9 @@
         "template": "default-template",
         "path": "/london/your-visit/",
         "title": "Your Visit",
+        "metaDescription": "Get answers to frequently asked questions about your visit to The Lion King on the official Disney website.",
         "headerImage": "../images/headers/header-standard-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-standard-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-standard-576px.jpg",
         "contentBlocks": [
             {
                 "type": "faqBlock",
@@ -166,8 +170,9 @@
         "template": "default-template",
         "path": "/london/access/",
         "title": "Access",
+        "metaDescription": "Find out about access performances, wheelchair and hearing facilities at THE LION KING, London’s Landmark Musical, on the official Disney website.",
         "headerImage": "../images/headers/header-standard-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-standard-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-standard-576px.jpg",
         "contentBlocks": [
             {
                 "type": "faqBlock",
@@ -225,8 +230,9 @@
         "template": "default-template",
         "path": "/london/terms-and-conditions/",
         "title": "Terms and Conditions",
+        "metaDescription": "",
         "headerImage": "../images/headers/header-standard-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-standard-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-standard-576px.jpg",
         "contentBlocks": [
             {
                 "type": "twoColumnBlock",
@@ -249,8 +255,9 @@
         "template": "home-template",
         "path": "/bristol/",
         "title": "Home",
-        "headerImage": "../images/headers/header-standard-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-standard-1600px.jpg",
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-bristol-1600px.png",
+        "headerImageMobile": "../images/headers/header-bristol-576px.png",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -267,17 +274,9 @@
         "template": "about-template",
         "path": "/bristol/about-the-show/",
         "title": "About the Show",
-        "headerImage": "../images/headers/header-standard-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
-    },
-    {
-        "id": "bristolCast",
-        "siteId": "bristol",
-        "template": "cast-template",
-        "path": "/bristol/cast-and-creatives/",
-        "title": "Cast & Creatives",
-        "headerImage": "../images/headers/header-standard-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-standard-1600px.jpg"
+        "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
+        "headerImage": "../images/headers/header-bristol-1600px.png",
+        "headerImageMobile": "../images/headers/header-bristol-576px.png"
     },
     {
         "id": "bristolTerms",
@@ -287,8 +286,65 @@
         "template": "default-template",
         "path": "/bristol/terms-and-conditions/",
         "title": "Terms and Conditions",
-        "headerImage": "../images/headers/header-standard-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-standard-1600px.jpg",
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-bristol-1600px.png",
+        "headerImageMobile": "../images/headers/header-bristol-576px.png",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "bgColour": "light-grey",
+                    "column1": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>EDUCATION</h2><p><strong>Education Group Rates up to Year 13</strong></p><p>Education group sales currently available on selected seats and performances until September 2019, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Thursday evenings and Wednesday matinee performances only. Rate applies for groups of 10+ (primary or secondary school pupils up to and including Year 13). Groups pay £29.50 per ticket in the Stalls & Royal Circle and £22.50 in Grand Circle for the same performance. For off-peak performances in September 2019, groups pay £25 per ticket in the Stalls & Royal Circle and £19.50 in Grand Circle for the same performance. For every ten (10) paid tickets, Group receives one (1) free ticket for use by a teacher. Education group tickets purchased shall not be offered for re-sale via social media channels to individual members, unless otherwise agreed in writing by The Walt Disney Company and all attendees must be from the same University or education group (we reserve the right to verify these details at the theatre). Offer is subject to availability and may be revoked at any time. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Once issued, tickets cannot be replaced if lost, stolen or destroyed and is only valid for the event for which it is issued. The unlawful resale or attempted resale of the ticket is grounds for seizure and cancellation without compensation. Holder agrees, by the use of the ticket, not to transmit or aid in transmitting any description, account, picture, or reproduction of the show. Holder grants permission to Disney to use the holder’s image or likeness in connection with any live or recorded video or other transmission of the show. Children under the age of 3 will not be admitted to the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own in the auditorium.</p><p><strong>Education Group Rates for University and Full Time Education Groups</strong></p><p>University and Full Time Education group sales currently available on selected seats and performances until September 2019, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Thursday evenings and Wednesday matinee performances only. Groups of 10+ (post Year 13) pay £33.50 per ticket in the Stalls & Royal Circle and £29.50 in Grand Circle for the same performance. For every ten (10) paid tickets, Group receives one (1) free ticket free for use by a teacher. Education group tickets purchased shall not be offered for re-sale via social media channels to individual members, unless agreed in writing by The Walt Disney Company. Offer is subject to availability and may be revoked at any time. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Once issued, tickets cannot be replaced if lost, stolen or destroyed and is only valid for the event for which it is issued. The unlawful resale or attempted resale of the ticket is grounds for seizure and cancellation without compensation. Holder agrees, by the use of the ticket, not to transmit or aid in transmitting any description, account, picture, or reproduction of the show. Holder grants permission to Disney to use the holder’s image or likeness in connection with any live or recorded video or other transmission of the show. Children under the age of 3 will not be admitted to the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own in the auditorium</p>"
+                    },
+                    "column2": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>GROUPS</h2><p><strong>Group Sales Terms and Conditions</strong></p><p>Group sales currently available on selected seats and performances until September 2019, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Friday evenings and Wednesday matinee performances only. Groups of 10-24 pay £49.50 per ticket in the Stalls & Royal Circle and £39.50 in the Grand Circle for the same performance. Groups of 25-49 pay £45.00 per ticket in the Stalls & Royal Circle and £35.00 in the Grand Circle for the same performance. Groups of 50+ pay £39.50 per ticket in the Stalls & Royal Circle and £29.50 in the Grand Circle for the same performance. Group Tickets purchased shall not be offered for re-sale via social media channels to individual members, unless otherwise agreed in writing by The Walt Disney Company. Offer is subject to availability and may be revoked at any time. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Once issued, tickets cannot be replaced if lost, stolen or destroyed and is only valid for the event for which it is issued. The unlawful resale or attempted resale of the ticket is grounds for seizure and cancellation without compensation. Holder agrees, by the use of the ticket, not to transmit or aid in transmitting any description, account, picture, or reproduction of the show. Holder grants permission to Disney to use the holder’s image or likeness in connection with any live or recorded video or other transmission of the show. Children under the age of 3 will not be admitted to the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own in the auditorium.</p><p><strong>Senior Citizens Group Sales Terms and Conditions</strong></p><p>Senior Citizens group rates currently available on selected seats and performances until September 2019, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Wednesday matinee and evening performances only. Groups of 10+ pay £35.00 per ticket in the Stalls & Royal Circle for the same performance. For every ten (10) paid tickets, Group receives one (1) free ticket free for use by a group organiser. Senior Citizen group tickets purchased shall not be offered for re-sale via social media channels to individual members, unless agreed in writing by The Walt Disney Company. Offer is subject to availability and may be revoked at any time. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Once issued, tickets cannot be replaced if lost, stolen or destroyed and is only valid for the event for which it is issued. The unlawful resale or attempted resale of the ticket is grounds for seizure and cancellation without compensation. Holder agrees, by the use of the ticket, not to transmit or aid in transmitting any description, account, picture, or reproduction of the show. Holder grants permission to Disney to use the holder’s image or likeness in connection with any live or recorded video or other transmission of the show. Children under the age of 3 will not be admitted to the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own in the auditorium.</p>"
+                    }
+                }
+            }
+        ]
+    },
+
+    {
+        "id": "edinburghHome",
+        "siteId": "edinburgh", 
+        "template": "home-template",
+        "path": "/edinburgh/",
+        "title": "Home",
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-edinburgh-1600px.png",
+        "headerImageMobile": "../images/headers/header-edinburgh-576px.png",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "content": "<h1 class='h4 font-weight-bold pb-4'><span class='text-red'>Edinburgh Playhouse |</span> Autumn 2019</h1><p class='text-lg'><strong>Just announced - Disney's THE LION KING will embark on a UK and Ireland Tour beginning Autumn 2019.</strong><br/>Tickets for Edinburgh will go on sale in Spring 2019 - sign-up now for priority access to tickets below.</p><div class='d-flex justify-content-center'><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-tickets?ex_cmp=dis_uk:events:lio:Dwsite:0119' class='btn btn--red btn--large btn--300 mt-3 no-interstitial-check' target='_blank' rel='noopener noreferrer'><span>TOUR PRIORITY SIGN-UP</span></a></div>"
+                }
+            }
+        ]
+    },
+    {
+        "id": "edinburghAbout",
+        "siteId": "edinburgh",
+        "inFooter": true,
+        "template": "about-template",
+        "path": "/edinburgh/about-the-show/",
+        "title": "About the Show",
+        "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
+        "headerImage": "../images/headers/header-edinburgh-1600px.png",
+        "headerImageMobile": "../images/headers/header-edinburgh-576px.png"
+    },
+    {
+        "id": "edinburghTerms",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "edinburgh",
+        "template": "default-template",
+        "path": "/edinburgh/terms-and-conditions/",
+        "title": "Terms and Conditions",
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-edinburgh-1600px.png",
+        "headerImageMobile": "../images/headers/header-edinburgh-576px.png",
         "contentBlocks": [
             {
                 "type": "twoColumnBlock",

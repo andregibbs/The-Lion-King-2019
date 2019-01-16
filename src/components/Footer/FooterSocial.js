@@ -23,7 +23,7 @@ class FooterSocial extends Component {
                             <span className="icon icon-youtube"></span>
                             <span className="sr-only">Youtube</span>
                         </a>
-                        <a href="//google.com" className="p-3" target="_blank" rel="noopener noreferrer">
+                        <a href="https://open.spotify.com/album/1y6p6tINBthUWsQVQJmiYK" className="p-3" target="_blank" rel="noopener noreferrer">
                             <span className="icon icon-spotify"></span>
                             <span className="sr-only">Spotify</span>
                         </a>

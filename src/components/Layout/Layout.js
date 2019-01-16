@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import SEO from 'components/seo'
 import Header from 'components/Header/Header'
 import Footer from 'components/Footer/Footer'
 import { navigate } from 'gatsby'
@@ -65,10 +66,15 @@ class Layout extends Component {
 			displayFooterFindOutMore
 		} = this.props
 
-		const { siteId } = this.props.data
+		const { siteId, title, metaDescription } = this.props.data
 
 		return(
 			<>
+				<SEO 
+					title={title} 
+					description={metaDescription}
+					keywords={[`The Lion King`, `Disney`, `Musical`]} 
+				/>
 				{displayHeader === true &&
 					<Header data={this.props.data} />
 				}

@@ -38,6 +38,7 @@ query($id: String!) {
         bookingInfo
         template
         title
+        metaDescription
         path
         headerImage {
             childImageSharp  {

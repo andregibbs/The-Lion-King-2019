@@ -80,7 +80,10 @@ class CustomCollapseItem extends Component {
                     className="c-collapse__item-content"
                     style={{ height: this.props.contentHeight + "px" }}>
                     <div className="c-collapse__item-content-inner">
-                        <div dangerouslySetInnerHTML={{ __html: this.props.data.bio }} />
+                        <div className="c-collapse__item-content-inner-bg" dangerouslySetInnerHTML={{ __html: this.props.data.bio }} />
+                        <button className="c-collapse__item-content-close" onClick={(e) => this.props.clickHandler(e, this.props.id)}>
+                            <span className="sr-only">Close</span>
+                        </button>
                     </div>
                 </div>
             </div>

@@ -8,5 +8,10 @@
         "id": "bristol",
         "path": "/bristol",
         "title": "Bristol"
+    },
+    {
+        "id": "edinburgh",
+        "path": "/edinburgh",
+        "title": "Edinburgh"
     }
 ]

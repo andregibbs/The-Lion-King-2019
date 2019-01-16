@@ -19,9 +19,13 @@
 
 		a {
 			display: block;
-			padding: $spacer * 1.25 $spacer;
+			padding: $spacer / 1.5;
 			color: $black;
 			font-size: $font-size-lg;
+
+			@include media-breakpoint-up(md) {
+				padding: $spacer * 1.25 $spacer;
+			}
 
 			&:hover {
 				text-decoration: none;
@@ -60,27 +64,37 @@
 			@extend .custom-icon;
 			content: "\69";
 			position: absolute;
-			top: 50%;
-			transform: translateY(-50%);
+			top: $spacer * 1.75;
+			transform: rotate(0);
 			right: -$spacer / 2;
 			transition: $transition-base;
 		}
 
 		&.show {
 			&:after {
-				transform: translateY(-50%) rotate(180deg);
+				transform: rotate(180deg);
 			}
 		}
 
 	}
 
 	.dropdown-menu {
-		border-top: 0;
+		border: 0;
 		border-radius: 0;
 		top: calc(100% - 2px);
 
+		@include media-breakpoint-up(md) {
+			border: 1px solid $tlk-light-grey-2;
+			border-top: 0;
+		}
+
 		.dropdown-item {
 			padding: 0.25rem 1.5rem;
+			text-align: center;
+
+			@include media-breakpoint-up(md) {
+				text-align: left;
+			}
 
 			&:active,
 			&.active {

@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: $spacer / 4;
+    padding-bottom: $spacer;
     margin: 0 auto;
     background-color: $tlk-light-grey;
 
@@ -28,7 +29,6 @@
 
         &-trigger {
             cursor: pointer;
-            padding-bottom: $spacer / 2;
             position: relative;
             display: flex;
 
@@ -131,20 +131,52 @@
             transition: height .3s ease;
 
             &-inner {
-                padding: $spacer * 2 $spacer;
-                text-align: center;
+                padding: $spacer;
                 h2 {
                     padding-top: $spacer;
-                    margin-bottom: 0;
                 }
                 p {
-                    max-width: 500px;
-                    margin: 0 auto;
                     color: $black;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
                 }
                 .embed-responsive {
                     max-width: 800px;
                     margin: 0 auto;
+                }
+
+                &-bg {
+                    background-color: $white;
+                    padding: $spacer * 2 $spacer;
+                    padding-right: calc(50px + #{$spacer * 1.5});
+                    margin: $spacer / 2;
+                }
+            }
+
+            &-close {
+                background-color: $tlk-light-red;
+                border: 0;
+                position: absolute;
+                top: $spacer * 2;
+                right: $spacer * 2;
+                height: 50px;
+                width: 50px;
+
+                &:after,
+                &:before {
+                    content: "";
+                    width: 2px;
+                    height: 40%;
+                    background-color: $tlk-red;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%) rotate(45deg);
+                }
+
+                &:after {
+                    transform: translate(-50%, -50%) rotate(-45deg);
                 }
             }
         }
@@ -152,8 +184,12 @@
         // Active state
         &.active {
             .c-collapse__item-trigger {
+                border-bottom: 2px solid $tlk-red;
                 &-img {
                     opacity: 1;
+                    &:after {
+                        opacity: .5;
+                    }
                 }
             }
             .c-collapse__item-content {
