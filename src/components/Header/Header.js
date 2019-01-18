@@ -16,14 +16,12 @@ class Header extends Component {
 							<Img 
 								fluid={headerImage.childImageSharp.fluid} 
 								className={`${headerImageMobile !== false ? 'd-none d-sm-block' : ''}`}
-								critical={true}
 							/>
 						}
 						{headerImageMobile !== false &&
 							<Img 
 								fluid={headerImageMobile.childImageSharp.fluid} 
 								className="d-block d-sm-none" 
-								critical={true}
 							/>
 						}
 					</Container>

@@ -32,7 +32,7 @@ class CastCollapse extends Component {
     render() {
 
         return (
-            <Container fluid>
+            <Container fluid className="py-5">
                 <Nav tabs className="c-collapse-nav">
                     <NavItem>
                         <NavLink

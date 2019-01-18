@@ -42,14 +42,14 @@ query($id: String!) {
         path
         headerImage {
             childImageSharp  {
-                fluid(maxWidth: 1600, quality: 100) {
+                fluid(maxWidth: 1600, quality: 95) {
                     ...GatsbyImageSharpFluid
                 }
             }
         }
         headerImageMobile {
             childImageSharp  {
-                fluid(maxWidth: 576, quality: 100) {
+                fluid(maxWidth: 576, quality: 95) {
                     ...GatsbyImageSharpFluid
                 }
             }
@@ -57,6 +57,24 @@ query($id: String!) {
 
         contentBlocks {
             type
+            bgImageTextBlock {
+                imgDesktop {
+                    childImageSharp  {
+                        fluid(maxWidth: 1600) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+                imgMobile {
+                    childImageSharp  {
+                        fluid(maxWidth: 768) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+                text
+                links
+            }
             twoColumnBlock {
                 bgColour
                 column1 {
@@ -95,24 +113,3 @@ query($id: String!) {
     }
 }
 `
-
-// Unused content blocks
-
-// bgImageTextBlock {
-//     imgDesktop {
-//         childImageSharp  {
-//             fluid(maxWidth: 1600) {
-//                             ...GatsbyImageSharpFluid
-//             }
-//         }
-//     }
-//     imgMobile {
-//         childImageSharp  {
-//             fluid(maxWidth: 768) {
-//                             ...GatsbyImageSharpFluid
-//             }
-//         }
-//     }
-//     text
-//     links
-// }

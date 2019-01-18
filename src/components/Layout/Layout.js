@@ -78,6 +78,7 @@ class Layout extends Component {
 				{displayHeader === true &&
 					<Header data={this.props.data} />
 				}
+				<h1 className="text-center pt-3 pt-md-4">{this.props.data.title}</h1>
 				{this.props.children}
 				{displayFooter === true &&
 					<Footer 
@@ -96,7 +97,8 @@ Layout.propTypes = {
 Layout.defaultProps = {
 	data: {
 		headerImage: false,
-		headerImageMobile: false
+		headerImageMobile: false,
+		title: "Get Tickets for The Lion King from the Official Disney Website"
 	},
 	displayHeader: true,
 	displayFooter: true,

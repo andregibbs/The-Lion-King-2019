@@ -3,7 +3,7 @@ module.exports = {
 	siteMetadata: {
 		title: `The Lion King`,
 		description: `See it now in London. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.`,
-		url: `https://thelionking.co.uk`,
+		siteUrl: `https://thelionking.co.uk`,
 		author: `Disney`
 	},
 	plugins: [
@@ -74,6 +74,20 @@ module.exports = {
 					}
 				}`
 			}
+		},
+		{
+			resolve: `gatsby-plugin-google-tagmanager`,
+			options: {
+				id: "GTM-3DTR6X",
+
+				// Include GTM in development.
+				// Defaults to false meaning GTM will only be loaded in production.
+				includeInDevelopment: false,
+
+				// Specify optional GTM environment details.
+				// gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
+				// gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
+			},
 		},
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline

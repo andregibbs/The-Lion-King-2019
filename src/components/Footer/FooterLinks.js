@@ -11,7 +11,7 @@ const FooterLinks = () => (
                 footerImage1: file(relativePath: { eq: "footer-aladdin-800px.jpg" }) {
                     ...footerFluidImage
                 }
-                footerImage2: file(relativePath: { eq: "footer-store-800px.jpg" }) {
+                footerImage2: file(relativePath: { eq: "footer-mary-800px.jpg" }) {
                     ...footerFluidImage
                 }
             }
@@ -20,12 +20,12 @@ const FooterLinks = () => (
             <Container fluid className="container-max footer-images">
                 <Row>
                     <Col md={6}>
-                        <a href="https://thelionking.co.uk/" target="_blank" rel="noreferrer noopener" className="footer-images__link">
+                        <a href="https://aladdinthemusical.co.uk/" target="_blank" rel="noreferrer noopener" className="footer-images__link">
                             <Img fluid={data.footerImage1.childImageSharp.fluid} alt="Aladdin The Musical" />
                         </a>
                     </Col>
                     <Col md={6}>
-                        <a href="https://thelionking.co.uk/" target="_blank" rel="noreferrer noopener" className="footer-images__link">
+                        <a href="https://marypoppinsonstage.co.uk" target="_blank" rel="noreferrer noopener" className="footer-images__link">
                             <Img fluid={data.footerImage2.childImageSharp.fluid} alt="Disney Store" />
                         </a>
                     </Col>

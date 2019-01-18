@@ -1,5 +1,6 @@
 body {
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 h1, 
@@ -34,4 +35,9 @@ strong {
 
 .text-lg {
     font-size: $font-size-lg;
+}
+
+.font-weight-semi-bold {
+    font-family: 'Proxima Nova W01';
+    font-weight: $font-weight-bold;
 }

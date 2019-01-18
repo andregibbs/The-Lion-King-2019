@@ -33,10 +33,11 @@ class Navigation extends Component {
         return (
             <div className="m-nav-outer">
                 <Navbar expand="md" className="m-nav">
-                    <button type="button" className="navbar-toggler" onClick={this.toggleNav}>
+                    <button type="button" className="navbar-toggler" onClick={this.toggleNav} aria-haspopup="true" aria-expanded="false">
                         <span></span>
                         <span></span>
                         <span></span>
+                        <span className="sr-only">Toggle Navigation</span>
                     </button>
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar>

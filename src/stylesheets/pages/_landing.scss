@@ -31,18 +31,10 @@
         @include media-breakpoint-up(md) {
             display: block;
             position: absolute;
-            left: -22rem;
-            top: 0;
-            height: 100%;
-            min-height: 80vh;
-        }
-
-        @include media-breakpoint-up(lg) {
-            left: -15rem;
-        }
-
-        @include media-breakpoint-up(xl) {
-            left: -5rem;
+            top: 50%;
+            left: -20%;
+            max-width: 70%;
+            transform: translateY(-50%);
         }
 
         @media only screen and (orientation: portrait) {

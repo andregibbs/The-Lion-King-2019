@@ -150,7 +150,7 @@
                     background-color: $white;
                     padding: $spacer * 2 $spacer;
                     padding-right: calc(50px + #{$spacer * 1.5});
-                    margin: $spacer / 2;
+                    margin: $spacer * .75;
                 }
             }
 

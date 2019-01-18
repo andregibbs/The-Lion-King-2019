@@ -34,10 +34,10 @@ class BgImgWithText extends Component {
             <Container fluid className="bg-image-text">
                 <Row>
                     <Container fluid className="container-max">
-                        <Img fluid={imgDesktop.childImageSharp.fluid} className="bg-image-text__img d-none d-md-block" />
-                        <Img fluid={imgMobile.childImageSharp.fluid} className="bg-image-text__img d-block d-md-none" />
+                        <Img fluid={imgDesktop.childImageSharp.fluid} className="bg-image-text__img d-none d-lg-block" />
+                        <Img fluid={imgMobile.childImageSharp.fluid} className="bg-image-text__img d-block d-lg-none" />
                         <Row>
-                            <Col md={10} lg={8} xl={6} className="bg-image-text__content">
+                            <Col lg={8} xl={6} className="bg-image-text__content">
                                 <div>
                                     <div dangerouslySetInnerHTML={{ __html: text }} />
                                     {linkButtons !== "" &&

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from 'components/Layout/Layout'
 import logo from 'images/logo-nosub.svg'
-import lionsHead from 'images/backgrounds/lions-head.png'
+import lionsHead from 'images/backgrounds/lionhead.png'
 import { Container, Row, Col } from 'reactstrap'
 
 

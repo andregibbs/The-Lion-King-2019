@@ -15,7 +15,7 @@ class FaqBlock extends Component {
                 <div key={i}>
                     {block.title !== null &&
                         <Container fluid className="text-center py-4 py-md-5">
-                            <h4 className="mb-0 font-weight-bold">{block.title}</h4>
+                            <h4 className="mb-0 font-weight-semi-bold">{block.title}</h4>
                         </Container>
                     }
                     <Container fluid className="faq-block">
