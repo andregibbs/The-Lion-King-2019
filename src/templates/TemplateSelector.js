@@ -40,6 +40,7 @@ query($id: String!) {
         title
         metaDescription
         path
+        displayBookNow
         headerImage {
             childImageSharp  {
                 fluid(maxWidth: 1600, quality: 95) {
@@ -72,6 +73,7 @@ query($id: String!) {
                         }
                     }
                 }
+                withGradient
                 text
                 links
             }

@@ -13,7 +13,7 @@ class InfoBlock extends Component {
 
             return (
                 <div key={i}>
-                    <Container fluid className="info-block py-4">
+                    <Container fluid className="info-block pb-5">
                         <Row>
                             <Container fluid className="container-max">
                                 <Row>

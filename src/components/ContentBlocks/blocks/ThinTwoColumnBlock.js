@@ -9,7 +9,7 @@ class ThinTwoColumnBlock extends Component {
 
         return (
             <Container className="text-center">
-                <Row className="justify-content-center pt-3">
+                <Row className="justify-content-center">
                     <Col lg={5} className="px-md-5 py-3">
                         <div dangerouslySetInnerHTML={{ __html: column1.content }} />
                     </Col>

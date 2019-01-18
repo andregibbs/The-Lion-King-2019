@@ -20,7 +20,7 @@ const FooterLinks = () => (
             <Container fluid className="container-max footer-images">
                 <Row>
                     <Col md={6}>
-                        <a href="https://aladdinthemusical.co.uk/" target="_blank" rel="noreferrer noopener" className="footer-images__link">
+                        <a href="https://aladdinthemusical.co.uk/" target="_blank" rel="noreferrer noopener" className="footer-images__link no-interstitial-check">
                             <Img fluid={data.footerImage1.childImageSharp.fluid} alt="Aladdin The Musical" />
                         </a>
                     </Col>

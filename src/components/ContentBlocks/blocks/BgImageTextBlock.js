@@ -7,11 +7,11 @@ class BgImgWithText extends Component {
 
     render() {
 
-        const { imgDesktop, imgMobile, text, links } = this.props.data
+        const { imgDesktop, imgMobile, text, links, withGradient } = this.props.data
 
-        let linkButtons
+        let linkButtons = ""
 
-        if (links !== undefined && links.length) {
+        if (links !== undefined && links.length && links !== "") {
             linkButtons = links.map((link, i) => {
 
                 if (link.external !== undefined) {
@@ -31,7 +31,7 @@ class BgImgWithText extends Component {
         }
 
         return (
-            <Container fluid className="bg-image-text">
+            <Container fluid className={`bg-image-text ${withGradient !== null && withGradient ? "bg-image-text--gradient" : ""}`}>
                 <Row>
                     <Container fluid className="container-max">
                         <Img fluid={imgDesktop.childImageSharp.fluid} className="bg-image-text__img d-none d-lg-block" />

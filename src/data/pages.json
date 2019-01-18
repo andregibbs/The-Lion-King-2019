@@ -5,6 +5,7 @@
         "template": "home-template",
         "path": "/london/",
         "title": "Home",
+        "displayBookNow": false,
         "metaDescription": "",
         "headerImage": "../images/headers/header-london-1600px.jpg",
         "headerImageMobile": "../images/headers/header-london-576px.jpg",
@@ -39,7 +40,7 @@
                             },
                             {
                                 "question": "Bring a School Group",
-                                "answer": "<p>Over one million pupils have already experienced THE LION KING through its award-winning EDUCATION PROGRAMME. Combined with seeing the production, this programme will take your pupils on an engaging journey that they will never forget.</p><p>Developed by teachers, for teachers, the programme is fully curriculum linked to support subjects at KS2 and 3 and is easily adaptable.</p><p>All of the resources are available for free on a brand new online hub, the easy to use search tool allows you to discover activities and lesson plans that are relevant for your classroom.</p><p> <a href='https://lionkingeducation.co.uk' class='btn btn--red btn--300'>Discover more at lionkingeducation.co.uk</a></p><hr><p>Book now for selected performances until <strong>September 2019</strong>.</p><h6 class='text-red'><strong>STANDARD PRICING</strong></h6><p>Standard pricing applies to performances until July 2019</p><div class='row'><div class='col-6'><p class='text-lg'><strong>£29.50</strong><br>Stalls & Royal Circle</p></div><div class='col-6'><p class='text-lg'><strong>£22.50</strong><br>Grand Circle</p></div></div><h6 class='text-red'><strong>OFF-PEAK PRICING</strong></h6><p>Off-peak pricing applies to performances in September 2019</p><div class='row'><div class='col-6'><p class='text-lg'><strong>£25</strong><br>Stalls & Royal Circle</p></div><div class='col-6'><p class='text-lg'><strong>£19.50</strong><br>Grand Circle</p></div></div><p>Plus one teacher goes free with every ten paid tickets.</p><p>Available Tuesday - Thursday at 7:30pm performances and Wednesday matinee performances at 2:30pm. Unavailable during school holiday periods. University and Full Time Education Group rates are also available. Please see terms and conditions for details.</p><h6 class='text-red'><strong>Book with Groupline</strong></h6><a class='btn btn--red btn--300 my-2' href='https://www.groupline.com/tickets/116/The-Lion-King'>Click here</a><p>Or call Group Line on 020 7206 1174<br>Calls are charged at your network provider’s standard local rate</p><h6 class='text-red'><strong>Book direct with Disney</strong></h6><a class='no-interstitial-check btn btn--red btn--300 my-2' href='https://disney.co.uk/shows/the-lion-king-musical-tickets/group-enquiry' rel='noreferrer noopeneer' target='_blank'>Complete this form</a><p>Or call Disney Tickets on 0800 640 8101<br>Calls are free of charge from a landline, or charged at your network provider’s standard local rate on mobile</p><p><a href='/london/terms-and-conditions'>Read our terms and conditions</a></p>"
+                                "answer": "<p>Over one million pupils have already experienced THE LION KING through its award-winning EDUCATION PROGRAMME. Combined with seeing the production, this programme will take your pupils on an engaging journey that they will never forget.</p><p>Developed by teachers, for teachers, the programme is fully curriculum linked to support subjects at KS2 and 3 and is easily adaptable.</p><p>All of the resources are available for free on a brand new online hub, the easy to use search tool allows you to discover activities and lesson plans that are relevant for your classroom.</p><p> <a href='https://lionkingeducation.co.uk' class='btn btn--red btn--300'>Education Resources</a></p><hr><p>Book now for selected performances until <strong>September 2019</strong>.</p><h6 class='text-red'><strong>STANDARD PRICING</strong></h6><p>Standard pricing applies to performances until July 2019</p><div class='row'><div class='col-6'><p class='text-lg'><strong>£29.50</strong><br>Stalls & Royal Circle</p></div><div class='col-6'><p class='text-lg'><strong>£22.50</strong><br>Grand Circle</p></div></div><h6 class='text-red'><strong>OFF-PEAK PRICING</strong></h6><p>Off-peak pricing applies to performances in September 2019</p><div class='row'><div class='col-6'><p class='text-lg'><strong>£25</strong><br>Stalls & Royal Circle</p></div><div class='col-6'><p class='text-lg'><strong>£19.50</strong><br>Grand Circle</p></div></div><p>Plus one teacher goes free with every ten paid tickets.</p><p>Available Tuesday - Thursday at 7:30pm performances and Wednesday matinee performances at 2:30pm. Unavailable during school holiday periods. University and Full Time Education Group rates are also available. Please see terms and conditions for details.</p><h6 class='text-red'><strong>Book with Groupline</strong></h6><a class='btn btn--red btn--300 my-2' href='https://www.groupline.com/tickets/116/The-Lion-King'>Click here</a><p>Or call Group Line on 020 7206 1174<br>Calls are charged at your network provider’s standard local rate</p><h6 class='text-red'><strong>Book direct with Disney</strong></h6><a class='no-interstitial-check btn btn--red btn--300 my-2' href='https://disney.co.uk/shows/the-lion-king-musical-tickets/group-enquiry' rel='noreferrer noopeneer' target='_blank'>Complete this form</a><p>Or call Disney Tickets on 0800 640 8101<br>Calls are free of charge from a landline, or charged at your network provider’s standard local rate on mobile</p><p><a href='/london/terms-and-conditions'>Read our terms and conditions</a></p>"
                             },
                             {
                                 "question": "Senior Group Rates",
@@ -72,7 +73,8 @@
                 "type": "bgImageTextBlock",
                 "bgImageTextBlock": {
                     "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
-                    "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md3.jpg",
+                    "withGradient": true,
                     "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
                 }
@@ -99,6 +101,41 @@
         "headerImage": "../images/headers/header-london-1600px.jpg",
         "headerImageMobile": "../images/headers/header-london-576px.jpg",
         "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "content": "<h1 class='h4 font-weight-bold'>How do I get there?</h1><p>Lyceum Theatre<br/>21 Wellington Street<br/>London WC2E 7RQ</p><p><a class='text-red font-weight-bold' href='https://www.google.co.uk/maps/place/Lyceum+Theatre/@51.5115994,-0.1221759,17z/data=!3m1!4b1!4m5!3m4!1s0x47d8ac8952747c71:0x65cbdd71dcb817f0!8m2!3d51.5115961!4d-0.1199872'>Click to check your route</a></p>"
+                }
+            },
+            {
+                "type": "infoBlock",
+                "infoBlock": [
+                    {
+                        "items": [
+                            {
+                                "title": "Underground & Train",
+                                "image": "/images/icons/tube.svg",
+                                "content": "<p>The nearest stations are:</p><ul> <li>Charing Cross – Network South East</li><li>Waterloo and Waterloo East – Bakerloo, Northern and Jubilee Lines</li><li>Covent Garden – Piccadilly Line</li><li>Temple – Circle & District Lines</li><li>Leicester Square – Piccadilly and Northern Lines </li><li>Charing Cross – Bakerloo, Norther and Jubilee Lines</li><li>Holborn – Piccadilly and Central Lines</li><li>Embankment – Bakerloo, Northern, and District & Circle Lines</li></ul>"
+                            },
+                            {
+                                "title": "Bus",
+                                "image": "/images/icons/bus.svg",
+                                "content": "<p>To reach the theatre by bus, use numbers 1, 6, 9, 11, 13, 15, 23, 68, 77A, 91, 176 or 341 with Leicester Square as the destination. The closest bus interchange for all London routes and night buses is Trafalgar Square.</p>"
+                            },
+                            {
+                                "title": "Parking",
+                                "image": "/images/icons/car.svg",
+                                "content": "<p>You can save 50% with Q-Park’s Theatreland Parking Scheme. <a href='https://www.q-park.co.uk/en-gb/theatreland/'>Click here for full details.</a></p><p>The nearest NCP car parks are on Parker Street, Museum Street, Holborn and the St. Martin’s Lane Hotel.</p>"
+                            },
+                            {
+                                "title": "Cycle",
+                                "image": "/images/icons/cycling.svg",
+                                "content": "<p>There is a self-hire bike docking station directly outside the theatre, provided by Transport for London. <a href='https://tfl.gov.uk/modes/cycling/santander-cycles'>Click here for details</a></p>"
+                            }
+                        ]
+                    }
+                ] 
+            },
             {
                 "type": "faqBlock",
                 "faqBlock": [
@@ -148,41 +185,6 @@
                         ]
                     }
                 ]
-            },
-            {
-                "type": "textBlockFullWidth",
-                "textBlockFullWidth": {
-                    "content": "<h1 class='h4 font-weight-bold'>How do I get there?</h1><p>Lyceum Theatre<br/>21 Wellington Street<br/>London WC2E 7RQ</p><p><a class='text-red font-weight-bold' href='https://www.google.co.uk/maps/place/Lyceum+Theatre/@51.5115994,-0.1221759,17z/data=!3m1!4b1!4m5!3m4!1s0x47d8ac8952747c71:0x65cbdd71dcb817f0!8m2!3d51.5115961!4d-0.1199872'>Click to check your route</a></p>"
-                }
-            },
-            {
-                "type": "infoBlock",
-                "infoBlock": [
-                    {
-                        "items": [
-                            {
-                                "title": "Underground & Train",
-                                "image": "/images/icons/tube.svg",
-                                "content": "<p>The nearest stations are:</p><ul> <li>Charing Cross – Network South East</li><li>Waterloo and Waterloo East – Bakerloo, Northern and Jubilee Lines</li><li>Covent Garden – Piccadilly Line</li><li>Temple – Circle & District Lines</li><li>Leicester Square – Piccadilly and Northern Lines </li><li>Charing Cross – Bakerloo, Norther and Jubilee Lines</li><li>Holborn – Piccadilly and Central Lines</li><li>Embankment – Bakerloo, Northern, and District & Circle Lines</li></ul>"
-                            },
-                            {
-                                "title": "Bus",
-                                "image": "/images/icons/bus.svg",
-                                "content": "<p>To reach the theatre by bus, use numbers 1, 6, 9, 11, 13, 15, 23, 68, 77A, 91, 176 or 341 with Leicester Square as the destination. The closest bus interchange for all London routes and night buses is Trafalgar Square.</p>"
-                            },
-                            {
-                                "title": "Parking",
-                                "image": "/images/icons/car.svg",
-                                "content": "<p>You can save 50% with Q-Park’s Theatreland Parking Scheme. <a href='https://www.q-park.co.uk/en-gb/theatreland/'>Click here for full details.</a></p><p>The nearest NCP car parks are on Parker Street, Museum Street, Holborn and the St. Martin’s Lane Hotel.</p>"
-                            },
-                            {
-                                "title": "Cycle",
-                                "image": "/images/icons/cycling.svg",
-                                "content": "<p>There is a self-hire bike docking station directly outside the theatre, provided by Transport for London. For details visit <a href='https://tfl.gov.uk/modes/cycling/santander-cycles'>https://tfl.gov.uk/modes/cycling/santander-cycles</a></p>"
-                            }
-                        ]
-                    }
-                ] 
             }
         ]
     },
@@ -208,18 +210,18 @@
                             },
                             {
                                 "question": "Are there facilities for people with visual impairments?",
-                                "answer": "<p>THE LION KING regularly schedules audio described performances for those with visual impairments in association with Vocal Eyes. Audio description in theatre is a live verbal commentary on the visual elements of a production, delivered as a performance unfolds, through a discreet headset.</p><p>The next 'Vocaleyes' audio described performances of THE LION KING will take place on Wednesday 20th March 2019 at 7:30pm.</p><p>Guide Dogs are welcome in the auditorium or can alternatively be left in the care of theatre staff. If you intend to bring a guide dog, please let your sales advisor know at the time of booking.</p><p>The Lyceum Theatre has a limited number of large print and Braille programmes available. Please contact the Front of House Manager in advance on 020 7420 8100 to request a copy.</p><p>A copy of THE LION KING script is available in braille and an appointment can be made to read it in the theatre by calling 020 7420 8100 in advance.</p>"
+                                "answer": "<p>THE LION KING regularly schedules audio described performances for those with visual impairments in association with Vocal Eyes. Audio description in theatre is a live verbal commentary on the visual elements of a production, delivered as a performance unfolds, through a discreet headset.</p><p>The next audio described performances of THE LION KING will take place on Wednesday 20th March 2019 at 7: 30pm./p><p>Guide Dogs are welcome in the auditorium or can alternatively be left in the care of theatre staff. If you intend to bring a guide dog, please let your sales advisor know at the time of booking.</p><p>The Lyceum Theatre has a limited number of large print and Braille programmes available. Please contact the Front of House Manager in advance on 020 7420 8100 (calls charged at local rate) to request a copy.</p><p>A copy of THE LION KING script is available in braille and an appointment can be made to read it in the theatre by calling 020 7420 8100 (calls charged at local rate) in advance.</p>"
                             },
                             {
                                 "question": "Are there facilities for people with hearing impairments?",
-                                "answer": "<p>THE LION KING regularly schedules sign-interpreted performances in association with Theatre Sign. Throughout the performance, a qualified theatre sign interpreter stands on the left of the stage and uses sign language to relay music and words to deaf and hearing impaired patrons, all of whom are seated within easy viewing distance of both the stage and interpreter.</p><p>The next 'Stagetext' captioned performance of THE LION KING will take place on Wednesday 27th March 2019 at 7:30pm.</p><p>The next 'Theatre Sign' signed performances will take place on Tuesday 30th April 2019 at 7:30pm. Please note, this performance will be on sale towards the end of 2018.</p><p>We regularly schedule captioned performances of THE LION KING in association with STAGETEXT. Captioning is a way of converting the spoken word into visible text that provides deaf, deafened and hard of hearing people with access to live performance.</p>"
+                                "answer": "<p>THE LION KING regularly schedules sign-interpreted performances in association with Theatre Sign. Throughout the performance, a qualified theatre sign interpreter stands on the left of the stage and uses sign language to relay music and words to deaf and hearing impaired patrons, all of whom are seated within easy viewing distance of both the stage and interpreter.</p><p>The next signed performances will take place on Tuesday 30th April 2019 at 7:30pm.</p><p>We regularly schedule captioned performances of THE LION KING in association with Stagetext. Captioning is a way of converting the spoken word into visible text that provides deaf, deafened and hard of hearing people with access to live performance.</p><p>The next captioned performance of THE LION KING will take place on Wednesday 27th March 2019 at 7:30pm.</p>"
                             },
                             {
                                 "question": "When is the next assisted performance?",
                                 "answer": "<p>The next ‘Stagetext’ captioned performance of THE LION KING will take place on Wednesday 27th March 2019 at 7:30pm.</p><br><p>The next ‘Vocaleyes’ audio described performances of THE LION KING will take place on Wednesday 20th March 2019 at 7:30pm. </p><br><p>The next ‘Theatre Sign’ signed performances will take place on Tuesday 30th April 2019 at 7:30pm. Please note, this performance will be on sale towards the end of 2018.</p><br><p>It is advisable to book for these performances well in advance as tickets are subject to availability.</p>"
                             },
                             {
-                                "question": "How do i book access concessions?",
+                                "question": "How do I book access concessions?",
                                 "answer": "<p>Disabled, deaf and visually impaired concessions can either be booked over the phone on 0800 912 6972, in person at the Box Office, or by emailing <a href='mailto:Lyceumboxoffice@theambassadors.com'>Lyceumboxoffice@theambassadors.com</a>. Concessions are subject to availability.</p>"
                             },
                             {
@@ -276,6 +278,7 @@
         "siteId": "bristol", 
         "template": "home-template",
         "path": "/bristol/",
+        "displayBookNow": false,
         "title": "Home",
         "metaDescription": "",
         "headerImage": "../images/headers/header-bristol-1600px.jpg",
@@ -295,6 +298,7 @@
         "inFooter": true,
         "template": "about-template",
         "path": "/bristol/about-the-show/",
+        "displayBookNow": false,
         "title": "About the Show",
         "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
         "headerImage": "../images/headers/header-bristol-1600px.jpg",
@@ -324,6 +328,7 @@
         "siteId": "bristol",
         "template": "default-template",
         "path": "/bristol/terms-and-conditions/",
+        "displayBookNow": false,
         "title": "Terms and Conditions",
         "metaDescription": "",
         "headerImage": "../images/headers/header-bristol-1600px.jpg",
@@ -349,6 +354,7 @@
         "siteId": "edinburgh", 
         "template": "home-template",
         "path": "/edinburgh/",
+        "displayBookNow": false,
         "title": "Home",
         "metaDescription": "",
         "headerImage": "../images/headers/header-edinburgh-1600px.jpg",
@@ -368,6 +374,7 @@
         "inFooter": true,
         "template": "about-template",
         "path": "/edinburgh/about-the-show/",
+        "displayBookNow": false,
         "title": "About the Show",
         "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
         "headerImage": "../images/headers/header-edinburgh-1600px.jpg",
@@ -397,6 +404,7 @@
         "siteId": "edinburgh",
         "template": "default-template",
         "path": "/edinburgh/terms-and-conditions/",
+        "displayBookNow": false,
         "title": "Terms and Conditions",
         "metaDescription": "",
         "headerImage": "../images/headers/header-edinburgh-1600px.jpg",

@@ -59,7 +59,7 @@ const BookingInfoBlocks = (props) => (
 
                             // loop sites and create link
                             return (
-                                <Container key={i} className="booking-info">
+                                <Container key={i} className="booking-info" id="book-now">
                                     <Row>
                                         <IntroText data={node.introText} />
                                         <BookOnline data={node.online} />

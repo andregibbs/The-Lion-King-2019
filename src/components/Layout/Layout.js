@@ -14,7 +14,7 @@ class Layout extends Component {
 		if (window.location.pathname !== '/interstitial/') {
 
 			// Grab all links
-			const links = document.getElementsByTagName('a');
+			const links = document.getElementById('site-wrap').getElementsByTagName('a');
 
 			// Loop links
 			Array.prototype.forEach.call(links, link => {
@@ -75,16 +75,17 @@ class Layout extends Component {
 					description={metaDescription}
 					keywords={[`The Lion King`, `Disney`, `Musical`]} 
 				/>
-				{displayHeader === true &&
-					<Header data={this.props.data} />
-				}
-				<h1 className="text-center pt-3 pt-md-4">{this.props.data.title}</h1>
-				{this.props.children}
-				{displayFooter === true &&
-					<Footer 
-						siteId={siteId}
-						displayFooterFindOutMore={displayFooterFindOutMore} />
-				}
+				<div id="site-wrap">
+					{displayHeader === true &&
+						<Header data={this.props.data} />
+					}
+					{this.props.children}
+					{displayFooter === true &&
+						<Footer
+							siteId={siteId}
+							displayFooterFindOutMore={displayFooterFindOutMore} />
+					}
+				</div>
 			</>
 		)
 	}

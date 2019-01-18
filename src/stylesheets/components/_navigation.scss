@@ -9,6 +9,14 @@
 		display: block;
 		width: 100%;
 		text-align: center;
+
+		@include media-breakpoint-up(md) {
+			text-align: left;
+		}
+
+		@include media-breakpoint-up(xl) {
+			text-align: center;
+		}
 	}
 
 	.nav-item {
@@ -45,14 +53,30 @@
 		}
 	}
 
+	&-book {
+		position: absolute;
+		right: 0;
+		top: 0;
+
+		@include media-breakpoint-up(lg) {
+			top: 50%;
+			right: $spacer;
+			transform: translateY(-50%);
+		}
+	}
+
 	.navbar-toggler {
 		position: relative;
-		left: 50%;
-		transform: translateX(-50%);
+		left: 0;
 		border-color: $tlk-light-grey;
 		border-radius: 0;
 		width: 50px;
 		padding: $spacer / 1.5;
+
+		@include media-breakpoint-up(md) {
+			left: 50%;
+			transform: translateX(-50%);	
+		}
 
 		span {
 			display: block;
@@ -62,7 +86,6 @@
 			background-color: $black;
 		}
 	}
-
 
 	.dropdown {
 		padding-right: $spacer / 2;

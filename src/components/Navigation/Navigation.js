@@ -28,11 +28,11 @@ class Navigation extends Component {
     
     render() {
 
-        const { siteId } = this.props
+        const { siteId, displayBookNow } = this.props.data
 
         return (
-            <div className="m-nav-outer">
-                <Navbar expand="md" className="m-nav">
+            <div className="m-nav-outer pb-5">
+                <Navbar expand="lg" className="m-nav py-1">
                     <button type="button" className="navbar-toggler" onClick={this.toggleNav} aria-haspopup="true" aria-expanded="false">
                         <span></span>
                         <span></span>
@@ -45,6 +45,9 @@ class Navigation extends Component {
                             <CityLinks />
                         </Nav>
                     </Collapse>
+                    {displayBookNow !== false &&
+                        <BookNowLink />
+                    }
                 </Navbar>
             </div>
         )
@@ -52,3 +55,25 @@ class Navigation extends Component {
 }
 
 export default Navigation
+
+class BookNowLink extends Component {
+
+    constructor(props) {
+        super(props)
+    }
+
+    scrollTo() {
+        const bookNowDiv = document.getElementById("book-now")
+        window.scrollTo({
+            top: bookNowDiv.offsetTop,
+            behavior: "smooth" 
+        })
+    }
+
+    render () {
+        return (
+            <button className="btn btn--red m-nav-book" onClick={this.scrollTo}>Book Now</button>
+        )
+    }
+
+}

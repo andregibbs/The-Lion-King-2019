@@ -36,13 +36,13 @@ const LinkToDisplay = (props) => {
         if (node.siteId === props.siteId && node.inFooter !== null) {
             return (
                 <Row key={i} className="mt-3">
-                    <Col md={6}>
-                        <Link to={node.path} className="btn btn--red btn--block btn--large">
+                    <Col lg={6}>
+                        <Link to={node.path} className="btn btn--red btn--block btn--large btn--300">
                             <span>Find out more</span>
                         </Link>
                     </Col>
-                    <Col md={6} className="mt-2 mt-md-0">
-                        <Link to={node.path} className="btn btn--red btn--block btn--large">
+                    <Col lg={6} className="mt-2 mt-lg-0">
+                        <Link to={node.path} className="btn btn--red btn--block btn--large btn--300">
                             <span>Watch trailer</span>
                         </Link>
                     </Col>

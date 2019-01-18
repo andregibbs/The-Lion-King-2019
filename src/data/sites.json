@@ -1,17 +1,17 @@
 [
     {
         "id": "london",
-        "path": "/london",
+        "path": "/london/",
         "title": "London"
     },
     {
         "id": "bristol",
-        "path": "/bristol",
+        "path": "/bristol/",
         "title": "Bristol"
     },
     {
         "id": "edinburgh",
-        "path": "/edinburgh",
+        "path": "/edinburgh/",
         "title": "Edinburgh"
     }
 ]

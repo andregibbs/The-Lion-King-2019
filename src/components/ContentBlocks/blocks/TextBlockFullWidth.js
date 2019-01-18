@@ -10,7 +10,7 @@ class TextBlockFullWidth extends Component {
         return (
             <Container className={`${textCenter !== false ? 'text-center' : ''}`}>
                 <Row>
-                    <Col className="py-5">
+                    <Col className="pb-5">
                         <div dangerouslySetInnerHTML={{ __html: content }} />
                     </Col>
                 </Row>
