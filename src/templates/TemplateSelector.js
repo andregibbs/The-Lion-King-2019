@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import HomeTemplate from './HomeTemplate';
 import CastCreativeTemplate from './CastCreativeTemplate';
 import AboutTemplate from './AboutTemplate';
+import HouseSeatsTemplate from './HouseSeatsTemplate';
 import DefaultTemplate from "./DefaultTemplate";
 
 class TemplateSelector extends Component {
@@ -19,6 +20,8 @@ class TemplateSelector extends Component {
                 return <AboutTemplate data={data} />
             case "cast-template":
                 return <CastCreativeTemplate data={data} />
+            case "houseseats-template":
+                return <HouseSeatsTemplate data={data} />
             case "default-template": 
                 return <DefaultTemplate data={data} />
             default:
@@ -41,6 +44,7 @@ query($id: String!) {
         metaDescription
         path
         displayBookNow
+        displayNav
         headerImage {
             childImageSharp  {
                 fluid(maxWidth: 1600, quality: 95) {

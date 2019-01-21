@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import { loadReCaptcha } from 'react-recaptcha-v3'
 import SEO from 'components/seo'
 import Header from 'components/Header/Header'
 import Footer from 'components/Footer/Footer'
@@ -56,13 +57,14 @@ class Layout extends Component {
 
 	componentDidMount() {
 		this.interstitialCheck()
+		loadReCaptcha('6LdlgosUAAAAADpaW2rDi4FDOaIP5eyLx1lFoz14')
 	}
 
 	render() {
 
 		const { 
-			displayHeader, 
-			displayFooter, 
+			displayHeader,
+			displayFooter,
 			displayFooterFindOutMore
 		} = this.props
 
@@ -99,6 +101,7 @@ Layout.defaultProps = {
 	data: {
 		headerImage: false,
 		headerImageMobile: false,
+		displayNav: true,
 		title: "Get Tickets for The Lion King from the Official Disney Website"
 	},
 	displayHeader: true,

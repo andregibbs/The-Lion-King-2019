@@ -30,6 +30,19 @@ class CustomCollapse extends Component {
                 activeId: id,
                 contentHeight: height
             });
+            
+
+            const collapseItem = document.getElementById(`collapse${id}`)
+            const navHeight = document.querySelector('.m-nav').offsetHeight;
+
+            // Wait for previous to close, the scrol to
+            setTimeout(() => {
+                window.scrollTo({
+                    top: collapseItem.offsetTop - navHeight,
+                    behavior: "smooth"
+                })
+            }, 500);
+
         }
 
     }
@@ -61,7 +74,6 @@ class CustomCollapse extends Component {
 export default CustomCollapse
 
 class CustomCollapseItem extends Component {
-
     render() {
         return (
             <div
@@ -78,7 +90,9 @@ class CustomCollapseItem extends Component {
                 </div>
                 <div
                     className="c-collapse__item-content"
-                    style={{ height: this.props.contentHeight + "px" }}>
+                    style={{ height: this.props.contentHeight + "px" }}
+                    id={`collapse${this.props.id}`}
+                    >
                     <div className="c-collapse__item-content-inner">
                         <div className="c-collapse__item-content-inner-bg" dangerouslySetInnerHTML={{ __html: this.props.data.bio }} />
                         <button className="c-collapse__item-content-close" onClick={(e) => this.props.clickHandler(e, this.props.id)}>

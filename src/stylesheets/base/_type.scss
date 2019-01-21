@@ -41,3 +41,11 @@ strong {
     font-family: 'Proxima Nova W01';
     font-weight: $font-weight-bold;
 }
+
+.font-special {
+    font-family: $special-font !important;
+    letter-spacing: 2px;
+    &--spacing {
+        letter-spacing: 4px;
+    }
+}

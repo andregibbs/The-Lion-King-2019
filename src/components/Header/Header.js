@@ -6,7 +6,7 @@ import Navigation from 'components/Navigation/Navigation'
 class Header extends Component {
 	render() {
 
-		const { headerImage, headerImageMobile } = this.props.data
+		const { headerImage, headerImageMobile, displayNav } = this.props.data
 
 		return (
 			<>
@@ -26,7 +26,9 @@ class Header extends Component {
 						}
 					</Container>
 				</header>
-				<Navigation data={this.props.data} />
+				{displayNav !== false && 
+					<Navigation data={this.props.data} />
+				}
 			</>
 		)
 	}

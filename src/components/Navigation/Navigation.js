@@ -58,10 +58,6 @@ export default Navigation
 
 class BookNowLink extends Component {
 
-    constructor(props) {
-        super(props)
-    }
-
     scrollTo() {
         const bookNowDiv = document.getElementById("book-now")
         window.scrollTo({
