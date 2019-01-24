@@ -18,6 +18,7 @@ import {
 import fetchWithTimeout from 'js/fetchWithTimeout'
 
 import CalendarToolbar from './CalendarToolbar';
+import CalendarEvent from './CalendarEvent';
 import CalendarOverlay from './CalendarOverlay';
 import "react-big-calendar/lib/css/react-big-calendar.css";
 const localizer = BigCalendar.momentLocalizer(moment) 
@@ -75,37 +76,6 @@ class HouseSeatsForm extends Component {
 
         // Set new events
         this.getEvents()
-
-        // const events = [
-        //     {
-        //         title: "2:30pm",
-        //         start: "2019-01-22 14:30",
-        //         end: "2019-01-22 14:30",
-        //         resource: "matinee"
-        //     },
-        //     {
-        //         title: "7:30pm",
-        //         start: "2019-01-22 19:30",
-        //         end: "2019-01-22 19:30",
-        //         resource: "evening"
-        //     },
-        //     {
-        //         title: "7:30pm",
-        //         start: "2019-01-23 19:30",
-        //         end: "2019-01-23 19:30",
-        //         resource: "evening"
-        //     },
-        //     {
-        //         title: "7:30pm",
-        //         start: "2019-01-24 19:30",
-        //         end: "2019-01-24 19:30",
-        //         resource: "evening"
-        //     }
-        // ]
-
-        // console.log(events)
-        // console.log(wpevents)
-
     }
 
     getEvents() {
@@ -126,8 +96,8 @@ class HouseSeatsForm extends Component {
                 // Create new object ready for calendar
                 if (res) {
                     res.acf.dates.forEach((event, i) => {
-                        const title = event.time == "evening" ? "7:30pm" : "2:30pm"
-                        const time = event.time == "evening" ? "19:30" : "14:30"
+                        const title = event.time === "evening" ? "7:30pm" : "2:30pm"
+                        const time = event.time === "evening" ? "19:30" : "14:30"
                         const date = event.date
                         events.push({
                             title: title,
@@ -136,6 +106,10 @@ class HouseSeatsForm extends Component {
                             resource: event.time
                         })
                     })
+
+                    this.setState({
+                        events
+                    })
                 }
             })
             .catch((error) => {
@@ -143,9 +117,6 @@ class HouseSeatsForm extends Component {
                 // handle errors and timeout error
             });
 
-        this.setState({
-            events
-        })
     }
 
     onGoogleVerify(response) {
@@ -320,7 +291,10 @@ class HouseSeatsForm extends Component {
                             week: false,
                             agenda: false
                         }}
-                        components={{toolbar: CalendarToolbar}}
+                        components={{
+                            toolbar: CalendarToolbar,
+                            event: CalendarEvent
+                        }}
                     />
                     {this.state.calendarOverlay &&
                         <CalendarOverlay
@@ -458,10 +432,10 @@ class HouseSeatsForm extends Component {
                                 <option value="3">3</option>
                                 <option value="4">4</option>
                             </Input>
+                            <FormFeedback>
+                                The number of tickets are required
+                            </FormFeedback>
                         </div>
-                        <FormFeedback>
-                            The number of tickets are required
-                        </FormFeedback>
                     </FormGroup>
                     <FormGroup>
                         <Label for="notes">Additional notes</Label>
@@ -478,11 +452,11 @@ class HouseSeatsForm extends Component {
 
                     <Button className="btn--red">Submit</Button>
                 </Form>
-                {/* <ReCaptcha
+                <ReCaptcha
                     sitekey='6LdlgosUAAAAADpaW2rDi4FDOaIP5eyLx1lFoz14'
                     action='action_name'
                     verifyCallback={this.onGoogleVerify}
-                /> */}
+                />
             </>
         )
     }

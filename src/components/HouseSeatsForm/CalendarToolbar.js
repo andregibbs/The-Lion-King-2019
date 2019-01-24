@@ -2,12 +2,6 @@ import React from 'react'
 import Toolbar from 'react-big-calendar/lib/Toolbar'
 
 class CalendarToolbar extends Toolbar {
-
-    componentDidMount() {
-        // const view = this.props.view;
-        // console.log(view)
-    }
-
     render() {
         return (
             <div>

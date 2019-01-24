@@ -4,6 +4,7 @@ import HomeTemplate from './HomeTemplate';
 import CastCreativeTemplate from './CastCreativeTemplate';
 import AboutTemplate from './AboutTemplate';
 import HouseSeatsTemplate from './HouseSeatsTemplate';
+import RegisterTemplate from './RegisterTemplate';
 import DefaultTemplate from "./DefaultTemplate";
 
 class TemplateSelector extends Component {
@@ -22,6 +23,8 @@ class TemplateSelector extends Component {
                 return <CastCreativeTemplate data={data} />
             case "houseseats-template":
                 return <HouseSeatsTemplate data={data} />
+            case "register-template":
+                return <RegisterTemplate data={data} />
             case "default-template": 
                 return <DefaultTemplate data={data} />
             default:
@@ -62,6 +65,7 @@ query($id: String!) {
 
         contentBlocks {
             type
+
             bgImageTextBlock {
                 imgDesktop {
                     childImageSharp  {
@@ -81,10 +85,14 @@ query($id: String!) {
                 text
                 links
             }
+
             twoColumnBlock {
                 bgColour
                 containerBgColour
                 paddingTop
+                topContent {
+                    content
+                }
                 column1 {
                     content
                 }
@@ -92,6 +100,7 @@ query($id: String!) {
                     content
                 }
             }
+
             thinTwoColumnBlock {
                 column1 {
                     content
@@ -100,9 +109,13 @@ query($id: String!) {
                     content
                 }
             }
+
             textBlockFullWidth {
+                textCenter
+                fluidContainer
                 content
             }
+
             faqBlock {
                 title
                 items {
@@ -110,6 +123,7 @@ query($id: String!) {
                     answer
                 }
             }
+
             infoBlock {
                 items {
                     title

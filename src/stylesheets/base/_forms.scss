@@ -12,12 +12,12 @@ select.form-control {
         @extend .custom-icon;
         content: "\69";
         font-size: $font-size-lg * 1.25;
-        height: 100%;
+        height: 36px;
         width: 50px;
         background-color: $tlk-grey;
         position: absolute;
-        right: 0;
-        top: 0;
+        right: 1px;
+        top: 1px;
         pointer-events: none;
         display: flex;
         align-items: center;

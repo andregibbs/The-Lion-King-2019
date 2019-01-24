@@ -5,13 +5,17 @@ class TwoColumnBlock extends Component {
 
     render() {
 
-        const { column1, column2, paddingTop } = this.props.data
+        const { topContent, column1, column2, paddingTop } = this.props.data
 
         let bgColour, containerBgColour = ""
         let padding = "p-3 p-md-5";
 
+        if (topContent !== null) {
+            padding = "p-3 pl-md-5 pr-md-5 pb-md-5";
+        }
+
         if (paddingTop !== null && paddingTop === false) {
-            padding = "pb-3 pl-3 pr-3 pb-md-5 pl-md-5 pr-md-5"
+            padding = "pb-3 pb-md-5 pl-3 pr-3 pl-md-5 pr-md-5"
         }
 
         if (this.props.data.bgColour !== null) {
@@ -24,11 +28,14 @@ class TwoColumnBlock extends Component {
 
         return (
             <Container fluid className={containerBgColour}>
+                {topContent !== null &&
+                    <div className="pl-3 pr-3 pt-3 pl-md-5 pr-md-5 pt-md-5" dangerouslySetInnerHTML={{ __html: topContent.content }} />
+                }
                 <Row className="justify-content-center">
-                    <Col lg={6} className="py-3">
+                    <Col lg={6} className={`${topContent !== null ? '' : 'py-3' }`}>
                         <div className={`${bgColour} ${padding}`} dangerouslySetInnerHTML={{ __html: column1.content }} />
                     </Col>
-                    <Col lg={6} className="py-3">
+                    <Col lg={6} className={`${topContent !== null ? '' : 'py-3'}`}>
                         <div className={`${bgColour} ${padding}`} dangerouslySetInnerHTML={{ __html: column2.content }} />
                     </Col>
                 </Row>

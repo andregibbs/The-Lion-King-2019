@@ -1,4 +1,4 @@
-// Backgrounds
+  // Backgrounds
 
 .bg-light-grey {
     background-color: $tlk-light-grey;
@@ -8,9 +8,8 @@
     border-color: $black;
 }
 
-// Iframe
-
-.iframe-title {
+// Black bg title
+.sub-black-title {
     background-color: $black;
     color: $white;
     font-size: $font-size-lg;
@@ -19,6 +18,14 @@
 
     @include media-breakpoint-up(md) {
         padding: 0 $spacer * 2 $spacer * 2;
+    }
+
+    a {
+        color: $white;
+        text-decoration: underline;
+        &:hover {
+            color: $white;
+        }
     }
 
     &:after {

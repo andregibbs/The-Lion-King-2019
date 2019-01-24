@@ -9,9 +9,140 @@
         "displayBookNow": false,
         "displayNav": false,
         "metaDescription": "",
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg"
+        "headerImage": "../images/headers/header-houseseats-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-houseseats-576px.jpg"
     },
+
+    {
+        "id": "adultAuditions",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/auditions/",
+        "title": "Adult auditions",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-auditions-adult-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-auditions-adult-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Adult Auditions</h1><p class='text-lg'>This site includes information that outlines what we look for in performers so people can assess their suitability for the show, and to help them prepare for auditions.</p><p class='text-lg'>We would like to invite actors, dancers and singers from all backgrounds/ethnic groups to audition to be part of THE LION KING family. Although preferable, no previous training is required and you don't need to have an agent.</p>"
+                    },
+                    "column2": {
+                        "content": "<a href='/auditions/children/'><img src='//placehold.it/900x400' alt='' /></a><div class='sub-black-title'><h4>Childrens Auditions</h4><a href='/auditions/children/'>Find out more about child auditions</a></div>"
+                    }
+                }
+            },
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "containerBgColour": "light-grey",
+                    "bgColour": "white",
+                    "column1": {
+                        "content": "<h4 class='text-red'>London</h4><p>The next Open Auditions for the London production of THE LION KING will be held in November 2019.</p><p><a href='/auditions/register/' class='btn btn--red btn--300'>Adult registration form</a></p><p>For all other casting enquiries, please email Pippa Ailion.</p><a href='mailto:enquiries@pippaailioncasting.co.uk' class='btn btn--red btn--300'>Email us</a>"
+                    },
+                    "column2": {
+                        "content": "<h4 class='text-red'>UK & Ireland Tour</h4><p>The next Open Auditions for the UK Touring production of THE LION KING will be held in January 2020.</p><p><a href='/auditions/register/' class='btn btn--red btn--300'>Adult registration form</a></p><p>For all other casting enquiries, please email Jill Green.</p><a href='mailto:office@jillgreencasting.org' class='btn btn--red btn--300'>Email us</a>"
+                    }
+                }
+            },
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "containerBgColour": "light-grey",
+                    "topContent": {
+                        "content": "<h3 class='text-red'>What to prepare for the auditions</h3>"
+                    },
+                    "column1": {
+                        "content": "<p class='text-red text-lg'><strong>Singers</strong></p><p>Performers need to prepare a contemporary rock, pop or gospel song and are asked to bring along sheet music for their song, written in the appropriate key; and presented in a manageable way for the pianist. Backing tapes are not permitted.</p><p>Performers should arrive early and make sure that they have warmed up vocally prior to their audition.</p>"
+                    },
+                    "column2": {
+                        "content": "<p class='text-red text-lg'><strong>Dancers</strong></p><p>Dancers do not need to prepare a dance routine for the audition. Dancers should arrive early for the audition in order to do their own physical warm up. Comfortable clothing that does not hide the dancer's physique should be worn. Flat jazz shoes or bare feet are suggested. Men are encouraged to bring trainers and women should bring pointe shoes, if they have them. Dancers should have a contemporary rock or pop song, with sheet music prepared in case they are short-listed.</p>"
+                    }
+                }
+            },
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "textCenter": false,
+                    "fluidContainer": true,
+                    "content": "<h4 class='text-red pb-3'>Learn more about the audition process</h4><p class='text-red text-lg'><strong>Singers & Actors</strong></p><p>Auditions for singers and actors take place in three stages: Initial Auditions, Call-backs & Coaching and Final Auditions with the International Creative Team.</p><p><strong>1. Initial Auditions</strong></p><p>Auditions are advertised in newspapers, online, via agents and contact lists.</p><p>Auditionees are requested to come to the auditions with a contemporary rock, pop or gospel song prepared. A pianist is provided. Clear and well-laid out sheet music is required; and in the correct key for the singer. No backing tapes.</p><p>The auditionee will be given a set time to audition by the audition coordinator. At the audition the singer may be asked to sing only 16 bars (eg. verse and chorus) of the song they have prepared.</p> <p> The Casting Director and Casting Coordinator are present at these auditions.</p><p><strong>2. Call-backs and Coaching</strong></p><p> Due to large-scale logistics we are unable to contact everyone who auditions. Should you be successful at the initial audition, you will be contacted by the Casting Department and sent material from the show to prepare for the next audition.</p> <p> The material is usually a song and an acting piece for a particular character from THE LION KING. After the call-back audition the Casting Director will give feedback and may work on the acting piece with the auditionee. If the Music Director is present, there may also be some coaching on the song.</p> <p> The Casting Director, Casting Coordinator, Music Director and the Resident Director may be present at these auditions.</p><p>There may be additional coaching sessions before the finals.</p> <p><strong>3. Final Auditions</strong></p><p>Successful performers will be short-listed to audition for the International Creative Team.</p> <p> The materials for this final audition will be the material prepared from the show and also a contemporary rock or pop song (not a cappella).</p><hr class='hr-black my-5'><p class='text-red text-lg'><strong>Dancers</strong></p><p>Dance auditions usually take place in two major phases: initial auditions and then call-backs to the International Creative Team.</p> <p><strong>1. Initial Auditions</strong></p><p> Auditions are advertised in newspapers, online, via agents and contact lists.</p><p>At the initial audition dancers may be seen on separate women's or men's days, or at mixed sessions. All dancers arrive at the beginning of auditions to register and are then auditioned during the day.</p><p> A short dance sequence adapted from THE LION KING is taught to the dancers by the Resident Dance Supervisor or Dance Captains. Dancers are assessed on their versatility and technique. At the end of each session unsuccessful dancers are notified and the successful dancers are asked to continue with the next session or asked to come back later in the day. By the end of the audition day the short-listed dancers remain. They may be asked to do another sequence from the show and sing for the Music Director.</p><p><strong>2. Call-backs</strong></p><p> Short-listed dancers are notified of their call-back to dance for the International Creative Team. These auditions follow much the same pattern as the initial auditions. At the end of this audition day male and female dancers are brought together for a final audition for evaluation by the international creative team.</p>"
+                }
+            }
+        ]
+    },
+    {
+        "id": "adultAuditionsRegister",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "register-template",
+        "path": "/auditions/register/",
+        "title": "Adult auditions registration form",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-auditions-adult-register-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-auditions-adult-register-576px.jpg"
+    },
+    {
+        "id": "childrenAuditions",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/auditions/children/",
+        "title": "Children auditions",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-auditions-children-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-auditions-children-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Children Auditions</h1><p class='text-lg'>In the stage version of THE LION KING there are two children’s roles: Young Simba and Young Nala. These characters are brace, athletic and energetic lion cubs</p>"
+                    },
+                    "column2": {
+                        "content": "<a href='/auditions/'><img src='//placehold.it/900x400' alt='' /></a><div class='sub-black-title'><h4>Adult Auditions</h4><a href='/auditions/'>Find out more about adult auditions</a></div>"
+                    }
+                }
+            },
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "containerBgColour": "light-grey",
+                    "bgColour": "white",
+                    "column1": {
+                        "content": "<h4 class='text-red'>London</h4><p>We are always looking for children aged 8-11 to join our Cub School training programme, which will teach young performers skills in acting, movement and singing to later audition to potentially play these roles professionally in the West End. </p><p> Whilst winning a place in Cub School does not guarantee a part in the stage musical, it has proven to be excellent training for young people with the ambition to work on stage.</p><p> Applications for The Lion King Cub School are ongoing, and auditions are held twice a year. The next auditions will take place in March 2019.</p><p> Applicants for Cub School must be between ages 8 and 11 and below 140cm (4’6”) in height.</p><p> Please complete the form to register</p><a href='/auditions/children/register/' class='btn btn--red'>Children registration form</a>"
+                    },
+                    "column2": {
+                        "content": "<h4 class='text-red'>UK & Ireland Tour</h4><p>For all casting enquiries relating to the upcoming UK Touring production of The Lion King, please email Jo Hawes.</p><a href='joanne.hawes2013@gmail.com' class='btn btn--red btn--300'>Email us</a>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "childrenAuditionsRegister",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "register-template",
+        "path": "/auditions/children/register/",
+        "title": "Children auditions registration form",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-auditions-children-register-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-auditions-children-register-576px.jpg"
+    },
+
     {
         "id": "londonHome",
         "siteId": "london",
@@ -247,11 +378,11 @@
                             },
                             {
                                 "question": "Does THE LION KING schedule relaxed performances?",
-                                "answer": "<p>The Lion King will host a Relaxed Performance in June 2019. <a href='/relaxedperformances/' target='_blank' rel='noopener noreferrer'>Click here for more information</a>.</p>"
+                                "answer": "<p>The Lion King will host a Relaxed Performance in June 2019. <a href='/london/relaxedperformances/'>Click here for more information</a>.</p>"
                             },
                             {
                                 "question": "Are there any resources available to help prepare for my visit?",
-                                "answer": "<p>Watch the video visual story below to learn what you will experience when you arrive at the Lyceum Theatre.</p><br><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_tj96c8vr&flashvars[localizationCode]=en&amp;&wid=1_jh8cwwtm' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><br><p>You can also download a PDF copy of the Lyceum Theatre visual story <a href='/relaxedperformances/pdf/The_Lion_King_Visual_Story.pdf' target='_blank' rel='noopener noreferrer'>here</a>.</p>"
+                                "answer": "<p>Watch the video visual story below to learn what you will experience when you arrive at the Lyceum Theatre.</p><br><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_tj96c8vr&flashvars[localizationCode]=en&amp;&wid=1_jh8cwwtm' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><br><p>You can also download a PDF copy of the Lyceum Theatre visual story <a href='/docs/pdf/The_Lion_King_Visual_Story.pdf' target='_blank' rel='noopener noreferrer'>here</a>.</p>"
                             }
                         ]
                     }
@@ -269,8 +400,8 @@
         "title": "Relaxed Performances",
         "displayBookNow": true,
         "metaDescription": "",
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "headerImage": "../images/headers/header-autism-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-autism-576px.jpg",
         "contentBlocks": [
             {
                 "type": "twoColumnBlock",
@@ -280,7 +411,7 @@
                         "content": "<h1 class='text-red h3'>Autism-Friendly Relaxed Performances</h1><p class='text-lg'>Book now to attend the next Autism-Friendly Relaxed Performance on Sunday 2nd June 2019.</p><p>THE LION KING is committed to creating a friendly and inclusive audience experience at the Lyceum Theatre, London and is delighted to present its sixth Autism-Friendly Relaxed Performance at 1.30pm on Sunday 2nd June.</p><p>Autism-Friendly Relaxed Performances are specially adapted to be accessible to a wide range of audiences such as those with Autism, those with a learning disability, or anyone with sensory disposition. There are extra trained staff on hand, and dedicated quiet areas inside the theatre should anyone need to leave their seat.</p><p>Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p><a href='https://secure1.atgtickets.com/WEBPAGES/EntaWebHTMLSeatPlan/HTMLSeatPlan.aspx' class='btn btn--red btn--300'>Book now</a>"
                     },
                     "column2": {
-                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-5'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_efumgbui&flashvars[localizationCode]=en&amp;&wid=1_a3tmw6hy' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='iframe-title'>Hear about one family's experience at an<br/> autism-friendly performance</div>"
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-5'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_efumgbui&flashvars[localizationCode]=en&amp;&wid=1_a3tmw6hy' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>Hear about one family's experience at an<br/> autism-friendly performance</div>"
                     }
                 }
             },
@@ -292,7 +423,7 @@
                         "content": "<h4 class='text-red'>Visual Story</h4><p>Our 'Visual Story' will guide you step-by-step through your visit to the Lyceum Theatre to see The Lion King.</p><a href='https://www.youtube.com/watch?v=y1YcpkEBXJE&index=17&list=PL59A1A57EF510F502' class='btn btn--red'>Watch film</a><a href='/docs/pdf/The_Lion_King_Visual_Story.pdf' class='btn btn--red ml-2 no-interstitial-check' target='_blank'>Download PDF</a><h4 class='text-red pt-3'>“Hakuna Matata on a Sunday Afternoon”</h4><p>Read a moving account of the 2013 performance at The Lyceum by Lizi Jackson from her blog Through Accepting Limits.</p><a href='https://throughacceptinglimits.com/2013/04/15/hakuna-matata-on-a-sunday-afternoon/' class='btn btn--red'>Read blog</a>"
                     },
                     "column2": {
-                        "content": "<h4 class='text-red'>Autism Friendly Award</h4><p>In 2018 The National Autistic Society awarded Disney’s THE LION KING and the Lyceum Theatre an Autism-Friendly Award.</p><p>The award demonstrates our commitment to making the theatre experience welcoming to autistic pple and their families at every stage, with clear information available before and during your visit, trained members of staff across the theatre teams, and a commitment to raising awareness of autism among the general public.</p><a href='' class='btn btn--red'>Find out more</a>"
+                        "content": "<h4 class='text-red'>Autism Friendly Award</h4><p>In 2018 The National Autistic Society awarded Disney’s THE LION KING and the Lyceum Theatre an Autism-Friendly Award.</p><p>The award demonstrates our commitment to making the theatre experience welcoming to autistic pple and their families at every stage, with clear information available before and during your visit, trained members of staff across the theatre teams, and a commitment to raising awareness of autism among the general public.</p>"
                     }
                 }
             }

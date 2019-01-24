@@ -94,21 +94,22 @@
 .rbc-event {
     border-radius: 0 !important;
     display: block;
-    background-color: $tlk-red !important;
     font-weight: $font-weight-bold;
-    padding: 0;
+    padding: 0 !important;
+}
 
+.event-matinee,
+.event-evening {
+    background-color: $tlk-red;
     @include media-breakpoint-up(md) {
         padding-top: 7px !important;
         padding-bottom: 7px !important;
     }
 }
 
-.rbc-row:nth-child(3) {
-    .rbc-event {
-        background-color: $tlk-yellow !important;
-        color: $black !important;
-    }
+.event-evening {
+    background-color: $tlk-yellow;
+    color: $black;
 }
 
 .rbc-event-content {

@@ -7,11 +7,6 @@ import {
 } from 'reactstrap'
 
 class CalendarToolbar extends Component {
-
-    constructor(props) {
-        super(props)
-    }
-
     render() {
 
         const { 

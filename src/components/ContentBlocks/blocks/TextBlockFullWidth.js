@@ -5,15 +5,19 @@ class TextBlockFullWidth extends Component {
 
     render() {
 
-        const { content, textCenter } = this.props.data
+        const { fluidContainer, content, textCenter } = this.props.data
 
         return (
-            <Container className={`${textCenter !== false ? 'text-center' : ''}`}>
-                <Row>
-                    <Col className="pb-5">
-                        <div dangerouslySetInnerHTML={{ __html: content }} />
-                    </Col>
-                </Row>
+            <Container 
+                fluid={fluidContainer !== null && fluidContainer === true ? true : false }
+                className={`${textCenter !== false ? 'text-center' : ''}`}>
+                <div className={`${fluidContainer !== null && fluidContainer === true ? 'p-3 p-md-5' : ''}`}>
+                    <Row>
+                        <Col className="pb-5">
+                            <div dangerouslySetInnerHTML={{ __html: content }} />
+                        </Col>
+                    </Row>
+                </div>
             </Container>
         )
 
