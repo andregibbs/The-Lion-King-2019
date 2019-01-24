@@ -31,7 +31,7 @@ class Navigation extends Component {
         const { siteId, displayBookNow } = this.props.data
 
         return (
-            <div className="m-nav-outer pb-5">
+            <div className="m-nav-outer pb-3 pb-md-5">
                 <Navbar expand="lg" className="m-nav py-1">
                     <button type="button" className="navbar-toggler" onClick={this.toggleNav} aria-haspopup="true" aria-expanded="false">
                         <span></span>

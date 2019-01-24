@@ -49,3 +49,11 @@ strong {
         letter-spacing: 4px;
     }
 }
+
+.link {
+    text-decoration: underline;
+    color: $black;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+}

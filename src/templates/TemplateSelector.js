@@ -83,6 +83,8 @@ query($id: String!) {
             }
             twoColumnBlock {
                 bgColour
+                containerBgColour
+                paddingTop
                 column1 {
                     content
                 }

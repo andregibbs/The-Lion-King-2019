@@ -1,3 +1,26 @@
 .form-control {
     border-radius: 0;
 }
+
+select.form-control {
+    appearance: none;
+}
+
+.select-wrapper {
+    position: relative;
+    &:after {
+        @extend .custom-icon;
+        content: "\69";
+        font-size: $font-size-lg * 1.25;
+        height: 100%;
+        width: 50px;
+        background-color: $tlk-grey;
+        position: absolute;
+        right: 0;
+        top: 0;
+        pointer-events: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

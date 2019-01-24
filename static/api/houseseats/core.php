@@ -76,8 +76,7 @@ Class House_Seats {
             'phonenumber',
             'email',
             'tickets_amount',
-            'date',
-            'notes'
+            'date'
         );
 
         return $required_fields;

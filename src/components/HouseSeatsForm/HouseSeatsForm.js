@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 import ReactDOM from 'react-dom'
+import BigCalendar from 'react-big-calendar'
+import moment from 'moment'
 import { ReCaptcha } from 'react-recaptcha-v3'
 import {
     Button,
@@ -14,6 +16,11 @@ import {
     validateEmail
 } from 'js/validations'
 import fetchWithTimeout from 'js/fetchWithTimeout'
+
+import CalendarToolbar from './CalendarToolbar';
+import CalendarOverlay from './CalendarOverlay';
+import "react-big-calendar/lib/css/react-big-calendar.css";
+const localizer = BigCalendar.momentLocalizer(moment) 
 
 class HouseSeatsForm extends Component {
 
@@ -31,6 +38,9 @@ class HouseSeatsForm extends Component {
             notes: '',
             googleVerified: '',
             sendingFormRequest: false,
+            events: [],
+            selectedDate: '',
+            calendarOverlay: false,
             validate: {
                 name: '',
                 connection_to_production: '',
@@ -48,6 +58,10 @@ class HouseSeatsForm extends Component {
         // Bind this to methods
         this.handleSubmit = this.handleSubmit.bind(this)
         this.onGoogleVerify = this.onGoogleVerify.bind(this)
+        this.handleEventSelect = this.handleEventSelect.bind(this)
+        this.handleTimeSelect = this.handleTimeSelect.bind(this)
+        this.toggleCalendarOverlay = this.toggleCalendarOverlay.bind(this)
+        this.getEvents = this.getEvents.bind(this)
 
         // Bind this to validation methods
         this.validateRequired = validateRequired.bind(this);
@@ -55,6 +69,83 @@ class HouseSeatsForm extends Component {
 
         // Create form ref
         this.form = React.createRef();
+    }
+
+    componentDidMount() {
+
+        // Set new events
+        this.getEvents()
+
+        // const events = [
+        //     {
+        //         title: "2:30pm",
+        //         start: "2019-01-22 14:30",
+        //         end: "2019-01-22 14:30",
+        //         resource: "matinee"
+        //     },
+        //     {
+        //         title: "7:30pm",
+        //         start: "2019-01-22 19:30",
+        //         end: "2019-01-22 19:30",
+        //         resource: "evening"
+        //     },
+        //     {
+        //         title: "7:30pm",
+        //         start: "2019-01-23 19:30",
+        //         end: "2019-01-23 19:30",
+        //         resource: "evening"
+        //     },
+        //     {
+        //         title: "7:30pm",
+        //         start: "2019-01-24 19:30",
+        //         end: "2019-01-24 19:30",
+        //         resource: "evening"
+        //     }
+        // ]
+
+        // console.log(events)
+        // console.log(wpevents)
+
+    }
+
+    getEvents() {
+
+        let events = []
+
+        fetchWithTimeout(process.env.HOUSESEATS_ENDPOINT, {
+            method: 'GET'
+        }, 5000)
+            .then((result) => {
+                if (!result.ok) {
+                    throw Error(result.statusText);//catch any server errors
+                }
+                return result;
+            })
+            .then(res => res.json())//convert response body to json
+            .then((res) => {
+                // Create new object ready for calendar
+                if (res) {
+                    res.acf.dates.forEach((event, i) => {
+                        const title = event.time == "evening" ? "7:30pm" : "2:30pm"
+                        const time = event.time == "evening" ? "19:30" : "14:30"
+                        const date = event.date
+                        events.push({
+                            title: title,
+                            start: `${date} ${time}`,
+                            end: `${date} ${time}`,
+                            resource: event.time
+                        })
+                    })
+                }
+            })
+            .catch((error) => {
+                console.log('caught error', error);
+                // handle errors and timeout error
+            });
+
+        this.setState({
+            events
+        })
     }
 
     onGoogleVerify(response) {
@@ -66,7 +157,6 @@ class HouseSeatsForm extends Component {
         //fetch with a 5 second timeout
         fetchWithTimeout(process.env.RECAPTCHA_API_URL, {
             method: 'POST',
-            mode: 'no-cors',
             body: formData,
         }, 5000)
             .then((result) => {
@@ -105,6 +195,30 @@ class HouseSeatsForm extends Component {
             });
     }
 
+    // Toggle the overlay
+    toggleCalendarOverlay() {
+        this.setState({
+            calendarOverlay: !this.state.calendarOverlay
+        })
+    }
+
+    handleEventSelect(event) {
+        this.setState({
+            selectedDate: event.start
+        })
+        // Show overlay
+        this.toggleCalendarOverlay()
+    }
+
+    handleTimeSelect(dateTime) {
+        const date = moment(dateTime).format('dddd, Do MMM YYYY h:mm a')
+        this.setState({
+            date
+        })
+        // Validate date
+        this.validateRequired(false, "date", date)
+    }
+
     // Method to update field values in state on change
     handleChange(e) {
         const target = e.target;
@@ -139,7 +253,6 @@ class HouseSeatsForm extends Component {
         //fetch with a *30* second timeout
         fetchWithTimeout(process.env.HOUSESEATS_API_URL, {
             method: 'POST',
-            mode: 'no-cors',
             body: formData,
         }, 30000)
             .then((result) => {
@@ -149,7 +262,7 @@ class HouseSeatsForm extends Component {
                 }
                 return result;
             })
-            .then(res => res.json())//convert response body to json
+            .then(res => res.json()) //convert response body to json
             .then((response) => {
                 console.log('got response:', response);
 
@@ -186,16 +299,59 @@ class HouseSeatsForm extends Component {
                 this.setState({ sendingFormRequest: false });
             })
             .catch((error) => {
-                //if there's a server-side error getting data from EzBob send the user to the error page since we can't recover from it.
+                //if there's a server-side error
                 console.log(error)
             });
 
     }
 
     render() {
+
         return(
             <>
-                <Form onSubmit={(e) => this.handleSubmit(e)} noValidate ref={this.form}>
+                <div className="calendar-wrapper">
+                    <BigCalendar
+                        localizer={localizer}
+                        defaultView={'month'}
+                        events={this.state.events}
+                        onSelectEvent={this.handleEventSelect}
+                        views={{
+                            month: true,
+                            week: false,
+                            agenda: false
+                        }}
+                        components={{toolbar: CalendarToolbar}}
+                    />
+                    {this.state.calendarOverlay &&
+                        <CalendarOverlay
+                            events={this.state.events}
+                            selectedDate={this.state.selectedDate}
+                            toggleCalendarOverlay={this.toggleCalendarOverlay}
+                            handleTimeSelect={this.handleTimeSelect}
+                        />
+                    }
+                </div>
+
+                <Form onSubmit={(e) => this.handleSubmit(e)} noValidate ref={this.form} className="pt-4">
+                    <FormGroup>
+                        <Label for="date">Date/Time (please select on calendar above)</Label>
+                        <Input
+                            type="text"
+                            name="date"
+                            id="date"
+                            disabled
+                            value={this.state.date}
+                            valid={this.state.validate.date === 'has-success'}
+                            invalid={this.state.validate.date === 'has-danger'}
+                            onChange={e => {
+                                this.handleChange(e)
+                                this.validateRequired(e)
+                            }}
+                        />
+                        <FormFeedback>
+                            The date is required
+                        </FormFeedback>
+                    </FormGroup>
                     <FormGroup>
                         <Label for="name">Name</Label>
                         <Input 
@@ -251,7 +407,7 @@ class HouseSeatsForm extends Component {
                         </FormFeedback>
                     </FormGroup>
                     <FormGroup>
-                        <Label for="exampleEmail">Email address</Label>
+                        <Label for="email">Email address</Label>
                         <Input 
                             type="email" 
                             name="email" 
@@ -262,6 +418,7 @@ class HouseSeatsForm extends Component {
                             onChange={e => {
                                 this.handleChange(e)
                                 this.validateRequired(e)
+                                this.validateEmail(e)
                             }} 
                         />
                         <FormFeedback>
@@ -282,43 +439,28 @@ class HouseSeatsForm extends Component {
                     </FormGroup>
                     <FormGroup>
                         <Label for="tickets_amount">Number of tickets required <span className="text-sm">(max 4 tickets)</span></Label>
-                        <Input 
-                            type="select" 
-                            name="tickets_amount" 
-                            id="tickets_amount"
-                            value={this.state.tickets_amount}
-                            valid={this.state.validate.tickets_amount === 'has-success'}
-                            invalid={this.state.validate.tickets_amount === 'has-danger'}
-                            onChange={e => {
-                                this.handleChange(e)
-                                this.validateRequired(e)
-                            }} 
-                        >
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                        </Input>
+                        <div className="select-wrapper">
+                            <Input
+                                type="select"
+                                name="tickets_amount"
+                                id="tickets_amount"
+                                value={this.state.tickets_amount}
+                                valid={this.state.validate.tickets_amount === 'has-success'}
+                                invalid={this.state.validate.tickets_amount === 'has-danger'}
+                                onChange={e => {
+                                    this.handleChange(e)
+                                    this.validateRequired(e)
+                                }}
+                            >
+                                <option value="">Select</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </Input>
+                        </div>
                         <FormFeedback>
                             The number of tickets are required
-                        </FormFeedback>
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="date">Date/Time (please select on calendar above)</Label>
-                        <Input 
-                            type="text" 
-                            name="date" 
-                            id="date" 
-                            value={this.state.date}
-                            valid={this.state.validate.date === 'has-success'}
-                            invalid={this.state.validate.date === 'has-danger'}
-                            onChange={e => {
-                                this.handleChange(e)
-                                this.validateRequired(e)
-                            }} 
-                        />
-                        <FormFeedback>
-                            The date is required
                         </FormFeedback>
                     </FormGroup>
                     <FormGroup>
@@ -336,11 +478,11 @@ class HouseSeatsForm extends Component {
 
                     <Button className="btn--red">Submit</Button>
                 </Form>
-                <ReCaptcha
+                {/* <ReCaptcha
                     sitekey='6LdlgosUAAAAADpaW2rDi4FDOaIP5eyLx1lFoz14'
                     action='action_name'
                     verifyCallback={this.onGoogleVerify}
-                />
+                /> */}
             </>
         )
     }

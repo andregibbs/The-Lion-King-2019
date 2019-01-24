@@ -7,3 +7,27 @@
 .hr-black {
     border-color: $black;
 }
+
+// Iframe
+
+.iframe-title {
+    background-color: $black;
+    color: $white;
+    font-size: $font-size-lg;
+    padding: $spacer;
+    position: relative;
+
+    @include media-breakpoint-up(md) {
+        padding: 0 $spacer * 2 $spacer * 2;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 98%;
+        width: 100%;
+        height: 50px;
+        left: 0;
+        background: linear-gradient(to top, rgba($black, 1) 0%,rgba($black, 0) 100%);
+    }
+}

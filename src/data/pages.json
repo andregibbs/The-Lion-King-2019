@@ -1,6 +1,7 @@
 [
     {
         "id": "houseseats",
+        "inNav": false,
         "siteId": "london",
         "template": "houseseats-template",
         "path": "/houseseats/",
@@ -255,6 +256,45 @@
                         ]
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id": "londonRelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/london/relaxedperformances/",
+        "title": "Relaxed Performances",
+        "displayBookNow": true,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-london-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Autism-Friendly Relaxed Performances</h1><p class='text-lg'>Book now to attend the next Autism-Friendly Relaxed Performance on Sunday 2nd June 2019.</p><p>THE LION KING is committed to creating a friendly and inclusive audience experience at the Lyceum Theatre, London and is delighted to present its sixth Autism-Friendly Relaxed Performance at 1.30pm on Sunday 2nd June.</p><p>Autism-Friendly Relaxed Performances are specially adapted to be accessible to a wide range of audiences such as those with Autism, those with a learning disability, or anyone with sensory disposition. There are extra trained staff on hand, and dedicated quiet areas inside the theatre should anyone need to leave their seat.</p><p>Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p><a href='https://secure1.atgtickets.com/WEBPAGES/EntaWebHTMLSeatPlan/HTMLSeatPlan.aspx' class='btn btn--red btn--300'>Book now</a>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-5'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_efumgbui&flashvars[localizationCode]=en&amp;&wid=1_a3tmw6hy' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='iframe-title'>Hear about one family's experience at an<br/> autism-friendly performance</div>"
+                    }
+                }
+            },
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "containerBgColour": "light-grey",
+                    "column1": {
+                        "content": "<h4 class='text-red'>Visual Story</h4><p>Our 'Visual Story' will guide you step-by-step through your visit to the Lyceum Theatre to see The Lion King.</p><a href='https://www.youtube.com/watch?v=y1YcpkEBXJE&index=17&list=PL59A1A57EF510F502' class='btn btn--red'>Watch film</a><a href='/docs/pdf/The_Lion_King_Visual_Story.pdf' class='btn btn--red ml-2 no-interstitial-check' target='_blank'>Download PDF</a><h4 class='text-red pt-3'>“Hakuna Matata on a Sunday Afternoon”</h4><p>Read a moving account of the 2013 performance at The Lyceum by Lizi Jackson from her blog Through Accepting Limits.</p><a href='https://throughacceptinglimits.com/2013/04/15/hakuna-matata-on-a-sunday-afternoon/' class='btn btn--red'>Read blog</a>"
+                    },
+                    "column2": {
+                        "content": "<h4 class='text-red'>Autism Friendly Award</h4><p>In 2018 The National Autistic Society awarded Disney’s THE LION KING and the Lyceum Theatre an Autism-Friendly Award.</p><p>The award demonstrates our commitment to making the theatre experience welcoming to autistic pple and their families at every stage, with clear information available before and during your visit, trained members of staff across the theatre teams, and a commitment to raising awareness of autism among the general public.</p><a href='' class='btn btn--red'>Find out more</a>"
+                    }
+                }
             }
         ]
     },
