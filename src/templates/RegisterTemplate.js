@@ -23,8 +23,6 @@ class RegisterTemplate extends Component {
                         </Col>
                     </Row>
                 </Container>
-
-
             </Layout>
         )
     }

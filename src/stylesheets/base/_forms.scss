@@ -24,3 +24,14 @@ select.form-control {
         justify-content: center;
     }
 }
+
+.file-upload {
+    padding: $spacer / 1.5;
+    background-color: $tlk-light-grey;
+    border: 1px solid $tlk-grey;
+
+    input {
+        font-size: $font-size-sm;
+    }
+
+}

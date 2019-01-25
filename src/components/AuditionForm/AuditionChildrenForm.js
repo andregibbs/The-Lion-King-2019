@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import ReactDOM from 'react-dom'
 import { ReCaptcha } from 'react-recaptcha-v3'
 import {
+    Row,
+    Col,
     Button,
     Form,
     FormGroup,
@@ -52,6 +54,7 @@ class AuditionForm extends Component {
         // Bind this to methods
         this.handleSubmit = this.handleSubmit.bind(this)
         this.onGoogleVerify = this.onGoogleVerify.bind(this)
+        this.uploadFile = this.uploadFile.bind(this)
 
         // Bind this to validation methods
         this.validateRequired = validateRequired.bind(this);
@@ -108,6 +111,15 @@ class AuditionForm extends Component {
             });
     }
 
+    uploadFile(e) {
+        var file = e.target.files[0];
+        var reader = new FileReader();
+        reader.onload = function (output) {
+            console.log(output.target.result)
+        }.bind(this);
+
+        reader.readAsDataURL(file);
+    }
 
     // Method to update field values in state on change
     handleChange(e) {
@@ -372,6 +384,45 @@ class AuditionForm extends Component {
                                     this.handleChange(e)
                                 }}
                             />
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for="photo1">2 clear photos:* <span className="text-sm">(Max, 2mb, jpg, jpeg, gif, bmp, png)</span></Label>
+                            <Row className="pb-2 align-items-center">
+                                <Col xs={4} sm={3}>
+                                    Headshot
+                                </Col>
+                                <Col>
+                                    <div className="file-upload">
+                                        <Input
+                                            type="file"
+                                            name="photo1"
+                                            id="photo1"
+                                            onChange={this.uploadFile}
+                                        /> 
+                                        <FormFeedback>
+                                            A headshot photo is required
+                                        </FormFeedback>
+                                    </div>
+                                </Col>
+                            </Row>
+                            <Row className="align-items-center">
+                                <Col xs={4} sm={3}>
+                                    Full length
+                                </Col>
+                                <Col>
+                                    <div className="file-upload">
+                                        <Input
+                                            type="file"
+                                            name="photo2"
+                                            id="photo2"
+                                            onChange={this.uploadFile}
+                                        /> 
+                                        <FormFeedback>
+                                            A full length photo is required
+                                        </FormFeedback>
+                                    </div>
+                                </Col>
+                            </Row>
                         </FormGroup>
                         <FormGroup>
                             <Label for="hear">How did you hear about these auditions?:*</Label>

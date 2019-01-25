@@ -97,7 +97,7 @@ Class Auditions {
         }
 
         $to = 's.richards@dewynters.com';
-        $subject = 'The Lion King - Audotions Submission';
+        $subject = 'The Lion King - Auditions Submission';
 
         $message = "Name: ". $this->fields['name'] . "\n";
         $message .= "DOB: ". $this->fields['dob'] . "\n";
