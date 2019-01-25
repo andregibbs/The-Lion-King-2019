@@ -13,7 +13,7 @@ class CustomCollapse extends Component {
         this.clickHandler = this.clickHandler.bind(this);
     }
 
-    clickHandler(e, id) {
+    clickHandler(e, id, type) {
 
         if (this.state.activeId === id) {
             this.setState({
@@ -32,10 +32,10 @@ class CustomCollapse extends Component {
             });
             
 
-            const collapseItem = document.getElementById(`collapse${id}`)
+            const collapseItem = document.getElementById(`collapse${id}${type}`)
             const navHeight = document.querySelector('.m-nav').offsetHeight;
 
-            // Wait for previous to close, the scrol to
+            // Wait for previous to close, the scroll to
             setTimeout(() => {
                 window.scrollTo({
                     top: collapseItem.offsetTop - navHeight,
@@ -57,6 +57,7 @@ class CustomCollapse extends Component {
                 id={i}
                 data={item}
                 clickHandler={this.clickHandler}
+                type={this.props.type}
                 activeId={this.state.activeId}
                 contentHeight={this.state.activeId === i ? this.state.contentHeight : 0}
                 activeClass={this.state.activeId === i ? 'active' : ''}
@@ -81,7 +82,7 @@ class CustomCollapseItem extends Component {
                 style={{ marginBottom: this.props.contentHeight + "px" }}>
                 <div
                     className="c-collapse__item-trigger"
-                    onClick={(e) => this.props.clickHandler(e, this.props.id)}>
+                    onClick={(e) => this.props.clickHandler(e, this.props.id, this.props.type)}>
                     <Img fluid={this.props.data.image.childImageSharp.fluid} alt={this.props.data.title} className="c-collapse__item-trigger-img" />
                     <div className="c-collapse__item-trigger-title">
                         <span>{this.props.data.name}</span>
@@ -91,8 +92,8 @@ class CustomCollapseItem extends Component {
                 <div
                     className="c-collapse__item-content"
                     style={{ height: this.props.contentHeight + "px" }}
-                    id={`collapse${this.props.id}`}
-                    >
+                    id={`collapse${this.props.id}${this.props.type}`}
+                >
                     <div className="c-collapse__item-content-inner">
                         <div className="c-collapse__item-content-inner-bg" dangerouslySetInnerHTML={{ __html: this.props.data.bio }} />
                         <button className="c-collapse__item-content-close" onClick={(e) => this.props.clickHandler(e, this.props.id)}>

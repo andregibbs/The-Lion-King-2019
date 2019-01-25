@@ -238,7 +238,7 @@ class HouseSeatsForm extends Component {
                 console.log('got response:', response);
 
                 // If there are errors update validation state
-                if (response.errors !== false) {
+                if (response.errors !== false && response.errors !== undefined) {
                     // Scroll top top of form
                     const domNode = ReactDOM.findDOMNode(this.form.current)
                     window.scrollTo({
@@ -268,6 +268,13 @@ class HouseSeatsForm extends Component {
                 }
                 //re-enable the button
                 this.setState({ sendingFormRequest: false });
+
+                // Scroll top top of form
+                const domNode = ReactDOM.findDOMNode(this.form.current)
+                window.scrollTo({
+                    top: domNode.offsetTop,
+                    behavior: 'smooth'
+                })
             })
             .catch((error) => {
                 //if there's a server-side error
@@ -280,183 +287,188 @@ class HouseSeatsForm extends Component {
 
         return(
             <>
-                <div className="calendar-wrapper">
-                    <BigCalendar
-                        localizer={localizer}
-                        defaultView={'month'}
-                        events={this.state.events}
-                        onSelectEvent={this.handleEventSelect}
-                        views={{
-                            month: true,
-                            week: false,
-                            agenda: false
-                        }}
-                        components={{
-                            toolbar: CalendarToolbar,
-                            event: CalendarEvent
-                        }}
-                    />
-                    {this.state.calendarOverlay &&
-                        <CalendarOverlay
+            {this.state.success ? (
+                <p className='text-lg mb-0' ref={this.form}><strong>Thankyou for your submission, we will be in touch soon.</strong></p>
+            ) : (
+                <>
+                    <div className="calendar-wrapper">
+                        <BigCalendar
+                            localizer={localizer}
+                            defaultView={'month'}
                             events={this.state.events}
-                            selectedDate={this.state.selectedDate}
-                            toggleCalendarOverlay={this.toggleCalendarOverlay}
-                            handleTimeSelect={this.handleTimeSelect}
-                        />
-                    }
-                </div>
-
-                <Form onSubmit={(e) => this.handleSubmit(e)} noValidate ref={this.form} className="pt-4">
-                    <FormGroup>
-                        <Label for="date">Date/Time (please select on calendar above)</Label>
-                        <Input
-                            type="text"
-                            name="date"
-                            id="date"
-                            disabled
-                            value={this.state.date}
-                            valid={this.state.validate.date === 'has-success'}
-                            invalid={this.state.validate.date === 'has-danger'}
-                            onChange={e => {
-                                this.handleChange(e)
-                                this.validateRequired(e)
+                            onSelectEvent={this.handleEventSelect}
+                            views={{
+                                month: true,
+                                week: false,
+                                agenda: false
+                            }}
+                            components={{
+                                toolbar: CalendarToolbar,
+                                event: CalendarEvent
                             }}
                         />
-                        <FormFeedback>
-                            The date is required
-                        </FormFeedback>
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="name">Name</Label>
-                        <Input 
-                            type="text"
-                            name="name" 
-                            id="name" 
-                            value={this.state.name}
-                            valid={this.state.validate.name === 'has-success'}
-                            invalid={this.state.validate.name === 'has-danger'}
-                            onChange={e => {
-                                this.handleChange(e)
-                                this.validateRequired(e)
-                            }} 
-                        />
-                        <FormFeedback>
-                            Your name is required
-                        </FormFeedback>
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="connection">Connection to the production</Label>
-                        <Input 
-                            type="text"
-                            name="connection_to_production" 
-                            id="connection_to_production" 
-                            value={this.state.connection_to_production}
-                            valid={this.state.validate.connection_to_production === 'has-success'}
-                            invalid={this.state.validate.connection_to_production === 'has-danger'} 
-                            onChange={e => {
-                                this.handleChange(e)
-                                this.validateRequired(e)
-                            }} 
-                        />
-                        <FormFeedback>
-                            Your connection to the production is required
-                        </FormFeedback>
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="phonenumber">Contact telephone number</Label>
-                        <Input 
-                            type="text" 
-                            name="phonenumber" 
-                            id="phonenumber" 
-                            value={this.state.phonenumber}
-                            valid={this.state.validate.phonenumber === 'has-success'}
-                            invalid={this.state.validate.phonenumber === 'has-danger'} 
-                            onChange={e => {
-                                this.handleChange(e)
-                                this.validateRequired(e)
-                            }} 
-                        />
-                        <FormFeedback>
-                            Phone number is required
-                        </FormFeedback>
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="email">Email address</Label>
-                        <Input 
-                            type="email" 
-                            name="email" 
-                            id="email"
-                            value={this.state.email}
-                            valid={this.state.validate.email === 'has-success'}
-                            invalid={this.state.validate.email === 'has-danger'} 
-                            onChange={e => {
-                                this.handleChange(e)
-                                this.validateRequired(e)
-                                this.validateEmail(e)
-                            }} 
-                        />
-                        <FormFeedback>
-                            A valid email address is required
-                        </FormFeedback>
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="phonenumber">Name for ticket collection <span className="text-sm">(if different from above)</span></Label>
-                        <Input 
-                            type="text" 
-                            name="nameforcollection" 
-                            id="nameforcollection"
-                            value={this.state.nameforcollection}
-                            onChange={e => {
-                                this.handleChange(e)
-                            }} 
-                        />
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="tickets_amount">Number of tickets required <span className="text-sm">(max 4 tickets)</span></Label>
-                        <div className="select-wrapper">
+                        {this.state.calendarOverlay &&
+                            <CalendarOverlay
+                                events={this.state.events}
+                                selectedDate={this.state.selectedDate}
+                                toggleCalendarOverlay={this.toggleCalendarOverlay}
+                                handleTimeSelect={this.handleTimeSelect}
+                            />
+                        }
+                    </div>
+                    <Form onSubmit={(e) => this.handleSubmit(e)} noValidate ref={this.form} className="pt-4">
+                        <FormGroup>
+                            <Label for="date">Date/Time (please select on calendar above)</Label>
                             <Input
-                                type="select"
-                                name="tickets_amount"
-                                id="tickets_amount"
-                                value={this.state.tickets_amount}
-                                valid={this.state.validate.tickets_amount === 'has-success'}
-                                invalid={this.state.validate.tickets_amount === 'has-danger'}
+                                type="text"
+                                name="date"
+                                id="date"
+                                disabled
+                                value={this.state.date}
+                                valid={this.state.validate.date === 'has-success'}
+                                invalid={this.state.validate.date === 'has-danger'}
                                 onChange={e => {
                                     this.handleChange(e)
                                     this.validateRequired(e)
                                 }}
-                            >
-                                <option value="">Select</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                            </Input>
+                            />
                             <FormFeedback>
-                                The number of tickets are required
+                                The date is required
                             </FormFeedback>
-                        </div>
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="notes">Additional notes</Label>
-                        <Input 
-                            type="text" 
-                            name="notes" 
-                            id="notes" 
-                            value={this.state.notes}
-                            onChange={e => {
-                                this.handleChange(e)
-                            }} 
-                        />
-                    </FormGroup>
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for="name">Name</Label>
+                            <Input 
+                                type="text"
+                                name="name" 
+                                id="name" 
+                                value={this.state.name}
+                                valid={this.state.validate.name === 'has-success'}
+                                invalid={this.state.validate.name === 'has-danger'}
+                                onChange={e => {
+                                    this.handleChange(e)
+                                    this.validateRequired(e)
+                                }} 
+                            />
+                            <FormFeedback>
+                                Your name is required
+                            </FormFeedback>
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for="connection">Connection to the production</Label>
+                            <Input 
+                                type="text"
+                                name="connection_to_production" 
+                                id="connection_to_production" 
+                                value={this.state.connection_to_production}
+                                valid={this.state.validate.connection_to_production === 'has-success'}
+                                invalid={this.state.validate.connection_to_production === 'has-danger'} 
+                                onChange={e => {
+                                    this.handleChange(e)
+                                    this.validateRequired(e)
+                                }} 
+                            />
+                            <FormFeedback>
+                                Your connection to the production is required
+                            </FormFeedback>
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for="phonenumber">Contact telephone number</Label>
+                            <Input 
+                                type="text" 
+                                name="phonenumber" 
+                                id="phonenumber" 
+                                value={this.state.phonenumber}
+                                valid={this.state.validate.phonenumber === 'has-success'}
+                                invalid={this.state.validate.phonenumber === 'has-danger'} 
+                                onChange={e => {
+                                    this.handleChange(e)
+                                    this.validateRequired(e)
+                                }} 
+                            />
+                            <FormFeedback>
+                                Phone number is required
+                            </FormFeedback>
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for="email">Email address</Label>
+                            <Input 
+                                type="email" 
+                                name="email" 
+                                id="email"
+                                value={this.state.email}
+                                valid={this.state.validate.email === 'has-success'}
+                                invalid={this.state.validate.email === 'has-danger'} 
+                                onChange={e => {
+                                    this.handleChange(e)
+                                    this.validateRequired(e)
+                                    this.validateEmail(e)
+                                }} 
+                            />
+                            <FormFeedback>
+                                A valid email address is required
+                            </FormFeedback>
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for="phonenumber">Name for ticket collection <span className="text-sm">(if different from above)</span></Label>
+                            <Input 
+                                type="text" 
+                                name="nameforcollection" 
+                                id="nameforcollection"
+                                value={this.state.nameforcollection}
+                                onChange={e => {
+                                    this.handleChange(e)
+                                }} 
+                            />
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for="tickets_amount">Number of tickets required <span className="text-sm">(max 4 tickets)</span></Label>
+                            <div className="select-wrapper">
+                                <Input
+                                    type="select"
+                                    name="tickets_amount"
+                                    id="tickets_amount"
+                                    value={this.state.tickets_amount}
+                                    valid={this.state.validate.tickets_amount === 'has-success'}
+                                    invalid={this.state.validate.tickets_amount === 'has-danger'}
+                                    onChange={e => {
+                                        this.handleChange(e)
+                                        this.validateRequired(e)
+                                    }}
+                                >
+                                    <option value="">Select</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </Input>
+                                <FormFeedback>
+                                    The number of tickets are required
+                                </FormFeedback>
+                            </div>
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for="notes">Additional notes</Label>
+                            <Input 
+                                type="text" 
+                                name="notes" 
+                                id="notes" 
+                                value={this.state.notes}
+                                onChange={e => {
+                                    this.handleChange(e)
+                                }} 
+                            />
+                        </FormGroup>
 
-                    <Button className="btn--red">Submit</Button>
-                </Form>
-                <ReCaptcha
-                    sitekey='6LfR50UUAAAAAErtS1uYUr6KzYDTKW295YfxrOqe'
-                    action='action_name'
-                    verifyCallback={this.onGoogleVerify}
-                />
+                        <Button className="btn--red">Submit</Button>
+                    </Form>
+                    <ReCaptcha
+                        sitekey='6LfR50UUAAAAAErtS1uYUr6KzYDTKW295YfxrOqe'
+                        action='action_name'
+                        verifyCallback={this.onGoogleVerify}
+                    />
+                </>
+            )}
             </>
         )
     }

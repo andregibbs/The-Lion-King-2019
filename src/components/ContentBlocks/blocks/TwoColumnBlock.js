@@ -6,8 +6,9 @@ class TwoColumnBlock extends Component {
     render() {
 
         const { topContent, column1, column2, paddingTop } = this.props.data
+        let { bgColour } = this.props.data
 
-        let bgColour, containerBgColour = ""
+        let containerBgColour = ""
         let padding = "p-3 p-md-5";
 
         if (topContent !== null) {
@@ -17,10 +18,9 @@ class TwoColumnBlock extends Component {
         if (paddingTop !== null && paddingTop === false) {
             padding = "pb-3 pb-md-5 pl-3 pr-3 pl-md-5 pr-md-5"
         }
-
-        if (this.props.data.bgColour !== null) {
-            bgColour = "bg-" + this.props.data.bgColour
-        }
+        
+        // Set bg colour
+        bgColour = bgColour !== null ? "bg-" + this.props.data.bgColour : ""
 
         if (this.props.data.containerBgColour !== null) {
             containerBgColour = "bg-" + this.props.data.containerBgColour

@@ -33,6 +33,10 @@ strong {
     font-size: $font-size-sm;
 }
 
+.text-xs {
+    font-size: $font-size-sm * .92;
+}
+
 .text-lg {
     font-size: $font-size-lg;
 }

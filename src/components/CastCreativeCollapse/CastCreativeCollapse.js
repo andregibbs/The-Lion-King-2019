@@ -122,7 +122,7 @@ const CastItems = (props) => (
 
                             return (
                                 <TabPane tabId="1" key={`cast${i}`}> 
-                                    <CustomCollapse data={node.items} />
+                                    <CustomCollapse data={node.items} type="cast" />
                                 </TabPane>
                             )
 
@@ -142,7 +142,7 @@ const CastItems = (props) => (
 
                             return (
                                 <TabPane tabId="2" key={`creatives${i}`}>
-                                    <CustomCollapse data={node.items} />
+                                    <CustomCollapse data={node.items} type="creatives" />
                                 </TabPane>
                             )
 
