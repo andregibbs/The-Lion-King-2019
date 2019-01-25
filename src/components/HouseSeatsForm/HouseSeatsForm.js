@@ -453,7 +453,7 @@ class HouseSeatsForm extends Component {
                     <Button className="btn--red">Submit</Button>
                 </Form>
                 <ReCaptcha
-                    sitekey='6LdlgosUAAAAADpaW2rDi4FDOaIP5eyLx1lFoz14'
+                    sitekey='6LfR50UUAAAAAErtS1uYUr6KzYDTKW295YfxrOqe'
                     action='action_name'
                     verifyCallback={this.onGoogleVerify}
                 />

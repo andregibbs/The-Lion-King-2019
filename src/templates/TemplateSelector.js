@@ -41,6 +41,8 @@ query($id: String!) {
     pagesJson ( id: { eq: $id }) {
         id
         siteId
+        inNav
+        navPaddingBottom
         bookingInfo
         template
         title
@@ -62,6 +64,7 @@ query($id: String!) {
                 }
             }
         }
+        content
 
         contentBlocks {
             type

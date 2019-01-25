@@ -18,25 +18,61 @@
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'houseseats');
 
-/** MySQL database username */
-define('DB_USER', 'root');
+/* Which Enviornment? */
+$live = $staging = $local = FALSE;
 
-/** MySQL database password */
-define('DB_PASSWORD', 'root');
+if (strpos($_SERVER['SERVER_NAME'], 'staging.') !== FALSE) {
+	$staging = TRUE;
+} else if (strpos($_SERVER['SERVER_NAME'], 'localhost') !== FALSE) {
+	$local = TRUE;
+} else {
+	$live = TRUE;
+}
 
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
+if ($staging) {
+	// ** MySQL settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'thel10nk_cms2019staging');
+
+	/** MySQL database username */
+	define('DB_USER', 'thel10nk_cms');
+
+	/** MySQL database password */
+	define('DB_PASSWORD', 'h~NOJ1wM&NKl');
+
+} elseif ($local) {
+	// ** MySQL settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'houseseats');
+
+	/** MySQL database username */
+	define('DB_USER', 'root');
+
+	/** MySQL database password */
+	define('DB_PASSWORD', 'root');
+
+	/** MySQL hostname */
+	define('DB_HOST', 'localhost');
+
+} else {
+	// ** MySQL settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'thel10nk_cms2019');
+
+	/** MySQL database username */
+	define('DB_USER', 'thel10nk_cms');
+
+	/** MySQL database password */
+	define('DB_PASSWORD', 'h~NOJ1wM&NKl');
+}
+
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
 
 /**#@+
  * Authentication Unique Keys and Salts.

@@ -14,6 +14,8 @@ class Interstitial extends Component {
             href: "",
             previousUrl: ""
         }
+
+        this.cancelRedirect = this.cancelRedirect.bind(this)
     }
 
     componentDidMount() {
@@ -22,17 +24,28 @@ class Interstitial extends Component {
             return true
         }
 
-        const { href, previousUrl } = this.props.location.state
+        const { href, previousUrl, atg } = this.props.location.state
 
         this.setState({
             href,
-            previousUrl
+            previousUrl,
+            atg
         })
+
+        // Set up auto redirect if atg link
+        if (atg) {
+            this.redirect = setTimeout(function() {  window.location.href = href;  }, 4000);
+        }
+
+    }
+
+    cancelRedirect() {
+        clearTimeout(this.redirect)
     }
 
     render() {
 
-        const { href, previousUrl } = this.state
+        const { href, previousUrl, atg } = this.state
 
         if (href !== "" && previousUrl !== "") {
 
@@ -50,19 +63,30 @@ class Interstitial extends Component {
                                             </h1>
                                             <h2 className="pt-3">PLEASE NOTE</h2>
 
-                                            <p>
-                                                Disney does not control this website so please click below to say you are happy to continue. Disney’s privacy practices and controls do not apply once you leave our site.
-                                            </p>
-
-                                            <Row>
-                                                <Col className="col-6">
-                                                    <Link to={previousUrl} className="btn btn--red btn--block">Go Back</Link>
-                                                </Col>
-                                                <Col className="col-6">
-                                                    <a href={href} target="_blank" rel="noopener noreferrer" className="btn btn--red btn--block">Continue</a>
-                                                </Col>
-                                            </Row>
-                                    
+                                            {!atg ? (
+                                                <>
+                                                    <p>Disney does not control this website so please click below to say you are happy to continue. Disney’s privacy practices and controls do not apply once you leave our site.</p>
+                                                    <Row>
+                                                        <Col className="col-6">
+                                                            <Link to={previousUrl} className="btn btn--red btn--block">Go Back</Link>
+                                                        </Col>
+                                                        <Col className="col-6">
+                                                            <a href={href} target="_blank" rel="noopener noreferrer" className="btn btn--red btn--block">Continue</a>
+                                                        </Col>
+                                                    </Row>
+                                                </>
+                                            ) : (
+                                                <>
+                                                    <p>You are now being redirected to the Lyceum Theatre Box Office operated by ATG Tickets</p>
+                                                    <p>Please note that Disney’s privacy practices and controls do not apply once you leave our site.</p>
+                                                    <div className="lds-facebook"><div></div><div></div><div></div></div>
+                                                    <Row className="justify-content-center">
+                                                        <Col xs={6}>
+                                                            <Link to={previousUrl} className="btn btn--red btn--block" onClick={this.cancelRedirect}>Go Back</Link>
+                                                        </Col>
+                                                    </Row>
+                                                </>
+                                            )}
                                         </Col>
                                     </Row>
                                 </Container>

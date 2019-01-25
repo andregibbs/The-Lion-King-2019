@@ -102,7 +102,7 @@ const BookOnline = (props) => {
                         <a
                             href={link.url}
                             key={i}
-                            className={`btn btn--red btn--block btn--large-2 mb-2 ${link.ignoreInterstitial ? 'no-interstitial-check' : ''}`}
+                            className={`btn btn--red btn--block btn--large-2 mb-2 ${link.ignoreInterstitial ? 'no-interstitial-check' : 'interstitial-timed'}`}
                             dangerouslySetInnerHTML={{ __html: link.title }}
                         />
                     )

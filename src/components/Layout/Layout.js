@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { loadReCaptcha } from 'react-recaptcha-v3'
 import SEO from 'components/seo'
 import Header from 'components/Header/Header'
 import Footer from 'components/Footer/Footer'
@@ -38,12 +37,18 @@ class Layout extends Component {
 							// Proceed with link as normal
 							navigate(href);
 						} else {
+							
+							let atg = false
+							if (link.classList.contains('interstitial-timed')) {
+								atg = true
+							}
+
 							// Redirect to interstitial with correct state
 							navigate("/interstitial/", {
 								state: {
 									href: href,
 									previousUrl: currentUrl,
-									accessPage: true
+									atg
 								}
 							});
 						}
@@ -57,7 +62,6 @@ class Layout extends Component {
 
 	componentDidMount() {
 		this.interstitialCheck()
-		loadReCaptcha('6LdlgosUAAAAADpaW2rDi4FDOaIP5eyLx1lFoz14')
 	}
 
 	render() {
