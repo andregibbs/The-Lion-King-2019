@@ -64,7 +64,12 @@ query($id: String!) {
                 }
             }
         }
-        content
+        
+        auditionFields {
+            type
+            tour
+            content
+        }
 
         contentBlocks {
             type

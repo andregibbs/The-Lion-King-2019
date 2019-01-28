@@ -53,7 +53,7 @@ class Interstitial extends Component {
                 <Layout displayHeader={false} displayFooter={false}>
                     <div className="p-3 bg-light-grey">
                         <Container fluid className="landing py-3">
-                            <img src={lionsHead} alt="" className="landing__lion" />
+                            {/* <img src={lionsHead} alt="" className="landing__lion" /> */}
                             <Row>
                                 <Container>
                                     <Row className="align-items-center landing__wrap">

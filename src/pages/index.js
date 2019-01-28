@@ -25,11 +25,11 @@ class IndexPage extends Component {
 			<Layout displayHeader={false} displayFooter={false}>
 				<div className="p-3 bg-light-grey">
 					<Container fluid className="landing py-3">
-						<img src={lionsHead} alt="" className="landing__lion" />
+						{/* <img src={lionsHead} alt="" className="landing__lion" /> */}
 						<Row>
 							<Container>
 								<Row className="align-items-center landing__wrap">
-									<Col className="col-md-6 offset-md-6 col-xl-5 offset-xl-7 text-center">
+									<Col className="col-lg-6 offset-lg-3 offset-xl-6 col-xl-5 offset-xl-7 text-center">
 										<h1>
 											<img src={logo} alt="Disney's The Lion King" />
 										</h1>

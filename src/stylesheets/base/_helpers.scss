@@ -15,6 +15,7 @@
     font-size: $font-size-lg;
     padding: $spacer;
     position: relative;
+    width: 100%;
 
     @include media-breakpoint-up(md) {
         padding: 0 $spacer * 2 $spacer * 2;
@@ -36,6 +37,11 @@
         height: 50px;
         left: 0;
         background: linear-gradient(to top, rgba($black, 1) 0%,rgba($black, 0) 100%);
+    }
+
+    &--image {
+        position: absolute;
+        bottom: 0;
     }
 }
 

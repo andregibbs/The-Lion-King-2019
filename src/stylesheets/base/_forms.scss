@@ -35,3 +35,15 @@ select.form-control {
     }
 
 }
+
+.form-control-file {
+    border: 1px solid transparent;
+}
+
+.form-control-file.is-valid {
+    border-color: $green;
+}
+
+.form-control-file.is-invalid {
+    border-color: $red;
+}

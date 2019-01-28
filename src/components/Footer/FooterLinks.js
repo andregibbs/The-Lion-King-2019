@@ -25,7 +25,7 @@ const FooterLinks = () => (
                         </a>
                     </Col>
                     <Col md={6}>
-                        <a href="https://marypoppinsonstage.co.uk" target="_blank" rel="noreferrer noopener" className="footer-images__link">
+                        <a href="https://disney.co.uk/shows/mary-poppins-musical-tickets" target="_blank" rel="noreferrer noopener" className="footer-images__link no-interstitial-check">
                             <Img fluid={data.footerImage2.childImageSharp.fluid} alt="Disney Store" />
                         </a>
                     </Col>

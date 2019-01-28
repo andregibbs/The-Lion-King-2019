@@ -17,7 +17,7 @@ import {
 } from 'js/validations'
 import fetchWithTimeout from 'js/fetchWithTimeout'
 
-class AuditionForm extends Component {
+class AuditionChildrenForm extends Component {
 
     constructor(props) {
         super(props)
@@ -31,8 +31,8 @@ class AuditionForm extends Component {
             phonenumber: '',
             address: '',
             postcode: '',
-            photo1: '',
-            photo2: '',
+            file1: '',
+            file2: '',
             experience: '',
             hear: '',
             googleVerified: '',
@@ -45,6 +45,10 @@ class AuditionForm extends Component {
                 phonenumber: '',
                 address: '',
                 postcode: '',
+                file1: '',
+                file1ErrorMsg: 'A headshot is required',
+                file2: '',
+                file2ErrorMsg: 'A full length photo is required',
                 googleVerified: '',
                 googleVerifiedErrMsg: 'Google recaptcha is required'
             },
@@ -54,7 +58,7 @@ class AuditionForm extends Component {
         // Bind this to methods
         this.handleSubmit = this.handleSubmit.bind(this)
         this.onGoogleVerify = this.onGoogleVerify.bind(this)
-        this.uploadFile = this.uploadFile.bind(this)
+        this.handleFile = this.handleFile.bind(this)
 
         // Bind this to validation methods
         this.validateRequired = validateRequired.bind(this);
@@ -111,14 +115,41 @@ class AuditionForm extends Component {
             });
     }
 
-    uploadFile(e) {
-        var file = e.target.files[0];
-        var reader = new FileReader();
-        reader.onload = function (output) {
-            console.log(output.target.result)
-        }.bind(this);
+    handleFile(e) {
+        const target = e.target;
+        const name = target.name
+        const file = e.target.files[0];
+        //2 MB allowed file size
+        const allowed_file_size = 2097152;
+        //Allowed file types
+        const allowed_file_types = ['image/png', 'image/gif', 'image/jpg', 'image/jpeg', 'image/pjpeg'];
+        const { validate } = this.state
 
-        reader.readAsDataURL(file);
+        if (allowed_file_types.indexOf(file.type) === -1) { //check unsupported file
+            validate[name] = 'has-danger'
+            validate[`${name}ErrorMsg`] = "This file type is not allowed"           
+            this.setState({
+                validate
+            })
+            return
+        }
+
+        if (file.size > allowed_file_size) {
+            validate[name] = 'has-danger'
+            validate[`${name}ErrorMsg`] = "Exceeds the maximum size of 2mb"
+            this.setState({
+                validate
+            })
+            return
+        }
+
+        validate[name] = 'has-success'
+
+        this.setState({ 
+            [name]: file,
+            validate 
+        })
+
     }
 
     // Method to update field values in state on change
@@ -143,14 +174,18 @@ class AuditionForm extends Component {
         // Create form data ready for api wrapper call
         let formData = new FormData();
         for (let key in this.state) {
-            if (typeof this.state[key] === 'object' && this.state[key].constructor === Object) {
-                for (let k in this.state[key]) {
-                    formData.append(key + '[' + k + ']', this.state[key][k])
-                }
-            } else {
-                formData.append(key, this.state[key]);
-            }
+            // if (typeof this.state[key] === 'object' && this.state[key].constructor === Object) {
+            //     for (let k in this.state[key]) {
+            //         formData.append(key + '[' + k + ']', this.state[key][k])
+            //     }
+            // } else {
+            //     formData.append(key, this.state[key]);
+            // }
+
+            formData.append(key, this.state[key]);
         }
+
+        console.log(formData)
 
         //fetch with a *30* second timeout
         fetchWithTimeout(process.env.AUDITIONS_API_URL, {
@@ -179,7 +214,8 @@ class AuditionForm extends Component {
                         if (response.errors[key] === true) {
                             validate[key] = 'has-danger'
                         } else {
-                            validate[key] = response.errors[key]
+                            validate[key] = 'has-danger'
+                            validate[`${key}ErrorMsg`] = response.errors[key]
                         }
 
                         this.setState({ validate });
@@ -212,10 +248,12 @@ class AuditionForm extends Component {
 
     render() {
 
+        const formType = this.props.data.type !== null ? this.props.data.type : 'default';
+
         return (
             <>
             {this.state.success ? (
-                <p className='text-lg mb-0' ref={this.form}><strong>Thankyou for your submission, we will be in touch soon.</strong></p>
+                <p className='text-lg mb-0' ref={this.form}><strong>Many thanks for registering your interest in auditioning for Disney’s THE LION KING. We will be in touch with further details about the open auditions once they become available.</strong></p>
             ) : ( 
                 <>
                     <Form onSubmit={(e) => this.handleSubmit(e)} noValidate ref={this.form}>
@@ -386,7 +424,7 @@ class AuditionForm extends Component {
                             />
                         </FormGroup>
                         <FormGroup>
-                            <Label for="photo1">2 clear photos:* <span className="text-sm">(Max, 2mb, jpg, jpeg, gif, bmp, png)</span></Label>
+                            <Label for="file1">2 clear photos:* <span className="text-sm">(Max, 2mb, jpg, jpeg, gif, bmp, png)</span></Label>
                             <Row className="pb-2 align-items-center">
                                 <Col xs={4} sm={3}>
                                     Headshot
@@ -395,30 +433,38 @@ class AuditionForm extends Component {
                                     <div className="file-upload">
                                         <Input
                                             type="file"
-                                            name="photo1"
-                                            id="photo1"
-                                            onChange={this.uploadFile}
+                                            name="file1"
+                                            id="file1"
+                                            valid={this.state.validate.file1 === 'has-success'}
+                                            invalid={this.state.validate.file1 === 'has-danger'}
+                                            onChange={e => {
+                                                this.handleFile(e)
+                                            }}
                                         /> 
                                         <FormFeedback>
-                                            A headshot photo is required
+                                            {this.state.validate.file1ErrorMsg}
                                         </FormFeedback>
                                     </div>
                                 </Col>
                             </Row>
                             <Row className="align-items-center">
                                 <Col xs={4} sm={3}>
-                                    Full length
+                                    Full length           
                                 </Col>
                                 <Col>
                                     <div className="file-upload">
                                         <Input
                                             type="file"
-                                            name="photo2"
-                                            id="photo2"
-                                            onChange={this.uploadFile}
+                                            name="file2"
+                                            id="file2"
+                                            valid={this.state.validate.file2 === 'has-success'}
+                                            invalid={this.state.validate.file2 === 'has-danger'}
+                                            onChange={e => {
+                                                this.handleFile(e)
+                                            }}
                                         /> 
                                         <FormFeedback>
-                                            A full length photo is required
+                                            {this.state.validate.file2ErrorMsg}
                                         </FormFeedback>
                                     </div>
                                 </Col>
@@ -442,7 +488,8 @@ class AuditionForm extends Component {
                                 Please tell us how you heard about these auditions
                             </FormFeedback>
                         </FormGroup>
-
+                        
+                        <Input type="hidden" name="type" value={formType} />
                         <Button className="btn--red">Submit</Button>
                     </Form>
                     <ReCaptcha
@@ -459,4 +506,4 @@ class AuditionForm extends Component {
 
 }
 
-export default AuditionForm
+export default AuditionChildrenForm

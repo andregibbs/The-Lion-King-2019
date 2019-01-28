@@ -1,11 +1,31 @@
 .landing {
-    background-image: url(../images/backgrounds/bg-yellow.jpg);
-    background-position: center;
+    background-position: top left;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    background-color: $tlk-yellow;
     overflow: hidden;
     position: relative;
     font-family: $special-font;
+
+    @include media-breakpoint-up(xl) {
+        background-image: url(../images/backgrounds/1600-Landing.png);
+    }
+    
+    h1 {
+        img {
+            @include media-breakpoint-up(xl) {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 100%;
+                width: 100%;
+                max-width: none;
+            }
+            @media (min-width: 1300px) {
+                width: 120%;
+            }
+        }
+    }
 
     h2 {
         font-weight: $special-font-weight;
@@ -22,25 +42,31 @@
         @include media-breakpoint-up(md) {
             min-height: 80vh;
         }
-    }
 
-    &__lion {
-        display: none;
-        max-width: none;
-
-        @include media-breakpoint-up(md) {
-            display: block;
-            position: absolute;
-            top: 50%;
-            left: -20%;
-            max-width: 70%;
-            transform: translateY(-50%);
-        }
-
-        @media only screen and (orientation: portrait) {
-            display: none;
+        > div {
+            @include media-breakpoint-up(xl) {
+                top: 5rem;
+            }
         }
     }
+
+    // &__lion {
+    //     display: none;
+    //     max-width: none;
+
+    //     @include media-breakpoint-up(md) {
+    //         display: block;
+    //         position: absolute;
+    //         top: 50%;
+    //         left: -20%;
+    //         max-width: 70%;
+    //         transform: translateY(-50%);
+    //     }
+
+    //     @media only screen and (orientation: portrait) {
+    //         display: none;
+    //     }
+    // }
 
     &__locations {
         list-style: none;
