@@ -1123,12 +1123,26 @@ FileETag None
     # Other
     ExpiresByType text/x-cross-domain-policy            "access plus 1 week"
 
-    # ignore service worker caching for Gatsby js
+</IfModule>
+
+# ----------------------------------------------------------------------
+# | Caching for Gatsby Js                        |
+# ----------------------------------------------------------------------
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(?i:html)$">
+        Header set Cache-Control "max-age=0, public, must-revalidate"
+    </FilesMatch>
+
+    <FilesMatch "\.(?i:js|css)$">
+        Header set Cache-Control "max-age=31536000, public, immutable"
+    </FilesMatch>
+
     <Files sw.js>
         Header set Cache-Control "public, must-revalidate, max-age=0"
     </Files>
-
 </IfModule>
+
 
 # ----------------------------------------------------------------------
 # | File concatenation                                                 |

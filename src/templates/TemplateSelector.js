@@ -46,6 +46,7 @@ query($id: String!) {
         bookingInfo
         template
         title
+        metaTitle
         metaDescription
         path
         displayBookNow

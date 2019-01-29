@@ -20,9 +20,15 @@ class IndexPage extends Component {
 				</li>
 			)
 		})
+	
+
+		const data = []
+		data.siteName = false
+		data.title = "Get Tickets for The Lion King from the Official Disney Website"
+		data.metaDescription = "See it now in London. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now."
 
 		return (
-			<Layout displayHeader={false} displayFooter={false}>
+			<Layout displayHeader={false} displayFooter={false} data={data}>
 				<div className="p-3 bg-light-grey">
 					<Container fluid className="landing py-3">
 						{/* <img src={lionsHead} alt="" className="landing__lion" /> */}

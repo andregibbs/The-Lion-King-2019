@@ -72,12 +72,16 @@ class Layout extends Component {
 			displayFooterFindOutMore
 		} = this.props
 
-		const { siteId, title, metaDescription } = this.props.data
+		const { siteId, title, metaDescription, siteName } = this.props.data
+
+		const metaTitle =
+			this.props.data.metaTitle || title
 
 		return(
 			<>
 				<SEO 
-					title={title} 
+					title={metaTitle}
+					siteName={siteName} 
 					description={metaDescription}
 					keywords={[`The Lion King`, `Disney`, `Musical`]} 
 				/>
@@ -106,7 +110,9 @@ Layout.defaultProps = {
 		headerImage: false,
 		headerImageMobile: false,
 		displayNav: true,
-		title: "Get Tickets for The Lion King from the Official Disney Website"
+		title: "Get Tickets for The Lion King from the Official Disney Website",
+		metaTitle: "Get Tickets for The Lion King from the Official Disney Website",
+		siteName: true
 	},
 	displayHeader: true,
 	displayFooter: true,
