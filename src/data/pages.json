@@ -431,7 +431,7 @@
                             },
                             {
                                 "question": "Are there any resources available to help prepare for my visit?",
-                                "answer": "<p>Watch the video visual story below to learn what you will experience when you arrive at the Lyceum Theatre.</p><br><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_tj96c8vr&flashvars[localizationCode]=en&amp;&wid=1_jh8cwwtm' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><br><p>You can also download a PDF copy of the Lyceum Theatre visual story <a href='/docs/pdf/The_Lion_King_Visual_Story.pdf' target='_blank' rel='noopener noreferrer'>here</a>.</p>"
+                                "answer": "<p>Watch the video visual story below to learn what you will experience when you arrive at the Lyceum Theatre.</p><br><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_tj96c8vr&flashvars[localizationCode]=en&amp;&wid=1_jh8cwwtm' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><br><p>You can also download a PDF copy of the Lyceum Theatre visual story <a href='/docs/pdf/The_Lion_King_Visual_Story.pdf' target='_blank' rel='noopener noreferrer' class='no-interstitial-check'>here</a>.</p>"
                             }
                         ]
                     }
@@ -482,6 +482,7 @@
         "id": "londonTerms",
         "inNav": false,
         "bookingInfo": false,
+        "displayBookNow": false,
         "siteId": "london",
         "template": "default-template",
         "path": "/london/terms-and-conditions/",
@@ -558,10 +559,10 @@
         "id": "bristolTerms",
         "inNav": false,
         "bookingInfo": false,
+        "displayBookNow": false,
         "siteId": "bristol",
         "template": "default-template",
         "path": "/bristol/terms-and-conditions/",
-        "displayBookNow": false,
         "title": "Terms and Conditions",
         "metaDescription": "",
         "headerImage": "../images/headers/header-bristol-1600px.jpg",

@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import shareImg from 'images/share-image.jpg'
 
 function SEO({ description, lang, meta, keywords, title, siteName }) {
 	return (
@@ -44,7 +43,7 @@ function SEO({ description, lang, meta, keywords, title, siteName }) {
 							},
 							{
 								property: `og:image`,
-								content: shareImg,
+								content: '/images/share-image.jpg',
 							},
 							{
 								name: `twitter:card`,
