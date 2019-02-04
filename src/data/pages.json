@@ -259,7 +259,7 @@
             {
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
-                    "content": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&amp;&wid=1_ldi8htfp' width='400' height='85' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    "content": "<div class='embed-responsive embed-responsive-16by9'><iframe id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='00' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
                 }
             },
             {
