@@ -521,7 +521,7 @@
             {
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
-                    "content": "<h1 class='h4 font-weight-bold pb-4'><span class='text-red'>Bristol Hippodrome |</span> Autumn 2019</h1><p class='text-lg'><strong>Just announced - Disney's THE LION KING will embark on a UK and Ireland Tour beginning Autumn 2019.</strong><br/>Tickets for Bristol will go on sale in February 2019 - sign-up now for priority access to tickets below.</p><div class='d-flex justify-content-center'><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-tickets?ex_cmp=dis_uk:events:lio:Dwsite:0119' class='btn btn--red btn--large btn--300 mt-3 no-interstitial-check' target='_blank' rel='noopener noreferrer'><span>TOUR PRIORITY SIGN-UP</span></a></div>"
+                    "content": "<h1 class='h4 font-weight-bold pb-4'><span class='text-red'>Bristol Hippodrome |</span> September 2019</h1><p class='text-lg'><strong>Just announced - Disney's THE LION KING will embark on a UK and Ireland Tour beginning Autumn 2019.</strong><br/>Tickets for Bristol will go on sale in February 2019 - sign-up now for priority access to tickets below.</p><div class='d-flex justify-content-center'><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-tickets?ex_cmp=dis_uk:events:lio:Dwsite:0119' class='btn btn--red btn--large btn--300 mt-3 no-interstitial-check' target='_blank' rel='noopener noreferrer'><span>TOUR PRIORITY SIGN-UP</span></a></div>"
                 }
             }
         ]
@@ -551,6 +551,33 @@
                     "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
                     "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "bristolRelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "bristol",
+        "template": "default-template",
+        "path": "/bristol/relaxedperformances/",
+        "title": "Relaxed Performance",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-autism-v2-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-autism-v2-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Sign up now to receive information about the Relaxed Performance on Tuesday 19 November at 5pm.</p><p> THE LION KING is committed to creating a friendly and inclusive audience experience. Having hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the Lyceum Theatre London, the landmark musical is delighted to be presenting a Relaxed Performance in <strong>The Bristol Hippodrome</strong> on Tuesday 19 November at 5pm. </p><p> Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment. </p><p> Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p><a href='https://www.atgtickets.com/the-lion-king-tour/' class='btn btn--red btn--300'>Sign up for ticket information</a>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-5'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_efumgbui&flashvars[localizationCode]=en&amp;&wid=1_a3tmw6hy' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is an autism-friendly performance?</div>"
+                    }
                 }
             }
         ]
@@ -598,7 +625,7 @@
             {
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
-                    "content": "<h1 class='h4 font-weight-bold pb-4'><span class='text-red'>Edinburgh Playhouse |</span> Autumn 2019</h1><p class='text-lg'><strong>Just announced - Disney's THE LION KING will embark on a UK and Ireland Tour beginning Autumn 2019.</strong><br/>Tickets for Edinburgh will go on sale in March 2019 - sign-up now for priority access to tickets below.</p><div class='d-flex justify-content-center'><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-tickets?ex_cmp=dis_uk:events:lio:Dwsite:0119' class='btn btn--red btn--large btn--300 mt-3 no-interstitial-check' target='_blank' rel='noopener noreferrer'><span>TOUR PRIORITY SIGN-UP</span></a></div>"
+                    "content": "<h1 class='h4 font-weight-bold pb-4'><span class='text-red'>Edinburgh Playhouse |</span> December 2019</h1><p class='text-lg'><strong>Just announced - Disney's THE LION KING will embark on a UK and Ireland Tour beginning Autumn 2019.</strong><br/>Tickets for Edinburgh will go on sale in March 2019 - sign-up now for priority access to tickets below.</p><div class='d-flex justify-content-center'><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-tickets?ex_cmp=dis_uk:events:lio:Dwsite:0119' class='btn btn--red btn--large btn--300 mt-3 no-interstitial-check' target='_blank' rel='noopener noreferrer'><span>TOUR PRIORITY SIGN-UP</span></a></div>"
                 }
             }
         ]
@@ -628,6 +655,33 @@
                     "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
                     "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "edinburghRelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "edinburgh",
+        "template": "default-template",
+        "path": "/edinburgh/relaxedperformances/",
+        "title": "Relaxed Performance",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-autism-v2-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-autism-v2-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Sign up now to receive information on the Relaxed Performance on Sunday 26 January 2020 at 1.30pm.</p><p> THE LION KING is committed to creating a friendly and inclusive audience experience. Having hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the Lyceum Theatre London, the landmark musical is delighted to be presenting a Relaxed Performance in the <strong>Edinburgh Playhouse</strong> on Sunday 26 January 2020 at 1.30pm. </p><p> Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment.</p><p> Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p><a href='https://www.atgtickets.com/the-lion-king-tour/' class='btn btn--red btn--300'>Sign up for ticket information</a>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-5'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_efumgbui&flashvars[localizationCode]=en&amp;&wid=1_a3tmw6hy' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is an autism-friendly performance?</div>"
+                    }
                 }
             }
         ]
