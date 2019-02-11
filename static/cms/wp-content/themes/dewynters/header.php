@@ -6,6 +6,9 @@
  *
  * @package Website-Template-WP-Theme
  */
+
+// Redirect front end
+header( "Location: https://thelionking.co.uk" );
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
