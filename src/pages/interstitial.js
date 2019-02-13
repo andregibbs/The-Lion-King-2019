@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Layout from 'components/Layout/Layout'
 import { navigate, Link } from 'gatsby'
 import logo from 'images/logo-nosub.svg'
-import lionsHead from 'images/backgrounds/lionhead.png'
+// import lionsHead from 'images/backgrounds/lionhead.png'
 import { Container, Row, Col } from 'reactstrap'
 
 class Interstitial extends Component {

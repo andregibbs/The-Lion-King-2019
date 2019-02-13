@@ -93,6 +93,22 @@ module.exports = {
 				// gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
 			},
 		},
+		// {
+		// 	resolve: 'gatsby-plugin-robots-txt',
+		// 	options: {
+		// 		host: 'https://thelionking.co.uk',
+		// 		sitemap: 'https://thelionking.co.uk/sitemap.xml',
+		// 		resolveEnv: () => process.env.GATSBY_ENV,
+		// 		env: {
+		// 			development: {
+		// 				policy: [{ userAgent: '*', disallow: ['/'] }]
+		// 			},
+		// 			production: {
+		// 				policy: [{ userAgent: '*', allow: '/' }]
+		// 			}
+		// 		}
+		// 	}
+		// },
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline
 		'gatsby-plugin-offline',

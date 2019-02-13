@@ -31,7 +31,7 @@ class Navigation extends Component {
         const { siteId, navPaddingBottom, displayBookNow } = this.props.data
 
         return (
-            <div className={`m-nav-outer ${navPaddingBottom !== null && navPaddingBottom === false ? '' : 'pb-3 pb-md-5'}`}>
+            <div className={`m-nav-outer ${navPaddingBottom !== null && navPaddingBottom === false ? '' : 'pb-3 pb-md-4'}`}>
                 <Navbar expand="lg" className="m-nav py-1">
                     <button type="button" className="navbar-toggler" onClick={this.toggleNav} aria-haspopup="true" aria-expanded="false">
                         <span></span>
