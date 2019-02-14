@@ -75,6 +75,48 @@
                 "image": "../images/headshots/zion-gardner.jpg"
             },
             {
+                "name": "Tia Murrell",
+                "role": "Young Nala",
+                "bio": "<p><strong>Place of Birth:</strong> London, England</p><p><strong>Training:</strong> Italia Conti Associates; JAM2000 Performing Arts</p><p><strong>Theatre:</strong> <em>Oliver!, Bugsy Malone (Watersmeet Theatre, Rickmansworth)</em></p><p><strong>Television:</strong> <em>Comic Relief 2017; River; The Tunnel; Call The Midwife; McDonald's Christmas commercial; Ben 10 Cartoon Network promo; Sainsbury's commercial; Morrisons commercial</em></p><p><strong>Other:</strong> <em>Snazaroo online commercial; Sainsbury's online commercial</em></p>",
+                "image": "../images/headshots/tia-murrell.jpg"
+            },
+            {
+                "name": "Samuel O’Loughlin",
+                "role": "Young Simba",
+                "bio": "<p><strong>Place of Birth:</strong> London, England</p><p><strong>Training:</strong> Colins Performing Arts; KA Arts; The Lion King Cub School</p><p><strong>Television:</strong> <em>Call the Midwife</em></p><p><strong>Other:</strong> Samuel has appeared in television commercials for Asda, Ferrero Kinder and Currys PC World</p><p><em>The Lion King</em> marks Samuel’s West End debut.</p>",
+                "image": "../images/headshots/samuel-oloughlin.jpg"
+            },
+            {
+                "name": "Kai Plummer-Walrond",
+                "role": "Young Simba",
+                "bio": "<p><strong>Place of Birth:</strong> London, England</p><p><strong>Training:</strong> Italia Conti Associates; JAM2000 Performing Arts</p><p><strong>Theatre:</strong> <em>Oliver!, Bugsy Malone (Watersmeet Theatre, Rickmansworth)</em></p><p><strong>Television:</strong> <em>Comic Relief 2017; River; The Tunnel; Call The Midwife; McDonald's Christmas commercial; Ben 10 Cartoon Network promo; Sainsbury's commercial; Morrisons commercial</em></p><p><strong>Other:</strong> <em>Snazaroo online commercial; Sainsbury's online commercial</em></p>",
+                "image": "../images/headshots/kai-plummer-walrond.jpg"
+            },
+            {
+                "name": "Nia-May Taylor",
+                "role": "Young Nala",
+                "bio": "<p><strong>Place of Birth:</strong> London, England</p><p><strong>Training:</strong> The Lion King Cub School; AkomaAsa Performing Arts Academy; Catherine Gill School of Ballet (Royal Academy of Dance; Kentish Suzuki Group</p><p><em>The Lion King </em>marks Nia-May’s West End debut.</p>",
+                "image": "../images/headshots/nia-may-taylor.jpg"
+            },
+            {
+                "name": "Avive Savannah Williams",
+                "role": "Young Nala",
+                "bio": "<p><strong>Place of Birth:</strong> London, England</p><p><strong>Training:</strong> AkomaAsa Performing Arts; The Lion King Cub School</p><p><em>The Lion King</em> marks Avive’s West End debut.</p>",
+                "image": "../images/headshots/avive-savannah-williams.jpg"
+            },
+            {
+                "name": "Monaé Wilson",
+                "role": "Young Nala",
+                "bio": "<p><strong>Place of Birth:</strong> London, England</p><p><strong>Training:</strong> The Lion King Cub School</p><p><em>The Lion King </em>marks Monaé’s West End debut.</p>",
+                "image": "../images/headshots/monae-wilson.jpg"
+            },
+            {
+                "name": "Hugo Max Woodhouse",
+                "role": "Young Simba",
+                "bio": "<p><strong>Place of Birth:</strong> London, England</p><p><strong>Training:</strong> The Lion King Cub School; Royal Opera House Youth Company</p><p><em>The Lion King </em>marks Hugo’s West End debut.</p>",
+                "image": "../images/headshots/hugo-woodhouse.jpg"
+            },
+            {
                 "name": "Owen Chaponda",
                 "role": "Ensemble",
                 "bio": "<p><strong>Place of Birth:</strong> Malawi, Africa</p> <p><strong>Training:</strong> The Brit School; Bird College of Dance, Music and Theatre Performance</p> <p><strong>Theatre:</strong> <em>Oedipus </em>(Studio House Theatre, Sidcup); <em>The Wedding</em> <em>Singer </em>(Studio House Theatre, Sidcup); <em>Othello </em>(Shakespeare Schools Festival)</p> <p><strong>Television:</strong> <em>X Factor</em></p> <p><em>The Lion King </em>marks Owen&rsquo;s West End debut.</p>",
@@ -118,7 +160,7 @@
             },
             {
                 "name": "Jamie Golding",
-                "role": "Standby Timon, Zazu &amp; Pumbaa",
+                "role": "Standby Timon, Zazu & Pumbaa",
                 "bio": "<p><strong>Place of Birth:</strong> Essex, England</p> <p><strong>Theatre:</strong> <em>Guys and Dolls </em>(Kilworth House, Leicester);<em> Kern Goes to Hollywood </em>(King&rsquo;s Head); <em>Starlight Express </em>(London, Germany and NewZealand tour); <em>The Best of Times </em>(Bridewell Theatreand Vaudeville Theatre); <em>The Beautiful Game </em>(SydmontonFestival and CambridgeTheatre); <em>Alice in Wonderland </em>(RSC, Barbican and Stratford-upon-Avon); <em>Urinetown </em>(London workshop); <em>The Canterville Ghost </em>(UKtour); <em>Sweeney Todd </em>(Theatr Clwyd); <em>Les Misérables </em>(Palace Theatre)</p> <p><strong>Television:</strong> <em>Grange Hill </em>(BBC); <em>Dodgem </em>(BBC); <em>The Ghostbusters of East Finchley </em>(BBC); <em>The Bill </em>(ITV); <em>The Southbank Show - The Beautiful Game </em>(ITV)</p> <p><strong>Other:</strong> Jamie featured on the original cast album of <em>The Beautiful Game </em>as well as Rusty on the 15th anniversaryrecording of <em>Starlight Express </em>in Germany.</p>",
                 "image": "../images/headshots/jamie-golding.jpg"
             },
