@@ -108,6 +108,8 @@ Class Auditions {
     private function sendSubmission() 
     {
 
+        $message = "";
+
         // Set name for collection
         $nameforcollection = $this->fields['name'];
         if ($this->fields['nameforcollection'] !== "") {
@@ -116,10 +118,16 @@ Class Auditions {
 
         $tour = $this->fields['formType'] === 'tour' ? 'Yes' : 'No (London)';
 
+        if ($tour === 'tour') {
+            $emailTo = "office@jillgreencasting.org";
+        } else {
+            $emailTo = "enquiries@pippaailioncasting.co.uk";
+        }
+
         $mail = new PHPMailer(true);  
         try {
             $subject = 'The Lion King - Adult Auditions Submission';
-            $message = "Tour submission: " . $tour . "\n";
+            $message .= "Tour submission: " . $tour . "\n";
             $message .= "Name: ". $this->fields['name'] . "\n";
             $message .= "DOB: ". $this->fields['dob'] . "\n";
             $message .= "Height: ". $this->fields['height'] . "\n";
@@ -131,7 +139,7 @@ Class Auditions {
             $message .= "How did you hear about these auditions?: ". $this->fields['hear'] . "\n";
 
             $mail->setFrom($this->fields['email'], $this->fields['name']);
-            $mail->addAddress('s.richards@dewynters.com'); 
+            $mail->addAddress($emailTo); 
             $mail->addReplyTo($this->fields['email'], $this->fields['name']);
 
             // $mail->addBCC('bcc@example.com');

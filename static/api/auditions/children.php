@@ -121,6 +121,12 @@ Class Auditions {
 
         $tour = $this->fields['formType'] === 'tour' ? 'Yes' : 'No (London)';
 
+        if ($tour === 'tour') {
+            $emailTo = "office@jillgreencasting.org";
+        } else {
+            $emailTo = "enquiries@pippaailioncasting.co.uk";
+        }
+
         $mail = new PHPMailer(true);  
         try {
             $subject = 'The Lion King - Children Auditions Submission';
