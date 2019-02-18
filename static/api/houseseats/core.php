@@ -1,4 +1,10 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+//Load Composer's autoloader
+require '../vendor/autoload.php';
+
 // Class to handle form submissions for houseseats
 Class House_Seats {
 
@@ -91,34 +97,40 @@ Class House_Seats {
             $nameforcollection = $this->fields['nameforcollection'];
         }
 
-        $to = 's.richards@dewynters.com';
-        $subject = 'The Lion King - House Seats Submission';
+        $mail = new PHPMailer(true);  
+        try {
+            $emailTo = 'lionking.houseseats.UK@disney.com';
+            $subject = 'The Lion King - House Seats Submission';
+            $message = "Name: ". $this->fields['name'] . "\n";
+            $message .= "Connection to the production: ". $this->fields['connection_to_production'] . "\n";
+            $message .= "Contact telephone number: ". $this->fields['phonenumber'] . "\n";
+            $message .= "Email address: ". $this->fields['email'] . "\n";
+            $message .= "Name for ticket collection: ". $nameforcollection . "\n";
+            $message .= "Number of tickets required: ". $this->fields['tickets_amount'] . "\n";
+            $message .= "Date/Time: ". $this->fields['date'] . "\n";
+            $message .= "Additional notes: ". $this->fields['notes'] . "\n";
 
-        $message = "Name: ". $this->fields['name'] . "\n";
-        $message .= "Connection to the production: ". $this->fields['connection_to_production'] . "\n";
-        $message .= "Contact telephone number: ". $this->fields['phonenumber'] . "\n";
-        $message .= "Email address: ". $this->fields['email'] . "\n";
-        $message .= "Name for ticket collection: ". $nameforcollection . "\n";
-        $message .= "Number of tickets required: ". $this->fields['tickets_amount'] . "\n";
-        $message .= "Date/Time: ". $this->fields['date'] . "\n";
-        $message .= "Additional notes: ". $this->fields['notes'] . "\n";
+            $mail->setFrom($this->fields['email'], $this->fields['name']);
+            $mail->addAddress($emailTo);
+            $mail->addBcc('t.roberts@dewynters.com');
+            $mail->addReplyTo($this->fields['email'], $this->fields['name']);
 
-        $headers = 'From: '. $this->fields['email'] . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
+            // Set body
+            $mail->Body = $message;
+            $mail->Subject = $subject;
+            $mail->send();
 
-        // Send mail
-        if (mail($to, $subject, $message, $headers)) {
             // Return success
             return array(
                 'success' => true
             );
-        } 
-
-        // Mail failed
-        return array(
-            'success' => false
-        ); 
-
+        } catch (Exception $e) {
+            // Mail failed
+            return array(
+                'success' => false,
+                'errors' =>  $mail->ErrorInfo
+            ); 
+        }
     }
 
     private function request($field) {

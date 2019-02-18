@@ -143,7 +143,8 @@ Class Auditions {
             $message .= "How did you hear about these auditions?: ". $this->fields['hear'] . "\n";
 
             $mail->setFrom($this->fields['email'], $this->fields['name']);
-            $mail->addAddress('s.richards@dewynters.com'); 
+            $mail->addAddress($emailTo); 
+            $mail->addBcc('t.roberts@dewynters.com');
             $mail->addReplyTo($this->fields['email'], $this->fields['name']);
 
             // $mail->addBCC('bcc@example.com');
