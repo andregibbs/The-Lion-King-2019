@@ -60,8 +60,28 @@ class Layout extends Component {
 		}
 	}
 
+	tealiumTracking() {
+		var pageData = {
+			siteName: "thelionking",
+			country: "uk",
+			region: "emea",
+			page_name: this.props.data.title
+		};
+		(function (a, b, c, d) {
+			var prodDomain = 'thelionking.co.uk'; // The URL of the production website
+			var profile = 'emea'; // the name of the Tealium profile
+			a = (document.domain == prodDomain ? '//tags.disneyinternational.com/tealium/' + profile + '/prod/utag.js' : '//tags.disneyinternational.com/tealium/' + profile + '/dev/utag.js');
+			b = document; c = 'script'; d = b.createElement(c); d.src = a; d.type = 'text/java' + c; d.async = true;
+			a = b.getElementsByTagName(c)[0]; a.parentNode.insertBefore(d, a);
+		})();
+		if (window !== 'undefined' && window.utag) {
+			window.utag.view(pageData)
+		}
+	}
+
 	componentDidMount() {
 		this.interstitialCheck()
+		this.tealiumTracking()
 	}
 
 	render() {
