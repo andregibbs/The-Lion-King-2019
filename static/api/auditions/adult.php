@@ -108,6 +108,8 @@ Class Auditions {
     private function sendSubmission() 
     {
 
+        $message = "";
+
         // Set name for collection
         $nameforcollection = $this->fields['name'];
         if ($this->fields['nameforcollection'] !== "") {
@@ -125,7 +127,7 @@ Class Auditions {
         $mail = new PHPMailer(true);  
         try {
             $subject = 'The Lion King - Adult Auditions Submission';
-            $message = "Tour submission: " . $tour . "\n";
+            $message .= "Tour submission: " . $tour . "\n";
             $message .= "Name: ". $this->fields['name'] . "\n";
             $message .= "DOB: ". $this->fields['dob'] . "\n";
             $message .= "Height: ". $this->fields['height'] . "\n";
