@@ -67,4 +67,12 @@
         background-color: $white;
     }
 
+    .faq-block--yellow & {
+        .faq-item__btn {
+            &:after {
+                background-color: $tlk-yellow;
+            }
+        }
+    }
+
 }

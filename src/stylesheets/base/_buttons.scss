@@ -47,6 +47,13 @@
         display: block;
     }
 
+    &--book {
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+        font-size: $font-size-base * 1.25;
+    }
+
     &--large {
         font-size: $font-size-base * 1.25;
         white-space: normal;

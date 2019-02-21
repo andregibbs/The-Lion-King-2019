@@ -123,10 +123,12 @@ query($id: String!) {
                 textCenter
                 fluidContainer
                 content
+                paddingClass
             }
 
             faqBlock {
                 title
+                colour
                 items {
                     question
                     answer
