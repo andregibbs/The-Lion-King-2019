@@ -353,7 +353,7 @@
                             },
                             {
                                 "question": "How can I audition to be in the show?",
-                                "answer": "<p>For information about auditioning <a href='http://www.thelionkingauditions.co.uk/' target='_blank' rel='noopener noreferrer'>click here.</a></p>"
+                                "answer": "<p>For information about auditioning <a href='/auditions/' class='no-interstitial-check'>click here.</a></p>"
                             },
                             {
                                 "question": "Is THE LION KING playing in a city near me?",
