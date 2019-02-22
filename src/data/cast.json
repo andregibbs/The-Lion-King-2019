@@ -111,6 +111,37 @@
                 "image": "../images/headshots/monae-wilson.jpg"
             },
             {
+                "name": "Etian A Almeida",
+                "role": "Swing",
+                "bio": "<p><strong>Place of Birth:</strong> Pinar Del Rio, Cuba</p><p><strong>Training:</strong> National School of Arts (Havana Cuba)</p><p><strong>Theatre:</strong> <em>Heartbeat of Home </em>(Chinese tour); <em>Havana Rakatan </em>(UK tour)</p><p><strong>Television:</strong> <em>Frank Sinatra &ldquo;My Way&rdquo; </em>(BBC); <em>The Royals </em>(E!Network); <em>Bring the Noise </em>(Sky);<em> Lip Sync Battle UK </em>(Channel 5);<em> The Norouz Show </em>(Manoto 1)</p><p><strong>Other:</strong> Etian appeared as a dancer on <em>EastEnders Does Top Hat </em>for BBC Children in Need.</p>",
+                "image": "../images/headshots/etian-almedia.jpg"
+            },
+            {
+                "name": "Lila Anderson",
+                "role": "Ensemble",
+                "bio": "<p><strong>Place of Birth:</strong> Philippines</p><p><strong>Training:</strong> SLP College Leeds</p><p><strong>Theatre:</strong> <em>Jack and the Beanstalk </em>(Theatre Royal Norwich)</p><p><em>The Lion King </em>marks Lila&rsquo;s West End debut.</p>",
+                "image": "../images/headshots/lila-anderson.jpg"
+            },
+            {
+                "name": "Thanduxolo Booi",
+                "role": "Ensemble",
+                "bio": "<p><strong>Place of Birth:</strong> Port Elizabeth, South Africa</p><p><strong>Theatre:</strong> <em>Impempe Yomlingo (The Magic Flute)</em> Germany Isango Ensemble; <em>The Lion King</em> (Shanghai, China).<br/><br/><em>The Lion King</em> marks Thanduxolo’s West End debut.</p>",
+                "image": "../images/headshots/thanduxolo-booi.jpg"
+            },
+            {
+                "name": "Gabriel Brasilio",
+                "role": "Ensemble",
+                "bio": "<p><strong>Place of Birth:</strong> Brazil</p><p><strong>Training:</strong> Sopro Cia. de Dança and Ballet Adriana Assaf</p><p><strong>Theatre:</strong> <em>Cats </em>(Teatro Abril, Brazil); <em>The Merry Widow</em> (Theatro São Pedro, Brazil); <em>The</em> <em>Lion King </em>(Teatro Renault, Brazil)</p><p><strong>Other:</strong> Previously a gymnast, Gabriel performed as circus acrobat at Circo Spacial, Circo Roda Brasil and Turma da Mônica no Mundo do Circo.</p><p><em>The Lion King </em>marks Gabriel&rsquo;s West End debut.</p>",
+                "image": "../images/headshots/gabriel-brasilio.jpg"
+            },
+            {
+                "name": "Yolanda Burke",
+                "role": "Ensemble",
+                "bio": "<p><strong>Place of Birth:</strong> London, England</p><p><strong>Theatre:</strong> <em>The Lion King </em>(Germany); <em>West End Laine </em>(Aldwych Theatre)</p><p><strong>Television:</strong> <em>Olympic Torch Ceremony </em>(BBC)</p><p><strong>Other:</strong> Yolanda makes a welcome return to <em>The Lion King</em>, having been part of the 2008 London company.</p>",
+                "image": "../images/headshots/yolanda-burke.jpg"
+            },
+
+            {
                 "name": "Hugo Max Woodhouse",
                 "role": "Young Simba",
                 "bio": "<p><strong>Place of Birth:</strong> London, England</p><p><strong>Training:</strong> The Lion King Cub School; Royal Opera House Youth Company</p><p><em>The Lion King </em>marks Hugo’s West End debut.</p>",
