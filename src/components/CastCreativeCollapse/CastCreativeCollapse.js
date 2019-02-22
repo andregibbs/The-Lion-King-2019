@@ -22,10 +22,12 @@ class CastCollapse extends Component {
     }
 
     toggle(tab, e) {
-        console.log(e.innerText)
-        utag.link({
-            "actionName": e.innerText
-        })
+        // Tealium track button click
+        if (window.utag !== undefined) {
+            window.utag.link({
+                "actionName": e.target.innerText
+            })
+        }
         if (this.state.activeTab !== tab) {
             this.setState({
                 activeTab: tab
