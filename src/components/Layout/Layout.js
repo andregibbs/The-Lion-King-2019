@@ -86,9 +86,9 @@ class Layout extends Component {
 		// 	})();
 		// 	this.setState({tealium: !this.state.tealium})
 		// }
-
-		if (window !== 'undefined' && window.utag) {
+		if (window !== 'undefined' && window.utag && process.env.NODE_ENV == 'production') {
 			window.utag.view(pageData)
+			
 		}
 	}
 
