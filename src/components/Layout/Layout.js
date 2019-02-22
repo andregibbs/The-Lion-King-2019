@@ -8,14 +8,6 @@ import 'stylesheets/main.scss'
 
 class Layout extends Component {
 
-	constructor(props) {
-		super(props)
-
-		this.state = {
-			tealium: false
-		}
-	}
-
 	interstitialCheck() {
 
 		// Do not fire following code if already on interstitial
@@ -81,19 +73,8 @@ class Layout extends Component {
 			page_name: this.props.data.title
 		};
 
-		// if (!this.state.tealium) {
-		// 	(function (a, b, c, d) {
-		// 		var prodDomain = 'thelionking.co.uk'; // The URL of the production website
-		// 		var profile = 'emea'; // the name of the Tealium profile
-		// 		a = (document.domain == prodDomain ? '//tags.disneyinternational.com/tealium/' + profile + '/prod/utag.js' : '//tags.disneyinternational.com/tealium/' + profile + '/dev/utag.js');
-		// 		b = document; c = 'script'; d = b.createElement(c); d.src = a; d.type = 'text/java' + c; d.async = true;
-		// 		a = b.getElementsByTagName(c)[0]; a.parentNode.insertBefore(d, a);
-		// 	})();
-		// 	this.setState({tealium: !this.state.tealium})
-		// }
-		if (window !== 'undefined' && window.utag && process.env.NODE_ENV == 'production') {
+		if (window !== 'undefined' && window.utag) {
 			window.utag.view(pageData)
-			
 		}
 	}
 

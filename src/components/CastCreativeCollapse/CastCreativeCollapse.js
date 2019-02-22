@@ -21,7 +21,13 @@ class CastCollapse extends Component {
         this.toggle = this.toggle.bind(this);
     }
 
-    toggle(tab) {
+    toggle(tab, e) {
+        // Tealium track button click
+        if (window.utag !== undefined) {
+            window.utag.link({
+                "actionName": e.target.innerText
+            })
+        }
         if (this.state.activeTab !== tab) {
             this.setState({
                 activeTab: tab
@@ -37,17 +43,17 @@ class CastCollapse extends Component {
                     <NavItem>
                         <NavLink
                             className={classnames({ active: this.state.activeTab === '1' })}
-                            onClick={() => { this.toggle('1'); }}
+                            onClick={(e) => { this.toggle('1', e); }}
                         >
-                                Cast
+                            Cast
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink
                             className={classnames({ active: this.state.activeTab === '2' })}
-                            onClick={() => { this.toggle('2'); }}
+                            onClick={(e) => { this.toggle('2', e); }}
                         >
-                                Creative
+                            Creative
                         </NavLink>
                     </NavItem>
                 </Nav>

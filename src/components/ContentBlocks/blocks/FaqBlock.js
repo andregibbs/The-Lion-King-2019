@@ -60,7 +60,13 @@ class FaqItem extends Component {
         this.state = { collapse: false };
     }
 
-    toggle() {
+    toggle(e) {
+        // Track faq dropdown
+        if (window.utag !== undefined) {
+            window.utag.link({
+                "actionName": e.target.innerText
+            })
+        }
         this.setState({ collapse: !this.state.collapse });
     }
 
@@ -70,7 +76,7 @@ class FaqItem extends Component {
 
         return (
             <div className="faq-item">
-                <button onClick={this.toggle} className={`faq-item__btn  ${this.state.collapse ? 'active' : ''}`}>{question}</button>
+                <button onClick={(e) => this.toggle(e)} className={`faq-item__btn  ${this.state.collapse ? 'active' : ''}`}>{question}</button>
                 <Collapse isOpen={this.state.collapse}>
                     <div
                         className="faq-item__content"
