@@ -13,7 +13,7 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           {this.props.headComponents}
-          {/* {process.env.NODE_ENV == 'production' && */}
+          {process.env.NODE_ENV == 'production' &&
             <script
               dangerouslySetInnerHTML={{
                 __html: `
@@ -27,7 +27,7 @@ export default class HTML extends React.Component {
               `,
               }}
             />
-          {/* } */}
+          } 
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
