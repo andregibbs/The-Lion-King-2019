@@ -8,7 +8,7 @@ class Footer extends Component {
     render() {
 
         return (
-            <footer>
+            <footer className="footer">
                 {this.props.displayFooterFindOutMore &&
                     <FooterFindOutMore siteId={this.props.siteId} />
                 }
