@@ -2,6 +2,10 @@
     background-color: $tlk-light-grey;
     padding-top: $spacer;
     padding-bottom: $spacer * 2;
+
+    &--yellow {
+        background-color: $tlk-pale-yellow;
+    }
 }
 
 .faq-item {
