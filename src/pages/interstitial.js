@@ -24,12 +24,13 @@ class Interstitial extends Component {
             return true
         }
 
-        const { href, previousUrl, atg } = this.props.location.state
+        const { href, previousUrl, atg, atgBristol } = this.props.location.state
 
         this.setState({
             href,
             previousUrl,
-            atg
+            atg,
+            atgBristol
         })
 
         // Set up auto redirect if atg link
@@ -45,7 +46,10 @@ class Interstitial extends Component {
 
     render() {
 
-        const { href, previousUrl, atg } = this.state
+        const { href, previousUrl, atg, atgBristol } = this.state
+
+        let office = atgBristol ? 'Bristol Hippodrome Box Office operated by ATG Tickets' : 'Lyceum Theatre Box Office operated by ATG Tickets'
+
 
         if (href !== "" && previousUrl !== "") {
 
@@ -63,7 +67,7 @@ class Interstitial extends Component {
                                             </h1>
                                             <h2 className="pt-3">PLEASE NOTE</h2>
 
-                                            {!atg ? (
+                                            {!atg && !atgBristol ? (
                                                 <>
                                                     <p>Disney does not control this website so please click below to say you are happy to continue. Disney’s privacy practices and controls do not apply once you leave our site.</p>
                                                     <Row>
@@ -77,7 +81,7 @@ class Interstitial extends Component {
                                                 </>
                                             ) : (
                                                 <>
-                                                    <p>You are now being redirected to the Lyceum Theatre Box Office operated by ATG Tickets</p>
+                                                    <p>You are now being redirected to the {office}</p>
                                                     <p>Please note that Disney’s privacy practices and controls do not apply once you leave our site.</p>
                                                     <div className="lds-facebook"><div></div><div></div><div></div></div>
                                                     <Row className="justify-content-center">
