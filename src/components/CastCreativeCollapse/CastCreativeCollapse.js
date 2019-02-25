@@ -146,7 +146,7 @@ const CastItems = (props) => (
  
                 {data.allCastJson.edges.node === undefined &&
                     <TabPane tabId="1" key={`cast1}`}>
-                        <h2 class='text-center p-5'>Cast coming soon!</h2>
+                        <h2 className='text-center p-5'>Cast coming soon!</h2>
                     </TabPane>
                 }
 
