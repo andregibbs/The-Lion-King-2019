@@ -111,6 +111,12 @@
                 "image": "../images/headshots/monae-wilson.jpg"
             },
             {
+                "name": "Hugo Max Woodhouse",
+                "role": "Young Simba",
+                "bio": "<p><strong>Place of Birth:</strong> London, England</p><p><strong>Training:</strong> The Lion King Cub School; Royal Opera House Youth Company</p><p><em>The Lion King </em>marks Hugo’s West End debut.</p>",
+                "image": "../images/headshots/hugo-woodhouse.jpg"
+            },
+            {
                 "name": "Etian A Almeida",
                 "role": "Swing",
                 "bio": "<p><strong>Place of Birth:</strong> Pinar Del Rio, Cuba</p><p><strong>Training:</strong> National School of Arts (Havana Cuba)</p><p><strong>Theatre:</strong> <em>Heartbeat of Home </em>(Chinese tour); <em>Havana Rakatan </em>(UK tour)</p><p><strong>Television:</strong> <em>Frank Sinatra &ldquo;My Way&rdquo; </em>(BBC); <em>The Royals </em>(E!Network); <em>Bring the Noise </em>(Sky);<em> Lip Sync Battle UK </em>(Channel 5);<em> The Norouz Show </em>(Manoto 1)</p><p><strong>Other:</strong> Etian appeared as a dancer on <em>EastEnders Does Top Hat </em>for BBC Children in Need.</p>",
@@ -139,13 +145,6 @@
                 "role": "Ensemble",
                 "bio": "<p><strong>Place of Birth:</strong> London, England</p><p><strong>Theatre:</strong> <em>The Lion King </em>(Germany); <em>West End Laine </em>(Aldwych Theatre)</p><p><strong>Television:</strong> <em>Olympic Torch Ceremony </em>(BBC)</p><p><strong>Other:</strong> Yolanda makes a welcome return to <em>The Lion King</em>, having been part of the 2008 London company.</p>",
                 "image": "../images/headshots/yolanda-burke.jpg"
-            },
-
-            {
-                "name": "Hugo Max Woodhouse",
-                "role": "Young Simba",
-                "bio": "<p><strong>Place of Birth:</strong> London, England</p><p><strong>Training:</strong> The Lion King Cub School; Royal Opera House Youth Company</p><p><em>The Lion King </em>marks Hugo’s West End debut.</p>",
-                "image": "../images/headshots/hugo-woodhouse.jpg"
             },
             {
                 "name": "Owen Chaponda",
