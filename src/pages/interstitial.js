@@ -34,7 +34,7 @@ class Interstitial extends Component {
         })
 
         // Set up auto redirect if atg link
-        if (atg) {
+        if (atg || atgBristol) {
             this.redirect = setTimeout(function() {  window.location.href = href;  }, 4000);
         }
 

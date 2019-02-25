@@ -30,7 +30,7 @@
             right: 0;
             background: linear-gradient(to top, rgba(0,0,0,0.4) 0%,rgba(255,255,255,0) 60%);
             transition: $transition-base;
-            opacity: 1;
+            opacity: .5;
         }
 
         &:hover {
