@@ -27,7 +27,7 @@ export default class HTML extends React.Component {
               `,
               }}
             />
-          } 
+          }
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
