@@ -16,7 +16,8 @@ class CastCollapse extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            activeTab: '1'
+            activeTab: '1',
+            pageTitle: ''
         }
         this.toggle = this.toggle.bind(this);
     }
@@ -28,7 +29,7 @@ class CastCollapse extends Component {
                 siteName: "thelionking",
                 country: "uk",
                 region: "emea",
-                page_name: this.props.data.title,
+                page_name: this.state.pageTitle,
                 actionName: e.target.innerText
             };
             window.utag.link(trackingData)
@@ -38,6 +39,12 @@ class CastCollapse extends Component {
                 activeTab: tab
             });
         }
+    }
+
+    componentDidMount() {
+        this.setState({
+            pageTitle: this.props.data.title
+        })
     }
 
     render() {

@@ -27,7 +27,7 @@ class FaqBlock extends Component {
                                 <Row>
                                     <Col md={6}>
                                         {faqs1.map((faq, i) => (
-                                            <FaqItem faq={faq} key={i} />
+                                            <FaqItem faq={faq} key={i} pageTitle={this.props.pageTitle}/>
                                         ))}
                                     </Col>
 
@@ -67,7 +67,7 @@ class FaqItem extends Component {
                 siteName: "thelionking",
                 country: "uk",
                 region: "emea",
-                page_name: this.props.data.title,
+                page_name: this.props.pageTitle,
                 actionName: e.target.innerText
             };
             window.utag.link(trackingData)

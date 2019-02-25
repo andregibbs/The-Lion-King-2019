@@ -22,7 +22,7 @@ class ContentBlocks extends Component {
                         return <TextBlockFullWidth data={block.textBlockFullWidth} key={i} />
                 
                     case "faqBlock": 
-                        return <FaqBlock data={block.faqBlock} key={i} />
+                        return <FaqBlock data={block.faqBlock} pageTitle={this.props.data.title} key={i} />
                         
                     case "infoBlock": 
                         return <InfoBlock data={block.infoBlock} key={i} />
