@@ -24,9 +24,14 @@ class CastCollapse extends Component {
     toggle(tab, e) {
         // Tealium track button click
         if (window.utag !== undefined) {
-            window.utag.link({
-                "actionName": e.target.innerText
-            })
+            var trackingData = {
+                siteName: "thelionking",
+                country: "uk",
+                region: "emea",
+                page_name: this.props.data.title,
+                actionName: e.target.innerText
+            };
+            window.utag.link(trackingData)
         }
         if (this.state.activeTab !== tab) {
             this.setState({
