@@ -16,17 +16,36 @@ class CastCollapse extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            activeTab: '1'
+            activeTab: '1',
+            pageTitle: ''
         }
         this.toggle = this.toggle.bind(this);
     }
 
-    toggle(tab) {
+    toggle(tab, e) {
+        // Tealium track button click
+        if (window.utag !== undefined) {
+            var trackingData = {
+                siteName: "thelionking",
+                country: "uk",
+                region: "emea",
+                page_name: this.state.pageTitle,
+                actionName: "clicked tab",
+                actionValue1: e.target.innerText
+            };
+            window.utag.link(trackingData)
+        }
         if (this.state.activeTab !== tab) {
             this.setState({
                 activeTab: tab
             });
         }
+    }
+
+    componentDidMount() {
+        this.setState({
+            pageTitle: this.props.data.title
+        })
     }
 
     render() {
@@ -37,17 +56,17 @@ class CastCollapse extends Component {
                     <NavItem>
                         <NavLink
                             className={classnames({ active: this.state.activeTab === '1' })}
-                            onClick={() => { this.toggle('1'); }}
+                            onClick={(e) => { this.toggle('1', e); }}
                         >
-                                Cast
+                            Cast
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink
                             className={classnames({ active: this.state.activeTab === '2' })}
-                            onClick={() => { this.toggle('2'); }}
+                            onClick={(e) => { this.toggle('2', e); }}
                         >
-                                Creative
+                            Creative
                         </NavLink>
                     </NavItem>
                 </Nav>

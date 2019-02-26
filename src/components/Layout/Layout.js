@@ -60,8 +60,22 @@ class Layout extends Component {
 		}
 	}
 
+	tealiumTracking() {
+		var pageData = {
+			siteName: "thelionking",
+			country: "uk",
+			region: "emea",
+			page_name: this.props.data.title
+		};
+
+		if (window !== 'undefined' && window.utag) {
+			window.utag.view(pageData)
+		}
+	}
+
 	componentDidMount() {
 		this.interstitialCheck()
+		this.tealiumTracking()
 	}
 
 	render() {

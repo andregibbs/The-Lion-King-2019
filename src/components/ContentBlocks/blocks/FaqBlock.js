@@ -24,7 +24,7 @@ class FaqBlock extends Component {
                                 <Row>
                                     <Col md={6}>
                                         {faqs1.map((faq, i) => (
-                                            <FaqItem faq={faq} key={i} />
+                                            <FaqItem faq={faq} key={i} pageTitle={this.props.pageTitle}/>
                                         ))}
                                     </Col>
 
@@ -57,7 +57,19 @@ class FaqItem extends Component {
         this.state = { collapse: false };
     }
 
-    toggle() {
+    toggle(e) {
+        // Track faq dropdown
+        if (window.utag !== undefined && !this.state.collapse) {
+            var trackingData = {
+                siteName: "thelionking",
+                country: "uk",
+                region: "emea",
+                page_name: this.props.pageTitle,
+                actionName: "expanded tab",
+                actionValue1: e.target.innerText
+            };
+            window.utag.link(trackingData)
+        }
         this.setState({ collapse: !this.state.collapse });
     }
 
@@ -67,7 +79,7 @@ class FaqItem extends Component {
 
         return (
             <div className="faq-item">
-                <button onClick={this.toggle} className={`faq-item__btn  ${this.state.collapse ? 'active' : ''}`}>{question}</button>
+                <button onClick={(e) => this.toggle(e)} className={`faq-item__btn  ${this.state.collapse ? 'active' : ''}`}>{question}</button>
                 <Collapse isOpen={this.state.collapse}>
                     <div
                         className="faq-item__content"

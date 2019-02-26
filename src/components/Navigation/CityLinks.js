@@ -6,7 +6,7 @@ import {
     DropdownMenu
 } from 'reactstrap';
 
-const CityLinks = () => (
+const CityLinks = (props) => (
     // Query all sites
     <StaticQuery
         query={graphql`
@@ -24,7 +24,7 @@ const CityLinks = () => (
 		`}
         render={data => (
             <>
-                <CityDropdown data={data} />
+                <CityDropdown data={data} pageTitle={props.pageTitle}/>
             </>
         )}
     />
@@ -48,6 +48,21 @@ class CityDropdown extends Component {
         })
     }
 
+    trackLink(e) {
+        // Tealium track button click
+        if (window.utag !== undefined) {
+            var trackingData = {
+                siteName: "thelionking",
+                country: "uk",
+                region: "emea",
+                page_name: this.props.pageTitle,
+                actionName: "expanded tab",
+                actionValue1: e.target.innerText
+            };
+            window.utag.link(trackingData)
+        }
+    }
+
     render() {
         const data = this.props.data
 
@@ -68,6 +83,7 @@ class CityDropdown extends Component {
                                         activeClassName="active"
                                         className={`dropdown-item ${node.id === this.state.siteId ? 'disabled' : ""}`}
                                         key={i}
+                                        onClick={(e) => this.trackLink(e)}
                                     >{node.title}</Link>
                                 )
     

@@ -13,6 +13,21 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           {this.props.headComponents}
+          {process.env.NODE_ENV == 'production' &&
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                (function (a, b, c, d) {
+                  var prodDomain = 'thelionking.co.uk'; // The URL of the production website
+                  var profile = 'emea'; // the name of the Tealium profile
+                  a = (document.domain == prodDomain ? '//tags.disneyinternational.com/tealium/' + profile + '/prod/utag.js' : '//tags.disneyinternational.com/tealium/' + profile + '/dev/utag.js');
+                  b = document; c = 'script'; d = b.createElement(c); d.src = a; d.type = 'text/java' + c; d.async = true;
+                  a = b.getElementsByTagName(c)[0]; a.parentNode.insertBefore(d, a);
+                })();
+              `,
+              }}
+            />
+          }
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}

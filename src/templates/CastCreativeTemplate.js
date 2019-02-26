@@ -10,7 +10,7 @@ class CastTemplate extends Component {
 
         return (
             <Layout data={data}>
-                <CastCreativeCollapse siteId={siteId} />
+                <CastCreativeCollapse siteId={siteId} data={data} />
                 <BookingInfo siteId={siteId} />
             </Layout>
         )
