@@ -59,13 +59,14 @@ class FaqItem extends Component {
 
     toggle(e) {
         // Track faq dropdown
-        if (window.utag !== undefined) {
+        if (window.utag !== undefined && !this.state.collapse) {
             var trackingData = {
                 siteName: "thelionking",
                 country: "uk",
                 region: "emea",
                 page_name: this.props.pageTitle,
-                actionName: e.target.innerText
+                actionName: "expanded tab",
+                actionValue1: e.target.innerText
             };
             window.utag.link(trackingData)
         }

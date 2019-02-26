@@ -28,7 +28,7 @@ class Navigation extends Component {
     
     render() {
 
-        const { siteId, navPaddingBottom, displayBookNow } = this.props.data
+        const { siteId, navPaddingBottom, displayBookNow, pageTitle } = this.props.data
 
         return (
             <div className={`m-nav-outer ${navPaddingBottom !== null && navPaddingBottom === false ? '' : 'pb-3 pb-md-4'}`}>
@@ -42,7 +42,7 @@ class Navigation extends Component {
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar>
                             <NavLinks siteId={siteId} />
-                            <CityLinks />
+                            <CityLinks pageTitle={pageTitle} />
                         </Nav>
                     </Collapse>
                     {displayBookNow !== false &&

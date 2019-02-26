@@ -30,7 +30,8 @@ class CastCollapse extends Component {
                 country: "uk",
                 region: "emea",
                 page_name: this.state.pageTitle,
-                actionName: e.target.innerText
+                actionName: "clicked tab",
+                actionValue1: e.target.innerText
             };
             window.utag.link(trackingData)
         }
