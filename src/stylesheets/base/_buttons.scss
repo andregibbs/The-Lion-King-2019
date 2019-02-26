@@ -30,7 +30,7 @@
             right: 0;
             background: linear-gradient(to top, rgba(0,0,0,0.4) 0%,rgba(255,255,255,0) 60%);
             transition: $transition-base;
-            opacity: 1;
+            opacity: .5;
         }
 
         &:hover {
@@ -45,6 +45,13 @@
     &--block {
         width: 100%;
         display: block;
+    }
+
+    &--book {
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+        font-size: $font-size-base * 1.25;
     }
 
     &--large {

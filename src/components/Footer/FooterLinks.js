@@ -19,7 +19,7 @@ const FooterLinks = () => (
         render={data => (
             <Container fluid className="container-max footer-images">
                 <Row>
-                    <Col md={6}>
+                    <Col md={6} className="mb-3">
                         <a href="https://disney.co.uk/shows/aladdin-the-musical-tickets/" target="_blank" rel="noreferrer noopener" className="footer-images__link no-interstitial-check">
                             <Img fluid={data.footerImage1.childImageSharp.fluid} alt="Aladdin The Musical" />
                         </a>

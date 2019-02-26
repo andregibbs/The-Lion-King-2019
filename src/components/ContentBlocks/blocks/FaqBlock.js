@@ -11,6 +11,9 @@ class FaqBlock extends Component {
             const faqs1 = block.items.slice(0, faqCountHalf)
             const faqs2 = block.items.slice(faqCountHalf, block.items.length)
 
+            let { colour } = block
+            if (colour === undefined) colour = ""
+
             return(
                 <div key={i}>
                     {block.title !== null &&
@@ -18,7 +21,7 @@ class FaqBlock extends Component {
                             <h4 className="mb-0 font-weight-semi-bold">{block.title}</h4>
                         </Container>
                     }
-                    <Container fluid className="faq-block">
+                    <Container fluid className={`faq-block ${colour !== undefined ? `faq-block--${colour}` : ''}`}>
                         <Row>
                             <Container fluid className="container-max">
                                 <Row>
