@@ -40,11 +40,14 @@ class Layout extends Component {
 							
 							let atg = false
 							let atgBristol = false
-							console.log(link.classList.contains('interstitial-timed-bristol'))
+							let atgEdinburgh = false
+							
 							if (link.classList.contains('interstitial-timed')) {
 								atg = true
 							} else if (link.classList.contains('interstitial-timed-bristol')) {
 								atgBristol = true
+							} else if (link.classList.contains('interstitial-timed-edinburgh')) {
+								atgEdinburgh = true
 							}
 
 							// Redirect to interstitial with correct state
@@ -53,7 +56,8 @@ class Layout extends Component {
 									href: href,
 									previousUrl: currentUrl,
 									atg,
-									atgBristol
+									atgBristol,
+									atgEdinburgh
 								}
 							});
 						}
