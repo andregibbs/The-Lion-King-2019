@@ -73,4 +73,4 @@ static/cms/wp-content/ai1wm-backups/*
 static/cms/wp-content/plugins/all-in-one-wp-migration/storage/*
 
 #Phpstorm
-.idea
+.idea/
