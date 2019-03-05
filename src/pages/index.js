@@ -42,6 +42,11 @@ class IndexPage extends Component {
 										<h2 className="pt-3">SELECT YOUR REGION</h2>
 										<ul className="landing__locations">
 											{locationLinks}
+                                            <li>
+                                                <a href="https://disney.co.uk/shows/the-lion-king-musical-tour-tickets" rel="noopener noreferrer" target="_blank" className="no-interstitial-check text-lg">
+                                                    Other cities – sign up
+                                                </a>
+                                            </li>
 										</ul>
 									</Col>
 								</Row>
