@@ -30,15 +30,15 @@ strong {
 }
 
 .text-sm {
-    font-size: $font-size-sm;
+    font-size: $font-size-sm !important;
 }
 
 .text-xs {
-    font-size: $font-size-sm * .92;
+    font-size: $font-size-sm * .92 !important;
 }
 
 .text-lg {
-    font-size: $font-size-lg;
+    font-size: $font-size-lg !important;
 }
 
 .font-weight-semi-bold {
