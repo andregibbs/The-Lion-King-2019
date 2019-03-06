@@ -24,17 +24,18 @@ class Interstitial extends Component {
             return true
         }
 
-        const { href, previousUrl, atg, atgBristol } = this.props.location.state
+        const { href, previousUrl, atg, atgBristol, atgEdinburgh } = this.props.location.state
 
         this.setState({
             href,
             previousUrl,
             atg,
-            atgBristol
+            atgBristol,
+            atgEdinburgh
         })
 
         // Set up auto redirect if atg link
-        if (atg || atgBristol) {
+        if (atg || atgBristol || atgEdinburgh) {
             this.redirect = setTimeout(function() {  window.location.href = href;  }, 4000);
         }
 
@@ -46,9 +47,15 @@ class Interstitial extends Component {
 
     render() {
 
-        const { href, previousUrl, atg, atgBristol } = this.state
+        const { href, previousUrl, atg, atgBristol, atgEdinburgh } = this.state
 
-        let office = atgBristol ? 'Bristol Hippodrome Box Office operated by ATG Tickets' : 'Lyceum Theatre Box Office operated by ATG Tickets'
+        let office = 'Lyceum Theatre Box Office operated by ATG Tickets'
+
+        if (atgBristol) {
+            office = 'Bristol Hippodrome Box Office operated by ATG Tickets'
+        } else if (atgEdinburgh) {
+            office = 'Edinburgh Playhouse Box Office operated by ATG Tickets'
+        }
 
 
         if (href !== "" && previousUrl !== "") {
@@ -67,7 +74,7 @@ class Interstitial extends Component {
                                             </h1>
                                             <h2 className="pt-3">PLEASE NOTE</h2>
 
-                                            {!atg && !atgBristol ? (
+                                            {!atg && !atgBristol && !atgEdinburgh ? (
                                                 <>
                                                     <p>Disney does not control this website so please click below to say you are happy to continue. Disney’s privacy practices and controls do not apply once you leave our site.</p>
                                                     <Row>
