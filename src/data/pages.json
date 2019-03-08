@@ -229,7 +229,7 @@
                             },
                             {
                                 "question": "Day Seats",
-                                "answer": "<p>A limited number of Day Seats priced at £20 per ticket are available to purchase each morning in person at the Lyceum Theatre Box Office. </p><p>Each person is allowed to purchase a maximum of two tickets each. Subject to availability.</p>"
+                                "answer": "<p>A limited number of Day Seats priced at £20 per ticket are available to purchase from 10am on the day of each performance, in person at the Lyceum Theatre Box Office.</p><p>Each person is allowed to purchase a maximum of two tickets each. Subject to availability.</p>"
                             },
                             {
                                 "question": "Bring a School Group",
@@ -522,7 +522,7 @@
         "displayBookNow": false,
         "title": "Home",
         "metaTitle": "Home | Bristol",
-        "metaDescription": "See it now in Edinburgh. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "metaDescription": "Tickets now on sale for The Lion King at Bristol Hippodrome from September 2019. Best availability at midweek performances.",
         "headerImage": "../images/headers/header-bristol-1600px.jpg",
         "headerImageMobile": "../images/headers/header-bristol-576px.jpg",
         "contentBlocks": [
@@ -681,14 +681,15 @@
         "displayBookNow": false,
         "title": "Home",
         "metaTitle": "Home | Edinburgh",
-        "metaDescription": "See it now in Edinburgh. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "metaDescription": "Tickets now on sale for Edinburgh Playhouse. The Lion King, coming December 2019.",
         "headerImage": "../images/headers/header-edinburgh-1600px.jpg",
         "headerImageMobile": "../images/headers/header-edinburgh-576px.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
-                    "content": "<h1 class='h4 font-weight-bold pb-4'><span class='text-red'>Edinburgh Playhouse |</span> From 5 December 2019</h1>"
+                    "paddingClass": "pb-0",
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Edinburgh Playhouse |</span> From 5 December 2019</h1><p>For the best selection of seats and prices choose midweek</p>"
                 }
             },
             {
