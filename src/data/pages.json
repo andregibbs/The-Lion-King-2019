@@ -229,7 +229,7 @@
                             },
                             {
                                 "question": "Day Seats",
-                                "answer": "<p>A limited number of Day Seats priced at £20 per ticket are available to purchase each morning in person at the Lyceum Theatre Box Office. </p><p>Each person is allowed to purchase a maximum of two tickets each. Subject to availability.</p>"
+                                "answer": "<p>A limited number of Day Seats priced at £20 per ticket are available to purchase from 10am on the day of each performance, in person at the Lyceum Theatre Box Office.</p><p>Each person is allowed to purchase a maximum of two tickets each. Subject to availability.</p>"
                             },
                             {
                                 "question": "Bring a School Group",
@@ -688,7 +688,7 @@
             {
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
-                    "content": "<h1 class='h4 font-weight-bold pb-4'><span class='text-red'>Edinburgh Playhouse |</span> From 5 December 2019</h1>"
+                    "content": "<h1 class='h4 font-weight-bold pb-4'><span class='text-red'>Edinburgh Playhouse |</span> From 5 December 2019</h1><p>For the best selection of seats and prices choose midweek</p>"
                 }
             },
             {
