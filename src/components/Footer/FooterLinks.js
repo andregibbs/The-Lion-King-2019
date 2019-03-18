@@ -11,7 +11,7 @@ const FooterLinks = () => (
                 footerImage1: file(relativePath: { eq: "footer-aladdin-800px.jpg" }) {
                     ...footerFluidImage
                 }
-                footerImage2: file(relativePath: { eq: "footer-mary-800px.jpg" }) {
+                footerImage2: file(relativePath: { eq: "footer-frozen-800px.jpg" }) {
                     ...footerFluidImage
                 }
             }
@@ -25,7 +25,7 @@ const FooterLinks = () => (
                         </a>
                     </Col>
                     <Col md={6}>
-                        <a href="https://disney.co.uk/shows/mary-poppins-musical-tickets" target="_blank" rel="noreferrer noopener" className="footer-images__link no-interstitial-check">
+                        <a href="hhttps://www.frozenthemusical.co.uk/" target="_blank" rel="noreferrer noopener" className="footer-images__link no-interstitial-check">
                             <Img fluid={data.footerImage2.childImageSharp.fluid} alt="Disney Store" />
                         </a>
                     </Col>
