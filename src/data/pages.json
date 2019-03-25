@@ -530,7 +530,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Bristol Hippodrome |</span> 7 September – 23 November 2019</h1><p> For the best selection of seats and prices choose midweek performances</p>"
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Bristol Hippodrome |</span> 7 September – 23 November 2019</h1><p>For best availability choose mid-week performances in Oct/Nov</p>"
                 }
             },
             {
@@ -689,7 +689,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Edinburgh Playhouse |</span> From 5 December 2019</h1><p>For the best selection of seats and prices choose midweek</p>"
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Edinburgh Playhouse |</span> From 5 December 2019</h1><p>For best availability choose performances in Jan/Feb</p>"
                 }
             },
             {
