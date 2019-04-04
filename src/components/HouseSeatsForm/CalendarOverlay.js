@@ -27,7 +27,7 @@ class CalendarToolbar extends Component {
         const radios = dateObj.map((date, i) => {
             return(
                 <FormGroup check key={i}>
-                    <Label check onClick={() => handleTimeSelect(date.start)}>
+                    <Label check onClick={() => handleTimeSelect(date.start)} for="date">
                         <Input type="radio" name="date" />{' '}
                         <strong className="ml-2">{moment(date.start).format('h:mm a')}</strong>
                     </Label>

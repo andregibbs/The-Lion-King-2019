@@ -355,7 +355,7 @@ class HouseSeatsForm extends Component {
                             </FormFeedback>
                         </FormGroup>
                         <FormGroup>
-                            <Label for="connection">Connection to the production</Label>
+                            <Label for="connection_to_production">Connection to the production</Label>
                             <Input 
                                 type="text"
                                 name="connection_to_production" 
@@ -410,7 +410,7 @@ class HouseSeatsForm extends Component {
                             </FormFeedback>
                         </FormGroup>
                         <FormGroup>
-                            <Label for="phonenumber">Name for ticket collection <span className="text-sm">(if different from above)</span></Label>
+                            <Label for="nameforcollection">Name for ticket collection <span className="text-sm">(if different from above)</span></Label>
                             <Input 
                                 type="text" 
                                 name="nameforcollection" 

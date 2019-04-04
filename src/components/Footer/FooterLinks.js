@@ -20,13 +20,21 @@ const FooterLinks = () => (
             <Container fluid className="container-max footer-images">
                 <Row>
                     <Col md={6} className="mb-3">
-                        <a href="https://disney.co.uk/shows/aladdin-the-musical-tickets/" target="_blank" rel="noreferrer noopener" className="footer-images__link no-interstitial-check">
+                        <a href="https://disney.co.uk/shows/aladdin-the-musical-tickets/" 
+                            target="_blank" 
+                            rel="noreferrer noopener" 
+                            className="footer-images__link no-interstitial-check"
+                            aria-label="Visit Aladdin The Musical">
                             <Img fluid={data.footerImage1.childImageSharp.fluid} alt="Aladdin The Musical" />
                         </a>
                     </Col>
                     <Col md={6}>
-                        <a href="https://www.frozenthemusical.co.uk/" target="_blank" rel="noreferrer noopener" className="footer-images__link no-interstitial-check">
-                            <Img fluid={data.footerImage2.childImageSharp.fluid} alt="Disney Store" />
+                        <a href="https://www.frozenthemusical.co.uk/" 
+                            target="_blank" 
+                            rel="noreferrer noopener" 
+                            className="footer-images__link no-interstitial-check"
+                            aria-label="Visit Frozen the Musical">
+                            <Img fluid={data.footerImage2.childImageSharp.fluid} alt="Frozen the Musical" />
                         </a>
                     </Col>
                 </Row>

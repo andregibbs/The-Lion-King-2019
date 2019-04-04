@@ -38,7 +38,8 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
           <div id="goc-footer"></div>
-          <script src="https://snavbar.disneyinternational.com/emea/inc-chrome.js"></script>
+          {/* <script src="https://snavbar.disneyinternational.com/emea/inc-chrome.js"></script> */}
+          <script src="https://snavbar.disneyinternational.com/emea/inc-chrome-cookie.js?preference_manager=0"></script>
           <link href="https://fast.fonts.net/t/1.css?apiType=css&amp;projectid=492ff5f6-ecf8-48e8-b54e-5bfa6c5c1874" rel="stylesheet" />
         </body>
       </html>

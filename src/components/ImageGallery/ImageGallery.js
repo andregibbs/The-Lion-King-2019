@@ -75,8 +75,9 @@ class ImageGallery extends Component {
                             display: 'block'
                         }}
                         className="no-interstitial-check"
+                        aria-label="View image"
                     >
-                        <Img fluid={obj.thumbnail.childImageSharp.fluid} />
+                        <Img fluid={obj.thumbnail.childImageSharp.fluid} alt="" />
                     </a>
                 </Col>
             );
@@ -84,7 +85,7 @@ class ImageGallery extends Component {
 
         const gallerySlider = images.map((obj, i) => {
             return (
-                <Img fluid={obj.thumbnail.childImageSharp.fluid} key={i} />
+                <Img fluid={obj.thumbnail.childImageSharp.fluid} key={i} alt="" />
             );
         });
 

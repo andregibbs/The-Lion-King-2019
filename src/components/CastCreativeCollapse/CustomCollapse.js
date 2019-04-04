@@ -15,6 +15,8 @@ class CustomCollapse extends Component {
 
     clickHandler(e, id, type) {
 
+        e.preventDefault();
+
         if (this.state.activeId === id) {
             this.setState({
                 activeId: "",
@@ -80,15 +82,16 @@ class CustomCollapseItem extends Component {
             <div
                 className={`c-collapse__item ${this.props.activeClass}`}
                 style={{ marginBottom: this.props.contentHeight + "px" }}>
-                <div
-                    className="c-collapse__item-trigger"
+                <a
+                    href="#"
+                    className="c-collapse__item-trigger no-interstitial-check"
                     onClick={(e) => this.props.clickHandler(e, this.props.id, this.props.type)}>
                     <Img fluid={this.props.data.image.childImageSharp.fluid} alt={this.props.data.title} className="c-collapse__item-trigger-img" />
                     <div className="c-collapse__item-trigger-title">
                         <span>{this.props.data.name}</span>
                         <span className="role">{this.props.data.role}</span>
                     </div>
-                </div>
+                </a>
                 <div
                     className="c-collapse__item-content"
                     style={{ height: this.props.contentHeight + "px" }}

@@ -36,6 +36,11 @@
                 flex-wrap: wrap;
             }
 
+            &:hover {
+                text-decoration: none;
+                color: $tlk-red;
+            }
+
             &-img {
                 width: 80px;
 

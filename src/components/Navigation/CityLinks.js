@@ -37,8 +37,11 @@ class CityDropdown extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            siteId: ""
+            siteId: "",
+            isOpen: false
         }
+
+        this.openNav = this.openNav.bind(this)
     }
 
     componentDidMount() {
@@ -63,12 +66,18 @@ class CityDropdown extends Component {
         }
     }
 
+    openNav(e) {
+        if (e.which === 9) { // tab
+            this.setState({ isOpen: true })
+        }
+    }
+
     render() {
         const data = this.props.data
 
         return(
-            <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav className="no-interstitial-check">
+            <UncontrolledDropdown nav inNavbar isOpen={this.state.isOpen}>
+                <DropdownToggle nav className="no-interstitial-check" onKeyDown={this.openNav}>
                     Select City
                 </DropdownToggle>
                 <DropdownMenu>
