@@ -77,7 +77,7 @@ class CityDropdown extends Component {
 
         return(
             <UncontrolledDropdown nav inNavbar isOpen={this.state.isOpen}>
-                <DropdownToggle nav className="no-interstitial-check" onKeyDown={this.openNav}>
+                <DropdownToggle nav className="no-interstitial-check" onKeyDown={this.openNav} onClick={this.openNav}>
                     Select City
                 </DropdownToggle>
                 <DropdownMenu>
