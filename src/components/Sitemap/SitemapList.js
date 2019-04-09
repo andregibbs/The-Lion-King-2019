@@ -1,5 +1,5 @@
 import React from 'react'
-import { StaticQuery, Link } from 'gatsby'
+import { StaticQuery, Link, graphql } from 'gatsby'
 
 const SitemapList = (props) => (
     <StaticQuery

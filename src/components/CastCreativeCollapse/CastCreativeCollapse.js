@@ -6,8 +6,7 @@ import {
     TabContent, 
     TabPane, 
     Nav, 
-    NavItem, 
-    NavLink 
+    NavItem
 } from 'reactstrap';
 import CustomCollapse from './CustomCollapse'
 
@@ -54,20 +53,20 @@ class CastCollapse extends Component {
             <Container fluid className="pb-5">
                 <Nav tabs className="c-collapse-nav">
                     <NavItem>
-                        <NavLink
+                        <button
                             className={classnames({ active: this.state.activeTab === '1' })}
                             onClick={(e) => { this.toggle('1', e); }}
                         >
                             Cast
-                        </NavLink>
+                        </button>
                     </NavItem>
                     <NavItem>
-                        <NavLink
+                        <button
                             className={classnames({ active: this.state.activeTab === '2' })}
                             onClick={(e) => { this.toggle('2', e); }}
                         >
-                            Creative
-                        </NavLink>
+                        Creative
+                        </button>
                     </NavItem>
                 </Nav>
                 <TabContent activeTab={this.state.activeTab}>

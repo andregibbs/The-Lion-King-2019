@@ -82,16 +82,18 @@ class CustomCollapseItem extends Component {
             <div
                 className={`c-collapse__item ${this.props.activeClass}`}
                 style={{ marginBottom: this.props.contentHeight + "px" }}>
-                <a
-                    href="#"
+                <div
                     className="c-collapse__item-trigger no-interstitial-check"
-                    onClick={(e) => this.props.clickHandler(e, this.props.id, this.props.type)}>
-                    <Img fluid={this.props.data.image.childImageSharp.fluid} alt={this.props.data.title} className="c-collapse__item-trigger-img" />
+                    onClick={(e) => this.props.clickHandler(e, this.props.id, this.props.type)}
+                    onKeyPress={(e) => this.props.clickHandler(e, this.props.id, this.props.type)}
+                    tabIndex="0"
+                >
+                    <Img alt={`Image of ${this.props.data.name}`} title="test" fluid={this.props.data.image.childImageSharp.fluid} className="c-collapse__item-trigger-img" />
                     <div className="c-collapse__item-trigger-title">
                         <span>{this.props.data.name}</span>
                         <span className="role">{this.props.data.role}</span>
                     </div>
-                </a>
+                </div>
                 <div
                     className="c-collapse__item-content"
                     style={{ height: this.props.contentHeight + "px" }}

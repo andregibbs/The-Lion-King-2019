@@ -1,5 +1,5 @@
 import React from 'react'
-import { StaticQuery } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 import { Container } from 'reactstrap'
 import SitemapList from './SitemapList'
 import Layout from 'components/Layout/Layout'

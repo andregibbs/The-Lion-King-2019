@@ -82,7 +82,11 @@ class FaqItem extends Component {
 
         return (
             <div className="faq-item">
-                <button onClick={(e) => this.toggle(e)} className={`faq-item__btn  ${this.state.collapse ? 'active' : ''}`}>{question}</button>
+                <button 
+                    onClick={(e) => this.toggle(e)} 
+                    className={`faq-item__btn  ${this.state.collapse ? 'active' : ''}`}>
+                    {question}
+                </button>
                 <Collapse isOpen={this.state.collapse}>
                     <div
                         className="faq-item__content"

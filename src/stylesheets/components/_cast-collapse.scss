@@ -226,7 +226,7 @@
     padding: $spacer 0;
 
     li {
-        a {
+        button {
             background-color: $tlk-grey;
             border: 0;
             font-size: $font-size-lg * 1.25;
@@ -235,6 +235,7 @@
 
             &.active {
                 box-shadow: 0 0 7px 0 $tlk-dark-grey;
+                background-color: transparent;
             }
 
             &:hover {
