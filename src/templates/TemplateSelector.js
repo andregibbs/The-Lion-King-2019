@@ -5,6 +5,7 @@ import CastCreativeTemplate from './CastCreativeTemplate';
 import AboutTemplate from './AboutTemplate';
 import HouseSeatsTemplate from './HouseSeatsTemplate';
 import RegisterTemplate from './RegisterTemplate';
+import EducationWorkshopTemplate from './EducationWorkshopTemplate';
 import DefaultTemplate from "./DefaultTemplate";
 
 class TemplateSelector extends Component {
@@ -25,6 +26,8 @@ class TemplateSelector extends Component {
                 return <HouseSeatsTemplate data={data} />
             case "register-template":
                 return <RegisterTemplate data={data} />
+            case "educationworkshop-template":
+                return <EducationWorkshopTemplate data={data} />
             case "default-template": 
                 return <DefaultTemplate data={data} />
             default:

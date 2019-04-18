@@ -12,7 +12,6 @@
         "headerImage": "../images/headers/header-houseseats-1600px.jpg",
         "headerImageMobile": "../images/headers/header-houseseats-576px.jpg"
     },
-
     {
         "id": "adultAuditions",
         "inNav": false,
@@ -644,6 +643,19 @@
                 }
             }
         ]
+    },
+    {
+        "id": "bristolEducationWorkshops",
+        "inNav": false,
+        "siteId": "bristol",
+        "template": "educationworkshop-template",
+        "path": "/bristol/educationworkshops/",
+        "title": "Education Workshops",
+        "displayBookNow": false,
+        "displayNav": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/header-bristol-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-bristol-576px.jpg"
     },
     {
         "id": "bristolTerms",

@@ -16,6 +16,24 @@ export function validateRequired(e, name = false, value = false) {
     this.setState({ validate })
 }
 
+export function validateRequiredCheckbox(e, name = false, value = false) {
+    const { validate } = this.state
+
+    // Is event passed in?
+    if (e !== false) {
+        name = e.target.name;
+        value = e.target.value;
+    }
+
+    if (value !== 'true') {
+        validate[name] = 'has-success'
+    } else {
+        validate[name] = 'has-danger'
+    }
+
+    this.setState({ validate })
+}
+
 export function validateEmail(e) {
     const { validate } = this.state;
 
