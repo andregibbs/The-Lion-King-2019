@@ -41,7 +41,6 @@ class EducationWorkshopForm extends Component {
             moreinformation: '',
             headteacherreviewed: '',
             googleVerified: '',
-
             validate: {
                 nameofschool: '',
                 location: '',
@@ -50,6 +49,12 @@ class EducationWorkshopForm extends Component {
                 positionatschool: '',
                 email: '',
                 phonenumber: '',
+                numberofstudents: '',
+                yeargroup: '',
+                alternativecontactname: '',
+                alternativecontactnumber: '',
+                suitablespacedescription: '',
+                moreinformation: '',
                 headteacherreviewed: '',
                 googleVerified: '',
                 googleVerifiedErrMsg: 'Google recaptcha is required'
@@ -364,67 +369,91 @@ class EducationWorkshopForm extends Component {
                                     <Row className="pb-5">
                                         <Col md={6}>
                                             <FormGroup>
-                                                <Label for="alternativecontactname">Alternative contact name</Label>
+                                                <Label for="alternativecontactname">Alternative contact name*</Label>
                                                 <Input
                                                     type="text"
                                                     name="alternativecontactname"
                                                     id="alternativecontactname"
                                                     value={this.state.alternativecontactname}
+                                                    valid={this.state.validate.alternativecontactname === 'has-success'}
+                                                    invalid={this.state.validate.alternativecontactname === 'has-danger'}
                                                     onChange={e => {
                                                         this.handleChange(e)
+                                                        this.validateRequired(e)
                                                     }}
                                                 />
+                                                <FormFeedback>
+                                                    Alternative contact name is required
+                                                </FormFeedback>
                                             </FormGroup>
                                         </Col>
                                         <Col md={6}>
                                             <FormGroup>
-                                                <Label for="alternativecontactnumber">Alternative contact number</Label>
+                                                <Label for="alternativecontactnumber">Alternative contact number*</Label>
                                                 <Input
                                                     type="text"
                                                     name="alternativecontactnumber"
                                                     id="alternativecontactnumber"
                                                     value={this.state.alternativecontactnumber}
+                                                    valid={this.state.validate.alternativecontactnumber === 'has-success'}
+                                                    invalid={this.state.validate.alternativecontactnumber === 'has-danger'}
                                                     onChange={e => {
                                                         this.handleChange(e)
+                                                        this.validateRequired(e)
                                                     }}
                                                 />
+                                                <FormFeedback>
+                                                    Alternative contact number is required
+                                                </FormFeedback>
                                             </FormGroup>
                                         </Col>
                                     </Row>
                                     <Row>
                                         <Col md={6}>
                                             <FormGroup>
-                                                <Label for="numberofstudents">Number of students expected to participate in workshop (min. 20, max. 40)</Label>
+                                                <Label for="numberofstudents">Number of students expected to participate in workshop (min. 20, max. 40)*</Label>
                                                 <Input
                                                     type="text"
                                                     name="numberofstudents"
                                                     id="numberofstudents"
                                                     value={this.state.numberofstudents}
+                                                    valid={this.state.validate.numberofstudents === 'has-success'}
+                                                    invalid={this.state.validate.numberofstudents === 'has-danger'}
                                                     onChange={e => {
                                                         this.handleChange(e)
+                                                        this.validateRequired(e)
                                                     }}
                                                 />
+                                                <FormFeedback>
+                                                    Number of students is required
+                                                </FormFeedback>
                                             </FormGroup>
                                         </Col>
                                         <Col md={6}>
                                             <FormGroup>
-                                                <Label for="yeargroup">Year group</Label>
+                                                <Label for="yeargroup">Year group*</Label>
                                                 <Input
                                                     type="text"
                                                     name="yeargroup"
                                                     id="yeargroup"
                                                     value={this.state.yeargroup}
+                                                    valid={this.state.validate.yeargroup === 'has-success'}
+                                                    invalid={this.state.validate.yeargroup === 'has-danger'}
                                                     onChange={e => {
                                                         this.handleChange(e)
+                                                        this.validateRequired(e)
                                                     }}
                                                 />
+                                                <FormFeedback>
+                                                    Year group is required
+                                                </FormFeedback>
                                             </FormGroup>
                                         </Col>
                                     </Row>
                                     <Row>
                                         <Col md={6}>
                                             <FormGroup>
-                                                <Label for="suitablespace">Can you confirm that you have a suitable space (hall or drama/dance studio with facility to play music) in which to hold the workshop?</Label>
+                                                <Label for="suitablespace">Can you confirm that you have a suitable space (hall or drama/dance studio with facility to play music) in which to hold the workshop?*</Label>
                                                 <FormGroup check inline>
                                                     <Label check>
                                                         <Input 
@@ -460,29 +489,41 @@ class EducationWorkshopForm extends Component {
                                                     placeholder="Please provide a description of the space" 
                                                     aria-label="Please provide a description of the space" 
                                                     value={this.state.suitablespacedescription}
+                                                    valid={this.state.validate.suitablespacedescription === 'has-success'}
+                                                    invalid={this.state.validate.suitablespacedescription === 'has-danger'}
                                                     rows="5"
                                                     onChange={e => {
                                                         this.handleChange(e)
+                                                        this.validateRequired(e)
                                                     }}
                                                 />
+                                                <FormFeedback>
+                                                    A description is required
+                                                </FormFeedback>
                                             </FormGroup>
                                         </Col>
                                     </Row>
                                     <Row>
                                         <Col md={6}>
                                             <FormGroup>
-                                                <Label for="moreinformation">Is there anything else that you would like to tell us that you think might be useful for us to know about the group?</Label>
+                                                <Label for="moreinformation">Is there anything else that you would like to tell us that you think might be useful for us to know about the group?*</Label>
                                                 <Input 
                                                     type="textarea" 
                                                     name="moreinformation" 
                                                     id="moreinformation"
                                                     placeholder="Please enter text here"
                                                     value={this.state.moreinformation}
+                                                    valid={this.state.validate.moreinformation === 'has-success'}
+                                                    invalid={this.state.validate.moreinformation === 'has-danger'}
                                                     rows="5"
                                                     onChange={e => {
                                                         this.handleChange(e)
+                                                        this.validateRequired(e)
                                                     }}
                                                 />
+                                                <FormFeedback>
+                                                    More information is required
+                                                </FormFeedback>
                                             </FormGroup>
                                         </Col>
                                     </Row>

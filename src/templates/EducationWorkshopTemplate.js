@@ -35,6 +35,15 @@ class EducationWorkshopTemplate extends Component {
                 <Container fluid className="bg-pale-yellow py-4">
                     <EducationWorkshopForm />
                 </Container>
+                <Container className="text-sm pt-4">
+                    <h4 className="text-red"><strong>Terms & Conditions</strong></h4>
+                    <p>
+                        Workshops are 90 minutes in length and cost £12.50 per pupil on top of the ticket price to see the show. They can focus on dancing or acting and can be adapted to suit the needs of the group. Workshops are only available to education groups who are also attending THE LION KING at the Bristol Hippodrome in 2019. Maximum group size for any session is 40 and minimum group size is 20. Minimum age of attendees is 7+. There is no maximum age. 
+                    </p>
+                    <p>
+                        <a href="https://disneyprivacycenter.com/privacy-policy-translations/english/">https://disneyprivacycenter.com/privacy-policy-translations/english/</a>  © Disney. 
+                    </p>
+                </Container>
             </Layout>
         )
     }

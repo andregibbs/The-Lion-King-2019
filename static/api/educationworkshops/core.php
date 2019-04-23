@@ -90,6 +90,12 @@ Class Education_Workshops {
             'positionatschool',
             'email',
             'phonenumber',
+            'alternativecontactname',
+            'alternativecontactnumber',
+            'numberofstudents',
+            'yeargroup',
+            'suitablespacedescription',
+            'moreinformation',
             'headteacherreviewed'
         );
 
