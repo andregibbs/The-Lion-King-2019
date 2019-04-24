@@ -113,7 +113,7 @@ Class Education_Workshops {
 
         $mail = new PHPMailer(true);  
         try {
-            $emailTo = 's.richards@dewynters.com';
+            $emailTo = 'theatreducationuk@disney.co.uk';
 
             $subject = 'The Lion King - Education Workshops Submission';
             $message = "Name of school: ". $this->fields['nameofschool'] . "\n";
@@ -132,7 +132,7 @@ Class Education_Workshops {
 
             $mail->setFrom($this->fields['email'], $this->fields['fullname']);
             $mail->addAddress($emailTo);
-            // $mail->addBcc('t.roberts@dewynters.com');
+            $mail->addBcc('t.roberts@dewynters.com');
             $mail->addReplyTo($this->fields['email'], $this->fields['fullname']);
 
             // Set body

@@ -484,8 +484,8 @@ class EducationWorkshopForm extends Component {
                                             <FormGroup>
                                                 <Input 
                                                     type="textarea" 
-                                                    name="text" 
-                                                    id="exampleText" 
+                                                    name="suitablespacedescription" 
+                                                    id="suitablespacedescription" 
                                                     placeholder="Please provide a description of the space" 
                                                     aria-label="Please provide a description of the space" 
                                                     value={this.state.suitablespacedescription}
@@ -544,7 +544,7 @@ class EducationWorkshopForm extends Component {
                                                         }}
                                                     /> My head teacher has reviewed and is supportive of this application / I am the head teacher*
                                                     <FormFeedback>
-                                                        Head teach review is required
+                                                        Head teacher review is required
                                                     </FormFeedback>
                                                 </Label>    
                                             </FormGroup>
