@@ -113,7 +113,7 @@ Class Education_Workshops {
 
         $mail = new PHPMailer(true);  
         try {
-            $emailTo = 'theatreducationuk@disney.co.uk';
+            $emailTo = 'theatreeducationuk@disney.co.uk';
 
             $subject = 'The Lion King - Education Workshops Submission';
             $message = "Name of school: ". $this->fields['nameofschool'] . "\n";
