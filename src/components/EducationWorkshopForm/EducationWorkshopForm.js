@@ -566,7 +566,7 @@ class EducationWorkshopForm extends Component {
                                 </Container>
                             </Form>
                             <ReCaptcha
-                                sitekey='6LfR50UUAAAAAErtS1uYUr6KzYDTKW295YfxrOqe'
+                                sitekey='6LdwOKAUAAAAACTWAuP6kQEPo0uT_8zS7xSu3h7A'
                                 action='action_name'
                                 verifyCallback={this.onGoogleVerify}
                             />
