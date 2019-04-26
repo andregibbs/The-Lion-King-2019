@@ -5,10 +5,16 @@ import {
     Row,
     Col
 } from 'reactstrap'
+import { loadReCaptcha } from 'react-recaptcha-v3'
 import AuditionChildrenForm from 'components/AuditionForm/AuditionChildrenForm'
 import AuditionAdultForm from 'components/AuditionForm/AuditionAdultForm'
 
 class RegisterTemplate extends Component {
+
+    componentDidMount() {
+        loadReCaptcha('6LdwOKAUAAAAACTWAuP6kQEPo0uT_8zS7xSu3h7A');
+    }
+
     render() {
         const data = this.props.data
 

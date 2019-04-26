@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import ReactDOM from 'react-dom'
-import { ReCaptcha, loadReCaptcha } from 'react-recaptcha-v3'
+import { ReCaptcha } from 'react-recaptcha-v3'
 import {
     Row,
     Col,
@@ -62,10 +62,6 @@ class AuditionAdultForm extends Component {
 
         // Create form ref
         this.form = React.createRef();
-    }
-
-    componentDidMount() {
-        loadReCaptcha('6LdwOKAUAAAAACTWAuP6kQEPo0uT_8zS7xSu3h7A');
     }
 
     onGoogleVerify(response) {
@@ -445,11 +441,11 @@ class AuditionAdultForm extends Component {
                         <Input type="hidden" name="type" value={formType} />
                         <Button className="btn--red">Submit</Button>
                     </Form>
-                    <ReCaptcha
+                    {/* <ReCaptcha
                         sitekey='6LdwOKAUAAAAACTWAuP6kQEPo0uT_8zS7xSu3h7A'
                         action='action_name'
                         verifyCallback={this.onGoogleVerify}
-                    />
+                    /> */}
                 </>
             )}
 

@@ -9,6 +9,7 @@ import Layout from 'components/Layout/Layout'
 import HouseSeatsForm from 'components/HouseSeatsForm/HouseSeatsForm'
 
 class HouseSeatsTemplate extends Component {
+
     render() {
         const data = this.props.data
 

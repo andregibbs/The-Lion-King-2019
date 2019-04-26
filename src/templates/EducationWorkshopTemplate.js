@@ -8,6 +8,7 @@ import {
 import EducationWorkshopForm from 'components/EducationWorkshopForm/EducationWorkshopForm'
 
 class EducationWorkshopTemplate extends Component {
+
     render() {
         const data = this.props.data
 
@@ -18,7 +19,7 @@ class EducationWorkshopTemplate extends Component {
                         <Container>
                             <Row>
                                 <Col lg={6}>
-                                    <h1 class="text-red h3">Education Workshop Application Form</h1>
+                                    <h1 className="text-red h3">Education Workshop Application Form</h1>
                                     <p>
                                         Fill in this application form to register your interest in an education workshop for Disney’s
                                         THE LION KING in Bristol this autumn. The workshops will be held on the week of the 14th – 18th October 2019. 

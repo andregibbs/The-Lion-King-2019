@@ -6,6 +6,8 @@ import Footer from 'components/Footer/Footer'
 import { navigate } from 'gatsby'
 import 'stylesheets/main.scss'
 
+import { loadReCaptcha } from 'react-recaptcha-v3'
+
 class Layout extends Component {
 
 	interstitialCheck() {
@@ -85,6 +87,7 @@ class Layout extends Component {
 	componentDidMount() {
 		this.interstitialCheck()
 		this.tealiumTracking()
+        // loadReCaptcha('6LdwOKAUAAAAACTWAuP6kQEPo0uT_8zS7xSu3h7A');
 	}
 
 	render() {
