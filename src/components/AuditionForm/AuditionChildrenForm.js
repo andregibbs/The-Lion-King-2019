@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import ReactDOM from 'react-dom'
-import { ReCaptcha } from 'react-recaptcha-v3'
+import { ReCaptcha, loadReCaptcha } from 'react-recaptcha-v3'
 import {
     Row,
     Col,
@@ -66,6 +66,10 @@ class AuditionChildrenForm extends Component {
 
         // Create form ref
         this.form = React.createRef();
+    }
+
+    componentDidMount() {
+        loadReCaptcha('6LdwOKAUAAAAACTWAuP6kQEPo0uT_8zS7xSu3h7A');
     }
 
     onGoogleVerify(response) {
