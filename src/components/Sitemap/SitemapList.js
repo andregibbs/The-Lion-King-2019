@@ -4,7 +4,7 @@ import { StaticQuery, Link, graphql } from 'gatsby'
 const SitemapList = (props) => (
     <StaticQuery
         query={graphql`
-            query PagesQuery {
+            query  {
                 allPagesJson {
                     edges {
                         node {
