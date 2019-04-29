@@ -39,7 +39,7 @@ export default class HTML extends React.Component {
           {this.props.postBodyComponents}
           <div id="goc-footer"></div>
           <div style={{ width: "100%", padding: "0 64px 20px 64px", maxWidth: "1347px"}}>
-            <a href="/sitmamp/" style={{ color: "black", fontSize: "12px"}}>Sitemap</a>
+            <a href="/sitemap/" style={{ color: "black", fontSize: "12px"}}>Sitemap</a>
           </div>
           
           {/* <script src="https://snavbar.disneyinternational.com/emea/inc-chrome.js"></script> */}

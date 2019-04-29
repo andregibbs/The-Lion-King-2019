@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import ReactDOM from 'react-dom'
 import BigCalendar from 'react-big-calendar'
 import moment from 'moment'
-import { ReCaptcha } from 'react-recaptcha-v3'
 import {
     Button,
     Form,
@@ -461,11 +460,6 @@ class HouseSeatsForm extends Component {
 
                         <Button className="btn--red">Submit</Button>
                     </Form>
-                    {/* <ReCaptcha
-                        sitekey='6LdwOKAUAAAAACTWAuP6kQEPo0uT_8zS7xSu3h7A'
-                        action='action_name'
-                        verifyCallback={this.onGoogleVerify}
-                    /> */}
                 </>
             )}
             </>

@@ -63,16 +63,6 @@ class IndexPage extends Component {
 export default IndexPage
 
 
-export const landingFluidImage = graphql`
-fragment landingFluidImage on File {
-	childImageSharp {
-		fluid(maxWidth: 1300) {
-			...GatsbyImageSharpFluid
-		}
-	}
-}
-`;
-
 export const pageQuery = graphql`
 query {
 	allSitesJson {
