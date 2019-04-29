@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import ReactDOM from 'react-dom'
+import { loadReCaptcha, ReCaptcha } from 'recaptcha-v3-react'
 import BigCalendar from 'react-big-calendar'
 import moment from 'moment'
 import {
@@ -21,6 +22,8 @@ import CalendarEvent from './CalendarEvent';
 import CalendarOverlay from './CalendarOverlay';
 import "react-big-calendar/lib/css/react-big-calendar.css";
 const localizer = BigCalendar.momentLocalizer(moment) 
+
+const captchaSiteId = "6LdwOKAUAAAAACTWAuP6kQEPo0uT_8zS7xSu3h7A"
 
 class HouseSeatsForm extends Component {
 
@@ -74,6 +77,10 @@ class HouseSeatsForm extends Component {
     componentDidMount() {
         // Set new events
         this.getEvents()
+        loadReCaptcha({
+            key: captchaSiteId,
+            id: '344648038'
+        });
     }
 
     getEvents() {
@@ -460,6 +467,11 @@ class HouseSeatsForm extends Component {
 
                         <Button className="btn--red">Submit</Button>
                     </Form>
+                    <ReCaptcha
+                        sitekey={captchaSiteId}
+                        action='houseSeatsForm'
+                        verifyCallback={this.onGoogleVerify}
+                    />
                 </>
             )}
             </>

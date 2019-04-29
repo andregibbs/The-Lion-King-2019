@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import ReactDOM from 'react-dom'
+import { loadReCaptcha, ReCaptcha } from 'recaptcha-v3-react'
 import {
     Row,
     Col,
@@ -15,6 +16,8 @@ import {
     validateEmail
 } from 'js/validations'
 import fetchWithTimeout from 'js/fetchWithTimeout'
+
+const captchaSiteId = "6LdwOKAUAAAAACTWAuP6kQEPo0uT_8zS7xSu3h7A"
 
 class AuditionChildrenForm extends Component {
 
@@ -65,6 +68,13 @@ class AuditionChildrenForm extends Component {
 
         // Create form ref
         this.form = React.createRef();
+    }
+
+    componentDidMount() {
+        loadReCaptcha({
+            key: captchaSiteId,
+            id: '344648038'
+        });
     }
 
     onGoogleVerify(response) {
@@ -491,6 +501,11 @@ class AuditionChildrenForm extends Component {
                         <Input type="hidden" name="type" value={formType} />
                         <Button className="btn--red">Submit</Button>
                     </Form>
+                    <ReCaptcha
+                        sitekey={captchaSiteId}
+                        action='auditionChildrenForm'
+                        verifyCallback={this.onGoogleVerify}
+                    />
                 </>
             )}
 

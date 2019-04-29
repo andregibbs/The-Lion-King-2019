@@ -564,7 +564,7 @@ class EducationWorkshopForm extends Component {
                                             By submitting this form you are agreeing to be contacted by a member of the Disney Theatrical Group team. The information provided in this application form will be subject to Disney’s Privacy Policy^ and will be used solely for the purpose of assessing your application.
                                         </Col>
                                         <Col md={6}>
-                                            More information about THE LION KING’s award-winning Education Programme, which includes 10 behind-the-scenes episodes as well as curriculum-linked resources for Key Stages 2-4, can be found at <a href="//www.lionkingeducation.co.uk" target="_blank" rel="noopener noreferrer no-interstitial-check">www.lionkingeducation.co.uk</a>.
+                                            More information about THE LION KING’s award-winning Education Programme, which includes 10 behind-the-scenes episodes as well as curriculum-linked resources for Key Stages 2-4, can be found at <a href="//www.lionkingeducation.co.uk" target="_blank" rel="noopener noreferrer" className="no-interstitial-check">www.lionkingeducation.co.uk</a>.
                                         </Col>
                                     </Row>
                                     <Row className="justify-content-center">
