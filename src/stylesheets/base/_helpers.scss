@@ -20,6 +20,7 @@
     padding: $spacer;
     position: relative;
     width: 100%;
+    pointer-events: none;
 
     @include media-breakpoint-up(md) {
         padding: 0 $spacer * 2 $spacer * 2;
