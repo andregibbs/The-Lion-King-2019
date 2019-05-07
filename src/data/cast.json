@@ -35,7 +35,7 @@
             {
                 "name": "Mark Roper",
                 "role": "Pumbaa",
-                "bio": "<p><strong>Place of Birth</strong>: Birkenhead, England</p><p><strong>Training</strong>: Webber Douglas Academy of Dramatic Art</p><p><strong>Theatre</strong>: <em>Memphis </em>(Shaftesbury Theatre); <em>The Lion King </em>(Lyceum Theatre and UK tour); <em>Oliver! </em>(Theatre Royal, Drury Lane); <em>Jailhouse Rock </em>(Piccadilly Theatre); <em>Calamity Jane </em>(Sadler&rsquo;s Wells);&nbsp;<em>Leonardo </em>(Strand Theatre); <em>Sweeney Todd </em>(Royal Festival Hall); <em>Secret Garden </em>(West Yorkshire Playhouse); <em>Alice in Wonderland </em>(Birmingham Repertory Theatre); <em>A Midsummer Night&rsquo;s Dream,</em> <em>Love&rsquo;s Labour&rsquo;s Lost, The Pirates of Penzance,</em> <em>Where&rsquo;s Charley? </em>(Regent&rsquo;s Park Open Air Theatre); <em>Macbeth, The Beaux&rsquo; Stratagem, Drums in the</em> <em>Night, Oklahoma! </em>(Liverpool Playhouse); <em>Fear and</em> <em>Misery of the Third Reich </em>(Young Vic); <em>When We Are&nbsp;</em><em>Married, The Crucible, A View From The Bridge, Pacific Overtures, Sunday in the Park with George, Carousel, The Sound of Music, The Wizard of Oz, The Rocky Horror Show </em>(Leicester Haymarket) and<em> Tranmere </em>(SWA).</p><p><strong>Television</strong>: <em>Whiskey Cavalier; The Inbetweeners; Humans; The Windsors; Game Of Thrones; Lucky Man; Delicious; Starlings; Little Crackers; Dream Team; Love, Lies and Records; Josh; Moving On; The Crimson Field; Life&rsquo;s Too Short; Line of Duty; Inside Men; My Family; Hustle; After You&rsquo;ve Gone; Silent Witness; Billy Goats Gruff; Dalziel and Pascoe, Mersey Beat; Desperados; Doctors; Grange Hill; Rough Justice; The Beggar Bride; Law and Order: UK; The Whistleblowers, Mike Bassett: Manager; Open Wide; Peak Practice; Coronation Street; The Bill; She&rsquo;s Out; Undercover Customs; The Good Guys</em>. Voiceover for <em>Robocar Poli</em>; <em>Paw Patrol </em>(Nick Jnr) <em>Amnesia </em>(video game) and many others Film: <em>Disobedience; Allied; Les Mis&eacute;rables; Jack the Giant Slayer; The Da Vinci Code; Pierrepoint; Blitz; Anglo Saxon Attitudes</em></p><p><strong>Radio</strong>: <em>A Room of One&rsquo;s Own </em>(Radio 4); <em>Lazytown Radio, Dogbear </em>(BBC7).</p>",
+                "bio": "<p><strong>Place of Birth</strong>: Birkenhead, England</p><p><strong>Training</strong>: Webber Douglas Academy of Dramatic Art</p><p><strong>Theatre</strong>: <em>Memphis </em>(Shaftesbury Theatre); <em>The Lion King </em>(Lyceum Theatre and UK tour); <em>Oliver! </em>(Theatre Royal, Drury Lane); <em>Jailhouse Rock </em>(Piccadilly Theatre); <em>Calamity Jane </em>(Sadler&rsquo;s Wells);&nbsp;<em>Leonardo </em>(Strand Theatre); <em>Sweeney Todd </em>(Royal Festival Hall); <em>Secret Garden </em>(West Yorkshire Playhouse); <em>Alice in Wonderland </em>(Birmingham Repertory Theatre); <em>A Midsummer Night&rsquo;s Dream,</em> <em>Love&rsquo;s Labour&rsquo;s Lost, The Pirates of Penzance,</em> <em>Where&rsquo;s Charley? </em>(Regent&rsquo;s Park Open Air Theatre); <em>Macbeth, The Beaux&rsquo; Stratagem, Drums in the</em> <em>Night, Oklahoma! </em>(Liverpool Playhouse); <em>Fear and</em> <em>Misery of the Third Reich </em>(Young Vic); <em>When We Are&nbsp;</em><em>Married, The Crucible, A View From The Bridge, Pacific Overtures, Sunday in the Park with George, Carousel, The Sound of Music, The Wizard of Oz, The Rocky Horror Show </em>(Leicester Haymarket) and<em> Tranmere </em>(SWA).</p><p><strong>Television</strong>:&nbsp;<em>Whiskey Cavalier; The Inbetweeners; Humans; The Windsors; Game Of Thrones; Lucky Man; Delicious; Starlings; Little Crackers; Dream Team; Love, Lies and Records; Josh; Moving On; The Crimson Field; Life&rsquo;s Too Short; Line of Duty; Inside Men; My Family; Hustle; After You&rsquo;ve Gone; Silent Witness; Billy Goats Gruff; Dalziel and Pascoe, Mersey Beat; Desperados; Doctors; Grange Hill; Rough Justice; The Beggar Bride; Law and Order: UK; The Whistleblowers, Mike Bassett: Manager; Open Wide; Peak Practice; Coronation Street; The Bill; She&rsquo;s Out; Undercover Customs; The Good Guys</em>.</p><p><strong>Voiceover</strong> for&nbsp;<em>Robocar Poli</em>;&nbsp;<em>Paw Patrol&nbsp;</em>(Nick Jnr)&nbsp;<em>Amnesia&nbsp;</em>(video game) and many others <strong>Film</strong>:&nbsp;<em>Disobedience; Allied; Les Mis&eacute;rables; Jack the Giant Slayer; The Da Vinci Code; Pierrepoint; Blitz; Anglo Saxon Attitudes</em></p>",
                 "image": "../images/headshots/mark-roper.jpg"
             },
             {
@@ -78,7 +78,7 @@
                 "name": "John Madondo",
                 "role": "Young Simba",
                 "bio": "<p><strong>Place of Birth</strong>: London, England</p><p><strong>Training</strong>: The Lion King Cub School; AkomaAsa Performing Arts Academy</p><p><em>The Lion King </em>marks John&rsquo;s West End debut.</p>",
-                "image": "../images/headshots/zion-gardner.jpg"
+                "image": "../images/headshots/john-madondo.jpg"
             },
             {
                 "name": "Tia Murrell",
@@ -165,6 +165,12 @@
                 "image": "../images/headshots/azola-dlamini.jpg"
             },
             {
+                "name": "Kuan Frye",
+                "role": "Swing",
+                "bio": "<p><strong><span>Place of Birth: </span></strong><span>London, England<br /><strong>Training: </strong>Sylvia Young Theatre School<br /><strong>Theatre: </strong><em>Thriller Live! </em>(Lyric &amp; Dominion Theatres); <em>Caroline, or Change</em> (National Theatre); <em>The Lion King</em> (Lyceum Theatre); <em>Oliver! </em>(Theatre Royal, Drury Lane); <em>Matilda the Musical </em>(RSC&rsquo;s The Courtyard Theatre). <br /><strong>Television: </strong><em>Episodes</em>, <em>3<sup>rd</sup> &amp; Bird</em>, <em>Britain&rsquo;s Got Talent<br /></em><strong>Radio:</strong> <em>Kizzy<br /></em><strong>Other: </strong>Kuan makes a welcome return to <em>The Lion King</em> having been part of the 2007 London Company.</span></p>",
+                "image": "../images/headshots/kuan-frye.jpg"
+            },
+            {
                 "name": "Kevin Fullinck",
                 "role": "Swing",
                 "bio": "<p><strong>Place of Birth:</strong> Groningen, The Netherlands</p> <p><strong>Training:</strong> Artist of music at KTM Noorderpoortcollege</p> <p><strong>Theatre:</strong> <em>The Lion King</em> (Circustheater, The Netherlands)</p> <p><strong>Television:</strong> <em>The Voice of Holland</em></p> <p><em>The Lion King</em> marks Kevin’s West End debut.</p>",
@@ -175,12 +181,6 @@
                 "role": "Swing",
                 "bio": "<p><strong>Place of Birth:</strong> London, England</p> <p><strong>Training:</strong> Bird College of Dance, Music &amp; Theatre Performance, Keneish Dance, Kingdom Drama School</p> <p><strong>Theatre:</strong> <em>Bring It On </em>(Studio Theatre, Sidcup); <em>Hello Dolly</em> (Studio Theatre, Sidcup); <em>Seasons</em></p> <p>(The Orchard Theatre, Dartford) <em>Cirque </em>(The Orchard Theatre, Dartford)</p> <p><strong>Television:</strong> <em>Queen&rsquo;s 60<sup>th</sup> Coronation Festival Gala 2013</em></p> <p><strong>Other:</strong> Deb&ocirc;rah has also assisted and choreographed for <em>One Youth</em></p> <p><em>The Lion King </em>marks Deb&ocirc;rah&rsquo;s West End debut.</p>",
                 "image": "../images/headshots/deborah-godchaser.jpg"
-            },
-            {
-                "name": "Kuan Frye",
-                "role": "Swing",
-                "bio": "<p><strong><span>Place of Birth: </span></strong><span>London, England<br /><strong>Training: </strong>Sylvia Young Theatre School<br /><strong>Theatre: </strong><em>Thriller Live! </em>(Lyric &amp; Dominion Theatres); <em>Caroline, or Change</em> (National Theatre); <em>The Lion King</em> (Lyceum Theatre); <em>Oliver! </em>(Theatre Royal, Drury Lane); <em>Matilda the Musical </em>(RSC&rsquo;s The Courtyard Theatre). <br /><strong>Television: </strong><em>Episodes</em>, <em>3<sup>rd</sup> &amp; Bird</em>, <em>Britain&rsquo;s Got Talent<br /></em><strong>Radio:</strong> <em>Kizzy<br /></em><strong>Other: </strong>Kuan makes a welcome return to <em>The Lion King</em> having been part of the 2007 London Company.</span></p>",
-                "image": "../images/headshots/kuan-frye.jpg"
             },
             {
                 "name": "Jamie Golding",
