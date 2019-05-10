@@ -46,6 +46,11 @@ strong {
     font-weight: $font-weight-bold;
 }
 
+.text-thin {
+    display: contents;
+    font-weight: 500;
+}
+
 .font-special {
     font-family: $special-font !important;
     letter-spacing: 2px;
