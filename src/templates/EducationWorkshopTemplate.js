@@ -27,7 +27,7 @@ class EducationWorkshopTemplate extends Component {
 
                                     <p>Workshops give students the chance to learn scenes and choreography directly from the show. They take place in your school and are run by two specially trained Disney Teaching Artists; they cost £12.50 per person.</p>
 
-                                    <p>The closing date for applications is strictly 17th May 2019. All successful schools will be contacted by 23rd May 2019. Payment for the workshops will be required by 5th July 2019.</p>
+                                    <p>The closing date for applications is strictly 5th June 2019. All successful schools will be contacted by 6th June 2019. Payment for the workshops will be required by 5th July 2019.</p>
                                 </Col>
                             </Row>
                         </Container>
