@@ -43,11 +43,6 @@ class IndexPage extends Component {
 										<ul className="landing__locations">
 											{locationLinks}
 
-											<li>
-                                                <Link to="/relaxedperformances/" className="text-lg">
-                                                    All Relaxed Performances
-                                                </Link>
-                                            </li>
                                             <li>
                                                 <a href="https://disney.co.uk/shows/the-lion-king-musical-tour-tickets" rel="noopener noreferrer" target="_blank" className="no-interstitial-check text-lg">
                                                     Other cities – sign up
