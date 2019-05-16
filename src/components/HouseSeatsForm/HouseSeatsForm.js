@@ -21,7 +21,7 @@ import CalendarToolbar from './CalendarToolbar';
 import CalendarEvent from './CalendarEvent';
 import CalendarOverlay from './CalendarOverlay';
 import "react-big-calendar/lib/css/react-big-calendar.css";
-const localizer = BigCalendar.momentLocalizer(moment) 
+const localizer = BigCalendar.momentLocalizer(moment)
 
 const captchaSiteId = "6LdwOKAUAAAAACTWAuP6kQEPo0uT_8zS7xSu3h7A"
 
