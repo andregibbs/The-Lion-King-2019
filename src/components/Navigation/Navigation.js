@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 import {
     Collapse,
     Navbar,
-    Nav
+    Nav,
+    NavItem
 } from 'reactstrap';
+import { Link } from 'gatsby'
 import CityLinks from './CityLinks';
 import NavLinks from './NavLinks';
 
@@ -41,6 +43,11 @@ class Navigation extends Component {
                     </button>
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar>
+                            {siteId === 'relaxedperformances' &&
+                                <NavItem>
+                                    <Link to="/" activeClassName="active">Home</Link>
+                                </NavItem>
+                            }
                             <NavLinks siteId={siteId} />
                             <CityLinks pageTitle={pageTitle} />
                         </Nav>

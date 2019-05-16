@@ -869,5 +869,34 @@
                 }
             }
         ]
+    },
+    {
+        "id": "relaxedperformancesAbout",
+        "siteId": "relaxedperformances",
+        "template": "about-template",
+        "path": "/relaxedperformances/about-the-show/",
+        "title": "About the Show",
+        "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
+        "inFooter": true,
+        "headerImage": "../images/headers/header-london-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "content": "<div class='pb-3'><div class='embed-responsive embed-responsive-16by9'><iframe id='kaltura_player' class='embed-responsive-item' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div></div>"
+                }
+            },
+            {
+                "type": "bgImageTextBlock",
+                "bgImageTextBlock": {
+                    "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md3.jpg",
+                    "withGradient": true,
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "links": ""
+                }
+            }
+        ]
     }
 ]
