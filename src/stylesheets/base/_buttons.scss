@@ -47,6 +47,10 @@
         display: block;
     }
 
+    &--auto {
+        cursor: auto !important;
+    }
+
     &--book {
         min-height: 72px;
         display: flex;
