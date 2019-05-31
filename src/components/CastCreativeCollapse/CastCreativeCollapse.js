@@ -144,7 +144,7 @@ const CastItems = (props) => (
             <>
                 {
                     // loop all cast
-                    data.allCastJson.edges.map(({node, i}) => {
+                    data.allCastJson.edges.map(({node}, i) => {
 
                         // if cast siteId is equal to current page siteId
                         if (node.siteId === props.siteId) {
@@ -152,17 +152,26 @@ const CastItems = (props) => (
                             return (
                                 <TabPane tabId="1" key={`cast${i}`}> 
                                     <CustomCollapse data={node.items} type="cast" />
-                                    
-                                    <CustomList data={node.ensemble} type="cast" />
-                                    <CustomList data={node.swings} type="cast" />
-                                    <CustomList data={node.standbys} type="cast" />
+                            
+                                    {node.ensemble !== null &&
+                                       <CustomList data={node.ensemble} type="ensemble" /> 
+                                    }
+        
+
+                                     {node.swings !== null &&
+                                        <CustomList data={node.swings} type="swings" />
+                                     }
+
+                                    {node.standbys !== null &&
+                                        <CustomList data={node.standbys} type="standbys" />
+                                    }
+
                                 </TabPane>
                             )
 
                         } else {
                             return (
                                 <TabPane tabId="1" key={`cast${i}`}>
-                        
                                 </TabPane>
                             )
                         }
@@ -172,7 +181,7 @@ const CastItems = (props) => (
 
                 {
                     // loop all creatives
-                    data.allCreativesJson.edges.map(({node, i}) => {
+                    data.allCreativesJson.edges.map(({node}, i) => {
 
                         // if creatives siteId is equal to current page siteId
                         if (node.siteId === props.siteId) {
@@ -180,7 +189,6 @@ const CastItems = (props) => (
                             return (
                                 <TabPane tabId="2" key={`creatives${i}`}>
                                     <CustomCollapse data={node.items} type="creatives" />
-
                                 </TabPane>
                             )
 
