@@ -480,6 +480,114 @@
                 "bio": "<p><strong>Place of Birth:</strong> County Mayo, Ireland <br /> <br /> <strong>Training:</strong> Mountview Academy of Theatre Arts</p><p><strong>Theatre: </strong><em>The Clockmaker&rsquo;s Daughter</em> (The Landor Theatre), <em>Lohengrin </em>(Royal Opera House), Best of Irish Rock (Holland Tour), <em>Macbet</em>h (Shakespeare 4 Kidz),<em> Rebel Song&nbsp; </em>(The Other Palace), <em>Snow White (</em>Dubai), <em>Pirates of Penzance</em> (Edinburgh Fringe), <em>An Evening of Webborn &amp; Finn</em> (St. James Theatre), <em>Babes In The Wood</em> (Brick Lane Music Hall), <em>The Beautiful Game</em> (The Union Theatre), The <em>Boys From Syracuse</em> (The Union Theatre, London).</p><p><strong>Other: </strong><em>The Clockmaker&rsquo;s Daughter </em>Studio Cast Recording (Auburn jam)</p>",
                 "image": "../images/headshots/alan-mchale.jpg"
             }
-        ]
+        ],
+        "ensemble": [
+            {
+                "name": "KHANYISANI BEATO"
+            },
+            {
+                "name": "MELVIN LA BLANC"
+            },
+            {
+                "name": "RUSHAND CHAMBERS"
+            },
+            {
+                "name": "JAVIER CID"
+            },
+            {
+                "name": "JORRELL COIFFIC-KAMALL"
+            },
+            {
+                "name": "TEVIN DANIEL"
+            },
+            {
+                "name": "MATTHEW ELLIOT-CAMPBELL"
+            },
+            {
+                "name": "ORAINE FRATER"
+            },
+            {
+                "name": "DANIEL MEJIA GARCIA"
+            },
+            {
+                "name": "DANIEL GRIFFITH"
+            },
+            {
+                "name": "ALICIA HAYWARD"
+            },
+            {
+                "name": "ZALIKA HENRY"
+            },
+            {
+                "name": "CALEAF HENSEN"
+            },
+            {
+                "name": "OLIVIA JONES"
+            },
+            {
+                "name": "ZANELE MAZIBUKO"
+            },
+            {
+                "name": "JOCHEBEL OHENE MACCARTHY"
+            },
+            {
+                "name": "ZANELE NDLOVU"
+            },
+            {
+                "name": "BUHLE NKOMO"
+            },
+            {
+                "name": "BRIANNA OGUNBAWO"
+            },
+            {
+                "name": "TARA PRICE"
+            },
+            {
+                "name": "CHARLOTTE SAMAROO"
+            },
+            {
+                "name": "FRANCESCA THOMPSON"
+            },
+            {
+                "name": "MARIA YIM"
+            },
+            {
+                "name": "BUKIWE ZINGANTO"
+            }
+        ],
+        "swings": [
+            {
+                "name": "LWANDOLWETHU DENNIS BAM"
+            },
+            {
+                "name": "NIGEL BROWN"
+            },
+            {
+                "name": "TAU-EN CHIEN"
+            },
+            {
+                "name": "CRISTIANE SANTOS DE JESUS"
+            },
+            {
+                "name": "PAIGE PEDDIE"
+            },
+            {
+                "name": "MAMIDO BOMBOKO SOUCHU"
+            },
+            {
+                "name": "SHERRY TAY"
+            },
+            {
+                "name": "CONNOR PELE WILLIAMS"
+            }
+        ],
+        "standbys": [
+            {
+                "name": "TIM DRIESEN"
+            },
+            {
+                "name": "BRIAN GILLIGAN"
+            }
+        ] 
     }
 ]

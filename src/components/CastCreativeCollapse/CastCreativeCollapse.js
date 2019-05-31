@@ -9,6 +9,7 @@ import {
     NavItem
 } from 'reactstrap';
 import CustomCollapse from './CustomCollapse'
+import CustomList from './CustomList'
 
 class CastCollapse extends Component {
 
@@ -105,6 +106,16 @@ const CastItems = (props) => (
                                     }
                                 }
                             }
+                            ensemble {
+                                name
+                            }
+                            swings {
+                                name
+                            }
+                            standbys {
+                                name
+                            }
+
                         }
                     }
                 }
@@ -141,6 +152,10 @@ const CastItems = (props) => (
                             return (
                                 <TabPane tabId="1" key={`cast${i}`}> 
                                     <CustomCollapse data={node.items} type="cast" />
+                                    
+                                    <CustomList data={node.ensemble} type="cast" />
+                                    <CustomList data={node.swings} type="cast" />
+                                    <CustomList data={node.standbys} type="cast" />
                                 </TabPane>
                             )
 
@@ -165,6 +180,7 @@ const CastItems = (props) => (
                             return (
                                 <TabPane tabId="2" key={`creatives${i}`}>
                                     <CustomCollapse data={node.items} type="creatives" />
+
                                 </TabPane>
                             )
 
