@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
-import { Container } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 
 class CustomList extends Component {
 
     render() {
 
         const ensemble = this.props.data
-
-        console.log(ensemble)
 
         const customItems = ensemble.map((item, i) => {
             return <CustomListItem
@@ -19,8 +17,12 @@ class CustomList extends Component {
         });
 
         return (
-            <Container fluid className="custom-list">
+            <Container fluid className="custom-list text-center">
+
+                <Row>
                 {customItems}
+                </Row>
+
             </Container>
         )
     }
@@ -32,9 +34,13 @@ class CustomListItem extends Component {
     render() {
         return (
            <>
-            <div className="customer_item">    
-                <span>{this.props.data.name}</span>
-            </div>
+                
+                <Col md={3} >
+                     <h2>{this.props.siteId}</h2>
+                    <span>{this.props.data.name}</span>
+                </Col>
+             
+            
             </>
         );
     }

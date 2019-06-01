@@ -154,7 +154,9 @@ const CastItems = (props) => (
                                     <CustomCollapse data={node.items} type="cast" />
                             
                                     {node.ensemble !== null &&
+                                       
                                        <CustomList data={node.ensemble} type="ensemble" /> 
+                                       
                                     }
         
 
