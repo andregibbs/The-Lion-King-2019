@@ -109,13 +109,6 @@ const CastItems = (props) => (
                             ensemble {
                                 name
                             }
-                            swings {
-                                name
-                            }
-                            standbys {
-                                name
-                            }
-
                         }
                     }
                 }
@@ -158,14 +151,6 @@ const CastItems = (props) => (
                                     {node.ensemble !== null &&   
                                        <CustomList data={node.ensemble} type="ensemble" /> 
                                        
-                                    }
-    
-                                     {node.swings !== null &&
-                                        <CustomList data={node.swings} type="swings" />
-                                     }
-
-                                    {node.standbys !== null &&
-                                        <CustomList data={node.standbys} type="standbys" />
                                     }
                                 </TabPane>
                             )
