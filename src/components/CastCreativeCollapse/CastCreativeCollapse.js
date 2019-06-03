@@ -154,8 +154,8 @@ const CastItems = (props) => (
                                     <CustomCollapse data={node.items} type="cast" />
                             
                                     <h2 className="py-3 text-center">Ensemble</h2>
-                                    {node.ensemble !== null &&
-                                       
+                                   
+                                    {node.ensemble !== null &&   
                                        <CustomList data={node.ensemble} type="ensemble" /> 
                                        
                                     }
@@ -167,7 +167,6 @@ const CastItems = (props) => (
                                     {node.standbys !== null &&
                                         <CustomList data={node.standbys} type="standbys" />
                                     }
-
                                 </TabPane>
                             )
 
