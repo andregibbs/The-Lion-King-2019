@@ -9,6 +9,7 @@ import {
     NavItem
 } from 'reactstrap';
 import CustomCollapse from './CustomCollapse'
+import CustomList from './CustomList'
 
 class CastCollapse extends Component {
 
@@ -105,6 +106,9 @@ const CastItems = (props) => (
                                     }
                                 }
                             }
+                            ensemble {
+                                name
+                            }
                         }
                     }
                 }
@@ -133,7 +137,7 @@ const CastItems = (props) => (
             <>
                 {
                     // loop all cast
-                    data.allCastJson.edges.map(({node, i}) => {
+                    data.allCastJson.edges.map(({node}, i) => {
 
                         // if cast siteId is equal to current page siteId
                         if (node.siteId === props.siteId) {
@@ -141,6 +145,13 @@ const CastItems = (props) => (
                             return (
                                 <TabPane tabId="1" key={`cast${i}`}> 
                                     <CustomCollapse data={node.items} type="cast" />
+                            
+                                    <h2 className="py-3 text-center">Ensemble</h2>
+                                   
+                                    {node.ensemble !== null &&   
+                                       <CustomList data={node.ensemble} type="ensemble" /> 
+                                       
+                                    }
                                 </TabPane>
                             )
 
@@ -148,6 +159,7 @@ const CastItems = (props) => (
                             return (
                                 <TabPane tabId="1" key={`cast${i}`}>
                                    <h2 className="text-center p-5">Cast coming soon!</h2>
+
                                 </TabPane>
                             )
                         }
@@ -157,7 +169,7 @@ const CastItems = (props) => (
 
                 {
                     // loop all creatives
-                    data.allCreativesJson.edges.map(({node, i}) => {
+                    data.allCreativesJson.edges.map(({node}, i) => {
 
                         // if creatives siteId is equal to current page siteId
                         if (node.siteId === props.siteId) {
