@@ -153,13 +153,13 @@ const CastItems = (props) => (
                                 <TabPane tabId="1" key={`cast${i}`}> 
                                     <CustomCollapse data={node.items} type="cast" />
                             
+                                    <h2 className="py-3 text-center">Ensemble</h2>
                                     {node.ensemble !== null &&
                                        
                                        <CustomList data={node.ensemble} type="ensemble" /> 
                                        
                                     }
-        
-
+    
                                      {node.swings !== null &&
                                         <CustomList data={node.swings} type="swings" />
                                      }

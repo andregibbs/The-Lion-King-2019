@@ -17,9 +17,10 @@ class CustomList extends Component {
         });
 
         return (
-            <Container fluid className="custom-list text-center">
+            <Container fluid className="custom-list py-4 text-center">
 
                 <Row>
+                 <h2>{this.props.name}</h2>
                 {customItems}
                 </Row>
 
@@ -34,9 +35,8 @@ class CustomListItem extends Component {
     render() {
         return (
            <>
-                
-                <Col md={3} >
-                     <h2>{this.props.siteId}</h2>
+                <Col md={6} >
+                     {/*<h2>{this.props.siteId}</h2>*/}
                     <span>{this.props.data.name}</span>
                 </Col>
              
