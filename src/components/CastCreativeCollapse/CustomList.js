@@ -17,7 +17,7 @@ class CustomList extends Component {
         });
 
         return (
-            <Container fluid className="custom-list py-4 text-center">
+            <Container fluid className="custom-list text-center">
 
                 <Row>
                  <h2>{this.props.name}</h2>
