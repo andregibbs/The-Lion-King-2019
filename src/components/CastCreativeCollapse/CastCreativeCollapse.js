@@ -109,6 +109,12 @@ const CastItems = (props) => (
                             ensemble {
                                 name
                             }
+                            youngsimba {
+                                name
+                            }
+                            youngnala {
+                                name
+                            }
                         }
                     }
                 }
@@ -152,13 +158,27 @@ const CastItems = (props) => (
                                        <CustomList data={node.ensemble} type="ensemble" /> 
                                        
                                     }
+
+                                    <h2 className="py-3 text-center">Young Simba</h2>
+                                   
+                                    {node.youngsimba !== null &&   
+                                       <CustomList data={node.youngsimba} type="youngsimba" /> 
+                                       
+                                    }
+
+                                    <h2 className="py-3 text-center">Young Nala</h2>
+                                   
+                                    {node.youngnala !== null &&   
+                                       <CustomList data={node.youngnala} type="youngnala" /> 
+                                       
+                                    }
                                 </TabPane>
                             )
 
                         } else {
                             return (
                                 <TabPane tabId="1" key={`cast${i}`}>
-                                   <h2 className="text-center p-5">Cast coming soon!</h2>
+                                 {/*<h2 className="text-center p-5">Cast coming soon!</h2>*/}
 
                                 </TabPane>
                             )

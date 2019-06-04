@@ -410,7 +410,10 @@
                 "image": "../images/headshots/alan-mchale.jpg"
             }
         ],
-        "ensemble": [
+            "ensemble": [
+            {
+                "name": "LWANDOLWETHU DENNIS BAM"
+            },
             {
                 "name": "KHANYISANI BEATO"
             },
@@ -418,7 +421,13 @@
                 "name": "MELVIN LA BLANC"
             },
             {
+                "name": "NIGEL BROWN"
+            },
+            {
                 "name": "RUSHAND CHAMBERS"
+            },
+            {
+                "name": "TAU-EN CHIEN"
             },
             {
                 "name": "JAVIER CID"
@@ -430,6 +439,9 @@
                 "name": "TEVIN DANIEL"
             },
             {
+                "name": "TIM DRIESEN"
+            },
+            {
                 "name": "MATTHEW ELLIOT-CAMPBELL"
             },
             {
@@ -437,6 +449,9 @@
             },
             {
                 "name": "DANIEL MEJIA GARCIA"
+            },
+            {
+                "name": "BRIAN GILLIGAN"
             },
             {
                 "name": "DANIEL GRIFFITH"
@@ -449,6 +464,9 @@
             },
             {
                 "name": "CALEAF HENSEN"
+            },
+            {
+                "name": "CRISTIANE SANTOS DE JESUS"
             },
             {
                 "name": "OLIVIA JONES"
@@ -469,34 +487,13 @@
                 "name": "BRIANNA OGUNBAWO"
             },
             {
+                "name": "PAIGE PEDDIE"
+            },
+            {
                 "name": "TARA PRICE"
             },
             {
                 "name": "CHARLOTTE SAMAROO"
-            },
-            {
-                "name": "FRANCESCA THOMPSON"
-            },
-            {
-                "name": "MARIA YIM"
-            },
-            {
-                "name": "BUKIWE ZINGANTO"
-            },
-            {
-                "name": "LWANDOLWETHU DENNIS BAM"
-            },
-            {
-                "name": "NIGEL BROWN"
-            },
-            {
-                "name": "TAU-EN CHIEN"
-            },
-            {
-                "name": "CRISTIANE SANTOS DE JESUS"
-            },
-            {
-                "name": "PAIGE PEDDIE"
             },
             {
                 "name": "MAMIDO BOMBOKO SOUCHU"
@@ -505,13 +502,47 @@
                 "name": "SHERRY TAY"
             },
             {
+                "name": "FRANCESCA THOMPSON"
+            },
+            {
                 "name": "CONNOR PELE WILLIAMS"
             },
             {
-                "name": "TIM DRIESEN"
+                "name": "MARIA YIM"
             },
             {
-                "name": "BRIAN GILLIGAN"
+                "name": "BUKIWE ZINGANTO"
+            }
+        ],
+        "youngsimba": [
+            {
+                "name": "HUNTER DEL VALLE MARFO"
+            },
+            {
+                "name": "JOSHUA MOABI"
+            },
+            {
+                "name": "BEN PARKER"
+            },
+            {
+                "name": "THEODARE SOMULU"
+            }
+        ],
+         "youngnala": [
+            {
+                "name": "MINAII BARROWES"
+            },
+            {
+                "name": "STELLA WUBALEM MINEE HARRIS"
+            },
+            {
+                "name": "KANYE MUHUMUZA"
+            },
+            {
+                "name": "MARY ANNE PITY TIEKOU"
+            },
+            {
+                "name": "DREW JADA MAITE TOUSSAINT"
             }
         ]
     },
@@ -587,13 +618,22 @@
         ],
         "ensemble": [
             {
+                "name": "LWANDOLWETHU DENNIS BAM"
+            },
+            {
                 "name": "KHANYISANI BEATO"
             },
             {
                 "name": "MELVIN LA BLANC"
             },
             {
+                "name": "NIGEL BROWN"
+            },
+            {
                 "name": "RUSHAND CHAMBERS"
+            },
+            {
+                "name": "TAU-EN CHIEN"
             },
             {
                 "name": "JAVIER CID"
@@ -605,6 +645,9 @@
                 "name": "TEVIN DANIEL"
             },
             {
+                "name": "TIM DRIESEN"
+            },
+            {
                 "name": "MATTHEW ELLIOT-CAMPBELL"
             },
             {
@@ -612,6 +655,9 @@
             },
             {
                 "name": "DANIEL MEJIA GARCIA"
+            },
+            {
+                "name": "BRIAN GILLIGAN"
             },
             {
                 "name": "DANIEL GRIFFITH"
@@ -624,6 +670,9 @@
             },
             {
                 "name": "CALEAF HENSEN"
+            },
+            {
+                "name": "CRISTIANE SANTOS DE JESUS"
             },
             {
                 "name": "OLIVIA JONES"
@@ -644,34 +693,13 @@
                 "name": "BRIANNA OGUNBAWO"
             },
             {
+                "name": "PAIGE PEDDIE"
+            },
+            {
                 "name": "TARA PRICE"
             },
             {
                 "name": "CHARLOTTE SAMAROO"
-            },
-            {
-                "name": "FRANCESCA THOMPSON"
-            },
-            {
-                "name": "MARIA YIM"
-            },
-            {
-                "name": "BUKIWE ZINGANTO"
-            },
-            {
-                "name": "LWANDOLWETHU DENNIS BAM"
-            },
-            {
-                "name": "NIGEL BROWN"
-            },
-            {
-                "name": "TAU-EN CHIEN"
-            },
-            {
-                "name": "CRISTIANE SANTOS DE JESUS"
-            },
-            {
-                "name": "PAIGE PEDDIE"
             },
             {
                 "name": "MAMIDO BOMBOKO SOUCHU"
@@ -680,13 +708,47 @@
                 "name": "SHERRY TAY"
             },
             {
+                "name": "FRANCESCA THOMPSON"
+            },
+            {
                 "name": "CONNOR PELE WILLIAMS"
             },
             {
-                "name": "TIM DRIESEN"
+                "name": "MARIA YIM"
             },
             {
-                "name": "BRIAN GILLIGAN"
+                "name": "BUKIWE ZINGANTO"
+            }
+        ],
+        "youngsimba": [
+            {
+                "name": "HUNTER DEL VALLE MARFO"
+            },
+            {
+                "name": "JOSHUA MOABI"
+            },
+            {
+                "name": "BEN PARKER"
+            },
+            {
+                "name": "THEODARE SOMULU"
+            }
+        ],
+         "youngnala": [
+            {
+                "name": "MINAII BARROWES"
+            },
+            {
+                "name": "STELLA WUBALEM MINEE HARRIS"
+            },
+            {
+                "name": "KANYE MUHUMUZA"
+            },
+            {
+                "name": "MARY ANNE PITY TIEKOU"
+            },
+            {
+                "name": "DREW JADA MAITE TOUSSAINT"
             }
         ]
     }
