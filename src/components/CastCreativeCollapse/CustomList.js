@@ -35,7 +35,7 @@ class CustomListItem extends Component {
     render() {
         return (
            <>
-                <Col md={6} >
+                <Col md={12} >
                      {/*<h2>{this.props.siteId}</h2>*/}
                     <span>{this.props.data.name}</span>
                 </Col>

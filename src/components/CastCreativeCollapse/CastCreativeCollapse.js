@@ -151,13 +151,6 @@ const CastItems = (props) => (
                             return (
                                 <TabPane tabId="1" key={`cast${i}`}> 
                                     <CustomCollapse data={node.items} type="cast" />
-                            
-                                    <h2 className="py-3 text-center">Ensemble</h2>
-                                   
-                                    {node.ensemble !== null &&   
-                                       <CustomList data={node.ensemble} type="ensemble" /> 
-                                       
-                                    }
 
                                     <h2 className="py-3 text-center">Young Simba</h2>
                                    
@@ -172,6 +165,14 @@ const CastItems = (props) => (
                                        <CustomList data={node.youngnala} type="youngnala" /> 
                                        
                                     }
+                            
+                                    <h2 className="py-3 text-center">Ensemble</h2>
+                                   
+                                    {node.ensemble !== null &&   
+                                       <CustomList data={node.ensemble} type="ensemble" /> 
+                                       
+                                    }
+
                                 </TabPane>
                             )
 
