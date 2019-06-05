@@ -151,28 +151,24 @@ const CastItems = (props) => (
                             return (
                                 <TabPane tabId="1" key={`cast${i}`}> 
                                     <CustomCollapse data={node.items} type="cast" />
-
-                                    <h2 className="py-3 text-center">Young Simba</h2>
-                                   
                                     {node.youngsimba !== null &&   
-                                       <CustomList data={node.youngsimba} type="youngsimba" /> 
-                                       
+                                        <>
+                                            <h2 className="py-3 text-center">Young Simba</h2>
+                                            <CustomList data={node.youngsimba} type="youngsimba" /> 
+                                        </>
                                     }
-
-                                    <h2 className="py-3 text-center">Young Nala</h2>
-                                   
-                                    {node.youngnala !== null &&   
-                                       <CustomList data={node.youngnala} type="youngnala" /> 
-                                       
-                                    }
-                            
-                                    <h2 className="py-3 text-center">Ensemble</h2>
-                                   
+                                    {node.youngnala !== null &&  
+                                        <>
+                                            <h2 className="py-3 text-center">Young Nala</h2> 
+                                            <CustomList data={node.youngnala} type="youngnala" /> 
+                                        </>
+                                    }              
                                     {node.ensemble !== null &&   
-                                       <CustomList data={node.ensemble} type="ensemble" /> 
-                                       
+                                        <>
+                                            <CustomList data={node.ensemble} type="ensemble" /> 
+                                            <h2 className="py-3 text-center">Ensemble</h2>
+                                        </>
                                     }
-
                                 </TabPane>
                             )
 
