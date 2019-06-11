@@ -157,16 +157,19 @@ const CastItems = (props) => (
                                             <CustomList data={node.youngsimba} type="youngsimba" /> 
                                         </>
                                     }
+
                                     {node.youngnala !== null &&  
                                         <>
                                             <h2 className="py-3 text-center">Young Nala</h2> 
                                             <CustomList data={node.youngnala} type="youngnala" /> 
                                         </>
-                                    }              
+                                    }     
+
                                     {node.ensemble !== null &&   
                                         <>
-                                            <CustomList data={node.ensemble} type="ensemble" /> 
                                             <h2 className="py-3 text-center">Ensemble</h2>
+                                            <CustomList data={node.ensemble} type="ensemble" /> 
+                                            
                                         </>
                                     }
                                 </TabPane>
