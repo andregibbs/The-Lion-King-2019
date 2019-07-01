@@ -610,6 +610,7 @@
         "id": "bristolCast",
         "siteId": "bristol",
         "template": "cast-template",
+        "displayBookNow": false,
         "path": "/bristol/cast-and-creatives/",
         "title": "Cast & Creatives",
         "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
@@ -781,6 +782,7 @@
     {
         "id": "edinburghCast",
         "siteId": "edinburgh",
+        "displayBookNow": false,
         "template": "cast-template",
         "path": "/edinburgh/cast-and-creatives/",
         "title": "Cast & Creatives",
