@@ -3,7 +3,7 @@
         "siteId": "london",
         "introText": {
             "title": "Book tickets for The Lion King",
-            "content": "<p>Best availability at midweek performances - tickets from &pound;20</p>"
+            "content": "<p>Best availability at midweek performances - tickets from &pound;20<br>Schedule includes to weekend matinees</p>"
         },
         "online": {
             "title": "Online",
