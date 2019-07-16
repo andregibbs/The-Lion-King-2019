@@ -8,7 +8,7 @@ const FooterLinks = () => (
     <StaticQuery
         query={graphql`
             query {
-                footerImage1: file(relativePath: { eq: "footer-aladdin-800px.jpg" }) {
+                footerImage1: file(relativePath: { eq: "footer-mary-800px.jpg" }) {
                     ...footerFluidImage
                 }
                 footerImage2: file(relativePath: { eq: "footer-frozen-800px.jpg" }) {
@@ -20,11 +20,11 @@ const FooterLinks = () => (
             <Container fluid className="container-max footer-images">
                 <Row>
                     <Col md={6} className="mb-3">
-                        <a href="https://disney.co.uk/shows/aladdin-the-musical-tickets/" 
+                        <a href="https://disney.co.uk/shows/mary-poppins-musical-tickets" 
                             target="_blank" 
                             rel="noreferrer noopener" 
                             className="footer-images__link no-interstitial-check"
-                            aria-label="Visit Aladdin The Musical">
+                            aria-label="MARY POPPINS">
                             <Img fluid={data.footerImage1.childImageSharp.fluid} alt="Aladdin The Musical" />
                         </a>
                     </Col>
