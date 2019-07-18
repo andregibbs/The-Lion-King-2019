@@ -41,7 +41,8 @@
     }
 
     // add gradient with css, better for longer content
-    &--gradient {
+    &--gradient, 
+    &--purple-gradient {
 
         .bg-image-text__content {
             position: relative;
@@ -56,9 +57,8 @@
 
             > div {
                 position: relative;
-                background-color: $tlk-dark-red;
-                padding: $spacer;
-                padding-top: $spacer * 2;
+                background-color: #49190a;
+                padding: $spacer * 2;
                 @include media-breakpoint-up(lg) {
                     padding: 0;
                     background-color: transparent;
@@ -71,7 +71,7 @@
                     left: 0;
                     width: 100%;
                     height: $spacer * 6;
-                    background: linear-gradient(to top, rgba($tlk-dark-red, 1) 0%, rgba($tlk-dark-red, 1) 20%, rgba($tlk-dark-red, .7) 50%, rgba($tlk-dark-red, 0) 100%);
+                    background: linear-gradient(to top, rgba(73,25,10, 1) 0%, rgba(73,25,10, 1) 20%, rgba(73,25,10, .7) 50%, rgba(73,25,10, 0) 100%);
                     @include media-breakpoint-up(lg) {
                         display: none;
                     }
@@ -79,6 +79,24 @@
             }
         }
 
+    }
+
+    &--purple-gradient {
+        .bg-image-text__content {
+            > div {
+                background-color: $tlk-light-purple;
+                @include media-breakpoint-up(lg) {
+                    background-color: transparent;
+                }
+                &:before {
+                    content: "";
+                    background: linear-gradient(to top, rgba($tlk-light-purple, 1) 0%, rgba($tlk-light-purple, 1) 20%, rgba($tlk-light-purple, .7) 50%, rgba($tlk-light-purple, 0) 100%);
+                    @include media-breakpoint-up(lg) {
+                        display: none;
+                    }
+                }
+            }
+        }
     }
 
 }

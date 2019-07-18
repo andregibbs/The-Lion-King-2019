@@ -125,10 +125,10 @@
                     "containerBgColour": "light-grey",
                     "bgColour": "white",
                     "column1": {
-                        "content": "<h4 class='text-red'>London</h4><p>We are always looking for children aged 8-11 to join our Cub School training programme, which will teach young performers skills in acting, movement and singing to later audition to potentially play these roles professionally in the West End. </p><p> Whilst winning a place in Cub School does not guarantee a part in the stage musical, it has proven to be excellent training for young people with the ambition to work on stage.</p><p> Applications for The Lion King Cub School are ongoing, and auditions are held twice a year. The next auditions will take place in March 2019.</p><p> Applicants for Cub School must be between ages 8 and 11 and below 140cm (4’6”) in height.</p><p> Please complete the form to register</p><a href='/auditions/children/register/' class='btn btn--red'>Children registration form</a>"
+                        "content": "<h4 class='text-red'>London</h4><p>We are always looking for children aged 8-11 to join our Cub School training programme, which will teach young performers skills in acting, movement and singing to later audition to potentially play these roles professionally in the West End. </p><p> Whilst winning a place in Cub School does not guarantee a part in the stage musical, it has proven to be excellent training for young people with the ambition to work on stage.</p><p> Applications for The Lion King Cub School are ongoing, and auditions are held twice a year. The next auditions will take place in March 2019.</p><p> Applicants for Cub School must be between ages 8 and 11 and below 140cm (4’6”) in height.</p><p> For all casting enquiries relating to the London production of The Lion King, please email Akosua Boakye.</p><a href='mailto:Akosua.boakye@disney.com?subject=The%20Lion%20King%20Cub%20School%20Enquiry' class='btn btn--red'>Email us</a>"
                     },
                     "column2": {
-                        "content": "<h4 class='text-red'>UK & Ireland Tour</h4><p>For all casting enquiries relating to the upcoming UK Touring production of The Lion King, please email Jo Hawes.</p><a href='joanne.hawes2013@gmail.com' class='btn btn--red btn--300'>Email us</a>"
+                        "content": "<h4 class='text-red'>UK & Ireland Tour</h4><p>For all casting enquiries relating to the upcoming UK Touring production of The Lion King, please email Jo Hawes.</p><a href='mailto:joanne.hawes2013@gmail.com?subject=The%20Lion%20King%20UK%20Tour%20casting%20enquiry' class='btn btn--red btn--300'>Email us</a>"
                     }
                 }
             }
@@ -414,11 +414,11 @@
                             },
                             {
                                 "question": "Are there facilities for people with hearing impairments?",
-                                "answer": "<p> THE LION KING regularly schedules sign-interpreted performances in association with Theatre Sign. Throughout the performance, a qualified theatre sign interpreter stands on the left of the stage and uses sign language to relay music and words to deaf and hearing impaired patrons, all of whom are seated within easy viewing distance of both the stage and interpreter. </p><p> The next signed performances will take place on <strong>Tuesday 30 April 2019 at 7.30pm</strong> and <strong>Sunday 4 August 2019 at 2.30pm</strong>.</p><p> We regularly schedule captioned performances of THE LION KING in association with Stagetext. Captioning is a way of converting the spoken word into visible text that provides deaf, deafened and hard of hearing people with access to live performance.</p><p> The next captioned performances of THE LION KING will take place on <strong>Sunday 21 July 2019 at 2.30pm</strong>.</p>"
+                                "answer": "<p> THE LION KING regularly schedules sign-interpreted performances in association with Theatre Sign. Throughout the performance, a qualified theatre sign interpreter stands on the left of the stage and uses sign language to relay music and words to deaf and hearing impaired patrons, all of whom are seated within easy viewing distance of both the stage and interpreter. </p><p> The next signed performances will take place on <strong>Sunday 4 August 2019 at 2.30pm</strong>.</p><p> We regularly schedule captioned performances of THE LION KING in association with Stagetext. Captioning is a way of converting the spoken word into visible text that provides deaf, deafened and hard of hearing people with access to live performance.</p><p> The next captioned performances of THE LION KING will take place on <strong>Sunday 21 July 2019 at 2.30pm</strong>.</p>"
                             },
                             {
                                 "question": "When is the next assisted performance?",
-                                "answer": "<p> The next <strong>captioned</strong> performances, presented in association with Stagetext, will take place on <strong>Sunday 21 July 2019 at 2.30pm</strong>. </p><p> The next <strong>signed</strong> (BSL) performances, presented in association with Theatre Sign, will take place on <strong>Tuesday 30 April 2019 at 7.30pm</strong> and <strong>Sunday 4 August 2019 at 2.30pm</strong>.</p><p> The next <strong>audio described</strong> performances of THE LION KING, presented in association with VocalEyes, will take place on <strong>Sunday 1 September 2019 at 2.30pm</strong></p><p> It is advisable to book for these performances well in advance as tickets are subject to availability.</p>"
+                                "answer": "<p> The next <strong>captioned</strong> performances, presented in association with Stagetext, will take place on <strong>Sunday 21 July 2019 at 2.30pm</strong>. </p><p> The next <strong>signed</strong> (BSL) performances, presented in association with Theatre Sign, will take place on <strong>Sunday 4 August 2019 at 2.30pm</strong>.</p><p> The next <strong>audio described</strong> performances of THE LION KING, presented in association with VocalEyes, will take place on <strong>Sunday 1 September 2019 at 2.30pm</strong></p><p> It is advisable to book for these performances well in advance as tickets are subject to availability.</p>"
                             },
                             {
                                 "question": "How do I book access concessions?",
@@ -528,7 +528,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Bristol Hippodrome |</span> 7 September – 23 November 2019</h1><h5><strong>Good seats still available for performances in November</strong></h5>"
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Bristol Hippodrome <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>7 September – 23 November 2019</span></h1><h5><strong>Good seats still available for performances in November</strong></h5>"
                 }
             },
             {
@@ -610,6 +610,7 @@
         "id": "bristolCast",
         "siteId": "bristol",
         "template": "cast-template",
+        "displayBookNow": false,
         "path": "/bristol/cast-and-creatives/",
         "title": "Cast & Creatives",
         "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
@@ -637,7 +638,7 @@
                         "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for the Relaxed Performance at The Bristol Hippodrome.</p><p> THE LION KING is committed to creating a friendly and inclusive audience experience. Having hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the Lyceum Theatre London, the landmark musical is delighted to be presenting a Relaxed Performance in <strong>The Bristol Hippodrome</strong> on Tuesday 19 November at 5pm. </p><p> Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment. </p><p> Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p><a href='https://atgtickets.queue-it.net/?c=atgtickets&e=tlkbrstc&t_per=FAF5EC02-CBFF-4758-8BDB-F70E209120F4&t_pro=PRESALE' class='btn btn--red btn--300'>Book Tickets</a>"
                     },
                     "column2": {
-                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=0_b6qro5ob&flashvars[localizationCode]=en&&wid=0_twedux9y' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is an autism-friendly performance?</div>"
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_lyhexn9i&flashvars[localizationCode]=en&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_wgbwxrws' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is a Relaxed Performance?</div>"
                     }
                 }
             }
@@ -700,7 +701,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Edinburgh Playhouse |</span> From 5 December 2019</h1><p>For best availability choose performances in January and February</p>"
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Edinburgh Playhouse <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>From 5 December 2019</span></h1><p>For best availability choose performances in January and February</p>"
                 }
             },
             {
@@ -781,6 +782,7 @@
     {
         "id": "edinburghCast",
         "siteId": "edinburgh",
+        "displayBookNow": false,
         "template": "cast-template",
         "path": "/edinburgh/cast-and-creatives/",
         "title": "Cast & Creatives",
@@ -809,7 +811,7 @@
                         "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for the Relaxed Performance at the Edinburgh Playhouse.</p><p>THE LION KING is committed to creating a friendly and inclusive audience experience. Having hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the Lyceum Theatre London, the landmark musical is delighted to be presenting a Relaxed Performance in the <strong>Edinburgh Playhouse</strong> on Sunday 26 January 2020 at 1.30pm.</p><p>Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment.</p><a href='https://atgtickets.queue-it.net/?c=atgtickets&e=tlkedirp&t_per=59002973-5D67-440B-AFBF-FCF34008E716' class='btn btn--red btn--300'>Book Tickets</a>"
                     },
                     "column2": {
-                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe id='kaltura_player' class='embed-responsive-item' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=0_b6qro5ob&flashvars[localizationCode]=en&&wid=0_twedux9y' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is an autism-friendly performance?</div>"
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_lyhexn9i&flashvars[localizationCode]=en&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_wgbwxrws' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is a Relaxed Performance?</div>"
                     }
                 }
             }

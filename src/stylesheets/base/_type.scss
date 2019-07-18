@@ -21,6 +21,12 @@ strong {
     font-weight: $font-weight-bold;
 }
 
+.mobile-title {
+    @include media-breakpoint-down(md) {
+        font-size: 1.2rem;
+    }
+}
+
 .text-black {
     color: $black;
 }
