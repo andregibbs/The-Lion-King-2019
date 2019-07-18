@@ -860,14 +860,14 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Wales Millennium Centre <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'> July 2020</span></h1>"
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Wales Millennium Centre <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>8 July 2020 – 29 August 2020</span></h1>"
                 }
             },
             {
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-bold'>Just announced - Disney's THE LION KING will embark on a UK and Ireland Tour beginning Autumn 2019.<br/><span class='font-weight-normal'>Tickets for Bristol will go on sale in Spring 2019 - sign up now for priority access to tickets below</span></h2><a href='#' class='btn btn--red btn--book btn--block btn--sign-up mt-4 text-uppercase'>Tour Priority Sign-Up</a>"
+                    "content": "<h2 class='h5 font-weight-bold'>Tickets for Cardiff will go on sale in September 2019 - sign up now for priority access to tickets below.</h2><a href='#' class='btn btn--red btn--book btn--block btn--sign-up mt-4 text-uppercase'>Tour Priority Sign-Up</a>"
                 }
             }
         ]
