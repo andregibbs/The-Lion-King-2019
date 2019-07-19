@@ -853,8 +853,8 @@
         "title": "Home",
         "metaTitle": "Home | Cardiff",
         "metaDescription": "Tickets go osn sale in September 2019 for Wales Millennium Centre. The Lion King, coming July 2020.",
-        "headerImage": "../images/headers/Wales-1600.jpg",
-        "headerImageMobile": "../images/headers/Wales-576.jpg",
+        "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -881,8 +881,8 @@
         "displayBookNow": false,
         "title": "About the Show",
         "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
-        "headerImage": "../images/headers/Wales-1600.jpg",
-        "headerImageMobile": "../images/headers/Wales-576.jpg",
+        "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -909,8 +909,8 @@
         "path": "/cardiff/cast-and-creatives/",
         "title": "Cast & Creatives",
         "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
-        "headerImage": "../images/headers/Wales-1600.jpg",
-        "headerImageMobile": "../images/headers/Wales-576.jpg"
+        "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg"
     },
     {
         "id": "cardiffRelaxedPerformances",
@@ -949,8 +949,8 @@
         "displayBookNow": false,
         "title": "Terms and Conditions",
         "metaDescription": "",
-        "headerImage": "../images/headers/Wales-1600.jpg",
-        "headerImageMobile": "../images/headers/Wales-576.jpg",
+        "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg",
         "contentBlocks": [
             {
                 "type": "twoColumnBlock",
