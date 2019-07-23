@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (C) 2014-2018 ServMask Inc.
+ * Copyright (C) 2014-2019 ServMask Inc.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,6 +22,10 @@
  * ███████║███████╗██║  ██║ ╚████╔╝ ██║ ╚═╝ ██║██║  ██║███████║██║  ██╗
  * ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
  */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	die( 'Kangaroos cannot jump here' );
+}
 
 class Ai1wm_Updater {
 
@@ -105,7 +109,7 @@ class Ai1wm_Updater {
 	/**
 	 * Check for extension updates
 	 *
-	 * @return void
+	 * @return boolean
 	 */
 	public static function check_for_updates() {
 		// Get current updates
@@ -146,8 +150,7 @@ class Ai1wm_Updater {
 			}
 		}
 
-		// Set new updates
-		update_option( AI1WM_UPDATER, $updates );
+		return update_option( AI1WM_UPDATER, $updates );
 	}
 
 	/**
