@@ -1,0 +1,126 @@
+.calendar-wrapper {
+    width: 100%;
+    height: 450px;
+    position: relative;
+
+    @include media-breakpoint-up(sm) {
+         height: 500px;
+    }
+
+    @include media-breakpoint-up(md) {
+        height: 600px;
+    }
+}
+
+.rbc-btn-group {
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    padding-bottom: $spacer;
+
+    button {
+        border: 0;
+        background-color: $tlk-light-red;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding: $spacer / 2 $spacer $spacer / 3;
+        
+        .icon {
+            font-size: $font-size-lg * 1.15;
+        }
+    }
+
+    .rbc-toolbar-label {
+        padding: $spacer / 2;
+        font-size: $font-size-lg;
+        color: $tlk-red;
+        font-weight: $font-weight-bold;
+        width: 250px;
+        text-align: center;
+    }
+}
+
+.rbc-header {
+    span {
+        color: $tlk-red;
+        font-size: $font-size-base * 1.15;
+        padding-top: $spacer;
+        padding-bottom: $spacer;
+        display: block;
+    }
+}
+
+.rbc-day-bg {
+    background-color: $tlk-light-grey;
+    &.rbc-today {
+        background-color: $tlk-light-grey;
+    }
+}
+
+.rbc-date-cell {
+    justify-content: center;
+    display: flex;
+    > a {
+        font-size: $font-size-sm;
+    }
+}
+
+.rbc-off-range {
+
+    &-bg {
+        z-index: 10;
+    }
+
+    a {
+        display: none;
+    }
+}
+
+.rbc-event {
+    border-radius: 0 !important;
+    display: block;
+    font-weight: $font-weight-bold;
+    padding: 0 !important;
+}
+
+.event-matinee,
+.event-evening {
+    background-color: $tlk-red;
+    @include media-breakpoint-up(md) {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+}
+
+.event-evening {
+    background-color: $tlk-yellow;
+    color: $black;
+}
+
+.event-avaliable {
+    background-color: $tlk-green;
+    color: $black;
+}
+
+.event-unavaliable {
+    background-color: $tlk-yellow;
+    color: $black;
+}
+
+.event-goodseats {
+    background-color: $tlk-yellow;
+    color: $black;
+}
+
+
+.rbc-event-content {
+    font-size: $font-size-sm * 0.8;
+    text-align: center;
+}
+
+.rbc-row-segment {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
