@@ -41,6 +41,7 @@ class Layout extends Component {
 							let atg = false
 							let atgBristol = false
 							let atgEdinburgh = false
+							let atgCardiff = false
 							
 							if (link.classList.contains('interstitial-timed')) {
 								atg = true
@@ -48,6 +49,8 @@ class Layout extends Component {
 								atgBristol = true
 							} else if (link.classList.contains('interstitial-timed-edinburgh')) {
 								atgEdinburgh = true
+							} else if (link.classList.contains('interstitial-timed-cardiff')) {
+								atgCardiff = true
 							}
 
 							// Redirect to interstitial with correct state
@@ -57,7 +60,8 @@ class Layout extends Component {
 									previousUrl: currentUrl,
 									atg,
 									atgBristol,
-									atgEdinburgh
+									atgEdinburgh,
+									atgCardiff
 								}
 							});
 						}
