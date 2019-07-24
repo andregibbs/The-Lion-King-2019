@@ -24,19 +24,18 @@ class Interstitial extends Component {
             return true
         }
 
-        const { href, previousUrl, atg, atgBristol, atgEdinburgh, atgCardiff } = this.props.location.state
+        const { href, previousUrl, atg, atgBristol, atgEdinburgh} = this.props.location.state
 
         this.setState({
             href,
             previousUrl,
             atg,
             atgBristol,
-            atgEdinburgh,
-            atgCardiff
+            atgEdinburgh
         })
 
         // Set up auto redirect if atg link
-        if (atg || atgBristol || atgEdinburgh || atgCardiff) {
+        if (atg || atgBristol || atgEdinburgh) {
             this.redirect = setTimeout(function() {  window.location.href = href;  }, 4000);
         }
 
@@ -48,7 +47,7 @@ class Interstitial extends Component {
 
     render() {
 
-        const { href, previousUrl, atg, atgBristol, atgEdinburgh, atgCardiff} = this.state
+        const { href, previousUrl, atg, atgBristol, atgEdinburgh} = this.state
 
         let office = 'Lyceum Theatre Box Office operated by ATG Tickets'
 
@@ -56,8 +55,6 @@ class Interstitial extends Component {
             office = 'Bristol Hippodrome Box Office operated by ATG Tickets'
         } else if (atgEdinburgh) {
             office = 'Edinburgh Playhouse Box Office operated by ATG Tickets'
-        } else if (atgCardiff) {
-            office = 'Wales Millennium Centre Box Office operated by ATG Tickets'
         }
         
 
@@ -78,7 +75,7 @@ class Interstitial extends Component {
                                             </h1>
                                             <h2 className="pt-3">PLEASE NOTE</h2>
 
-                                            {!atg && !atgBristol && !atgEdinburgh && !atgCardiff ? (
+                                            {!atg && !atgBristol && !atgEdinburgh ? (
                                                 <>
                                                     <p>Disney does not control this website so please click below to say you are happy to continue. Disney’s privacy practices and controls do not apply once you leave our site.</p>
                                                     <Row>
