@@ -511,5 +511,91 @@
                 "name": "Minaii Barrowes, Stella Harris, Kanye Muhumuza, Mary-Anne Pity Tiekou, Drew Jada Maite Toussaint"
             }
         ]
+    },
+    {
+        "siteId": "cardiff",
+        "items": [
+            {
+                "name": "Richard Hurst",
+                "role": "Scar",
+                "bio": "<p><strong>Place of Birth: </strong>Bath, England</p><p><strong>Training:</strong> The Tobacco Factory (Bristol Academy of Performing Arts) and The Royal Academy of Music</p><p><strong>Theatre: </strong><em>The Duchess of Malfi</em> and <em>The Fantastic Follies of Mrs Rich</em> (RSC); <em>The Bodyguard</em> (China Tour); <em>Sunny Afternoon</em> (UK Tour); Jane Eyre (National Theatre); <em>My Night With Reg</em> (Apollo Theatre / Donmar); <em>Around The World In 80 Days</em> (Chipping Norton Theatre); <em>Worst Wedding Ever</em> (Salisbury Playhouse); <em>Dick Whittington and his Cat</em> (Salisbury Playhouse); <em>Little Shop of Horror</em>s (Aberystwyth Arts Centre); <em>The Winter&rsquo;s Tale</em> (The Rose Bankside)</p><p><strong>Television:</strong> <em>Eastenders</em> (BBC); <em>Doctors </em>(BBC); <em>Casualty</em> (BBC); <em>Look</em> (ITV); <em>The Sitcom Trials</em> (BBC); <em>Eastenders E20</em> (BBC Three)</p><p><strong>Other Credits:</strong> <em>Pinocchio</em> (National Theatre Workshop); <em>The Suicide</em> (National Theatre Workshop)</p>",
+                "image": "../images/headshots/richard-hurst.jpg"
+            },
+            {
+                "name": "Jean-Luc Guizonne",
+                "role": "Mufasa",
+                "bio": "<p><strong>Place of Birth: </strong>Bondy, France</p><p><strong>Training: </strong>School of music, theatre and dance of the Val Maub&eacute;e; Lorenzo Pancino Academy</p><p><strong>Theatre: </strong><em>Chicago The Musical</em> (Mogador Theater); <em>Madiba The Musical</em> (Pierre-Yves Duchesne Comedia Theater and Olympia Paris); <em>Gospel Sur La Colline</em> (Folies Berg&egrave;res Theater); <em>Der Konig Der Lover</em> (Mogador Theater); <em>Le Roi Lion</em> (Mogador Theater); <em>La L&eacute;gende Du Roi Lion</em> (Disneyland Paris)</p><p><strong>Television: </strong><em>Loire Mon Amour</em>; <em>Petits Secrets Entre Voisins; Star Academy</em></p><p><strong>Film: </strong><em>Anna;</em> <em>Instinct Animal;</em> <em>Jungle Jihad; Moana</em></p>",
+                "image": "../images/headshots/jean-luc.jpg"
+            },
+            {
+                "name": "Thandazile Soni",
+                "role": "Rafiki",
+                "bio": "<p><strong>Place of Birth: </strong>Ixopo, South Africa</p><p><strong>Training:</strong> Sifiso's Drama Society</p><p><strong>Theatre:</strong> Part of <em>Joyous Celebration 2</em>; <em>The Durban Divas</em>; <em>The Game; The Lion King </em>(New York, Chicago, Netherlands, UK &amp; Ireland Tour)</p><p><strong>Film:</strong> <em>Qhakaza (Shine)</em></p>",
+                "image": "../images/headshots/thandazile-soni.jpg"
+            },
+            {
+                "name": "Matthew Forbes",
+                "role": "Zazu",
+                "bio": "<p><strong>Place of Birth:</strong> Leicester, England</p><p><strong>Training:</strong> Royal Central School of Speech and Drama</p><p><strong>Theatre: </strong><em>Kiki&rsquo;s Delivery Service </em>(Southwark Playhouse); <em>The Wizard&nbsp;</em><em>of Oz </em>(National Tour); <em>The Witches </em>(Dundee Rep); <em>Alice&rsquo;s Adventures Underground&nbsp;</em>(Les Enfants Terribles); <em>War Horse </em>(National Theatre); <em>War Horse- The Prom </em>(RoyalAlbert Hall); <em>Beauty &amp; the Beast </em>(Dundee Rep); <em>Permission to Play </em>(Shakespeare's Globe); <em>Boy A </em>(Embassy Studios); <em>Midsummer Night&rsquo;s Dream </em>(The EmbassyTheatre).</p><p><strong>Television and Film: </strong><em>Robin Hood </em>(BBC/Tiger Aspect); <em>Hot Fuzz </em>(Working Title Films); <em>The Silent Cormorant </em>(Passion Pictures).</p><p><strong>Voiceover: </strong>Shelby in <em>Boyster </em>(Disney); <em>The Fashion Priest </em>(MyDaily); <em>SoulBoy </em>(Soda Pictures); &amp; <em>Snap </em>(MTV).</p><p><strong>Other: </strong><em>War Horse </em>(International Tour 2019-2020); <em>Treasure&nbsp;</em><em>Island </em>(Leicester Haymarket Theatre); <em>Skellig </em>(Nottingham Playhouse); <em>War Horse&nbsp;</em>(UK Tour 2017-2018); <em>Holes </em>(Nottingham Playhouse); <em>Babe The Sheep-Pig </em>(Polka Theatre, National Tour &amp; Australian Tour); <em>Kiki&rsquo;s Delivery Service </em>(Southwark Playhouse); <em>Dinner at the Twits </em>(Les Enfants Terribles, The Vaults); <em>The Witches&nbsp;</em>(Dundee Rep); <em>Adventures in Wonderland </em>(Les Enfants Terribles, The Vaults); <em>War&nbsp;</em><em>Horse </em>(Holland &amp; Belgium Tour 2014-2016); <em>War Horse </em>(UK, Ireland &amp; South African Tour 2013-2015); <em>The Steadfast Tin Soldier </em>(Little Angel Theatre &amp; The Old Vic).</p>",
+                "image": "../images/headshots/matthew-forbes.jpg"
+            },
+            {
+                "name": "Steve Beirnaert",
+                "role": "Timon",
+                "bio": "<p><strong>Place of Birth: </strong>Kapellen, Belgium</p><p><strong>Training: </strong>HIDK Studio Herman Teirlinck</p><p><strong>Theatre: </strong><em>The Lion King</em> (Holland); <em>Cabaret</em> (Belgium &amp; Switzerland); <em>Mary Poppins</em> (Holland); <em>Annie</em> (Belgium); <em>Disney&rsquo;s Beauty and the Beast</em> (Belgium); <em>Alice in Wonderland</em> (Holland &amp; Belgium); <em>Jungle Book</em> (Holland &amp; Belgium); <em>A Midsummer Night&rsquo;s Dream</em> (Holland &amp; Belgium)</p><p><strong>Other:</strong> Matthew voiced the role of Pantalaimon in the Flemish dubbed version of <em>The Golden Compass</em></p>",
+                "image": "../images/headshots/steve-beirnaert.jpg"
+            },
+            {
+                "name": "Carl Sanderson",
+                "role": "Pumbaa",
+                "bio": "<p><strong>Place of Birth</strong>: Barnsley, England</p><p><strong>Training:</strong> Mountview Academy of Theatre Arts</p><p><strong>Theatre: </strong><em>Sweet Charity</em> (Nottingham Playhouse<em>); Sunset Boulevard</em> (UK Tour); <em>Aladdin</em> (Bradford Alhambra); <em>Kiss me Kate</em> (Kilworth House); <em>42</em><em><sup>nd</sup></em>><em> Street</em> (Theatre du Chatelet); <em>Guys and Dolls</em>, <em>The Pajama Game and The Music Man</em> (Chichester Festival Theatre); Stephen Ward (Aldwych Theatre); <em>My Fair Lady</em> (Sheffield Crucible and UK Tour<em>); Ragtime, Midsummer Night&rsquo;s Dream and Hello Dolly!</em> (Regents Park Open Air Theatre); <em>Crazy for You</em> (Regents Park Open Air Theatre and Novello Theatre<em>); Hairspray</em> (UK Tour); <em>Sweet Charity</em> (Menier Chocolate Factory); <em>Cats</em> (New London Theatre and UK Tour); <em>Doctor Doolittle</em> (UK Tour); <em>Acorn Antiques: The Musical!</em> (Haymarket Theatre and UK Tour); <em>Della Luna- Orpheus in the Underworld, The Mikado, The Merry Widow, HMS Pinafore, The Gondoliers, The Parson's Pirates, La Vie Parisienne and The Cow and the Pianoforte. The Phantom of the Opera</em> (West End and UK Tour<em>); The Mikado</em> (Savoy Theatre); <em>Starlight Express </em>(Apollo Victoria); <em>Beauty and the Beast</em> (Wakefield Theatre Royal); <em>Peter Pan</em> (West Yorkshire Playhouse); <em>Camelot </em>(Covent Garden Festival).</p><p><strong>Television: </strong><em>Victoria Wood Christmas Special</em>; <em>Acorn Antiques The Musical!</em></p><p><strong>Film: </strong><em>That Day We Sang</em> (BBC); <em>The Dresser</em> (BBC)</p></p>",
+                "image": "../images/headshots/carl-sanderson.jpg"
+            },
+            {
+                "name": "Dashaun Young",
+                "role": "Simba",
+                "bio": "<p><strong>Place of Birth: </strong>Buffalo, New York</p><p><strong>Training: </strong>California State University</p><p><strong>Theatre:</strong> <em>Aida </em>(Ogunquit Playhouse); <em>Hello Dolly</em> (Stages St. Louis); <em>Hairspray</em> (North American Tour); <em>The Lion King</em> (North American Tour, New York, Vegas, London, South Korea); <em>Sister Act</em> (North American Tour); <em>Motown The Musical</em> (New York); <em>Beautiful The Carole King Musical</em> (New York and North American Tour); <em>Hunchback Of Notre Dame</em> (Papermill Playhouse)</p><p><strong>Film: </strong><em>Sex And The City 2</em></p><p><strong>Other: </strong>Dashaun is featured on the<strong> s</strong>oundtracks for <em>Sex And The City 2 and Hunchback Of Notre Dame</em></p>",
+                "image": "../images/headshots/dashaun-young.jpg"
+            },
+            {
+                "name": "Josslynn Hlenti",
+                "role": "Nala",
+                "bio": "<p><strong>Place of birth: </strong>Durban, South Africa</p><p><strong>Training: </strong>UKZN Howard College Campus</p><p><strong>Theatre: </strong><em>Annie</em> (Young Performers Project); <em>Frontlines</em> (Tamar Meskint); <em>The Lion King</em> (Australian Tour, Hamburg, International Tour); <em>King Kong</em> (Fugard Theatre)</p><p><strong>Television: </strong><em>High School Musical Spotlight South Africa Finalist; South African IDOLS; Three Ships Whiskey</em></p><p><strong>Film: </strong><em>Uthando Lwethu</em></p>",
+                "image": "../images/headshots/josslynn-hlenti.jpg"
+            },
+            {
+                "name": "Rebecca Omogbehin",
+                "role": "Shenzi",
+                "bio": "<p><strong>Place of birth:</strong> London, England</p><p><strong>Training: </strong>Mountview Academy of Theatre Arts</p><p><strong>Theatre</strong>: <em>Julie </em>(National Theatre);&nbsp;<em>Network</em>&nbsp;(National Theatre);&nbsp;<em>The Scar Test&nbsp;</em>(Soho Theatre);&nbsp;<em>House + Amongst&nbsp;The Reeds</em>&nbsp;(Clean Break);&nbsp;<em>Soho Young Playwrights Project</em>&nbsp;(Soho Theatre);&nbsp;<em>Casualty&nbsp;</em>(BBC);&nbsp;<em>How Nigeria Became&nbsp;</em>(Unicorn Theatre);&nbsp;<em>Seesaw</em>&nbsp;(Unicorn Theatre);&nbsp;<em>Crowning Glory</em>&nbsp;(Theatre Royal Stratford East)</p>",
+                "image": "../images/headshots/rebecca-omogbehin.jpg"
+            },
+            {
+                "name": "Simon Trinder",
+                "role": "Banzai",
+                "bio": "<p><strong>Place of birth</strong>: Stockport, Manchester.</p><p><strong>Training</strong>: Royal Welsh College of Music and Drama</p><p><strong>Theatre</strong>: <em>The Tempest; Merry Wives The Musical; Arabian Nights; The Giant; The Dog In The Manger; Pedro The Great Pretender; House Of Desires; The Taming Of The Shrew</em> - Clarence Derwent Award winner 2004 and Helen Hayes Award nominee USA; <em>The Tamer Tamed; Cymbeline; Measure For Measure; Birdsong</em>; <em>Visible </em>(all Royal Shakespeare Company) <em>Macbeth</em> (Regents Park) <em>The Oresteia</em> (Home, Manchester); <em>The Tempest </em>(Manchester Royal Exchange); <em>Benjamin Britten&rsquo;s Midsummer Nights Dream </em>(Hamburg State Opera); <em>The Importance Of Being Earnest </em>(Bristol Old Vic), <em>The Arab Israeli Cookbook </em>(Tricycle Theatre); <em>Tintin; Amazonia </em>(Young Vic/Barbican); <em>Redundant</em> (Royal Court); <em>Peter Pan</em> (Birmingham Rep),<em> A Christmas Carol </em>(Chichester); <em>A Midsummer Nights Dream; The Golden Ass</em> (Shakespeare&rsquo;s Globe); <em>Buried Alive</em> (Hampstead Theatre) <em>Black and White</em> (Staffordshire New Vic) </p><p><strong>Television</strong>: <em>Vera; The Good Karma Hospital; Katy; Ordinary Lies; Wolfblood; Without You; Midwinter Of The Spirit; The Hollow Crown: Richard 2nd; &nbsp;The Children; Dalziel and Pascoe; Holby City; In Search Of Shakespeare.&nbsp;</em></p><p><strong>Film</strong>: <em>The Duel; In The Dark Half; The Tempest </em>(Royal Shakespeare Company Live from Stratford) </p><p><strong>Other</strong>: Simon was one of the winners of the BBC Carleton Hobbs radio award in 2000 subsequently spending 6 months as part of the BBC radio repertory company and can be heard regularly in radio drama. He is also a popular practitioner, most recently providing text support on <em>Richard 2nd </em>at Shakespeare&rsquo;s Globe. Simon teaches all over the world and is the founder and artistic director of the independent boutique drama school, ICAT.</p>",
+                "image": "../images/headshots/simon-trinder.jpg"
+            },
+            {
+                "name": "Alan McHale",
+                "role": "Ed",
+                "bio": "<p><strong>Place of Birth:</strong> County Mayo, Ireland</p><p><strong>Training:</strong> Mountview Academy of Theatre Arts</p><p><strong>Theatre: </strong><em>The Clockmaker&rsquo;s Daughter</em> (The Landor Theatre); <em>Lohengrin </em>(Royal Opera House); Best of Irish Rock (Holland Tour); <em>Macbet</em>h (Shakespeare 4 Kidz); <em>Rebel Song&nbsp; </em>(The Other Palace); <em>Snow White (</em>Dubai); <em>Pirates of Penzance</em> (Edinburgh Fringe); <em>An Evening of Webborn &amp; Finn</em> (St. James Theatre); <em>Babes In The Wood</em> (Brick Lane Music Hall); <em>The Beautiful Game</em> (The Union Theatre); <em>The</em> <em>Boys From Syracuse</em> (The Union Theatre, London)</p><p><strong>Other: </strong><em>The Clockmaker&rsquo;s Daughter </em>Studio Cast Recording</p>",
+                "image": "../images/headshots/alan-mchale.jpg"
+            }
+        ],
+        "ensemble": [
+            {
+                "name": "Lwandolwethu Dennis Bam, Khanyisani Beato, Melvin La Blanc, Nigel Brown, Rushand Chambers, Tau-En Chien, Javier Cid, Jorrell Coiffic-Kamall, Tevin Daniel, Tim Driesen, Matthew Elliot-Campbell, Oraine Frater, Daniel Mejia Garcia, Brian Gilligan, Daniel Griffith, Alicia Hayward, Zalika Henry, Caleaf Henson, Cristiane Santos De Jesus, Olivia Jones, Zanele Mazibuko, Jochebel Ohene MacCarthy, Zanele Ndlovu, Buhle Nkomo, Brianna Ogunbawo, Paige Peddie, Tara Price, Charlotte Samaroo Mamido, Bomboko Souchu, Sherry Tay, Francesca Thompson, Connor Pele Williams, Maria Yim, Bukiwe Zinganto"
+            }
+        ],
+        "youngsimba": [
+            {
+                "name": "Kieron Bell, Hunter Del Valle Marfo, Joshua Moabi, Benjamin Parker, Theodore Somolu"
+            }
+        ],
+         "youngnala": [
+            {
+                "name": "Minaii Barrowes, Stella Harris, Kanye Muhumuza, Mary-Anne Pity Tiekou, Drew Jada Maite Toussaint"
+            }
+        ]
     }
 ]

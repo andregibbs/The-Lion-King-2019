@@ -58,6 +58,11 @@
         font-size: $font-size-base * 1.25;
     }
 
+    &--sign-up {
+        width: 330px;
+        margin: 0 auto;
+    }
+
     &--large {
         font-size: $font-size-base * 1.25;
         white-space: normal;

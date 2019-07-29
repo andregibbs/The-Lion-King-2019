@@ -24,7 +24,7 @@ class Interstitial extends Component {
             return true
         }
 
-        const { href, previousUrl, atg, atgBristol, atgEdinburgh } = this.props.location.state
+        const { href, previousUrl, atg, atgBristol, atgEdinburgh} = this.props.location.state
 
         this.setState({
             href,
@@ -47,7 +47,7 @@ class Interstitial extends Component {
 
     render() {
 
-        const { href, previousUrl, atg, atgBristol, atgEdinburgh } = this.state
+        const { href, previousUrl, atg, atgBristol, atgEdinburgh} = this.state
 
         let office = 'Lyceum Theatre Box Office operated by ATG Tickets'
 
@@ -56,6 +56,7 @@ class Interstitial extends Component {
         } else if (atgEdinburgh) {
             office = 'Edinburgh Playhouse Box Office operated by ATG Tickets'
         }
+        
 
 
         if (href !== "" && previousUrl !== "") {
