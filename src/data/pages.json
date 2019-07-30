@@ -1024,5 +1024,301 @@
                 }
             }
         ]
+    },
+    {
+        "id": "RAM",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/RAM/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/bg-header-20gala-1600.jpg",
+        "headerImageMobile": "../images/headers/bg-header-20gala-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance – 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special gala performance at the iconic Lyceum Theatre.</p> <p>This performance is in support of the Elton John AIDS Foundation and the Royal Academy of Music.<div class='col-sm-4 p-0'><div class='btn btn--auto btn--red'>Book now</div></div><div class='row'><div class='col-sm-6 py-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-sm-6 py-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "What is the 20th Anniversary Gala Performance?",
+                                "answer": "<p>The performance on 19 October 2019 at 7.30pm will mark the official 20th anniversary of THE LION KING opening at the Lyceum Theatre in London. In the last twenty years, over 16 million people have enjoyed performances of THE LION KING in London alone.</p>"
+                            },
+                            {
+                                "question": "When is it?",
+                                "answer": "<p>19 October 2019, 7.30pm</p>"
+                            },
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": " <p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the Royal Academy of Music ’s world-class Musical Theatre Course.</p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": " Is there a booking fee?",
+                                "answer": " <p>xxx</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": " <p>Your question may be answered here, or via DisneyTickets.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "textCenter": false,
+                    "fluidContainer": true,
+                    "content": "<p class='mb-n5'><strong>Terms and conditions for the 20th anniversary gala performance</strong><br/>Xxxx charity legal tbc xxxx Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit nibh felis, nec egestas odio auctor non. Nullam tincidunt blandit nibh. Duis auctor nisi ut tortor aliquet, ac vestibulum ligula auctor. Proin id bibendum odio. Integer quis elit erat. Nulla viverra vel nisi placerat laoreet. Suspendisse venenatis justo ex, in gravida elit eleifend et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit nibh felis, nec egestas odio auctor non. Nullam tincidunt blandit nibh. Duis auctor nisi ut tortor aliquet, ac vestibulum ligula auctor. Proin id bibendum odio. Integer quis elit erat. Nulla viverra vel nisi placerat laoreet. Suspendisse venenatis justo ex, in gravida elit eleifend et</p>"
+                }
+            }
+        ]
+    },
+    {
+        "id": "RAMgala",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/RAMgala/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/bg-header-20gala-1600.jpg",
+        "headerImageMobile": "../images/headers/bg-header-20gala-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance – 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special gala performance at the iconic Lyceum Theatre.</p> <p>This performance is in support of the Elton John AIDS Foundation and the Royal Academy of Music.<div class='col-sm-4 p-0'><div class='btn btn--auto btn--red'>Book now</div></div><div class='row'><div class='col-sm-6 py-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-sm-6 py-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "What is the 20th Anniversary Gala Performance?",
+                                "answer": "<p>The performance on 19 October 2019 at 7.30pm will mark the official 20th anniversary of THE LION KING opening at the Lyceum Theatre in London. In the last twenty years, over 16 million people have enjoyed performances of THE LION KING in London alone.</p>"
+                            },
+                            {
+                                "question": "When is it?",
+                                "answer": "<p>19 October 2019, 7.30pm</p>"
+                            },
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": " <p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the Royal Academy of Music ’s world-class Musical Theatre Course.</p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": " Is there a booking fee?",
+                                "answer": " <p>xxx</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": " <p>Your question may be answered here, or via DisneyTickets.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "textCenter": false,
+                    "fluidContainer": true,
+                    "content": "<p class='mb-n5'><strong>Terms and conditions for the 20th anniversary gala performance</strong><br/>Xxxx charity legal tbc xxxx Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit nibh felis, nec egestas odio auctor non. Nullam tincidunt blandit nibh. Duis auctor nisi ut tortor aliquet, ac vestibulum ligula auctor. Proin id bibendum odio. Integer quis elit erat. Nulla viverra vel nisi placerat laoreet. Suspendisse venenatis justo ex, in gravida elit eleifend et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit nibh felis, nec egestas odio auctor non. Nullam tincidunt blandit nibh. Duis auctor nisi ut tortor aliquet, ac vestibulum ligula auctor. Proin id bibendum odio. Integer quis elit erat. Nulla viverra vel nisi placerat laoreet. Suspendisse venenatis justo ex, in gravida elit eleifend et</p>"
+                }
+            }
+        ]
+    },
+    {
+        "id": "Elton",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/Elton/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/bg-header-20gala-1600.jpg",
+        "headerImageMobile": "../images/headers/bg-header-20gala-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance – 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special gala performance at the iconic Lyceum Theatre.</p> <p>This performance is in support of the Elton John AIDS Foundation and the Royal Academy of Music.<div class='col-sm-4 p-0'><div class='btn btn--auto btn--red'>Book now</div></div><div class='row'><div class='col-sm-6 py-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-sm-6 py-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "What is the 20th Anniversary Gala Performance?",
+                                "answer": "<p>The performance on 19 October 2019 at 7.30pm will mark the official 20th anniversary of THE LION KING opening at the Lyceum Theatre in London. In the last twenty years, over 16 million people have enjoyed performances of THE LION KING in London alone.</p>"
+                            },
+                            {
+                                "question": "When is it?",
+                                "answer": "<p>19 October 2019, 7.30pm</p>"
+                            },
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": " <p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the Royal Academy of Music ’s world-class Musical Theatre Course.</p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": " Is there a booking fee?",
+                                "answer": " <p>xxx</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": " <p>Your question may be answered here, or via DisneyTickets.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "textCenter": false,
+                    "fluidContainer": true,
+                    "content": "<p class='mb-n5'><strong>Terms and conditions for the 20th anniversary gala performance</strong><br/>Xxxx charity legal tbc xxxx Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit nibh felis, nec egestas odio auctor non. Nullam tincidunt blandit nibh. Duis auctor nisi ut tortor aliquet, ac vestibulum ligula auctor. Proin id bibendum odio. Integer quis elit erat. Nulla viverra vel nisi placerat laoreet. Suspendisse venenatis justo ex, in gravida elit eleifend et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit nibh felis, nec egestas odio auctor non. Nullam tincidunt blandit nibh. Duis auctor nisi ut tortor aliquet, ac vestibulum ligula auctor. Proin id bibendum odio. Integer quis elit erat. Nulla viverra vel nisi placerat laoreet. Suspendisse venenatis justo ex, in gravida elit eleifend et</p>"
+                }
+            }
+        ]
+    },
+    {
+        "id": "gala",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/gala/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/bg-header-20gala-1600.jpg",
+        "headerImageMobile": "../images/headers/bg-header-20gala-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance – 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special gala performance at the iconic Lyceum Theatre.</p> <p>This performance is in support of the Elton John AIDS Foundation and the Royal Academy of Music.<div class='col-sm-4 p-0'><div class='btn btn--auto btn--red'>Book now</div></div><div class='row'><div class='col-sm-6 py-5 d-flex'><img src='/images/RAM-logo.png'></div><div class='col-sm-6 py-5 d-flex'><img src='/images/EJAF-logo.svg' /></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "What is the 20th Anniversary Gala Performance?",
+                                "answer": "<p>The performance on 19 October 2019 at 7.30pm will mark the official 20th anniversary of THE LION KING opening at the Lyceum Theatre in London. In the last twenty years, over 16 million people have enjoyed performances of THE LION KING in London alone.</p>"
+                            },
+                            {
+                                "question": "When is it?",
+                                "answer": "<p>19 October 2019, 7.30pm</p>"
+                            },
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": " <p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the Royal Academy of Music ’s world-class Musical Theatre Course.</p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": " Is there a booking fee?",
+                                "answer": " <p>xxx</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": " <p>Your question may be answered here, or via DisneyTickets.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "textCenter": false,
+                    "fluidContainer": true,
+                    "content": "<p class='mb-n5'><strong>Terms and conditions for the 20th anniversary gala performance</strong><br/>Xxxx charity legal tbc xxxx Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit nibh felis, nec egestas odio auctor non. Nullam tincidunt blandit nibh. Duis auctor nisi ut tortor aliquet, ac vestibulum ligula auctor. Proin id bibendum odio. Integer quis elit erat. Nulla viverra vel nisi placerat laoreet. Suspendisse venenatis justo ex, in gravida elit eleifend et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit nibh felis, nec egestas odio auctor non. Nullam tincidunt blandit nibh. Duis auctor nisi ut tortor aliquet, ac vestibulum ligula auctor. Proin id bibendum odio. Integer quis elit erat. Nulla viverra vel nisi placerat laoreet. Suspendisse venenatis justo ex, in gravida elit eleifend et</p>"
+                }
+            }
+        ]
     }
 ]
