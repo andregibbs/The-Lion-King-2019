@@ -85,8 +85,12 @@
 }
 
 .event-matinee,
-.event-evening {
-    background-color: $tlk-red;
+.event-evening,
+.event-avaliable,
+.event-goodseats,
+.event-limited,
+.event-unavaliable {
+    background-color: $tlk-green;
     @include media-breakpoint-up(md) {
         padding-top: 5px !important;
         padding-bottom: 5px !important;
@@ -103,15 +107,23 @@
     color: $black;
 }
 
-.event-unavaliable {
-    background-color: $tlk-yellow;
-    color: $black;
-}
-
 .event-goodseats {
     background-color: $tlk-yellow;
     color: $black;
 }
+
+.event-limited{
+    background-color: $tlk-red;
+    color: $white;
+}
+
+
+.event-unavaliable {
+    background-color: $tlk-grey;
+    color: $black;
+}
+
+
 
 
 .rbc-event-content {

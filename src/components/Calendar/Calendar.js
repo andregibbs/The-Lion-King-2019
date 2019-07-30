@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import BigCalendar from 'react-big-calendar'
 import moment from 'moment'
 import fetchWithTimeout from 'js/fetchWithTimeout'
-
 import CalendarToolbar from './CalendarToolbar';
 import CalendarEvent from './CalendarEvent';
 import "react-big-calendar/lib/css/react-big-calendar.css";
@@ -16,12 +15,7 @@ class Calendar extends Component {
         this.state = {
             name: '',
             connection_to_production: '',
-            phonenumber: '',
-            email: '',
-            tickets_amount: '',
             date: '',
-            notes: '',
-            sendingFormRequest: false,
             events: [],
             selectedDate: '',
             success: false
@@ -58,12 +52,14 @@ class Calendar extends Component {
             .then((res) => {
                 // Create new object ready for calendar
                 if (res) {
-                    res.acf.dates.forEach((event, i) => {
+                    res.acf.dates_bristol.forEach((event, i) => {
                         const title = event.time === "evening" ? "7:30pm" : "2:30pm"
                         const time = event.time === "evening" ? "19:30" : "14:30"
+                        const url = event.show_url
                         const date = event.date
                         events.push({
                             title: title,
+                            url: url,
                             start: `${date} ${time}`,
                             end: `${date} ${time}`,
                             resource: event.time
@@ -97,25 +93,9 @@ class Calendar extends Component {
         this.validateRequired(false, "date", date)
     }
 
-    // Method to update field values in state on change
-    handleChange(e) {
-        const target = e.target;
-        const name = target.name
-        const value = target.type === 'checkbox' ? target.checked : target.value;
-
-        // Update value in state
-        this.setState({
-            [name]: value,
-        });
-    }
-
     render() {
 
         return(
-            <>
-            {this.state.success ? (
-                <p className='text-lg mb-0' ref={this.form}><strong>Thankyou for your submission, we will be in touch soon.</strong></p>
-            ) : (
                 <>
                     <div className="calendar-wrapper">
                         <BigCalendar
@@ -135,8 +115,6 @@ class Calendar extends Component {
                         />
                     </div>
                 </>
-            )}
-            </>
         )
     }
 
