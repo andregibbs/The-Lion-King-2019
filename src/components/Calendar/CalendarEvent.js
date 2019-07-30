@@ -1,10 +1,11 @@
 import React from 'react'
 
-const EventBlock = ({ event }) => (
-    <div className={`${event.resource === 'matinee' ? 'event-matinee' : 'event-evening' }`}>
-        <div>{event.title}</div>
-        <div>{event.name}</div>
-    </div>
+const EventBlock = ({event}) => (
+    <a href={event.url}>
+        <div className={`event-${event.availablity}`}>
+            <div>{event.title}</div>
+        </div>
+    </a>
 )
 
 export default EventBlock

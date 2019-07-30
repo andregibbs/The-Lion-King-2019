@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (C) 2014-2018 ServMask Inc.
+ * Copyright (C) 2014-2019 ServMask Inc.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,6 +23,10 @@
  * ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	die( 'Kangaroos cannot jump here' );
+}
+
 class Ai1wm_Backups {
 
 	/**
@@ -33,45 +37,50 @@ class Ai1wm_Backups {
 	public function get_files() {
 		$backups = array();
 
-		// Iterate over directory
-		$iterator = new Ai1wm_Recursive_Directory_Iterator( AI1WM_BACKUPS_PATH );
+		try {
 
-		// Filter by extensions
-		$iterator = new Ai1wm_Recursive_Extension_Filter( $iterator, array( 'wpress' ) );
+			// Iterate over directory
+			$iterator = new Ai1wm_Recursive_Directory_Iterator( AI1WM_BACKUPS_PATH );
 
-		// Recursively iterate over directory
-		$iterator = new Ai1wm_Recursive_Iterator_Iterator( $iterator, RecursiveIteratorIterator::LEAVES_ONLY, RecursiveIteratorIterator::CATCH_GET_CHILD );
+			// Filter by extensions
+			$iterator = new Ai1wm_Recursive_Extension_Filter( $iterator, array( 'wpress' ) );
 
-		// Get backup files
-		foreach ( $iterator as $item ) {
-			try {
-				if ( ai1wm_is_filesize_supported( $item->getPathname() ) ) {
+			// Recursively iterate over directory
+			$iterator = new Ai1wm_Recursive_Iterator_Iterator( $iterator, RecursiveIteratorIterator::LEAVES_ONLY, RecursiveIteratorIterator::CATCH_GET_CHILD );
+
+			// Get backup files
+			foreach ( $iterator as $item ) {
+				try {
+					if ( ai1wm_is_filesize_supported( $item->getPathname() ) ) {
+						$backups[] = array(
+							'path'     => $iterator->getSubPath(),
+							'filename' => $iterator->getSubPathname(),
+							'mtime'    => $iterator->getMTime(),
+							'size'     => $iterator->getSize(),
+						);
+					} else {
+						$backups[] = array(
+							'path'     => $iterator->getSubPath(),
+							'filename' => $iterator->getSubPathname(),
+							'mtime'    => $iterator->getMTime(),
+							'size'     => null,
+						);
+					}
+				} catch ( Exception $e ) {
 					$backups[] = array(
 						'path'     => $iterator->getSubPath(),
 						'filename' => $iterator->getSubPathname(),
-						'mtime'    => $iterator->getMTime(),
-						'size'     => $iterator->getSize(),
-					);
-				} else {
-					$backups[] = array(
-						'path'     => $iterator->getSubPath(),
-						'filename' => $iterator->getSubPathname(),
-						'mtime'    => $iterator->getMTime(),
+						'mtime'    => null,
 						'size'     => null,
 					);
 				}
-			} catch ( Exception $e ) {
-				$backups[] = array(
-					'path'     => $iterator->getSubPath(),
-					'filename' => $iterator->getSubPathname(),
-					'mtime'    => null,
-					'size'     => null,
-				);
 			}
-		}
 
-		// Sort backups modified date
-		usort( $backups, array( $this, 'compare' ) );
+			// Sort backups modified date
+			usort( $backups, array( $this, 'compare' ) );
+
+		} catch ( Exception $e ) {
+		}
 
 		return $backups;
 	}
