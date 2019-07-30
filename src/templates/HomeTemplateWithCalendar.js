@@ -13,7 +13,7 @@ class HomeTemplate extends Component {
                     <Col lg={6}>
                        <ContentBlocks data={data} />
                     </Col>
-                    <Col lg={6} className="py-5 py-lg-0">
+                    <Col lg={6} className="py-5 pt-lg-0 pb-xl-5">
                        <Calendar />
                     </Col>
                 </Row>

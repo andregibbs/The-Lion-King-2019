@@ -53,6 +53,7 @@ class Calendar extends Component {
                 // Create new object ready for calendar
                 if (res) {
                     res.acf.dates_bristol.forEach((event, i) => {
+                        console.log(event)
                         const title = event.time === "evening" ? "7:30pm" : "2:30pm"
                         const time = event.time === "evening" ? "19:30" : "14:30"
                         const url = event.show_url
@@ -62,7 +63,8 @@ class Calendar extends Component {
                             url: url,
                             start: `${date} ${time}`,
                             end: `${date} ${time}`,
-                            resource: event.time
+                            resource: event.time,
+                            availablity: event.availablity
                         })
                     })
 
@@ -103,6 +105,7 @@ class Calendar extends Component {
                             defaultView={'month'}
                             events={this.state.events}
                             onSelectEvent={this.handleEventSelect}
+                            defaultDate={new Date(2019, 8, 1)}
                             views={{
                                 month: true,
                                 week: false,
