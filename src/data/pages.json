@@ -542,7 +542,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<div class='row justify-content-center'> <div class='col col-md-5'> <img src='/images/clock-1.svg' alt='7:30pm' width='75'/><p class='text-lg font-weight-bold'>7:30pm</p> <p>Tuesday to<br/> Saturday</p></div><div class='col col-md-5'> <img src='/images/clock-2.svg' alt='2:30pm' width='75'/> <p class='text-lg font-weight-bold'>2:30pm</p> <p>Wednesdays, Saturdays & Sundays</p></div></div><p class='text-sm m-0'>Running: 2hrs 30 mins including interval.</p><p class='text-sm m-0'>Recommended for all ages 6+, minimum age 3.</p>"
+                    "content": "<div class='row justify-content-center'> <div class='col col-md-3'> <img src='/images/clock-1.svg' alt='7:30pm' width='75'/><p class='text-lg font-weight-bold'>7:30pm</p> <p>Tuesday to<br/> Saturday</p></div><div class='col col-md-3'> <img src='/images/clock-2.svg' alt='2:30pm' width='75'/> <p class='text-lg font-weight-bold'>2:30pm</p> <p>Wednesdays, Saturdays & Sundays</p></div></div><p class='text-sm m-0'>Running: 2hrs 30 mins including interval.</p><p class='text-sm m-0'>Recommended for all ages 6+, minimum age 3.</p>"
                 }
             },
             {
