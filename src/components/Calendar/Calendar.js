@@ -105,6 +105,8 @@ class Calendar extends Component {
                             events={this.state.events}
                             onSelectEvent={this.handleEventSelect}
                             defaultDate={new Date(2019, 8, 1)}
+                            startAccessor='startDate' 
+                            endAccessor='endDate' 
                             views={{
                                 month: true,
                                 week: false,

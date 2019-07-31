@@ -576,7 +576,7 @@
                 "type": "bgImageTextBlock",
                 "bgImageTextBlock": {
                     "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
-                    "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md3.jpg",
                     "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
                 }
