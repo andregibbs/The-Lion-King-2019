@@ -39,7 +39,7 @@ class Calendar extends Component {
 
         let events = []
 
-        fetchWithTimeout(process.env.HOUSESEATS_ENDPOINT, {
+        fetchWithTimeout(process.env.BRISTOL_ENDPOINT, {
             method: 'GET'
         }, 5000)
             .then((result) => {
@@ -53,7 +53,6 @@ class Calendar extends Component {
                 // Create new object ready for calendar
                 if (res) {
                     res.acf.dates_bristol.forEach((event, i) => {
-                        console.log(event)
                         const title = event.time === "evening" ? "7:30pm" : "2:30pm"
                         const time = event.time === "evening" ? "19:30" : "14:30"
                         const url = event.show_url
