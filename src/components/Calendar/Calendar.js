@@ -39,7 +39,7 @@ class Calendar extends Component {
 
         let events = []
 
-        fetchWithTimeout(process.env.BRISTOL_ENDPOINT, {
+        fetchWithTimeout(process.env.HOUSESEATS_ENDPOINT, {
             method: 'GET'
         }, 5000)
             .then((result) => {
