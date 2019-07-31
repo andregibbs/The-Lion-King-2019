@@ -1064,7 +1064,7 @@
                             },
                             {
                                 "question": "Is the event supporting a charity?",
-                                "answer": " <p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the Royal Academy of Music ’s world-class Musical Theatre Course.</p>"
+                                "answer": " <p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the Royal Academy of Music’s world-class Musical Theatre Course.</p>"
                             },
                             {
                                 "question": "Is there a dress code?",
@@ -1080,7 +1080,7 @@
                             },
                             {
                                 "question": "I have another question",
-                                "answer": " <p>Your question may be answered here, or via DisneyTickets.</p>"
+                                "answer": "<p>Your question may be answered <a href='/'>here</a>, or via <a href='/'>DisneyTickets</a>.</p>"
                             }
                             
                         ]
@@ -1127,6 +1127,7 @@
                 "type": "faqBlock",
                 "faqBlock": [
                     {
+                        "title": "20th Anniversary Gala Performance",
                         "items": [
                             {
                                 "question": "What is the 20th Anniversary Gala Performance?",
@@ -1138,7 +1139,7 @@
                             },
                             {
                                 "question": "Is the event supporting a charity?",
-                                "answer": " <p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the Royal Academy of Music ’s world-class Musical Theatre Course.</p>"
+                                "answer": " <p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the Royal Academy of Music’s world-class Musical Theatre Course.</p>"
                             },
                             {
                                 "question": "Is there a dress code?",
@@ -1154,7 +1155,7 @@
                             },
                             {
                                 "question": "I have another question",
-                                "answer": " <p>Your question may be answered here, or via DisneyTickets.</p>"
+                                "answer": "<p>Your question may be answered <a href='/'>here</a>, or via <a href='/'>DisneyTickets</a>.</p>"
                             }
                             
                         ]
@@ -1212,7 +1213,7 @@
                             },
                             {
                                 "question": "Is the event supporting a charity?",
-                                "answer": " <p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the Royal Academy of Music ’s world-class Musical Theatre Course.</p>"
+                                "answer": " <p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the Royal Academy of Music’s world-class Musical Theatre Course.</p>"
                             },
                             {
                                 "question": "Is there a dress code?",
@@ -1228,7 +1229,7 @@
                             },
                             {
                                 "question": "I have another question",
-                                "answer": " <p>Your question may be answered here, or via DisneyTickets.</p>"
+                                "answer": "<p>Your question may be answered <a href='/'>here</a>, or via <a href='/'>DisneyTickets</a>.</p>"
                             }
                             
                         ]
@@ -1273,6 +1274,7 @@
             },
             {
                 "type": "faqBlock",
+                "title": "What is the 20th Anniversary Gala Performance?", 
                 "faqBlock": [
                     {
                         "items": [
@@ -1286,7 +1288,7 @@
                             },
                             {
                                 "question": "Is the event supporting a charity?",
-                                "answer": " <p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the Royal Academy of Music ’s world-class Musical Theatre Course.</p>"
+                                "answer": " <p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the Royal Academy of Music’s world-class Musical Theatre Course.</p>"
                             },
                             {
                                 "question": "Is there a dress code?",
@@ -1302,7 +1304,7 @@
                             },
                             {
                                 "question": "I have another question",
-                                "answer": " <p>Your question may be answered here, or via DisneyTickets.</p>"
+                                "answer": " <p>Your question may be answered <a href='/'>here</a>, or via <a href='/'>DisneyTickets</a>.</p>"
                             }
                             
                         ]

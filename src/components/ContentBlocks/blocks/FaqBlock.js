@@ -16,22 +16,22 @@ class FaqBlock extends Component {
 
             return(
                 <div key={i}>
+                    <Container fluid className={`faq-block ${colour !== undefined ? `faq-block--${colour}` : ''}`}>
                     {block.title !== null &&
                         <Container fluid className="text-center pb-4 pb-md-5">
                             <h4 className="mb-0 font-weight-semi-bold">{block.title}</h4>
                         </Container>
                     }
-                    <Container fluid className={`faq-block ${colour !== undefined ? `faq-block--${colour}` : ''}`}>
                         <Row>
                             <Container fluid className="container-max">
                                 <Row>
-                                    <Col md={6}>
+                                    <Col lg={6}>
                                         {faqs1.map((faq, i) => (
                                             <FaqItem faq={faq} key={i} pageTitle={this.props.pageTitle}/>
                                         ))}
                                     </Col>
 
-                                    <Col md={6}>
+                                    <Col lg={6}>
                                         {faqs2.map((faq, i) => (
                                             <FaqItem faq={faq} key={i} />
                                         ))}
