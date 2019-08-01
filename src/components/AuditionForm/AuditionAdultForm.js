@@ -127,7 +127,7 @@ class AuditionAdultForm extends Component {
         //2 MB allowed file size
         const allowed_file_size = 2097152;
         //Allowed file types
-        const allowed_file_types = name === 'file1' ? ['image/png', 'image/gif', 'image/jpg', 'image/jpeg', 'image/pjpeg'] : ['application/msword', 'application/pdf'];
+        const allowed_file_types = name === 'file1' ? ['image/png', 'image/gif', 'image/jpg', 'image/jpeg', 'image/pjpeg'] : ['application/msword', 'application/pdf', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
         const { validate } = this.state
 
         if (allowed_file_types.indexOf(file.type) === -1) { //check unsupported file
@@ -407,7 +407,7 @@ class AuditionAdultForm extends Component {
                             </Row>
                         </FormGroup>
                         <FormGroup>
-                            <Label for="file2">Upload CV:* <span className="text-sm">(Max, 2mb, pdf, doc)</span></Label>
+                            <Label for="file2">Upload CV:* <span className="text-sm">(Max, 2mb, pdf, doc, docx)</span></Label>
                             <Row className="pb-2 align-items-center">
                                 <Col>
                                     <div className="file-upload">
