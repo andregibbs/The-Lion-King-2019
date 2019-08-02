@@ -21,9 +21,9 @@ class RegisterTemplate extends Component {
                         <Col lg={6}>
                             <div className="bg-white p-3 p-md-5">
                                 {data.auditionFields.type === 'children' ?
-                                    <AuditionChildrenForm data={data.auditionFields} />
+                                    <AuditionChildrenForm type="children" data={data.auditionFields} />
                                     :
-                                    <AuditionAdultForm data={data.auditionFields} />
+                                    <AuditionAdultForm type="adult" data={data.auditionFields} />
                                 }
                             </div>
                         </Col>
