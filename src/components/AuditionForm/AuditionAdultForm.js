@@ -34,6 +34,7 @@ class AuditionAdultForm extends Component {
             file1: '',
             file2: '',
             experience: '',
+            type: 'adult',
             hear: '',
             googleVerified: '',
             validate: {
