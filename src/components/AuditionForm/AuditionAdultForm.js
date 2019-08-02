@@ -47,7 +47,7 @@ class AuditionAdultForm extends Component {
                 file1: '',
                 file1ErrorMsg: 'A headshot is required',
                 file2: '',
-                file2ErrorMsg: 'A full length photo is required',
+                file2ErrorMsg: 'Please upload your CV',
                 googleVerified: '',
                 googleVerifiedErrMsg: 'Google recaptcha is required'
             },
