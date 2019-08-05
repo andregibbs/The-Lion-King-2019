@@ -5,7 +5,7 @@ import fetchWithTimeout from 'js/fetchWithTimeout'
 import CalendarToolbar from './CalendarToolbar';
 import CalendarEvent from './CalendarEvent';
 import "react-big-calendar/lib/css/react-big-calendar.css";
-const localizer = BigCalendar.momentLocalizer(moment)
+const localizer = BigCalendar.momentLocalizer(moment);
 
 class Calendar extends Component {
 
@@ -38,18 +38,23 @@ class Calendar extends Component {
     getEvents() {
 
         let events = []
+        
+        console.log('Bristol endpoint is: '+process.env.BRISTOL_ENDPOINT);        
 
-        fetchWithTimeout(process.env.BRISTOL_ENDPOINT, {
+        //fetchWithTimeout(process.env.BRISTOL_ENDPOINT, {
+        fetchWithTimeout('/cms/wp-json/acf/v3/options/options', {
             method: 'GET'
         }, 5000)
             .then((result) => {
                 if (!result.ok) {
+                	console.log('caught error when retreiving calendar dates');
                     throw Error(result.statusText);//catch any server errors
                 }
                 return result;
             })
             .then(res => res.json())//convert response body to json
             .then((res) => {
+            	console.log('converted dates to json ok');
                 // Create new object ready for calendar
                 if (res) {
                     res.acf.dates_bristol.forEach((event, i) => {
@@ -60,16 +65,19 @@ class Calendar extends Component {
                         events.push({
                             title: title,
                             url: url,
-                            start: `${date} ${time}`,
-                            end: `${date} ${time}`,
+                            start: `${date}T${time}`,
+                            end: `${date}T${time}`,
                             resource: event.time,
                             availablity: event.availablity
                         })
                     })
 
                     this.setState({
-                        events
+                        events : events
                     })
+                } else {
+
+                	console.log('res not set');
                 }
             })
             .catch((error) => {
