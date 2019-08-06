@@ -66,16 +66,19 @@ class Calendar extends Component {
                     res.acf.dates_bristol.forEach((event, i) => {
 
                         let title = ""
+                        let time = ""
 
                         if (event.time === "evening") {
                             title = "7:30pm"
-                        } else if(event.time === "earlyevening") {
+                            time = "19:30"
+                        } else if (event.time === "earlyevening") {
                             title = "5:00pm"
+                            time = "17:00"
                         } else {
                             title = "2:30pm"
+                            time = "14:30"
                         }
 
-                        const time = event.time === "evening" ? "19:30" : "14:30"
                         const url = event.show_url
                         const date = event.date
                         events.push({
