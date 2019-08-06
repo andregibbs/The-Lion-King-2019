@@ -106,8 +106,8 @@ class HouseSeatsForm extends Component {
                         const date = event.date
                         events.push({
                             title: title,
-                            start: `${date} ${time}`,
-                            end: `${date} ${time}`,
+                            start: `${date}T${time}`,
+                            end: `${date}T${time}`,
                             resource: event.time
                         })
                     })
