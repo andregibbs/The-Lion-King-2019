@@ -526,6 +526,7 @@
         "contentBlocks": [
             {
                 "type": "faqBlock",
+                "paddingClass": "pb-5",
                 "faqBlock": [
                     {
                         "colour": "yellow", 
