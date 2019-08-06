@@ -64,8 +64,16 @@ class Calendar extends Component {
                 // Create new object ready for calendar
                 if (res) {
                     res.acf.dates_bristol.forEach((event, i) => {
-                        const title = event.time === "evening" ? "7:30pm" : "2:30pm"
-                        const time = event.time === "evening" ? "19:30" : "14:30"
+                        
+                        let time = ""
+
+                        if (event.time === "evening") {
+                            time = "7:30pm"
+                        } else if(event.time === "earlyevening") {
+                            time = "5:00pm"
+                        } else {
+                            time = "2:30pm"
+                        }
                         const url = event.show_url
                         const date = event.date
                         events.push({
