@@ -7,6 +7,12 @@ import CalendarEvent from './CalendarEvent';
 import "react-big-calendar/lib/css/react-big-calendar.css";
 const localizer = BigCalendar.momentLocalizer(moment);
 
+moment.locale('ko', {
+    week: {
+        dow: 1,
+    },
+});
+
 class Calendar extends Component {
 
     constructor(props) {
@@ -114,7 +120,7 @@ class Calendar extends Component {
                             onSelectEvent={this.handleEventSelect}
                             startAccessor='start' 
                             endAccessor='end' 
-                            defaultDate={new Date(2019, 8, 1)}
+                            defaultDate={new Date(2019, 10, 1)}
                             views={{
                                 month: true,
                                 week: false,
