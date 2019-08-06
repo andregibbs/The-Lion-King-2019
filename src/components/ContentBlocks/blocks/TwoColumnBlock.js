@@ -16,7 +16,7 @@ class TwoColumnBlock extends Component {
         }
 
         if (paddingTop !== null && paddingTop === false) {
-            padding = "pb-3 pb-md-5 pl-3 pr-3 pl-md-5 pr-md-5"
+            padding = "pb-3 pb-md-2 pl-3 pr-3 pl-md-5 pr-md-5"
         }
         
         // Set bg colour
