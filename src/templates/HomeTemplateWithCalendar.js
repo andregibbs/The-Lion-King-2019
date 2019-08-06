@@ -83,7 +83,7 @@ class HomeTemplate extends Component {
                     <Col lg={6} className="py-5 pt-lg-0 pb-xl-5">
                        <Calendar />
                     </Col>
-                    <Col  className="py-5 pt-lg-0 pb-xl-5">
+                    <Col  className="py-5 pb-xl-5">
                           <ContentBlocks data={data} />
                     </Col>
                 </Row>

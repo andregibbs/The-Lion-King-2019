@@ -24,13 +24,15 @@ class Calendar extends Component {
             date: '',
             events: [],
             selectedDate: '',
-            success: false
+            success: false,
+            date: new Date()
         }
 
         // Bind this to methods
         this.handleEventSelect = this.handleEventSelect.bind(this)
         this.handleTimeSelect = this.handleTimeSelect.bind(this)
         this.getEvents = this.getEvents.bind(this)
+        this.checkDate = this.checkDate.bind(this)
 
         // Create form ref
         this.form = React.createRef();
@@ -66,16 +68,19 @@ class Calendar extends Component {
                     res.acf.dates_bristol.forEach((event, i) => {
 
                         let title = ""
+                        let time = ""
 
                         if (event.time === "evening") {
                             title = "7:30pm"
-                        } else if(event.time === "earlyevening") {
+                            time = "19:30"
+                        } else if (event.time === "earlyevening") {
                             title = "5:00pm"
+                            time = "17:00"
                         } else {
                             title = "2:30pm"
+                            time = "14:30"
                         }
 
-                        const time = event.time === "evening" ? "19:30" : "14:30"
                         const url = event.show_url
                         const date = event.date
                         events.push({
@@ -118,6 +123,16 @@ class Calendar extends Component {
         this.validateRequired(false, "date", date)
     }
 
+    checkDate(date) {
+        const currentMonth = moment().format('M')
+        const maxMonth = moment(currentMonth).add(3, 'M').format('M')
+        const calendarMonth = moment(date).format('M')
+
+        if (parseInt(calendarMonth) < parseInt(maxMonth) && parseInt(calendarMonth) >= parseInt(currentMonth)) {
+            this.setState({ date: new Date(date) })
+        } 
+    }
+
     render() {
 
         return(
@@ -128,9 +143,8 @@ class Calendar extends Component {
                             defaultView={'month'}
                             events={this.state.events}
                             onSelectEvent={this.handleEventSelect}
-                            startAccessor='start' 
-                            endAccessor='end' 
-                            defaultDate={new Date(2019, 10, 1)}
+                            onNavigate={this.checkDate}
+                            date={this.state.date}
                             views={{
                                 month: true,
                                 week: false,
