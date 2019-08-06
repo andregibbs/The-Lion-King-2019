@@ -1,7 +1,7 @@
 <?php
 // Which form posted?
 if (isset($_POST)) {
-    if ($_POST['formType'] === 'adult') {
+    if ($_POST['type'] === 'adult') {
         require './adult.php';
     } else {
         require './children.php';
