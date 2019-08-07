@@ -19,9 +19,7 @@ class Calendar extends Component {
         super(props)
 
         this.state = {
-            name: '',
             connection_to_production: '',
-            date: '',
             events: [],
             selectedDate: '',
             success: false,
@@ -29,12 +27,8 @@ class Calendar extends Component {
         }
 
         // Bind this to methods
-        this.handleTimeSelect = this.handleTimeSelect.bind(this)
         this.getEvents = this.getEvents.bind(this)
         this.checkDate = this.checkDate.bind(this)
-
-        // Create form ref
-        this.form = React.createRef();
     }
 
     componentDidMount() {
@@ -105,15 +99,6 @@ class Calendar extends Component {
                 // handle errors and timeout error
             });
 
-    }
-
-    handleTimeSelect(dateTime) {
-        const date = moment(dateTime).format('dddd, Do MMM YYYY h:mm a')
-        this.setState({
-            date
-        })
-        // Validate date
-        this.validateRequired(false, "date", date)
     }
 
     checkDate(date) {
