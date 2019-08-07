@@ -42,8 +42,7 @@ export default class HTML extends React.Component {
             <a href="/sitemap/" style={{ color: "black", fontSize: "12px", display: "block"}}>Sitemap</a>
           </div>
           
-          {/* <script src="https://snavbar.disneyinternational.com/emea/inc-chrome.js"></script> */}
-          <script src="https://snavbar.disneyinternational.com/emea/inc-chrome-cookie.js?preference_manager=0"></script>
+          <script src="https://snavbar.disneyinternational.com/emea/inc-chrome-cookie.js?cookie_banner=0"/>
           <link href="https://fast.fonts.net/t/1.css?apiType=css&amp;projectid=492ff5f6-ecf8-48e8-b54e-5bfa6c5c1874" rel="stylesheet" />
         </body>
       </html>
