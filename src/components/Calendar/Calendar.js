@@ -25,7 +25,7 @@ class Calendar extends Component {
             events: [],
             selectedDate: '',
             success: false,
-            date: new Date()
+            date: new Date(2019, 10, 1)
         }
 
         // Bind this to methods
@@ -124,11 +124,12 @@ class Calendar extends Component {
     }
 
     checkDate(date) {
-        const currentMonth = moment().format('M')
-        const maxMonth = moment(currentMonth).add(3, 'M').format('M')
+        // const currentMonth = moment().format('M')
+        const maxMonth = 12
+        const minMonth = 9
         const calendarMonth = moment(date).format('M')
 
-        if (parseInt(calendarMonth) < parseInt(maxMonth) && parseInt(calendarMonth) >= parseInt(currentMonth)) {
+        if (parseInt(calendarMonth) < parseInt(maxMonth) && parseInt(calendarMonth) >= parseInt(minMonth)) {
             this.setState({ date: new Date(date) })
         } 
     }
