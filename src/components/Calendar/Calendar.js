@@ -29,7 +29,6 @@ class Calendar extends Component {
         }
 
         // Bind this to methods
-        this.handleEventSelect = this.handleEventSelect.bind(this)
         this.handleTimeSelect = this.handleTimeSelect.bind(this)
         this.getEvents = this.getEvents.bind(this)
         this.checkDate = this.checkDate.bind(this)
@@ -108,12 +107,6 @@ class Calendar extends Component {
 
     }
 
-    handleEventSelect(event) {
-        this.setState({
-            selectedDate: event.start
-        })
-    }
-
     handleTimeSelect(dateTime) {
         const date = moment(dateTime).format('dddd, Do MMM YYYY h:mm a')
         this.setState({
@@ -143,7 +136,6 @@ class Calendar extends Component {
                             localizer={localizer}
                             defaultView={'month'}
                             events={this.state.events}
-                            onSelectEvent={this.handleEventSelect}
                             onNavigate={this.checkDate}
                             date={this.state.date}
                             views={{
