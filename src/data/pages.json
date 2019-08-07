@@ -410,15 +410,15 @@
                             },
                             {
                                 "question": "Are there facilities for people with visual impairments?",
-                                "answer": "<p> THE LION KING regularly schedules audio described performances for those with visual impairments in association with VocalEyes. Audio description in theatre is a live verbal commentary on the visual elements of a production, delivered as a performance unfolds, through a discreet headset. </p><p> The next audio described performances of THE LION KING will take place on <strong>Sunday 1 September 2019 at 2.30pm</strong>.</p><p> Guide Dogs are welcome in the auditorium or can alternatively be left in the care of theatre staff. If you intend to bring a guide dog, please let your sales advisor know at the time of booking.</p><p> The Lyceum Theatre has a limited number of large print and Braille programmes available. Please contact the Front of House Manager in advance on 020 7420 8100 (calls charged at local rate) to request a copy.</p><p> A copy of THE LION KING script is available in braille and an appointment can be made to read it in the theatre by calling 020 7420 8100 (calls charged at local rate) in advance.</p>"
+                                "answer": "<p>THE LION KING regularly schedules audio described performances for those with visual impairments in association with VocalEyes. Audio description in theatre is a live verbal commentary on the visual elements of a production, delivered as a performance unfolds, through a discreet headset.</p><p>The next audio described performances of THE LION KING will take place on <strong>Sunday 1 September 2019 at 2.30pm</strong> and <strong>Tuesday 17 March 2020 at 7.30pm</strong>.</p><p>Guide Dogs are welcome in the auditorium or can alternatively be left in the care of theatre staff. If you intend to bring a guide dog, please let your sales advisor know at the time of booking.</p><p>The Lyceum Theatre has a limited number of large print and Braille programmes available. Please contact the Front of House Manager in advance on 020 7420 8100 (calls charged at local rate) to request a copy.</p><p>A copy of THE LION KING script is available in braille and an appointment can be made to read it in the theatre by calling 020 7420 8100 (calls charged at local rate) in advance.</p>"
                             },
                             {
                                 "question": "Are there facilities for people with hearing impairments?",
-                                "answer": "<p> THE LION KING regularly schedules sign-interpreted performances in association with Theatre Sign. Throughout the performance, a qualified theatre sign interpreter stands on the left of the stage and uses sign language to relay music and words to deaf and hearing impaired patrons, all of whom are seated within easy viewing distance of both the stage and interpreter. </p><p> The next signed performances will take place on <strong>Sunday 4 August 2019 at 2.30pm</strong>.</p><p> We regularly schedule captioned performances of THE LION KING in association with Stagetext. Captioning is a way of converting the spoken word into visible text that provides deaf, deafened and hard of hearing people with access to live performance.</p><p> The next captioned performances of THE LION KING will take place on <strong>Sunday 21 July 2019 at 2.30pm</strong>.</p>"
+                                "answer": "<p>THE LION KING regularly schedules sign-interpreted performances in association with Theatre Sign. Throughout the performance, a qualified theatre sign interpreter stands on the left of the stage and uses sign language to relay music and words to deaf and hearing impaired patrons, all of whom are seated within easy viewing distance of both the stage and interpreter.</p><p>The next signed performance will take place on <strong>Tuesday 21 April 2020 at 7.30pm</strong>.</p><p>We regularly schedule captioned performances of THE LION KING in association with Stagetext. Captioning is a way of converting the spoken word into visible text that provides deaf, deafened and hard of hearing people with access to live performance.</p><p>The next captioned performance of THE LION KING will take place on <strong>Tuesday 24 March 2020 at 7.30pm</strong>.</p>"
                             },
                             {
                                 "question": "When is the next assisted performance?",
-                                "answer": "<p> The next <strong>captioned</strong> performances, presented in association with Stagetext, will take place on <strong>Sunday 21 July 2019 at 2.30pm</strong>. </p><p> The next <strong>signed</strong> (BSL) performances, presented in association with Theatre Sign, will take place on <strong>Sunday 4 August 2019 at 2.30pm</strong>.</p><p> The next <strong>audio described</strong> performances of THE LION KING, presented in association with VocalEyes, will take place on <strong>Sunday 1 September 2019 at 2.30pm</strong></p><p> It is advisable to book for these performances well in advance as tickets are subject to availability.</p>"
+                                "answer": "<p>The next <strong>captioned</strong> performance, presented in association with Stagetext, will take place on <strong>Tuesday 24 March 2020 at 7.30pm</strong>.</p><p>The next <strong>signed</strong> (BSL) performance, presented in association with Theatre Sign, will take place on <strong>Tuesday 21 April 2020 at 7.30pm</strong>.</p><p>The next <strong>audio described</strong> performances of THE LION KING, presented in association with VocalEyes, will take place on <strong>Sunday 1 September 2019 at 2.30pm </strong> and <strong>Tuesday 17 March 2020 at 7.30pm</strong><strong>. </strong></p><p>It is advisable to book for these performances well in advance as tickets are subject to availability.</p>"
                             },
                             {
                                 "question": "How do I book access concessions?",
@@ -515,7 +515,7 @@
     {
         "id": "bristolHome",
         "siteId": "bristol", 
-        "template": "home-template",
+        "template": "homecalendar-template",
         "path": "/bristol/",
         "displayBookNow": false,
         "title": "Home",
@@ -524,31 +524,6 @@
         "headerImage": "../images/headers/header-bristol-1600px.jpg",
         "headerImageMobile": "../images/headers/header-bristol-576px.jpg",
         "contentBlocks": [
-            {
-                "type": "textBlockFullWidth",
-                "textBlockFullWidth": {
-                    "paddingClass": "pb-0",
-                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Bristol Hippodrome <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>7 September – 23 November 2019</span></h1><h5><strong>Good seats still available for performances in November</strong></h5>"
-                }
-            },
-            {
-                "type": "thinTwoColumnBlock",
-                "thinTwoColumnBlock": {
-                    "column1": {
-                        "content": "<a href='https://www.atgtickets.com/shows/lion-king-bristol/bristol-hippodrome/' class='btn btn--red btn--book btn--block mb-2 interstitial-timed-bristol'>Book tickets with the Bristol Hippodrome Box Office</a><p class='h5 mb-3 text-black font-weight-bold'><span class='icon icon-phone'></span> 0844 241 0093*</p><p class='text-sm'>*Calls cost 7p per min, plus your phone company’s access charge</p><p class='mb-0'>Book tickets in person</p><a href='https://www.google.co.uk/maps/place/Bristol+Hippodrome/@51.4532002,-2.600293,17z/data=!3m1!4b1!4m5!3m4!1s0x48718dd7a144aabf:0xeb2cc12c28695eca!8m2!3d51.4531969!4d-2.5981043' target='_blank' rel='noreferrer noopener'><p class='h5 mb-3 text-black font-weight-bold'><span class='icon icon-map-marker'></span> Bristol Hippodrome</p></a>"
-                    },
-                    "column2": {
-                        "content": "<div class='row justify-content-center'> <div class='col col-md-5'> <img src='/images/clock-1.svg' alt='7:30pm' width='75'/><p class='text-lg font-weight-bold'>7:30pm</p> <p>Tuesday to<br/> Saturday</p></div><div class='col col-md-5'> <img src='/images/clock-2.svg' alt='2:30pm' width='75'/> <p class='text-lg font-weight-bold'>2:30pm</p> <p>Wednesdays, Saturdays & Sundays</p></div></div><p class='text-sm m-0'>Running: 2hrs 30 mins including interval.</p><p class='text-sm m-0'>Recommended for all ages 6+, minimum age 3.</p>"
-                    }
-                }
-            },
-            {
-                "type": "textBlockFullWidth",
-                "textBlockFullWidth": {
-                    "paddingClass": "pb-0",
-                    "content": "<p><a href='/'>Click here</a> to book tickets for London or other UK cities.</p>"
-                }
-            },
             {
                 "type": "faqBlock",
                 "faqBlock": [
@@ -599,7 +574,7 @@
                 "type": "bgImageTextBlock",
                 "bgImageTextBlock": {
                     "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
-                    "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md3.jpg",
                     "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
                 }
@@ -684,7 +659,6 @@
             }
         ]
     },
-
     {
         "id": "edinburghHome",
         "siteId": "edinburgh", 
@@ -867,7 +841,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Cardiff will go on sale this September – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-cardiff-tickets' class='btn btn--red btn--book btn--block btn--sign-up mt-5 text-uppercase no-interstitial-check'>Cardiff priority sign-up</a>"
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Cardiff will go on sale this September – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-cardiff-tickets' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase no-interstitial-check'>Cardiff priority sign-up</a>"
                 }
             }
         ]
@@ -1020,6 +994,224 @@
                     "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
                 }
+            }
+        ]
+    },
+    {
+        "id": "RAM",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/RAM/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/LK_Gala_Aug19_1600x572.jpg",
+        "headerImageMobile": "../images/headers/LK_Gala_Aug19_576x240.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance –<br> 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special gala performance at the iconic Lyceum Theatre on 19 October 2019 at 7.30pm. In the last 20 years, over 16 million people have enjoyed performances of THE LION KING in London alone – join us to mark this landmark anniversary.</p> <p>This performance is in support of the Elton John AIDS Foundation and <br>the Royal Academy of Music<div class='col-sm-4 p-0'><div class='btn btn--auto btn--red w-100 btn--wsize'>Book now</div></div><div class='row'><div class='col-7 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-5 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": " <p>Yes, the performance is held in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><p>Elton John is the multi award-winning composer of THE LION KING. <a href='https://london.ejaf.org/' target='_blank' rel='noopener noreferrer'>The Elton John AIDS Foundation</a> funds frontline programmes that help to alleviate the pain &ndash; whether physical, emotional or financial &ndash; of those living with, affected by or at risk of HIV/AIDS.</p><p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the <a href='https://www.ram.ac.uk/departments/musical-theatre/disney' target='_blank' rel='noopener noreferrer'>Royal Academy of Music</a>&rsquo;s world-class Musical Theatre Course.</p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": "<p>Your question may be answered <a href='/'>here</a>, or via <a href='/'>DisneyTickets</a>.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "RAMgala",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/RAMgala/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/LK_Gala_Aug19_1600x572.jpg",
+        "headerImageMobile": "../images/headers/LK_Gala_Aug19_576x240.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance –<br> 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special gala performance at the iconic Lyceum Theatre on 19 October 2019 at 7.30pm. In the last 20 years, over 16 million people have enjoyed performances of THE LION KING in London alone – join us to mark this landmark anniversary.</p> <p>This performance is in support of the Elton John AIDS Foundation and <br>the Royal Academy of Music<div class='col-sm-4 p-0'><div class='btn btn--auto btn--red'>Book now</div></div><div class='row'><div class='col-7 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-5 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "title": "20th Anniversary Gala Performance",
+                        "items": [
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": " <p>Yes, the performance is held in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><p>Elton John is the multi award-winning composer of THE LION KING. <a href='https://london.ejaf.org/' target='_blank' rel='noopener noreferrer'>The Elton John AIDS Foundation</a> funds frontline programmes that help to alleviate the pain &ndash; whether physical, emotional or financial &ndash; of those living with, affected by or at risk of HIV/AIDS.</p><p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the <a href='https://www.ram.ac.uk/departments/musical-theatre/disney' target='_blank' rel='noopener noreferrer'>Royal Academy of Music</a>&rsquo;s world-class Musical Theatre Course.</p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": "<p>Your question may be answered <a href='/'>here</a>, or via <a href='/'>DisneyTickets</a>.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Elton",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/Elton/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/LK_Gala_Aug19_1600x572.jpg",
+        "headerImageMobile": "../images/headers/LK_Gala_Aug19_576x240.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance –<br> 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special gala performance at the iconic Lyceum Theatre on 19 October 2019 at 7.30pm. In the last 20 years, over 16 million people have enjoyed performances of THE LION KING in London alone – join us to mark this landmark anniversary.</p> <p>This performance is in support of the Elton John AIDS Foundation and <br>the Royal Academy of Music<div class='col-sm-4 p-0'><div class='btn btn--auto btn--red'>Book now</div></div><div class='row'><div class='col-7 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-5 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": " <p>Yes, the performance is held in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><p>Elton John is the multi award-winning composer of THE LION KING. <a href='https://london.ejaf.org/' target='_blank' rel='noopener noreferrer'>The Elton John AIDS Foundation</a> funds frontline programmes that help to alleviate the pain &ndash; whether physical, emotional or financial &ndash; of those living with, affected by or at risk of HIV/AIDS.</p><p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the <a href='https://www.ram.ac.uk/departments/musical-theatre/disney' target='_blank' rel='noopener noreferrer'>Royal Academy of Music</a>&rsquo;s world-class Musical Theatre Course.</p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": "<p>Your question may be answered <a href='/'>here</a>, or via <a href='/'>DisneyTickets</a>.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "gala",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/gala/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/LK_Gala_Aug19_1600x572.jpg",
+        "headerImageMobile": "../images/headers/LK_Gala_Aug19_576x240.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance –<br> 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special gala performance at the iconic Lyceum Theatre on 19 October 2019 at 7.30pm. In the last 20 years, over 16 million people have enjoyed performances of THE LION KING in London alone – join us to mark this landmark anniversary.</p> <p>This performance is in support of the Elton John AIDS Foundation and <br>the Royal Academy of Music<div class='col-sm-4 p-0'><div class='btn btn--auto btn--red'>Book now</div></div><div class='row'><div class='col-7 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-5 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "title": "What is the 20th Anniversary Gala Performance?", 
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": "<p>Yes, the performance is held in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><p>Elton John is the multi award-winning composer of THE LION KING. <a href='https://london.ejaf.org/' target='_blank' rel='noopener noreferrer'>The Elton John AIDS Foundation</a> funds frontline programmes that help to alleviate the pain &ndash; whether physical, emotional or financial &ndash; of those living with, affected by or at risk of HIV/AIDS.</p><p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the <a href='https://www.ram.ac.uk/departments/musical-theatre/disney' target='_blank' rel='noopener noreferrer'>Royal Academy of Music</a>&rsquo;s world-class Musical Theatre Course.</p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": " <p>Your question may be answered <a href='/'>here</a>, or via <a href='/'>DisneyTickets</a>.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
             }
         ]
     }
