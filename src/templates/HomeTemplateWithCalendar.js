@@ -30,7 +30,8 @@ class HomeTemplate extends Component {
                         <div class="row">
                             <div class="pb-0 col">
                                 <div>
-                                    <a href="https://www.atgtickets.com/shows/lion-king-bristol/bristol-hippodrome/" class="btn btn--red my-4 interstitial-timed-bristol">Book tickets with the Bristol Hippodrome Box Office</a>
+                                    <a href="https://www.atgtickets.com/shows/lion-king-bristol/bristol-hippodrome/" class="btn btn--red my-4 interstitial-timed-bristol">BOOK TICKETS</a>
+                                    <p class="h5 mb-3 text-black font-weight-bold"></p>
                                     <p class="h5 mb-3 text-black font-weight-bold"><span class="icon icon-phone"></span> 0844 241 0093*</p>
                                     <p class="text-sm">*Calls cost 7p per min, plus your phone company’s access charge</p>
                                     <p class="mb-0">Book tickets in person</p>
@@ -54,13 +55,19 @@ class HomeTemplate extends Component {
                                                 <p class="text-lg font-weight-bold">7:30pm</p>
                                                 <p>Tuesday to<br /> Saturday</p>
                                         </div>
-                                            <div class="col col-md-3">
-                                                <img src="/images/clock-2.svg" alt="2:30pm" width="75"/>
-                                                    <p class="text-lg font-weight-bold">2:30pm</p> <p>Wednesdays, Saturdays &amp; Sundays</p>
-                                        </div>
+                                        <div class="col col-md-3">
+                                            <img src="/images/clock-2.svg" alt="2:30pm" width="75"/>
+                                                <p class="text-lg font-weight-bold">2:30pm</p> <p>Wednesdays, Saturdays &amp; Sundays</p>
                                             </div>
-                                            <p class="text-sm m-0">Running: 2hrs 30 mins including interval.</p>
-                                            <p class="text-sm m-0">Recommended for all ages 6+, minimum age 3.</p>
+                                        </div>
+
+
+                                            <div class="d-md-none py-5">
+                                            <Calendar />
+                                            </div>
+
+                                            <p class="text-sm m-0 d-none d-md-block">Running: 2hrs 30 mins including interval.</p>
+                                            <p class="text-sm m-0 d-none d-md-block">Recommended for all ages 6+, minimum age 3.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -68,19 +75,19 @@ class HomeTemplate extends Component {
                         </div> 
 
                         <div class="text-center container">
-                            <div class="">
                                 <div class="row">
                                     <div class="pb-0 col">
-                                        <div>
-                                            <p><a href="/">Click here</a> to book tickets for London or other UK cities.</p>
+                                        <div class="pt-5 d-md-none">
+                                            <p class="text-sm m-0 d-md-none">Running: 2hrs 30 mins including interval.</p>
+                                            <p class="text-sm m-0 d-md-none">Recommended for all ages 6+, minimum age 3.</p>
                                         </div>
+                                        <p><a href="/">Click here</a> to book tickets for London or other UK cities.</p>
                                     </div>
-                                </div>
                             </div>
                         </div>
                     </Col>
                     
-                    <Col lg={6} className="py-5 pt-lg-0 pb-xl-5">
+                    <Col lg={6} className="py-5 pt-lg-0 pb-xl-5 d-none d-md-block">
                        <Calendar />
                     </Col>
                     <Col  className="py-5 pb-xl-5">
