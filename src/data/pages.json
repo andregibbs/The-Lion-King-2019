@@ -410,15 +410,15 @@
                             },
                             {
                                 "question": "Are there facilities for people with visual impairments?",
-                                "answer": "<p> THE LION KING regularly schedules audio described performances for those with visual impairments in association with VocalEyes. Audio description in theatre is a live verbal commentary on the visual elements of a production, delivered as a performance unfolds, through a discreet headset. </p><p> The next audio described performances of THE LION KING will take place on <strong>Sunday 1 September 2019 at 2.30pm</strong>.</p><p> Guide Dogs are welcome in the auditorium or can alternatively be left in the care of theatre staff. If you intend to bring a guide dog, please let your sales advisor know at the time of booking.</p><p> The Lyceum Theatre has a limited number of large print and Braille programmes available. Please contact the Front of House Manager in advance on 020 7420 8100 (calls charged at local rate) to request a copy.</p><p> A copy of THE LION KING script is available in braille and an appointment can be made to read it in the theatre by calling 020 7420 8100 (calls charged at local rate) in advance.</p>"
+                                "answer": "<p>THE LION KING regularly schedules audio described performances for those with visual impairments in association with VocalEyes. Audio description in theatre is a live verbal commentary on the visual elements of a production, delivered as a performance unfolds, through a discreet headset.</p><p>The next audio described performances of THE LION KING will take place on <strong>Sunday 1 September 2019 at 2.30pm</strong> and <strong>Tuesday 17 March 2020 at 7.30pm</strong>.</p><p>Guide Dogs are welcome in the auditorium or can alternatively be left in the care of theatre staff. If you intend to bring a guide dog, please let your sales advisor know at the time of booking.</p><p>The Lyceum Theatre has a limited number of large print and Braille programmes available. Please contact the Front of House Manager in advance on 020 7420 8100 (calls charged at local rate) to request a copy.</p><p>A copy of THE LION KING script is available in braille and an appointment can be made to read it in the theatre by calling 020 7420 8100 (calls charged at local rate) in advance.</p>"
                             },
                             {
                                 "question": "Are there facilities for people with hearing impairments?",
-                                "answer": "<p> THE LION KING regularly schedules sign-interpreted performances in association with Theatre Sign. Throughout the performance, a qualified theatre sign interpreter stands on the left of the stage and uses sign language to relay music and words to deaf and hearing impaired patrons, all of whom are seated within easy viewing distance of both the stage and interpreter. </p><p> The next signed performances will take place on <strong>Sunday 4 August 2019 at 2.30pm</strong>.</p><p> We regularly schedule captioned performances of THE LION KING in association with Stagetext. Captioning is a way of converting the spoken word into visible text that provides deaf, deafened and hard of hearing people with access to live performance.</p><p> The next captioned performances of THE LION KING will take place on <strong>Sunday 21 July 2019 at 2.30pm</strong>.</p>"
+                                "answer": "<p>THE LION KING regularly schedules sign-interpreted performances in association with Theatre Sign. Throughout the performance, a qualified theatre sign interpreter stands on the left of the stage and uses sign language to relay music and words to deaf and hearing impaired patrons, all of whom are seated within easy viewing distance of both the stage and interpreter.</p><p>The next signed performance will take place on <strong>Tuesday 21 April 2020 at 7.30pm</strong>.</p><p>We regularly schedule captioned performances of THE LION KING in association with Stagetext. Captioning is a way of converting the spoken word into visible text that provides deaf, deafened and hard of hearing people with access to live performance.</p><p>The next captioned performance of THE LION KING will take place on <strong>Tuesday 24 March 2020 at 7.30pm</strong>.</p>"
                             },
                             {
                                 "question": "When is the next assisted performance?",
-                                "answer": "<p> The next <strong>captioned</strong> performances, presented in association with Stagetext, will take place on <strong>Sunday 21 July 2019 at 2.30pm</strong>. </p><p> The next <strong>signed</strong> (BSL) performances, presented in association with Theatre Sign, will take place on <strong>Sunday 4 August 2019 at 2.30pm</strong>.</p><p> The next <strong>audio described</strong> performances of THE LION KING, presented in association with VocalEyes, will take place on <strong>Sunday 1 September 2019 at 2.30pm</strong></p><p> It is advisable to book for these performances well in advance as tickets are subject to availability.</p>"
+                                "answer": "<p>The next <strong>captioned</strong> performance, presented in association with Stagetext, will take place on <strong>Tuesday 24 March 2020 at 7.30pm</strong>.</p><p>The next <strong>signed</strong> (BSL) performance, presented in association with Theatre Sign, will take place on <strong>Tuesday 21 April 2020 at 7.30pm</strong>.</p><p>The next <strong>audio described</strong> performances of THE LION KING, presented in association with VocalEyes, will take place on <strong>Sunday 1 September 2019 at 2.30pm </strong> and <strong>Tuesday 17 March 2020 at 7.30pm</strong><strong>. </strong></p><p>It is advisable to book for these performances well in advance as tickets are subject to availability.</p>"
                             },
                             {
                                 "question": "How do I book access concessions?",
@@ -511,7 +511,6 @@
             }
         ]
     },
-
     {
         "id": "bristolHome",
         "siteId": "bristol", 
@@ -599,7 +598,7 @@
                 "type": "bgImageTextBlock",
                 "bgImageTextBlock": {
                     "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
-                    "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md3.jpg",
                     "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
                 }
@@ -684,7 +683,6 @@
             }
         ]
     },
-
     {
         "id": "edinburghHome",
         "siteId": "edinburgh", 
@@ -867,7 +865,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Cardiff will go on sale this September – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-cardiff-tickets' class='btn btn--red btn--book btn--block btn--sign-up mt-5 text-uppercase no-interstitial-check'>Cardiff priority sign-up</a>"
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Cardiff will go on sale this September – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-cardiff-tickets' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase no-interstitial-check'>Cardiff priority sign-up</a>"
                 }
             }
         ]
