@@ -37,7 +37,7 @@ class Calendar extends Component {
 
         let events = []    
 
-        fetchWithTimeout('/cms/wp-json/acf/v3/options/options', {
+        fetchWithTimeout(process.env.BRISTOL_ENDPOINT, {
             method: 'GET'
         }, 5000)
             .then((result) => {
@@ -51,6 +51,7 @@ class Calendar extends Component {
             .then((res) => {
             	console.log('converted dates to json ok');
                 // Create new object ready for calendar
+
                 if (res) {
                     res.acf.dates_bristol.forEach((event, i) => {
 
