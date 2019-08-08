@@ -19,10 +19,7 @@ class Calendar extends Component {
         super(props)
 
         this.state = {
-            connection_to_production: '',
             events: [],
-            selectedDate: '',
-            success: false,
             date: new Date(2019, 10, 1)
         }
 
@@ -38,11 +35,8 @@ class Calendar extends Component {
 
     getEvents() {
 
-        let events = []
-        
-        console.log('Bristol endpoint is: '+process.env.BRISTOL_ENDPOINT);        
+        let events = []    
 
-        //fetchWithTimeout(process.env.BRISTOL_ENDPOINT, {
         fetchWithTimeout('/cms/wp-json/acf/v3/options/options', {
             method: 'GET'
         }, 5000)
