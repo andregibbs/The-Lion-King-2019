@@ -42,6 +42,12 @@
         }
     }
 
+    &--wsize {
+        @include media-breakpoint-up(sm) {
+          width: auto !important;
+        }
+    }
+
     &--block {
         width: 100%;
         display: block;

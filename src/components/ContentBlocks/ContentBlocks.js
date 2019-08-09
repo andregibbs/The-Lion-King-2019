@@ -35,7 +35,7 @@ class ContentBlocks extends Component {
                         
                     case "twoColumnBlock": 
                         return <TwoColumnBlock data={block.twoColumnBlock} key={i} />
-        
+                        
                     default:
                         return ""
                 }

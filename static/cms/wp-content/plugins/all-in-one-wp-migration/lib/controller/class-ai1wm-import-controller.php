@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (C) 2014-2018 ServMask Inc.
+ * Copyright (C) 2014-2019 ServMask Inc.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,6 +22,10 @@
  * ███████║███████╗██║  ██║ ╚████╔╝ ██║ ╚═╝ ██║██║  ██║███████║██║  ██╗
  * ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
  */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	die( 'Kangaroos cannot jump here' );
+}
 
 class Ai1wm_Import_Controller {
 
@@ -108,7 +112,9 @@ class Ai1wm_Import_Controller {
 					// Do request
 					if ( $completed === false || ( $next = next( $filters ) ) && ( $params['priority'] = key( $filters ) ) ) {
 						if ( defined( 'WP_CLI' ) ) {
-							continue;
+							if ( ! defined( 'DOING_CRON' ) ) {
+								continue;
+							}
 						}
 
 						if ( isset( $params['ai1wm_manual_import'] ) || isset( $params['ai1wm_manual_restore'] ) ) {
@@ -117,7 +123,7 @@ class Ai1wm_Import_Controller {
 						}
 
 						wp_remote_post( apply_filters( 'ai1wm_http_import_url', admin_url( 'admin-ajax.php?action=ai1wm_import' ) ), array(
-							'timeout'   => apply_filters( 'ai1wm_http_import_timeout', 5 ),
+							'timeout'   => apply_filters( 'ai1wm_http_import_timeout', 10 ),
 							'blocking'  => apply_filters( 'ai1wm_http_import_blocking', false ),
 							'sslverify' => apply_filters( 'ai1wm_http_import_sslverify', false ),
 							'headers'   => apply_filters( 'ai1wm_http_import_headers', array() ),
@@ -130,6 +136,7 @@ class Ai1wm_Import_Controller {
 				next( $filters );
 			}
 		}
+
 		return $params;
 	}
 

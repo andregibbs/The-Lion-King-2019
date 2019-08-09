@@ -71,7 +71,7 @@ Class Auditions {
 
             if ( ($field == 'file1' && !isset($errors['file1'])) || ($field == 'file2' && !isset($errors['file2'])) ) {
                 
-                $allowed_file_types = $field == 'file1' ? ['image/png', 'image/gif', 'image/jpg', 'image/jpeg', 'image/pjpeg'] : ['application/msword', 'application/pdf', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+                $allowed_file_types = $field == 'file1' ? ['image/png', 'image/gif', 'image/jpg', 'image/jpeg', 'image/pjpeg'] : ['application/msword', 'application/pdf', 'application/application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
                 if ($fields[$field]['size'] > 2097152) {
                     $errors[$field] = 'Exceeds the maximum size of 2mb';
