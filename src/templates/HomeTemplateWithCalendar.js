@@ -75,6 +75,18 @@ class HomeTemplate extends Component {
 
                     <Col lg={6} className="py-5 pt-lg-0 pb-xl-5 d-none d-md-block">
                         <Calendar />
+
+                        <Row className="legend">
+                            <Col md={4} className="d-none d-md-block">
+                               <span className="square square--available"></span> Good seats available
+                            </Col>
+                            <Col md={4} className="d-none d-md-block">
+                              <span className="square square--goodseats"></span> Some good seats available
+                            </Col>
+                            <Col md={4} className="d-none d-md-block">
+                            <span className="square square--limited"></span> Limited seats available
+                            </Col>
+                        </Row>
                     </Col>
                     <Col className="py-5 pb-xl-5">
                         <ContentBlocks data={data} />

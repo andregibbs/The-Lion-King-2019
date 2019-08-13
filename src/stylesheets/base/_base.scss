@@ -14,3 +14,29 @@ button {
 ul {
     padding-left: 20px;
 }
+
+.legend {
+    margin-top: 80px;
+    text-align: center;
+ 
+    .square {
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        position: relative;
+        top: 1px;
+
+    &--limited {
+        background: $tlk-red;
+    }
+
+    &--goodseats {
+        background: $tlk-yellow;
+    }
+
+    &--available {
+        background: $tlk-green;
+    }
+}
+
+}
