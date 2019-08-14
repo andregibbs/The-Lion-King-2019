@@ -30,7 +30,7 @@ class HomeTemplate extends Component {
                                     <div class="pb-0 col">
                                         <div>
                                             <a href="https://www.atgtickets.com/shows/lion-king-bristol/bristol-hippodrome/" class="btn btn--red my-4 interstitial-timed-bristol">BOOK TICKETS</a>
-                                            <p class="h5 mb-3 text-black font-weight-bold">Or select a performance using the availability calendar</p>
+                                            <p class="h5 mb-3 text-black">Or select a performance using the availability calendar</p>
                                             <p class="h5 mb-3 text-black font-weight-bold"><span class="icon icon-phone"></span> 0844 241 0093*</p>
                                             <p class="text-sm">*Calls cost 7p per min, plus your phone company’s access charge</p>
                                             <p class="mb-0">Book tickets in person</p>
