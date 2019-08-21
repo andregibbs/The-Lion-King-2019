@@ -199,8 +199,8 @@
         "displayBookNow": false,
         "metaTitle": "Home | London",
         "metaDescription": "",
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "headerImage": "../images/headers/LK-header-home-simba-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-home-simba-576.jpg",
         "contentBlocks": [
             {
                 "type": "thinTwoColumnBlock",
@@ -256,8 +256,8 @@
         "title": "About the Show",
         "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
         "inFooter": true,
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "headerImage": "../images/headers/LK-header-about-nala-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-about-nala-576.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -284,8 +284,8 @@
         "path": "/london/cast-and-creatives/",
         "title": "Cast & Creatives",
         "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg"
+        "headerImage": "../images/headers/LK-header-cast-access-rafiki-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-cast-access-rafiki-576.jpg"
     },
     {
         "id": "londonYourVisit",
@@ -294,8 +294,8 @@
         "path": "/london/your-visit/",
         "title": "Your Visit",
         "metaDescription": "Get answers to frequently asked questions about your visit to THE LION KING on the official Disney website.",
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "headerImage": "../images/headers/LK-header-yourvisit-mufasa-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-yourvisit-mufasa-576.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -395,8 +395,8 @@
         "path": "/london/access/",
         "title": "Access",
         "metaDescription": "Find out about access performances, wheelchair and hearing facilities at THE LION KING, London’s Landmark Musical, on the official Disney website.",
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "headerImage": "../images/headers/LK-header-cast-access-rafiki-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-cast-access-rafiki-576.jpg",
         "contentBlocks": [
             {
                 "type": "faqBlock",
