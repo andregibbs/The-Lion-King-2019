@@ -112,23 +112,10 @@
                 "twoColumnBlock": {
                     "paddingTop": false,
                     "column1": {
-                        "content": "<h1 class='text-red h3'>Children Auditions</h1><p class='text-lg'>In the stage version of THE LION KING there are two children’s roles: Young Simba and Young Nala. These characters are brace, athletic and energetic lion cubs.</p><p>We are always looking for children aged 8-11 to join our Cub School training programme, which will teach young performers skills in acting, movement and singing to later audition to potentially play these roles professionally in the West End. </p><p> Whilst winning a place in Cub School does not guarantee a part in the stage musical, it has proven to be excellent training for young people with the ambition to work on stage.</p><p> Applications for The Lion King Cub School are ongoing, and auditions are held twice a year. The next auditions will take place in March 2019.</p><p> Applicants for Cub School must be between ages 8 and 11 and below 140cm (4’6”) in height.</p>"
+                        "content": "<div class='mb-5'><h4 class='text-red'>London</h4><p> For all casting enquiries relating to the London production of The Lion King, please email Akosua Boakye.</p><a href='mailto:Akosua.boakye@disney.com?subject=The%20Lion%20King%20Cub%20School%20Enquiry' class='btn btn--red'>Email us</a></div><div class='class='mb-5'><h4 class='text-red'>UK & Ireland Tour</h4><p>For all casting enquiries relating to the UK Touring production of The Lion King, please email Jo Hawes.</p><a href='mailto:joanne.hawes2013@gmail.com?subject=The%20Lion%20King%20UK%20Tour%20casting%20enquiry' class='btn btn--red'>Email us</a></div>"
                     },
                     "column2": {
                         "content": "<div class='position-relative'><a href='/auditions/'><img src='/images/Adult-Auditions.jpg' alt='' /></a><div class='sub-black-title sub-black-title--image'><h4>Adult Auditions</h4><a href='/auditions/'>Find out more about adult auditions</a></div></div>"
-                    }
-                }
-            },
-            {
-                "type": "twoColumnBlock",
-                "twoColumnBlock": {
-                    "containerBgColour": "light-grey",
-                    "bgColour": "white",
-                    "column1": {
-                        "content": "<h4 class='text-red'>London</h4><p> For all casting enquiries relating to the London production of The Lion King, please email Akosua Boakye.</p><a href='mailto:Akosua.boakye@disney.com?subject=The%20Lion%20King%20Cub%20School%20Enquiry' class='btn btn--red'>Email us</a>"
-                    },
-                    "column2": {
-                        "content": "<h4 class='text-red'>UK & Ireland Tour</h4><p>For all casting enquiries relating to the upcoming UK Touring production of The Lion King, please email Jo Hawes.</p><a href='mailto:joanne.hawes2013@gmail.com?subject=The%20Lion%20King%20UK%20Tour%20casting%20enquiry' class='btn btn--red btn--300'>Email us</a>"
                     }
                 }
             }
