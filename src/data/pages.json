@@ -112,7 +112,7 @@
                 "twoColumnBlock": {
                     "paddingTop": false,
                     "column1": {
-                        "content": "<div class='mb-5'><h4 class='text-red'>London</h4><p> For all casting enquiries relating to the London production of The Lion King, please email Akosua Boakye.</p><a href='mailto:Akosua.boakye@disney.com?subject=The%20Lion%20King%20Cub%20School%20Enquiry' class='btn btn--red'>Email us</a></div><div class='class='mb-5'><h4 class='text-red'>UK & Ireland Tour</h4><p>For all casting enquiries relating to the UK Touring production of The Lion King, please email Jo Hawes.</p><a href='mailto:joanne.hawes2013@gmail.com?subject=The%20Lion%20King%20UK%20Tour%20casting%20enquiry' class='btn btn--red'>Email us</a></div>"
+                        "content": "<div class='mb-5'><h4 class='text-red'>London</h4><p> For all casting enquiries relating to the London production of The Lion King, please email Akosua Boakye.</p><a href='mailto:Akosua.boakye@disney.com?subject=The%20Lion%20King%20London%20Children%20Auditions' class='btn btn--red'>Email us</a></div><div class='class='mb-5'><h4 class='text-red'>UK & Ireland Tour</h4><p>For all casting enquiries relating to the UK Touring production of The Lion King, please email Jo Hawes.</p><a href='mailto:joanne.hawes2013@gmail.com?subject=The%20Lion%20King%20UK%20Tour%20casting%20enquiry' class='btn btn--red'>Email us</a></div>"
                     },
                     "column2": {
                         "content": "<div class='position-relative'><a href='/auditions/'><img src='/images/Adult-Auditions.jpg' alt='' /></a><div class='sub-black-title sub-black-title--image'><h4>Adult Auditions</h4><a href='/auditions/'>Find out more about adult auditions</a></div></div>"
