@@ -936,8 +936,8 @@
         "title": "Home",
         "metaTitle": "Home | Southampton",
         "metaDescription": "Tickets go on sale in September 2019 for Southampton Mayflower. The Lion King, coming July 2020.",
-        "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
-        "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg",
+        "headerImage": "../images/headers/southampton-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/southampton-576-sponsor.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -964,8 +964,8 @@
         "displayBookNow": false,
         "title": "About the Show",
         "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
-        "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
-        "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg",
+        "headerImage": "../images/headers/southampton-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/southampton-576-sponsor.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -992,8 +992,8 @@
         "path": "/southampton/cast-and-creatives/",
         "title": "Cast & Creatives",
         "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
-        "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
-        "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg"
+        "headerImage": "../images/headers/southampton-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/southampton-576-sponsor.jpg"
     },
     {
         "id": "southamptonRelaxedPerformances",
@@ -1032,8 +1032,8 @@
         "displayBookNow": false,
         "title": "Terms and Conditions",
         "metaDescription": "",
-        "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
-        "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg",
+        "headerImage": "../images/headers/southampton-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/southampton-576-sponsor.jpg",
         "contentBlocks": [
             {
                 "type": "twoColumnBlock",
