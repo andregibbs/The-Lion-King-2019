@@ -828,7 +828,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Cardiff will go on sale this September – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-cardiff-tickets' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase no-interstitial-check'>Cardiff priority sign-up</a>"
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Cardiff will go on sale this September – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-cardiff-tickets' class='btn btn--red btn--book btn--sign-up my-5 text-uppercase no-interstitial-check'>Cardiff priority sign-up</a>"
                 }
             }
         ]
@@ -934,8 +934,8 @@
         "path": "/southampton/",
         "displayBookNow": false,
         "title": "Home",
-        "metaTitle": "Home | Cardiff",
-        "metaDescription": "Tickets go osn sale in September 2019 for Wales Millennium Centre. The Lion King, coming July 2020.",
+        "metaTitle": "Home | Southampton",
+        "metaDescription": "Tickets go on sale in September 2019 for Southampton Mayflower. The Lion King, coming July 2020.",
         "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
         "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg",
         "contentBlocks": [
@@ -943,14 +943,14 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Wales Millennium Centre <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>9 July – 29 August 2020</span></h1>"
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Southampton Mayflower <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>3 September – 10 October 2020</span></h1>"
                 }
             },
             {
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Cardiff will go on sale this September – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-cardiff-tickets' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase no-interstitial-check'>Cardiff priority sign-up</a>"
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Southampton will go on sale this October – sign up now for priority access to tickets below.</h2><a href='#' class='btn btn--red btn--book btn--sign-up my-5 text-uppercase no-interstitial-check'>Southampton priority sign-up</a>"
                 }
             }
         ]
