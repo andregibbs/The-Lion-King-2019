@@ -943,14 +943,14 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Southampton Mayflower <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>3 September – 10 October 2020</span></h1>"
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>The Alhambra Theatre <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>30 April – 20 June 2020</span></h1>"
                 }
             },
             {
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Bradford will go on sale this October – sign up now for priority access to tickets below.</h2><a href='#' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase no-interstitial-check'>Bradford Priority Sign-Up</a>"
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Bradford will go on sale this October – sign up now for priority access to tickets below.</h2><a href='#' class='btn btn--red btn--book btn--sign-up my-5 text-uppercase no-interstitial-check'>Bradford Priority Sign-Up</a>"
                 }
             }
         ]
