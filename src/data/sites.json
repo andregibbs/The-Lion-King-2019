@@ -23,5 +23,10 @@
         "id": "cardiff",
         "path": "/cardiff/",
         "title": "Cardiff"
+    },
+    {
+        "id": "southampton",
+        "path": "/southampton/",
+        "title": "Southampton"
     }
 ]
