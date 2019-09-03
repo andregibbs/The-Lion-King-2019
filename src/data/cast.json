@@ -1531,6 +1531,12 @@
                 "image": "../images/headshots/oraine-frator.jpg"
             },
             {
+                "name": "Willians Ferreira",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: Salvador Bahia, Brazil</p><p>Training: Ballet School of The Afro Dance Foundation; High School of Arts and Craft</p><p>Theatre: <em>The Lion King </em>(Netherlands); <em>Capoeira </em>(US tour); <em>CIA Robson</em> (Brazil tour)</p>",
+                "image": "https://via.placeholder.com/380"
+            },
+            {
                 "name": "Daniel Mejia Garcia",
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Santo Domingo, Dominican Republic</p><p>Training: Ecos Dance School; National Company of Contemporary Dance; Institute Alicia Alonso (Madrid); Broadway Dance Center; Fine Art School (Dominican Republic); Central de Cine (Madrid) Theatre: <em>The Lion King </em>(Madrid); <em>Hairspray </em>(Teatro Nacional, Dominican Republic); <em>Dreamgirls</em> (Palacio de Bellas Artes, Dominican Republic); <em>Chicago </em>(Teatro Nacional, Dominican Republic)<em>;</em> <em>Cinderella </em>(Teatro Nacional, Dominican Republic)</p><p>Television: <em>Latin American Idol; Minuto de Fama</em>; <em>El Fan Club</em></p><p>Other: In 2017 Daniel was nominated for a Soberano Award in the Dominican Republic as an outstanding artist abroad. Daniel has also performed with the National Company of Contemporary Dance in the Dominican Republic.</p>",
@@ -1695,7 +1701,7 @@
                 "image": "../images/headshots/theo-somolu.jpg"
             }
         ],
-         "youngnala": [
+        "youngnala": [
             {
                 "name": "Minaii Barrowes",
                 "role": "Young Nala",
@@ -1872,6 +1878,12 @@
                 "image": "../images/headshots/oraine-frator.jpg"
             },
             {
+                "name": "Willians Ferreira",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: Salvador Bahia, Brazil</p><p>Training: Ballet School of The Afro Dance Foundation; High School of Arts and Craft</p><p>Theatre: <em>The Lion King </em>(Netherlands); <em>Capoeira </em>(US tour); <em>CIA Robson</em> (Brazil tour)</p>",
+                "image": "https://via.placeholder.com/380"
+            },
+            {
                 "name": "Daniel Mejia Garcia",
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Santo Domingo, Dominican Republic</p><p>Training: Ecos Dance School; National Company of Contemporary Dance; Institute Alicia Alonso (Madrid); Broadway Dance Center; Fine Art School (Dominican Republic); Central de Cine (Madrid) Theatre: <em>The Lion King </em>(Madrid); <em>Hairspray </em>(Teatro Nacional, Dominican Republic); <em>Dreamgirls</em> (Palacio de Bellas Artes, Dominican Republic); <em>Chicago </em>(Teatro Nacional, Dominican Republic)<em>;</em> <em>Cinderella </em>(Teatro Nacional, Dominican Republic)</p><p>Television: <em>Latin American Idol; Minuto de Fama</em>; <em>El Fan Club</em></p><p>Other: In 2017 Daniel was nominated for a Soberano Award in the Dominican Republic as an outstanding artist abroad. Daniel has also performed with the National Company of Contemporary Dance in the Dominican Republic.</p>",
@@ -2036,7 +2048,7 @@
                 "image": "../images/headshots/theo-somolu.jpg"
             }
         ],
-         "youngnala": [
+        "youngnala": [
             {
                 "name": "Minaii Barrowes",
                 "role": "Young Nala",
