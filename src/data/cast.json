@@ -424,10 +424,10 @@
                 "image": "../images/headshots/khanyisani-beato.jpg"
             },
             {
-                "name": "Melvin La Blanc",
-                "role": "Ensemble",
-                "bio": "<p>Place of Birth: St. Maarten, The Netherlands</p><p>Training: Associated Studios, BlakeArts, National Institute of Arts (N.I.A), Dance Theatre of St. Maarten</p><p>Theatre: <em>Afro Dance Explosion </em>(Blake Arts Ensemble); <em>Bournemouth Dance Festival </em>(ADAD); <em>Hairspray </em>(Dance Theatre of St. Maarten)</p><p>Television: <em>Sing: Ultimate A Capella</em></p><p>Film: <em>The Desert River; Mamma Mia! Here We Go Again</em></p>",
-                "image": "../images/headshots/melvin-la-blanc.jpg"
+                "name": "Mamido Bomboko Souchu",
+                "role": "Swing",
+                "bio": "<p>Place of Birth: Kinshasa, Democratic Republic of the Congo</p><p>Training: National Conservatory of Music (Belgium); Institute of Rhythm Methode Dalcroze (Belgium); Masterclass Icom (Paris)</p><p>Television: <em>The Voice </em>(France); <em>Taratata </em>(France)</p><p>Radio: Official voice for NJR radio, Fun Radio, Ado FM, Black Box, 2M, Radio Marseille</p><p>Other: Mamido has performed with artistes including Mylene Farmer, Pascal O&rsquo;zBispo and Axelle Red. Mamido has also worked extensively as an animation voiceover artist with credits including <em>Princess And</em> <em>The Frog</em>, <em>Phineas and Ferb</em>, <em>Kuzco</em> <em>2: King of Kronk </em>and <em>Foot 2 Rue </em>featuring Stomy Bugsy.</p>",
+                "image": "../images/headshots/mamido-bomoko-souchu.jpg"
             },
             {
                 "name": "Nigel Brown",
@@ -456,7 +456,7 @@
             {
                 "name": "Jorrell Coiffic-Kamall",
                 "role": "Ensemble",
-                "bio": "<p>Place of Birth: London, England Theatre: <em>Robin Hood </em>(Watermill Theatre); <em>Dennis of Penge </em>(Oval House Theatre); <em>The Wind in</em> <em>the Willows </em>(UK tour &amp; London Palladium); <em>Ross </em>(Chichester Festival Theatre); <em>Bend It Like Beckham</em> (Phoenix Theatre); <em>Beauty &amp; The</em> <em>Beast </em>(Theatre Royal Stratford East); <em>The Jungle Book </em>(Birmingham Rep &amp; Camden Roundhouse); <em>The Water</em> <em>Babies </em>(Leicester Curve); <em>The Jungle</em> <em>Book </em>(Citizen&rsquo;s Theatre, Glasgow); <em>The Warriors &nbsp;</em>(Barbican Theatre); <em>Jack &amp; The Beanstalk </em>(Theatre Royal Stratford East); <em>Freaked </em>(The Helix Theatre, Dublin); <em>Jackson 5 Alive</em> (UK tour)</p><p>Television: <em>Wind in the Willows; Ireland&rsquo;s Top Teens; MTV Super Sweet Sixteen; Ahead of the Class; Top of the Pops; CBBC Proms in the Park; Blue Peter </em>Radio: <em>Magic at the Musicals </em>(Magic FM)</p><p>Other: Jorell has appeared in music videos for DJ Ironik, Nolay and Orson and performed at the MOBO music awards in the 02 Arena. Jorell worked as the Choreography/Movement Director on <em>NAKED </em>atthe Vault Theatre.</p>",
+                "bio": "<p>Place of Birth: London, England</p><p> Theatre: <em>Robin Hood </em>(Watermill Theatre); <em>Dennis of Penge </em>(Oval House Theatre); <em>The Wind in</em> <em>the Willows </em>(UK tour &amp; London Palladium); <em>Ross </em>(Chichester Festival Theatre); <em>Bend It Like Beckham</em> (Phoenix Theatre); <em>Beauty &amp; The</em> <em>Beast </em>(Theatre Royal Stratford East); <em>The Jungle Book </em>(Birmingham Rep &amp; Camden Roundhouse); <em>The Water</em> <em>Babies </em>(Leicester Curve); <em>The Jungle</em> <em>Book </em>(Citizen&rsquo;s Theatre, Glasgow); <em>The Warriors &nbsp;</em>(Barbican Theatre); <em>Jack &amp; The Beanstalk </em>(Theatre Royal Stratford East); <em>Freaked </em>(The Helix Theatre, Dublin); <em>Jackson 5 Alive</em> (UK tour)</p><p>Television: <em>Wind in the Willows; Ireland&rsquo;s Top Teens; MTV Super Sweet Sixteen; Ahead of the Class; Top of the Pops; CBBC Proms in the Park; Blue Peter </em>Radio: <em>Magic at the Musicals </em>(Magic FM)</p><p>Other: Jorell has appeared in music videos for DJ Ironik, Nolay and Orson and performed at the MOBO music awards in the 02 Arena. Jorell worked as the Choreography/Movement Director on <em>NAKED </em>atthe Vault Theatre.</p>",
                 "image": "../images/headshots/jorrel-coiffic-kamall.jpg"
             },
             {
@@ -466,9 +466,9 @@
                 "image": "../images/headshots/tevin-daniel.jpg"
             },
             {
-                "name": "Lwando Dennis",
+                "name": "Lwando Bam",
                 "role": "Swing",
-                "bio": "<p>Place of Birth: Cape Town, South Africa</p><p>Training: Rainbow Arts Organization Theatre: <em>They Died Singing </em>(Cape Town/East London/Port Elizabeth); <em>Izityilelo Zobuze </em>(Cape Town); <em>Ityala</em> <em>Lamawele </em>(Cape Town/Grahamstown National Arts Festival); <em>Unsung</em> <em>Heroes </em>(Zabalaza Festival Baxter Theatre, Cape Town); <em>The Lion King </em>(Madrid)</p><p>Television: <em>Hectic Nine 9</em></p><p>Film: <em>Honey 3</em></p><p>Radio: <em>Radio Zibonele FM</em></p>",
+                "bio": "<p>Place of Birth: Cape Town, South Africa</p><p>Training: Rainbow Arts Organization</p><p> Theatre: <em>They Died Singing </em>(Cape Town/East London/Port Elizabeth); <em>Izityilelo Zobuze </em>(Cape Town); <em>Ityala</em> <em>Lamawele </em>(Cape Town/Grahamstown National Arts Festival); <em>Unsung</em> <em>Heroes </em>(Zabalaza Festival Baxter Theatre, Cape Town); <em>The Lion King </em>(Madrid)</p><p>Television: <em>Hectic Nine 9</em></p><p>Film: <em>Honey 3</em></p><p>Radio: <em>Radio Zibonele FM</em></p>",
                 "image": "../images/headshots/lwando-dennis.jpg"
             },
             {
@@ -486,21 +486,16 @@
             {
                 "name": "Oraine Frater",
                 "role": "Ensemble",
-                "bio": "<p>Place of Birth: Kingston, Jamaica</p><p>Training: The University of Technology, Jamaica; L&rsquo;acadco: A United Caribbean Dance Force Theatre: <em>Amalgamation </em>(Plie for the Arts); <em>Long Walk to Freedom </em>(Jamaica&rsquo;s National Stadium)</p><p>Television: <em>Smile Jamaica Morning Time Shows</em></p><p>Other: Oraine has appeared in <em>Fragile Minds </em>with L&rsquo;acadco and performed at <em>International</em> <em>Association of Blacks in Dance</em>,<em> Caribbean Festival of Arts </em>(CARIFESTA), <em>Reggae Sumfest</em>,<em> Jamaica Independence Festival: Grand Gala </em>and the <em>One Love Reggae Festival </em>in Japan.</p>",
+                "bio": "<p>Place of Birth: Kingston, Jamaica</p><p>Training: The University of Technology, Jamaica; L&rsquo;acadco: A United Caribbean Dance Force</p><p> Theatre: <em>Amalgamation </em>(Plie for the Arts); <em>Long Walk to Freedom </em>(Jamaica&rsquo;s National Stadium)</p><p>Television: <em>Smile Jamaica Morning Time Shows</em></p><p>Other: Oraine has appeared in <em>Fragile Minds </em>with L&rsquo;acadco and performed at <em>International</em> <em>Association of Blacks in Dance</em>,<em> Caribbean Festival of Arts </em>(CARIFESTA), <em>Reggae Sumfest</em>,<em> Jamaica Independence Festival: Grand Gala </em>and the <em>One Love Reggae Festival </em>in Japan.</p>",
                 "image": "../images/headshots/oraine-frator.jpg"
             },
             {
                 "name": "Willians Ferreira",
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Salvador Bahia, Brazil</p><p>Training: Ballet School of The Afro Dance Foundation; High School of Arts and Craft</p><p>Theatre: <em>The Lion King </em>(Netherlands); <em>Capoeira </em>(US tour); <em>CIA Robson</em> (Brazil tour)</p>",
-                "image": "https://via.placeholder.com/380"
+                "image": "../images/headshots/placeholder.jpg"
             },
-            {
-                "name": "Daniel Mejia Garcia",
-                "role": "Ensemble",
-                "bio": "<p>Place of Birth: Santo Domingo, Dominican Republic</p><p>Training: Ecos Dance School; National Company of Contemporary Dance; Institute Alicia Alonso (Madrid); Broadway Dance Center; Fine Art School (Dominican Republic); Central de Cine (Madrid) Theatre: <em>The Lion King </em>(Madrid); <em>Hairspray </em>(Teatro Nacional, Dominican Republic); <em>Dreamgirls</em> (Palacio de Bellas Artes, Dominican Republic); <em>Chicago </em>(Teatro Nacional, Dominican Republic)<em>;</em> <em>Cinderella </em>(Teatro Nacional, Dominican Republic)</p><p>Television: <em>Latin American Idol; Minuto de Fama</em>; <em>El Fan Club</em></p><p>Other: In 2017 Daniel was nominated for a Soberano Award in the Dominican Republic as an outstanding artist abroad. Daniel has also performed with the National Company of Contemporary Dance in the Dominican Republic.</p>",
-                "image": "../images/headshots/daniel-mejia.jpg"
-            },
+    
             {
                 "name": "Brian Gilligan",
                 "role": "Standby Pumbaa/Scar",
@@ -510,8 +505,14 @@
             {
                 "name": "Daniel Griffith",
                 "role": "Ensemble",
-                "bio": "<p>Place of Birth: Trinidad and Tobago</p><p>Training: The Oratory Foundation, Vanessa Briggs Vocal Academy Theatre: <em>The Merchant of Venice,</em> <em>King Lear, A Midsummer&rsquo;s Night&rsquo;s</em> <em>Dream, Othello, Twelfth Night, Julius</em> <em>Caesar, The Tempest, The Taming of</em> <em>the Shrew </em>(Naparima Bowl, Trinidad)</p>",
+                "bio": "<p>Place of Birth: Trinidad and Tobago</p><p>Training: The Oratory Foundation, Vanessa Briggs Vocal Academy</p><p> Theatre: <em>The Merchant of Venice,</em> <em>King Lear, A Midsummer&rsquo;s Night&rsquo;s</em> <em>Dream, Othello, Twelfth Night, Julius</em> <em>Caesar, The Tempest, The Taming of</em> <em>the Shrew </em>(Naparima Bowl, Trinidad)</p>",
                 "image": "../images/headshots/daniel-griffith.jpg"
+            },
+            {
+                "name": "Caleaf Henson",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: Pennsylvania, United States of America</p><p>Training: Chester Fine Arts Center; Touch of Class Dance Studio; Pa Academy of Ballet; Broadway Dance Center; Brandywine Ballet</p><p>Television: <em>So You Think You Can Dance</em></p><p>Other: <em>The Lion King </em>marks Caleaf&rsquo;s professional debut.</p>",
+                "image": "../images/headshots/caleaf-henson.jpg"
             },
             {
                 "name": "Alicia Hayward",
@@ -524,24 +525,24 @@
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: London, England</p><p>Training: Manchester Metropolitan University BA (Hons) Contemporary Theatre and Performance</p><p>Theatre: <em>Respect Aretha: Song Book Tour </em>(UK tour)<em>; Caroline, or Change </em>(Playhouse Theatre)<em>; Disneyland&rsquo;s Mickey and the Magician </em>(Disneyland Paris); <em>Yesterday&rsquo;s House </em>(Theatre Royal Stratford East); <em>Touching Moments </em>(Arc Theatre); <em>Flesh </em>(Edinburgh Fringe Festival)</p>",
                 "image": "../images/headshots/zalika-henry.jpg"
-            },
-            {
-                "name": "Caleaf Henson",
-                "role": "Ensemble",
-                "bio": "<p>Place of Birth: Pennsylvania, United States of America</p><p>Training: Chester Fine Arts Center; Touch of Class Dance Studio; Pa Academy of Ballet; Broadway Dance Center; Brandywine Ballet</p><p>Television: <em>So You Think You Can Dance</em></p><p>Other: <em>The Lion King </em>marks Caleaf&rsquo;s professional debut.</p>",
-                "image": "../images/headshots/caleaf-henson.jpg"
-            },
-            {
-                "name": "Cristiane Santos De Jesus",
-                "role": "Swing",
-                "bio": "<p>Place of Birth: Salvador-Bahia-Brazil</p><p>Training: Candolina School, Ballet Folkloric of Bahia, Cultural Foundation of Bahia, Harmonic Dance School Paris</p><p>Theatre: <em>The Lion King </em>(Brazil and The Netherlands)</p><p>Television: <em>Faustao Globo; Programa Do Faro Record</em></p><p>Film: <em>Copacabana</em></p><p>Other: Christiane has performed with Dance Brazil Company at the Joyce Theatre, New York and with Bale Folclorico da Bahia at the Miguel Santana Theatre. Christiane has also performed with singers Ivete Sangalo and Daniela Mercury.</p>",
-                "image": "../images/headshots/christine-santos-de-jesus.jpg"
-            },
+            },     
             {
                 "name": "Olivia Jones",
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Ascot, England</p><p>Training: The Liverpool Institute for Performing Arts</p><p>Theatre: <em>One Man&rsquo;s Story </em>(Liverpool Philharmonic Hall)</p>",
                 "image": "../images/headshots/olivia-jones.jpg"
+            },
+            {
+                "name": "Melvin La Blanc",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: St. Maarten, The Netherlands</p><p>Training: Associated Studios, BlakeArts, National Institute of Arts (N.I.A), Dance Theatre of St. Maarten</p><p>Theatre: <em>Afro Dance Explosion </em>(Blake Arts Ensemble); <em>Bournemouth Dance Festival </em>(ADAD); <em>Hairspray </em>(Dance Theatre of St. Maarten)</p><p>Television: <em>Sing: Ultimate A Capella</em></p><p>Film: <em>The Desert River; Mamma Mia! Here We Go Again</em></p>",
+                "image": "../images/headshots/melvin-la-blanc.jpg"
+            },
+            {
+                "name": "Tara Price",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: Kingston, Jamaica</p><p>Training: Wolmer&rsquo;s Dance Troupe; Dance Theatre Xaymaca</p><p>Television: <em>RE TV Charts Show; </em>Smile Jamaica Morning Show; TVJ Daytime Live; <em>Hype TV Up &amp; Live</em>; <em>CVM at Sunrise Buss a Move Segment</em></p><p>Film: <em>Bond 25; Origins; Kingston: Heart of the City</em></p><p>Other: Tara has performed at C&rsquo;Danco Dance Company in Suriname, DTX Tourin Beijing, Reggae Sumfest, Your View Awards, Actor Boy Awards at the Miss Jamaica Universe. Tara has also appeared in a number of music videos - most notably with artist Cardi B.</p>",
+                "image": "../images/headshots/tara-price.jpg"
             },
             {
                 "name": "Zanele Mazibuko",
@@ -550,15 +551,15 @@
                 "image": "../images/headshots/zanele-mazibuko.jpg"
             },
             {
-                "name": "Jochebel Ohene MacCarthy",
-                "role": "Sarabi/Ensemble",
-                "bio": "<p>Place of Birth: London, England</p><p>Training: Trinity Laban Conservatoire of Music and Dance</p><p>Theatre: <em>Ghost </em>(UK &amp; International tour); <em>The Color Purple </em>(Leicester Curve &amp; Birmingham Hippodrome)</p><p>Other: Jochebel has performed at the Wembley FA Cup Finals (2017 &amp; 2018) and performed as a dancer/ drummer for the NFL London Game (Minnesota Vikings vs. Cleveland Browns).</p>",
-                "image": "../images/headshots/jochebel-ohene-maccarthy.jpg"
+                "name": "Daniel Mejia",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: Santo Domingo, Dominican Republic</p><p>Training: Ecos Dance School; National Company of Contemporary Dance; Institute Alicia Alonso (Madrid); Broadway Dance Center; Fine Art School (Dominican Republic); Central de Cine (Madrid)</p><p> Theatre: <em>The Lion King </em>(Madrid); <em>Hairspray </em>(Teatro Nacional, Dominican Republic); <em>Dreamgirls</em> (Palacio de Bellas Artes, Dominican Republic); <em>Chicago </em>(Teatro Nacional, Dominican Republic)<em>;</em> <em>Cinderella </em>(Teatro Nacional, Dominican Republic)</p><p>Television: <em>Latin American Idol; Minuto de Fama</em>; <em>El Fan Club</em></p><p>Other: In 2017 Daniel was nominated for a Soberano Award in the Dominican Republic as an outstanding artist abroad. Daniel has also performed with the National Company of Contemporary Dance in the Dominican Republic.</p>",
+                "image": "../images/headshots/daniel-mejia.jpg"
             },
             {
-                "name": "Zanele Ndlovu",
+                "name": "Zanele Patricia Ndlovu",
                 "role": "Ensemble",
-                "bio": "<p>Place of Birth Durban, South Africa</p><p>Training: Ekhaya Multi Art Centre; Duma Ndlovu Academy Theatre: <em>In My Own Voice</em> (Playhouse Opera Theatre, Durban); <em>Sarafina </em>(State Theatre, Joburg Theatre); <em>How Long </em>(Playhouse Opera Theatre, Durban)</p>",
+                "bio": "<p>Place of Birth Durban, South Africa</p><p>Training: Ekhaya Multi Art Centre; Duma Ndlovu Academy</p><p> Theatre: <em>In My Own Voice</em> (Playhouse Opera Theatre, Durban); <em>Sarafina </em>(State Theatre, Joburg Theatre); <em>How Long </em>(Playhouse Opera Theatre, Durban)</p>",
                 "image": "../images/headshots/zanele-ndlovu.jpg"
             },
             {
@@ -574,28 +575,34 @@
                 "image": "../images/headshots/brianna-ogunbawo.jpg"
             },
             {
+                "name": "Jochebel Ohene MacCarthy",
+                "role": "Sarabi/Ensemble",
+                "bio": "<p>Place of Birth: London, England</p><p>Training: Trinity Laban Conservatoire of Music and Dance</p><p>Theatre: <em>Ghost </em>(UK &amp; International tour); <em>The Color Purple </em>(Leicester Curve &amp; Birmingham Hippodrome)</p><p>Other: Jochebel has performed at the Wembley FA Cup Finals (2017 &amp; 2018) and performed as a dancer/ drummer for the NFL London Game (Minnesota Vikings vs. Cleveland Browns).</p>",
+                "image": "../images/headshots/jochebel-ohene-maccarthy.jpg"
+            },
+            {
                 "name": "Paige Peddie",
                 "role": "Swing",
                 "bio": "<p>Place of Birth: Nottingham, England</p><p>Training: Royal Academy of Music</p><p>Theatre: <em>Equus</em>, <em>Female Transport</em>, <em>Enron </em>(Nottingham Playhouse)</p><p>Other: Paige appeared on BBC One&rsquo;s <em>Michael McIntyre&rsquo;s Big</em> <em>Show </em>as the &lsquo;Unexpected Star&rsquo; on Christmas Day in 2018.</p>",
                 "image": "../images/headshots/paige-peddie.jpg"
             },
             {
-                "name": "Tara Price",
-                "role": "Ensemble",
-                "bio": "<p>Place of Birth: Kingston, Jamaica</p><p>Training: Wolmer&rsquo;s Dance Troupe; Dance Theatre Xaymaca</p><p>Television: <em>RE TV Charts Show; </em>Smile Jamaica Morning Show; TVJ Daytime Live; <em>Hype TV Up &amp; Live</em>; <em>CVM at Sunrise Buss a Move Segment</em></p><p>Film: <em>Bond 25; Origins; Kingston: Heart of the City</em></p><p>Other: Tara has performed at C&rsquo;Danco Dance Company in Suriname, DTX Tourin Beijing, Reggae Sumfest, Your View Awards, Actor Boy Awards at the Miss Jamaica Universe. Tara has also appeared in a number of music videos - most notably with artist Cardi B.</p>",
-                "image": "../images/headshots/tara-price.jpg"
+                "name": "Connor Pele Williams",
+                "role": "Swing",
+                "bio": "<p>Place of Birth: London, England</p><p>Training: London Contemporary Dance School, The Brit School</p><p>Theatre: <em>The Lion King </em>(Lyceum Theatre); <em>Cendrillon </em>(Glyndebourne Opera); <em>Polaris </em>(Sadler&rsquo;s Wells)</p><p>Other: Connor appeared in music videos for artists Caswell and Elixr. Connor choreographed <em>Taffeta</em> <em>Dreaming </em>for TRAH and CHIPS Theatre Ensemble in 2019 as part of Resolutions festival at The Place (London).</p>",
+                "image": "../images/headshots/conor-pele-williams.jpg"
             },
             {
-                "name": "Charlotte Samaroo Mamido",
+                "name": "Charlotte Samaroo",
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Florida, United States of America</p><p>Training: Grier School, George Mason University</p><p>Theatre: <em>Upfront Convention </em>(CTC Dance Company); <em>Dear Diary Series</em> (O&rsquo;Kody Arts)</p>",
                 "image": "../images/headshots/charlotte-samaroo.jpg"
             },
             {
-                "name": "Bomboko Souchu",
+                "name": "Cristiane Santos De Jesus",
                 "role": "Swing",
-                "bio": "<p>Place of Birth: Kinshasa, Democratic Republic of the Congo</p><p>Training: National Conservatory of Music (Belgium); Institute of Rhythm Methode Dalcroze (Belgium); Masterclass Icom (Paris)</p><p>Television: <em>The Voice </em>(France); <em>Taratata </em>(France)</p><p>Radio: Official voice for NJR radio, Fun Radio, Ado FM, Black Box, 2M, Radio Marseille</p><p>Other: Mamido has performed with artistes including Mylene Farmer, Pascal O&rsquo;zBispo and Axelle Red. Mamido has also worked extensively as an animation voiceover artist with credits including <em>Princess And</em> <em>The Frog</em>, <em>Phineas and Ferb</em>, <em>Kuzco</em> <em>2: King of Kronk </em>and <em>Foot 2 Rue </em>featuring Stomy Bugsy.</p>",
-                "image": "../images/headshots/mamido-bomoko-souchu.jpg"
+                "bio": "<p>Place of Birth: Salvador-Bahia-Brazil</p><p>Training: Candolina School, Ballet Folkloric of Bahia, Cultural Foundation of Bahia, Harmonic Dance School Paris</p><p>Theatre: <em>The Lion King </em>(Brazil and The Netherlands)</p><p>Television: <em>Faustao Globo; Programa Do Faro Record</em></p><p>Film: <em>Copacabana</em></p><p>Other: Christiane has performed with Dance Brazil Company at the Joyce Theatre, New York and with Bale Folclorico da Bahia at the Miguel Santana Theatre. Christiane has also performed with singers Ivete Sangalo and Daniela Mercury.</p>",
+                "image": "../images/headshots/christine-santos-de-jesus.jpg"
             },
             {
                 "name": "Sherry Tay",
@@ -608,12 +615,6 @@
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Manchester, England</p><p>Training: Gwyneth Hare School; Northern Ballet School</p><p>Other: <em>The Lion King </em>marks Francesca&rsquo;s professional debut.</p>",
                 "image": "../images/headshots/francesca-thompson.jpg"
-            },
-            {
-                "name": "Connor Pele Williams",
-                "role": "Swing",
-                "bio": "<p>Place of Birth: London, England</p><p>Training: London Contemporary Dance School, The Brit School</p><p>Theatre: <em>The Lion King </em>(Lyceum Theatre); <em>Cendrillon </em>(Glyndebourne Opera); <em>Polaris </em>(Sadler&rsquo;s Wells)</p><p>Other: Connor appeared in music videos for artists Caswell and Elixr. Connor choreographed <em>Taffeta</em> <em>Dreaming </em>for TRAH and CHIPS Theatre Ensemble in 2019 as part of Resolutions festival at The Place (London).</p>",
-                "image": "../images/headshots/conor-pele-williams.jpg"
             },
             {
                 "name": "Maria Yim",
@@ -670,7 +671,7 @@
             {
                 "name": "Stella Harris",
                 "role": "Young Nala",
-                "bio": "<p>Place of Birth: Addis Ababa, Ethiopia</p><p>Training: The Lion King Cub School; Akoma Asa Performing Arts Theatre: <em>Hansel and Gretel</em> (The Place); <em>Remembering the</em> <em>Transatlantic Slave Trade and</em> <em>its Abolition </em>(City Hall London); <em>Concrete Dreams </em>(Southbank Centre); Narrating <em>The Somatic: Gathering Voices, Sharing Practice </em>(Middlesex University)</p>",
+                "bio": "<p>Place of Birth: Addis Ababa, Ethiopia</p><p>Training: The Lion King Cub School; Akoma Asa Performing Arts</p><p>Theatre: <em>Hansel and Gretel</em> (The Place); <em>Remembering the</em> <em>Transatlantic Slave Trade and</em> <em>its Abolition </em>(City Hall London); <em>Concrete Dreams </em>(Southbank Centre); Narrating <em>The Somatic: Gathering Voices, Sharing Practice </em>(Middlesex University)</p>",
                 "image": "../images/headshots/stella-harris.jpg"
             },
             {
@@ -686,7 +687,7 @@
                 "image": "../images/headshots/mary-anne-pity-tiekou.jpg"
             },
             {
-                "name": "Drew Jada Maite Toussaint",
+                "name": "Drew Toussaint",
                 "role": "Young Nala",
                 "bio": "<p>Place of Birth: London, England</p><p>Training: The Lion King Cub School; Creative Kidz Stage School Other: <em>The Lion King </em>marks Drew&rsquo;s professional debut.</p>",
                 "image": "../images/headshots/drew-toussaint.jpg"
@@ -771,10 +772,10 @@
                 "image": "../images/headshots/khanyisani-beato.jpg"
             },
             {
-                "name": "Melvin La Blanc",
-                "role": "Ensemble",
-                "bio": "<p>Place of Birth: St. Maarten, The Netherlands</p><p>Training: Associated Studios, BlakeArts, National Institute of Arts (N.I.A), Dance Theatre of St. Maarten</p><p>Theatre: <em>Afro Dance Explosion </em>(Blake Arts Ensemble); <em>Bournemouth Dance Festival </em>(ADAD); <em>Hairspray </em>(Dance Theatre of St. Maarten)</p><p>Television: <em>Sing: Ultimate A Capella</em></p><p>Film: <em>The Desert River; Mamma Mia! Here We Go Again</em></p>",
-                "image": "../images/headshots/melvin-la-blanc.jpg"
+                "name": "Mamido Bomboko Souchu",
+                "role": "Swing",
+                "bio": "<p>Place of Birth: Kinshasa, Democratic Republic of the Congo</p><p>Training: National Conservatory of Music (Belgium); Institute of Rhythm Methode Dalcroze (Belgium); Masterclass Icom (Paris)</p><p>Television: <em>The Voice </em>(France); <em>Taratata </em>(France)</p><p>Radio: Official voice for NJR radio, Fun Radio, Ado FM, Black Box, 2M, Radio Marseille</p><p>Other: Mamido has performed with artistes including Mylene Farmer, Pascal O&rsquo;zBispo and Axelle Red. Mamido has also worked extensively as an animation voiceover artist with credits including <em>Princess And</em> <em>The Frog</em>, <em>Phineas and Ferb</em>, <em>Kuzco</em> <em>2: King of Kronk </em>and <em>Foot 2 Rue </em>featuring Stomy Bugsy.</p>",
+                "image": "../images/headshots/mamido-bomoko-souchu.jpg"
             },
             {
                 "name": "Nigel Brown",
@@ -803,7 +804,7 @@
             {
                 "name": "Jorrell Coiffic-Kamall",
                 "role": "Ensemble",
-                "bio": "<p>Place of Birth: London, England Theatre: <em>Robin Hood </em>(Watermill Theatre); <em>Dennis of Penge </em>(Oval House Theatre); <em>The Wind in</em> <em>the Willows </em>(UK tour &amp; London Palladium); <em>Ross </em>(Chichester Festival Theatre); <em>Bend It Like Beckham</em> (Phoenix Theatre); <em>Beauty &amp; The</em> <em>Beast </em>(Theatre Royal Stratford East); <em>The Jungle Book </em>(Birmingham Rep &amp; Camden Roundhouse); <em>The Water</em> <em>Babies </em>(Leicester Curve); <em>The Jungle</em> <em>Book </em>(Citizen&rsquo;s Theatre, Glasgow); <em>The Warriors &nbsp;</em>(Barbican Theatre); <em>Jack &amp; The Beanstalk </em>(Theatre Royal Stratford East); <em>Freaked </em>(The Helix Theatre, Dublin); <em>Jackson 5 Alive</em> (UK tour)</p><p>Television: <em>Wind in the Willows; Ireland&rsquo;s Top Teens; MTV Super Sweet Sixteen; Ahead of the Class; Top of the Pops; CBBC Proms in the Park; Blue Peter </em>Radio: <em>Magic at the Musicals </em>(Magic FM)</p><p>Other: Jorell has appeared in music videos for DJ Ironik, Nolay and Orson and performed at the MOBO music awards in the 02 Arena. Jorell worked as the Choreography/Movement Director on <em>NAKED </em>atthe Vault Theatre.</p>",
+                "bio": "<p>Place of Birth: London, England</p><p> Theatre: <em>Robin Hood </em>(Watermill Theatre); <em>Dennis of Penge </em>(Oval House Theatre); <em>The Wind in</em> <em>the Willows </em>(UK tour &amp; London Palladium); <em>Ross </em>(Chichester Festival Theatre); <em>Bend It Like Beckham</em> (Phoenix Theatre); <em>Beauty &amp; The</em> <em>Beast </em>(Theatre Royal Stratford East); <em>The Jungle Book </em>(Birmingham Rep &amp; Camden Roundhouse); <em>The Water</em> <em>Babies </em>(Leicester Curve); <em>The Jungle</em> <em>Book </em>(Citizen&rsquo;s Theatre, Glasgow); <em>The Warriors &nbsp;</em>(Barbican Theatre); <em>Jack &amp; The Beanstalk </em>(Theatre Royal Stratford East); <em>Freaked </em>(The Helix Theatre, Dublin); <em>Jackson 5 Alive</em> (UK tour)</p><p>Television: <em>Wind in the Willows; Ireland&rsquo;s Top Teens; MTV Super Sweet Sixteen; Ahead of the Class; Top of the Pops; CBBC Proms in the Park; Blue Peter </em>Radio: <em>Magic at the Musicals </em>(Magic FM)</p><p>Other: Jorell has appeared in music videos for DJ Ironik, Nolay and Orson and performed at the MOBO music awards in the 02 Arena. Jorell worked as the Choreography/Movement Director on <em>NAKED </em>atthe Vault Theatre.</p>",
                 "image": "../images/headshots/jorrel-coiffic-kamall.jpg"
             },
             {
@@ -813,9 +814,9 @@
                 "image": "../images/headshots/tevin-daniel.jpg"
             },
             {
-                "name": "Lwando Dennis",
+                "name": "Lwando Bam",
                 "role": "Swing",
-                "bio": "<p>Place of Birth: Cape Town, South Africa</p><p>Training: Rainbow Arts Organization Theatre: <em>They Died Singing </em>(Cape Town/East London/Port Elizabeth); <em>Izityilelo Zobuze </em>(Cape Town); <em>Ityala</em> <em>Lamawele </em>(Cape Town/Grahamstown National Arts Festival); <em>Unsung</em> <em>Heroes </em>(Zabalaza Festival Baxter Theatre, Cape Town); <em>The Lion King </em>(Madrid)</p><p>Television: <em>Hectic Nine 9</em></p><p>Film: <em>Honey 3</em></p><p>Radio: <em>Radio Zibonele FM</em></p>",
+                "bio": "<p>Place of Birth: Cape Town, South Africa</p><p>Training: Rainbow Arts Organization</p><p> Theatre: <em>They Died Singing </em>(Cape Town/East London/Port Elizabeth); <em>Izityilelo Zobuze </em>(Cape Town); <em>Ityala</em> <em>Lamawele </em>(Cape Town/Grahamstown National Arts Festival); <em>Unsung</em> <em>Heroes </em>(Zabalaza Festival Baxter Theatre, Cape Town); <em>The Lion King </em>(Madrid)</p><p>Television: <em>Hectic Nine 9</em></p><p>Film: <em>Honey 3</em></p><p>Radio: <em>Radio Zibonele FM</em></p>",
                 "image": "../images/headshots/lwando-dennis.jpg"
             },
             {
@@ -833,21 +834,16 @@
             {
                 "name": "Oraine Frater",
                 "role": "Ensemble",
-                "bio": "<p>Place of Birth: Kingston, Jamaica</p><p>Training: The University of Technology, Jamaica; L&rsquo;acadco: A United Caribbean Dance Force Theatre: <em>Amalgamation </em>(Plie for the Arts); <em>Long Walk to Freedom </em>(Jamaica&rsquo;s National Stadium)</p><p>Television: <em>Smile Jamaica Morning Time Shows</em></p><p>Other: Oraine has appeared in <em>Fragile Minds </em>with L&rsquo;acadco and performed at <em>International</em> <em>Association of Blacks in Dance</em>,<em> Caribbean Festival of Arts </em>(CARIFESTA), <em>Reggae Sumfest</em>,<em> Jamaica Independence Festival: Grand Gala </em>and the <em>One Love Reggae Festival </em>in Japan.</p>",
+                "bio": "<p>Place of Birth: Kingston, Jamaica</p><p>Training: The University of Technology, Jamaica; L&rsquo;acadco: A United Caribbean Dance Force</p><p> Theatre: <em>Amalgamation </em>(Plie for the Arts); <em>Long Walk to Freedom </em>(Jamaica&rsquo;s National Stadium)</p><p>Television: <em>Smile Jamaica Morning Time Shows</em></p><p>Other: Oraine has appeared in <em>Fragile Minds </em>with L&rsquo;acadco and performed at <em>International</em> <em>Association of Blacks in Dance</em>,<em> Caribbean Festival of Arts </em>(CARIFESTA), <em>Reggae Sumfest</em>,<em> Jamaica Independence Festival: Grand Gala </em>and the <em>One Love Reggae Festival </em>in Japan.</p>",
                 "image": "../images/headshots/oraine-frator.jpg"
             },
             {
                 "name": "Willians Ferreira",
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Salvador Bahia, Brazil</p><p>Training: Ballet School of The Afro Dance Foundation; High School of Arts and Craft</p><p>Theatre: <em>The Lion King </em>(Netherlands); <em>Capoeira </em>(US tour); <em>CIA Robson</em> (Brazil tour)</p>",
-                "image": "https://via.placeholder.com/380"
+                "image": "../images/headshots/placeholder.jpg"
             },
-            {
-                "name": "Daniel Mejia Garcia",
-                "role": "Ensemble",
-                "bio": "<p>Place of Birth: Santo Domingo, Dominican Republic</p><p>Training: Ecos Dance School; National Company of Contemporary Dance; Institute Alicia Alonso (Madrid); Broadway Dance Center; Fine Art School (Dominican Republic); Central de Cine (Madrid) Theatre: <em>The Lion King </em>(Madrid); <em>Hairspray </em>(Teatro Nacional, Dominican Republic); <em>Dreamgirls</em> (Palacio de Bellas Artes, Dominican Republic); <em>Chicago </em>(Teatro Nacional, Dominican Republic)<em>;</em> <em>Cinderella </em>(Teatro Nacional, Dominican Republic)</p><p>Television: <em>Latin American Idol; Minuto de Fama</em>; <em>El Fan Club</em></p><p>Other: In 2017 Daniel was nominated for a Soberano Award in the Dominican Republic as an outstanding artist abroad. Daniel has also performed with the National Company of Contemporary Dance in the Dominican Republic.</p>",
-                "image": "../images/headshots/daniel-mejia.jpg"
-            },
+    
             {
                 "name": "Brian Gilligan",
                 "role": "Standby Pumbaa/Scar",
@@ -857,8 +853,14 @@
             {
                 "name": "Daniel Griffith",
                 "role": "Ensemble",
-                "bio": "<p>Place of Birth: Trinidad and Tobago</p><p>Training: The Oratory Foundation, Vanessa Briggs Vocal Academy Theatre: <em>The Merchant of Venice,</em> <em>King Lear, A Midsummer&rsquo;s Night&rsquo;s</em> <em>Dream, Othello, Twelfth Night, Julius</em> <em>Caesar, The Tempest, The Taming of</em> <em>the Shrew </em>(Naparima Bowl, Trinidad)</p>",
+                "bio": "<p>Place of Birth: Trinidad and Tobago</p><p>Training: The Oratory Foundation, Vanessa Briggs Vocal Academy</p><p> Theatre: <em>The Merchant of Venice,</em> <em>King Lear, A Midsummer&rsquo;s Night&rsquo;s</em> <em>Dream, Othello, Twelfth Night, Julius</em> <em>Caesar, The Tempest, The Taming of</em> <em>the Shrew </em>(Naparima Bowl, Trinidad)</p>",
                 "image": "../images/headshots/daniel-griffith.jpg"
+            },
+            {
+                "name": "Caleaf Henson",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: Pennsylvania, United States of America</p><p>Training: Chester Fine Arts Center; Touch of Class Dance Studio; Pa Academy of Ballet; Broadway Dance Center; Brandywine Ballet</p><p>Television: <em>So You Think You Can Dance</em></p><p>Other: <em>The Lion King </em>marks Caleaf&rsquo;s professional debut.</p>",
+                "image": "../images/headshots/caleaf-henson.jpg"
             },
             {
                 "name": "Alicia Hayward",
@@ -871,24 +873,24 @@
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: London, England</p><p>Training: Manchester Metropolitan University BA (Hons) Contemporary Theatre and Performance</p><p>Theatre: <em>Respect Aretha: Song Book Tour </em>(UK tour)<em>; Caroline, or Change </em>(Playhouse Theatre)<em>; Disneyland&rsquo;s Mickey and the Magician </em>(Disneyland Paris); <em>Yesterday&rsquo;s House </em>(Theatre Royal Stratford East); <em>Touching Moments </em>(Arc Theatre); <em>Flesh </em>(Edinburgh Fringe Festival)</p>",
                 "image": "../images/headshots/zalika-henry.jpg"
-            },
-            {
-                "name": "Caleaf Henson",
-                "role": "Ensemble",
-                "bio": "<p>Place of Birth: Pennsylvania, United States of America</p><p>Training: Chester Fine Arts Center; Touch of Class Dance Studio; Pa Academy of Ballet; Broadway Dance Center; Brandywine Ballet</p><p>Television: <em>So You Think You Can Dance</em></p><p>Other: <em>The Lion King </em>marks Caleaf&rsquo;s professional debut.</p>",
-                "image": "../images/headshots/caleaf-henson.jpg"
-            },
-            {
-                "name": "Cristiane Santos De Jesus",
-                "role": "Swing",
-                "bio": "<p>Place of Birth: Salvador-Bahia-Brazil</p><p>Training: Candolina School, Ballet Folkloric of Bahia, Cultural Foundation of Bahia, Harmonic Dance School Paris</p><p>Theatre: <em>The Lion King </em>(Brazil and The Netherlands)</p><p>Television: <em>Faustao Globo; Programa Do Faro Record</em></p><p>Film: <em>Copacabana</em></p><p>Other: Christiane has performed with Dance Brazil Company at the Joyce Theatre, New York and with Bale Folclorico da Bahia at the Miguel Santana Theatre. Christiane has also performed with singers Ivete Sangalo and Daniela Mercury.</p>",
-                "image": "../images/headshots/christine-santos-de-jesus.jpg"
-            },
+            },     
             {
                 "name": "Olivia Jones",
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Ascot, England</p><p>Training: The Liverpool Institute for Performing Arts</p><p>Theatre: <em>One Man&rsquo;s Story </em>(Liverpool Philharmonic Hall)</p>",
                 "image": "../images/headshots/olivia-jones.jpg"
+            },
+            {
+                "name": "Melvin La Blanc",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: St. Maarten, The Netherlands</p><p>Training: Associated Studios, BlakeArts, National Institute of Arts (N.I.A), Dance Theatre of St. Maarten</p><p>Theatre: <em>Afro Dance Explosion </em>(Blake Arts Ensemble); <em>Bournemouth Dance Festival </em>(ADAD); <em>Hairspray </em>(Dance Theatre of St. Maarten)</p><p>Television: <em>Sing: Ultimate A Capella</em></p><p>Film: <em>The Desert River; Mamma Mia! Here We Go Again</em></p>",
+                "image": "../images/headshots/melvin-la-blanc.jpg"
+            },
+            {
+                "name": "Tara Price",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: Kingston, Jamaica</p><p>Training: Wolmer&rsquo;s Dance Troupe; Dance Theatre Xaymaca</p><p>Television: <em>RE TV Charts Show; </em>Smile Jamaica Morning Show; TVJ Daytime Live; <em>Hype TV Up &amp; Live</em>; <em>CVM at Sunrise Buss a Move Segment</em></p><p>Film: <em>Bond 25; Origins; Kingston: Heart of the City</em></p><p>Other: Tara has performed at C&rsquo;Danco Dance Company in Suriname, DTX Tourin Beijing, Reggae Sumfest, Your View Awards, Actor Boy Awards at the Miss Jamaica Universe. Tara has also appeared in a number of music videos - most notably with artist Cardi B.</p>",
+                "image": "../images/headshots/tara-price.jpg"
             },
             {
                 "name": "Zanele Mazibuko",
@@ -897,15 +899,15 @@
                 "image": "../images/headshots/zanele-mazibuko.jpg"
             },
             {
-                "name": "Jochebel Ohene MacCarthy",
-                "role": "Sarabi/Ensemble",
-                "bio": "<p>Place of Birth: London, England</p><p>Training: Trinity Laban Conservatoire of Music and Dance</p><p>Theatre: <em>Ghost </em>(UK &amp; International tour); <em>The Color Purple </em>(Leicester Curve &amp; Birmingham Hippodrome)</p><p>Other: Jochebel has performed at the Wembley FA Cup Finals (2017 &amp; 2018) and performed as a dancer/ drummer for the NFL London Game (Minnesota Vikings vs. Cleveland Browns).</p>",
-                "image": "../images/headshots/jochebel-ohene-maccarthy.jpg"
+                "name": "Daniel Mejia",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: Santo Domingo, Dominican Republic</p><p>Training: Ecos Dance School; National Company of Contemporary Dance; Institute Alicia Alonso (Madrid); Broadway Dance Center; Fine Art School (Dominican Republic); Central de Cine (Madrid)</p><p> Theatre: <em>The Lion King </em>(Madrid); <em>Hairspray </em>(Teatro Nacional, Dominican Republic); <em>Dreamgirls</em> (Palacio de Bellas Artes, Dominican Republic); <em>Chicago </em>(Teatro Nacional, Dominican Republic)<em>;</em> <em>Cinderella </em>(Teatro Nacional, Dominican Republic)</p><p>Television: <em>Latin American Idol; Minuto de Fama</em>; <em>El Fan Club</em></p><p>Other: In 2017 Daniel was nominated for a Soberano Award in the Dominican Republic as an outstanding artist abroad. Daniel has also performed with the National Company of Contemporary Dance in the Dominican Republic.</p>",
+                "image": "../images/headshots/daniel-mejia.jpg"
             },
             {
-                "name": "Zanele Ndlovu",
+                "name": "Zanele Patricia Ndlovu",
                 "role": "Ensemble",
-                "bio": "<p>Place of Birth Durban, South Africa</p><p>Training: Ekhaya Multi Art Centre; Duma Ndlovu Academy Theatre: <em>In My Own Voice</em> (Playhouse Opera Theatre, Durban); <em>Sarafina </em>(State Theatre, Joburg Theatre); <em>How Long </em>(Playhouse Opera Theatre, Durban)</p>",
+                "bio": "<p>Place of Birth Durban, South Africa</p><p>Training: Ekhaya Multi Art Centre; Duma Ndlovu Academy</p><p> Theatre: <em>In My Own Voice</em> (Playhouse Opera Theatre, Durban); <em>Sarafina </em>(State Theatre, Joburg Theatre); <em>How Long </em>(Playhouse Opera Theatre, Durban)</p>",
                 "image": "../images/headshots/zanele-ndlovu.jpg"
             },
             {
@@ -921,28 +923,34 @@
                 "image": "../images/headshots/brianna-ogunbawo.jpg"
             },
             {
+                "name": "Jochebel Ohene MacCarthy",
+                "role": "Sarabi/Ensemble",
+                "bio": "<p>Place of Birth: London, England</p><p>Training: Trinity Laban Conservatoire of Music and Dance</p><p>Theatre: <em>Ghost </em>(UK &amp; International tour); <em>The Color Purple </em>(Leicester Curve &amp; Birmingham Hippodrome)</p><p>Other: Jochebel has performed at the Wembley FA Cup Finals (2017 &amp; 2018) and performed as a dancer/ drummer for the NFL London Game (Minnesota Vikings vs. Cleveland Browns).</p>",
+                "image": "../images/headshots/jochebel-ohene-maccarthy.jpg"
+            },
+            {
                 "name": "Paige Peddie",
                 "role": "Swing",
                 "bio": "<p>Place of Birth: Nottingham, England</p><p>Training: Royal Academy of Music</p><p>Theatre: <em>Equus</em>, <em>Female Transport</em>, <em>Enron </em>(Nottingham Playhouse)</p><p>Other: Paige appeared on BBC One&rsquo;s <em>Michael McIntyre&rsquo;s Big</em> <em>Show </em>as the &lsquo;Unexpected Star&rsquo; on Christmas Day in 2018.</p>",
                 "image": "../images/headshots/paige-peddie.jpg"
             },
             {
-                "name": "Tara Price",
-                "role": "Ensemble",
-                "bio": "<p>Place of Birth: Kingston, Jamaica</p><p>Training: Wolmer&rsquo;s Dance Troupe; Dance Theatre Xaymaca</p><p>Television: <em>RE TV Charts Show; </em>Smile Jamaica Morning Show; TVJ Daytime Live; <em>Hype TV Up &amp; Live</em>; <em>CVM at Sunrise Buss a Move Segment</em></p><p>Film: <em>Bond 25; Origins; Kingston: Heart of the City</em></p><p>Other: Tara has performed at C&rsquo;Danco Dance Company in Suriname, DTX Tourin Beijing, Reggae Sumfest, Your View Awards, Actor Boy Awards at the Miss Jamaica Universe. Tara has also appeared in a number of music videos - most notably with artist Cardi B.</p>",
-                "image": "../images/headshots/tara-price.jpg"
+                "name": "Connor Pele Williams",
+                "role": "Swing",
+                "bio": "<p>Place of Birth: London, England</p><p>Training: London Contemporary Dance School, The Brit School</p><p>Theatre: <em>The Lion King </em>(Lyceum Theatre); <em>Cendrillon </em>(Glyndebourne Opera); <em>Polaris </em>(Sadler&rsquo;s Wells)</p><p>Other: Connor appeared in music videos for artists Caswell and Elixr. Connor choreographed <em>Taffeta</em> <em>Dreaming </em>for TRAH and CHIPS Theatre Ensemble in 2019 as part of Resolutions festival at The Place (London).</p>",
+                "image": "../images/headshots/conor-pele-williams.jpg"
             },
             {
-                "name": "Charlotte Samaroo Mamido",
+                "name": "Charlotte Samaroo",
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Florida, United States of America</p><p>Training: Grier School, George Mason University</p><p>Theatre: <em>Upfront Convention </em>(CTC Dance Company); <em>Dear Diary Series</em> (O&rsquo;Kody Arts)</p>",
                 "image": "../images/headshots/charlotte-samaroo.jpg"
             },
             {
-                "name": "Bomboko Souchu",
+                "name": "Cristiane Santos De Jesus",
                 "role": "Swing",
-                "bio": "<p>Place of Birth: Kinshasa, Democratic Republic of the Congo</p><p>Training: National Conservatory of Music (Belgium); Institute of Rhythm Methode Dalcroze (Belgium); Masterclass Icom (Paris)</p><p>Television: <em>The Voice </em>(France); <em>Taratata </em>(France)</p><p>Radio: Official voice for NJR radio, Fun Radio, Ado FM, Black Box, 2M, Radio Marseille</p><p>Other: Mamido has performed with artistes including Mylene Farmer, Pascal O&rsquo;zBispo and Axelle Red. Mamido has also worked extensively as an animation voiceover artist with credits including <em>Princess And</em> <em>The Frog</em>, <em>Phineas and Ferb</em>, <em>Kuzco</em> <em>2: King of Kronk </em>and <em>Foot 2 Rue </em>featuring Stomy Bugsy.</p>",
-                "image": "../images/headshots/mamido-bomoko-souchu.jpg"
+                "bio": "<p>Place of Birth: Salvador-Bahia-Brazil</p><p>Training: Candolina School, Ballet Folkloric of Bahia, Cultural Foundation of Bahia, Harmonic Dance School Paris</p><p>Theatre: <em>The Lion King </em>(Brazil and The Netherlands)</p><p>Television: <em>Faustao Globo; Programa Do Faro Record</em></p><p>Film: <em>Copacabana</em></p><p>Other: Christiane has performed with Dance Brazil Company at the Joyce Theatre, New York and with Bale Folclorico da Bahia at the Miguel Santana Theatre. Christiane has also performed with singers Ivete Sangalo and Daniela Mercury.</p>",
+                "image": "../images/headshots/christine-santos-de-jesus.jpg"
             },
             {
                 "name": "Sherry Tay",
@@ -955,12 +963,6 @@
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Manchester, England</p><p>Training: Gwyneth Hare School; Northern Ballet School</p><p>Other: <em>The Lion King </em>marks Francesca&rsquo;s professional debut.</p>",
                 "image": "../images/headshots/francesca-thompson.jpg"
-            },
-            {
-                "name": "Connor Pele Williams",
-                "role": "Swing",
-                "bio": "<p>Place of Birth: London, England</p><p>Training: London Contemporary Dance School, The Brit School</p><p>Theatre: <em>The Lion King </em>(Lyceum Theatre); <em>Cendrillon </em>(Glyndebourne Opera); <em>Polaris </em>(Sadler&rsquo;s Wells)</p><p>Other: Connor appeared in music videos for artists Caswell and Elixr. Connor choreographed <em>Taffeta</em> <em>Dreaming </em>for TRAH and CHIPS Theatre Ensemble in 2019 as part of Resolutions festival at The Place (London).</p>",
-                "image": "../images/headshots/conor-pele-williams.jpg"
             },
             {
                 "name": "Maria Yim",
@@ -1017,7 +1019,7 @@
             {
                 "name": "Stella Harris",
                 "role": "Young Nala",
-                "bio": "<p>Place of Birth: Addis Ababa, Ethiopia</p><p>Training: The Lion King Cub School; Akoma Asa Performing Arts Theatre: <em>Hansel and Gretel</em> (The Place); <em>Remembering the</em> <em>Transatlantic Slave Trade and</em> <em>its Abolition </em>(City Hall London); <em>Concrete Dreams </em>(Southbank Centre); Narrating <em>The Somatic: Gathering Voices, Sharing Practice </em>(Middlesex University)</p>",
+                "bio": "<p>Place of Birth: Addis Ababa, Ethiopia</p><p>Training: The Lion King Cub School; Akoma Asa Performing Arts</p><p>Theatre: <em>Hansel and Gretel</em> (The Place); <em>Remembering the</em> <em>Transatlantic Slave Trade and</em> <em>its Abolition </em>(City Hall London); <em>Concrete Dreams </em>(Southbank Centre); Narrating <em>The Somatic: Gathering Voices, Sharing Practice </em>(Middlesex University)</p>",
                 "image": "../images/headshots/stella-harris.jpg"
             },
             {
@@ -1033,7 +1035,7 @@
                 "image": "../images/headshots/mary-anne-pity-tiekou.jpg"
             },
             {
-                "name": "Drew Jada Maite Toussaint",
+                "name": "Drew Toussaint",
                 "role": "Young Nala",
                 "bio": "<p>Place of Birth: London, England</p><p>Training: The Lion King Cub School; Creative Kidz Stage School Other: <em>The Lion King </em>marks Drew&rsquo;s professional debut.</p>",
                 "image": "../images/headshots/drew-toussaint.jpg"
@@ -1118,10 +1120,10 @@
                 "image": "../images/headshots/khanyisani-beato.jpg"
             },
             {
-                "name": "Melvin La Blanc",
-                "role": "Ensemble",
-                "bio": "<p>Place of Birth: St. Maarten, The Netherlands</p><p>Training: Associated Studios, BlakeArts, National Institute of Arts (N.I.A), Dance Theatre of St. Maarten</p><p>Theatre: <em>Afro Dance Explosion </em>(Blake Arts Ensemble); <em>Bournemouth Dance Festival </em>(ADAD); <em>Hairspray </em>(Dance Theatre of St. Maarten)</p><p>Television: <em>Sing: Ultimate A Capella</em></p><p>Film: <em>The Desert River; Mamma Mia! Here We Go Again</em></p>",
-                "image": "../images/headshots/melvin-la-blanc.jpg"
+                "name": "Mamido Bomboko Souchu",
+                "role": "Swing",
+                "bio": "<p>Place of Birth: Kinshasa, Democratic Republic of the Congo</p><p>Training: National Conservatory of Music (Belgium); Institute of Rhythm Methode Dalcroze (Belgium); Masterclass Icom (Paris)</p><p>Television: <em>The Voice </em>(France); <em>Taratata </em>(France)</p><p>Radio: Official voice for NJR radio, Fun Radio, Ado FM, Black Box, 2M, Radio Marseille</p><p>Other: Mamido has performed with artistes including Mylene Farmer, Pascal O&rsquo;zBispo and Axelle Red. Mamido has also worked extensively as an animation voiceover artist with credits including <em>Princess And</em> <em>The Frog</em>, <em>Phineas and Ferb</em>, <em>Kuzco</em> <em>2: King of Kronk </em>and <em>Foot 2 Rue </em>featuring Stomy Bugsy.</p>",
+                "image": "../images/headshots/mamido-bomoko-souchu.jpg"
             },
             {
                 "name": "Nigel Brown",
@@ -1150,7 +1152,7 @@
             {
                 "name": "Jorrell Coiffic-Kamall",
                 "role": "Ensemble",
-                "bio": "<p>Place of Birth: London, England Theatre: <em>Robin Hood </em>(Watermill Theatre); <em>Dennis of Penge </em>(Oval House Theatre); <em>The Wind in</em> <em>the Willows </em>(UK tour &amp; London Palladium); <em>Ross </em>(Chichester Festival Theatre); <em>Bend It Like Beckham</em> (Phoenix Theatre); <em>Beauty &amp; The</em> <em>Beast </em>(Theatre Royal Stratford East); <em>The Jungle Book </em>(Birmingham Rep &amp; Camden Roundhouse); <em>The Water</em> <em>Babies </em>(Leicester Curve); <em>The Jungle</em> <em>Book </em>(Citizen&rsquo;s Theatre, Glasgow); <em>The Warriors &nbsp;</em>(Barbican Theatre); <em>Jack &amp; The Beanstalk </em>(Theatre Royal Stratford East); <em>Freaked </em>(The Helix Theatre, Dublin); <em>Jackson 5 Alive</em> (UK tour)</p><p>Television: <em>Wind in the Willows; Ireland&rsquo;s Top Teens; MTV Super Sweet Sixteen; Ahead of the Class; Top of the Pops; CBBC Proms in the Park; Blue Peter </em>Radio: <em>Magic at the Musicals </em>(Magic FM)</p><p>Other: Jorell has appeared in music videos for DJ Ironik, Nolay and Orson and performed at the MOBO music awards in the 02 Arena. Jorell worked as the Choreography/Movement Director on <em>NAKED </em>atthe Vault Theatre.</p>",
+                "bio": "<p>Place of Birth: London, England</p><p> Theatre: <em>Robin Hood </em>(Watermill Theatre); <em>Dennis of Penge </em>(Oval House Theatre); <em>The Wind in</em> <em>the Willows </em>(UK tour &amp; London Palladium); <em>Ross </em>(Chichester Festival Theatre); <em>Bend It Like Beckham</em> (Phoenix Theatre); <em>Beauty &amp; The</em> <em>Beast </em>(Theatre Royal Stratford East); <em>The Jungle Book </em>(Birmingham Rep &amp; Camden Roundhouse); <em>The Water</em> <em>Babies </em>(Leicester Curve); <em>The Jungle</em> <em>Book </em>(Citizen&rsquo;s Theatre, Glasgow); <em>The Warriors &nbsp;</em>(Barbican Theatre); <em>Jack &amp; The Beanstalk </em>(Theatre Royal Stratford East); <em>Freaked </em>(The Helix Theatre, Dublin); <em>Jackson 5 Alive</em> (UK tour)</p><p>Television: <em>Wind in the Willows; Ireland&rsquo;s Top Teens; MTV Super Sweet Sixteen; Ahead of the Class; Top of the Pops; CBBC Proms in the Park; Blue Peter </em>Radio: <em>Magic at the Musicals </em>(Magic FM)</p><p>Other: Jorell has appeared in music videos for DJ Ironik, Nolay and Orson and performed at the MOBO music awards in the 02 Arena. Jorell worked as the Choreography/Movement Director on <em>NAKED </em>atthe Vault Theatre.</p>",
                 "image": "../images/headshots/jorrel-coiffic-kamall.jpg"
             },
             {
@@ -1160,9 +1162,9 @@
                 "image": "../images/headshots/tevin-daniel.jpg"
             },
             {
-                "name": "Lwando Dennis",
+                "name": "Lwando Bam",
                 "role": "Swing",
-                "bio": "<p>Place of Birth: Cape Town, South Africa</p><p>Training: Rainbow Arts Organization Theatre: <em>They Died Singing </em>(Cape Town/East London/Port Elizabeth); <em>Izityilelo Zobuze </em>(Cape Town); <em>Ityala</em> <em>Lamawele </em>(Cape Town/Grahamstown National Arts Festival); <em>Unsung</em> <em>Heroes </em>(Zabalaza Festival Baxter Theatre, Cape Town); <em>The Lion King </em>(Madrid)</p><p>Television: <em>Hectic Nine 9</em></p><p>Film: <em>Honey 3</em></p><p>Radio: <em>Radio Zibonele FM</em></p>",
+                "bio": "<p>Place of Birth: Cape Town, South Africa</p><p>Training: Rainbow Arts Organization</p><p> Theatre: <em>They Died Singing </em>(Cape Town/East London/Port Elizabeth); <em>Izityilelo Zobuze </em>(Cape Town); <em>Ityala</em> <em>Lamawele </em>(Cape Town/Grahamstown National Arts Festival); <em>Unsung</em> <em>Heroes </em>(Zabalaza Festival Baxter Theatre, Cape Town); <em>The Lion King </em>(Madrid)</p><p>Television: <em>Hectic Nine 9</em></p><p>Film: <em>Honey 3</em></p><p>Radio: <em>Radio Zibonele FM</em></p>",
                 "image": "../images/headshots/lwando-dennis.jpg"
             },
             {
@@ -1180,21 +1182,16 @@
             {
                 "name": "Oraine Frater",
                 "role": "Ensemble",
-                "bio": "<p>Place of Birth: Kingston, Jamaica</p><p>Training: The University of Technology, Jamaica; L&rsquo;acadco: A United Caribbean Dance Force Theatre: <em>Amalgamation </em>(Plie for the Arts); <em>Long Walk to Freedom </em>(Jamaica&rsquo;s National Stadium)</p><p>Television: <em>Smile Jamaica Morning Time Shows</em></p><p>Other: Oraine has appeared in <em>Fragile Minds </em>with L&rsquo;acadco and performed at <em>International</em> <em>Association of Blacks in Dance</em>,<em> Caribbean Festival of Arts </em>(CARIFESTA), <em>Reggae Sumfest</em>,<em> Jamaica Independence Festival: Grand Gala </em>and the <em>One Love Reggae Festival </em>in Japan.</p>",
+                "bio": "<p>Place of Birth: Kingston, Jamaica</p><p>Training: The University of Technology, Jamaica; L&rsquo;acadco: A United Caribbean Dance Force</p><p> Theatre: <em>Amalgamation </em>(Plie for the Arts); <em>Long Walk to Freedom </em>(Jamaica&rsquo;s National Stadium)</p><p>Television: <em>Smile Jamaica Morning Time Shows</em></p><p>Other: Oraine has appeared in <em>Fragile Minds </em>with L&rsquo;acadco and performed at <em>International</em> <em>Association of Blacks in Dance</em>,<em> Caribbean Festival of Arts </em>(CARIFESTA), <em>Reggae Sumfest</em>,<em> Jamaica Independence Festival: Grand Gala </em>and the <em>One Love Reggae Festival </em>in Japan.</p>",
                 "image": "../images/headshots/oraine-frator.jpg"
             },
             {
                 "name": "Willians Ferreira",
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Salvador Bahia, Brazil</p><p>Training: Ballet School of The Afro Dance Foundation; High School of Arts and Craft</p><p>Theatre: <em>The Lion King </em>(Netherlands); <em>Capoeira </em>(US tour); <em>CIA Robson</em> (Brazil tour)</p>",
-                "image": "https://via.placeholder.com/380"
+                "image": "../images/headshots/placeholder.jpg"
             },
-            {
-                "name": "Daniel Mejia Garcia",
-                "role": "Ensemble",
-                "bio": "<p>Place of Birth: Santo Domingo, Dominican Republic</p><p>Training: Ecos Dance School; National Company of Contemporary Dance; Institute Alicia Alonso (Madrid); Broadway Dance Center; Fine Art School (Dominican Republic); Central de Cine (Madrid) Theatre: <em>The Lion King </em>(Madrid); <em>Hairspray </em>(Teatro Nacional, Dominican Republic); <em>Dreamgirls</em> (Palacio de Bellas Artes, Dominican Republic); <em>Chicago </em>(Teatro Nacional, Dominican Republic)<em>;</em> <em>Cinderella </em>(Teatro Nacional, Dominican Republic)</p><p>Television: <em>Latin American Idol; Minuto de Fama</em>; <em>El Fan Club</em></p><p>Other: In 2017 Daniel was nominated for a Soberano Award in the Dominican Republic as an outstanding artist abroad. Daniel has also performed with the National Company of Contemporary Dance in the Dominican Republic.</p>",
-                "image": "../images/headshots/daniel-mejia.jpg"
-            },
+    
             {
                 "name": "Brian Gilligan",
                 "role": "Standby Pumbaa/Scar",
@@ -1204,8 +1201,14 @@
             {
                 "name": "Daniel Griffith",
                 "role": "Ensemble",
-                "bio": "<p>Place of Birth: Trinidad and Tobago</p><p>Training: The Oratory Foundation, Vanessa Briggs Vocal Academy Theatre: <em>The Merchant of Venice,</em> <em>King Lear, A Midsummer&rsquo;s Night&rsquo;s</em> <em>Dream, Othello, Twelfth Night, Julius</em> <em>Caesar, The Tempest, The Taming of</em> <em>the Shrew </em>(Naparima Bowl, Trinidad)</p>",
+                "bio": "<p>Place of Birth: Trinidad and Tobago</p><p>Training: The Oratory Foundation, Vanessa Briggs Vocal Academy</p><p> Theatre: <em>The Merchant of Venice,</em> <em>King Lear, A Midsummer&rsquo;s Night&rsquo;s</em> <em>Dream, Othello, Twelfth Night, Julius</em> <em>Caesar, The Tempest, The Taming of</em> <em>the Shrew </em>(Naparima Bowl, Trinidad)</p>",
                 "image": "../images/headshots/daniel-griffith.jpg"
+            },
+            {
+                "name": "Caleaf Henson",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: Pennsylvania, United States of America</p><p>Training: Chester Fine Arts Center; Touch of Class Dance Studio; Pa Academy of Ballet; Broadway Dance Center; Brandywine Ballet</p><p>Television: <em>So You Think You Can Dance</em></p><p>Other: <em>The Lion King </em>marks Caleaf&rsquo;s professional debut.</p>",
+                "image": "../images/headshots/caleaf-henson.jpg"
             },
             {
                 "name": "Alicia Hayward",
@@ -1218,24 +1221,24 @@
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: London, England</p><p>Training: Manchester Metropolitan University BA (Hons) Contemporary Theatre and Performance</p><p>Theatre: <em>Respect Aretha: Song Book Tour </em>(UK tour)<em>; Caroline, or Change </em>(Playhouse Theatre)<em>; Disneyland&rsquo;s Mickey and the Magician </em>(Disneyland Paris); <em>Yesterday&rsquo;s House </em>(Theatre Royal Stratford East); <em>Touching Moments </em>(Arc Theatre); <em>Flesh </em>(Edinburgh Fringe Festival)</p>",
                 "image": "../images/headshots/zalika-henry.jpg"
-            },
-            {
-                "name": "Caleaf Henson",
-                "role": "Ensemble",
-                "bio": "<p>Place of Birth: Pennsylvania, United States of America</p><p>Training: Chester Fine Arts Center; Touch of Class Dance Studio; Pa Academy of Ballet; Broadway Dance Center; Brandywine Ballet</p><p>Television: <em>So You Think You Can Dance</em></p><p>Other: <em>The Lion King </em>marks Caleaf&rsquo;s professional debut.</p>",
-                "image": "../images/headshots/caleaf-henson.jpg"
-            },
-            {
-                "name": "Cristiane Santos De Jesus",
-                "role": "Swing",
-                "bio": "<p>Place of Birth: Salvador-Bahia-Brazil</p><p>Training: Candolina School, Ballet Folkloric of Bahia, Cultural Foundation of Bahia, Harmonic Dance School Paris</p><p>Theatre: <em>The Lion King </em>(Brazil and The Netherlands)</p><p>Television: <em>Faustao Globo; Programa Do Faro Record</em></p><p>Film: <em>Copacabana</em></p><p>Other: Christiane has performed with Dance Brazil Company at the Joyce Theatre, New York and with Bale Folclorico da Bahia at the Miguel Santana Theatre. Christiane has also performed with singers Ivete Sangalo and Daniela Mercury.</p>",
-                "image": "../images/headshots/christine-santos-de-jesus.jpg"
-            },
+            },     
             {
                 "name": "Olivia Jones",
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Ascot, England</p><p>Training: The Liverpool Institute for Performing Arts</p><p>Theatre: <em>One Man&rsquo;s Story </em>(Liverpool Philharmonic Hall)</p>",
                 "image": "../images/headshots/olivia-jones.jpg"
+            },
+            {
+                "name": "Melvin La Blanc",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: St. Maarten, The Netherlands</p><p>Training: Associated Studios, BlakeArts, National Institute of Arts (N.I.A), Dance Theatre of St. Maarten</p><p>Theatre: <em>Afro Dance Explosion </em>(Blake Arts Ensemble); <em>Bournemouth Dance Festival </em>(ADAD); <em>Hairspray </em>(Dance Theatre of St. Maarten)</p><p>Television: <em>Sing: Ultimate A Capella</em></p><p>Film: <em>The Desert River; Mamma Mia! Here We Go Again</em></p>",
+                "image": "../images/headshots/melvin-la-blanc.jpg"
+            },
+            {
+                "name": "Tara Price",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: Kingston, Jamaica</p><p>Training: Wolmer&rsquo;s Dance Troupe; Dance Theatre Xaymaca</p><p>Television: <em>RE TV Charts Show; </em>Smile Jamaica Morning Show; TVJ Daytime Live; <em>Hype TV Up &amp; Live</em>; <em>CVM at Sunrise Buss a Move Segment</em></p><p>Film: <em>Bond 25; Origins; Kingston: Heart of the City</em></p><p>Other: Tara has performed at C&rsquo;Danco Dance Company in Suriname, DTX Tourin Beijing, Reggae Sumfest, Your View Awards, Actor Boy Awards at the Miss Jamaica Universe. Tara has also appeared in a number of music videos - most notably with artist Cardi B.</p>",
+                "image": "../images/headshots/tara-price.jpg"
             },
             {
                 "name": "Zanele Mazibuko",
@@ -1244,15 +1247,15 @@
                 "image": "../images/headshots/zanele-mazibuko.jpg"
             },
             {
-                "name": "Jochebel Ohene MacCarthy",
-                "role": "Sarabi/Ensemble",
-                "bio": "<p>Place of Birth: London, England</p><p>Training: Trinity Laban Conservatoire of Music and Dance</p><p>Theatre: <em>Ghost </em>(UK &amp; International tour); <em>The Color Purple </em>(Leicester Curve &amp; Birmingham Hippodrome)</p><p>Other: Jochebel has performed at the Wembley FA Cup Finals (2017 &amp; 2018) and performed as a dancer/ drummer for the NFL London Game (Minnesota Vikings vs. Cleveland Browns).</p>",
-                "image": "../images/headshots/jochebel-ohene-maccarthy.jpg"
+                "name": "Daniel Mejia",
+                "role": "Ensemble",
+                "bio": "<p>Place of Birth: Santo Domingo, Dominican Republic</p><p>Training: Ecos Dance School; National Company of Contemporary Dance; Institute Alicia Alonso (Madrid); Broadway Dance Center; Fine Art School (Dominican Republic); Central de Cine (Madrid)</p><p> Theatre: <em>The Lion King </em>(Madrid); <em>Hairspray </em>(Teatro Nacional, Dominican Republic); <em>Dreamgirls</em> (Palacio de Bellas Artes, Dominican Republic); <em>Chicago </em>(Teatro Nacional, Dominican Republic)<em>;</em> <em>Cinderella </em>(Teatro Nacional, Dominican Republic)</p><p>Television: <em>Latin American Idol; Minuto de Fama</em>; <em>El Fan Club</em></p><p>Other: In 2017 Daniel was nominated for a Soberano Award in the Dominican Republic as an outstanding artist abroad. Daniel has also performed with the National Company of Contemporary Dance in the Dominican Republic.</p>",
+                "image": "../images/headshots/daniel-mejia.jpg"
             },
             {
-                "name": "Zanele Ndlovu",
+                "name": "Zanele Patricia Ndlovu",
                 "role": "Ensemble",
-                "bio": "<p>Place of Birth Durban, South Africa</p><p>Training: Ekhaya Multi Art Centre; Duma Ndlovu Academy Theatre: <em>In My Own Voice</em> (Playhouse Opera Theatre, Durban); <em>Sarafina </em>(State Theatre, Joburg Theatre); <em>How Long </em>(Playhouse Opera Theatre, Durban)</p>",
+                "bio": "<p>Place of Birth Durban, South Africa</p><p>Training: Ekhaya Multi Art Centre; Duma Ndlovu Academy</p><p> Theatre: <em>In My Own Voice</em> (Playhouse Opera Theatre, Durban); <em>Sarafina </em>(State Theatre, Joburg Theatre); <em>How Long </em>(Playhouse Opera Theatre, Durban)</p>",
                 "image": "../images/headshots/zanele-ndlovu.jpg"
             },
             {
@@ -1268,28 +1271,34 @@
                 "image": "../images/headshots/brianna-ogunbawo.jpg"
             },
             {
+                "name": "Jochebel Ohene MacCarthy",
+                "role": "Sarabi/Ensemble",
+                "bio": "<p>Place of Birth: London, England</p><p>Training: Trinity Laban Conservatoire of Music and Dance</p><p>Theatre: <em>Ghost </em>(UK &amp; International tour); <em>The Color Purple </em>(Leicester Curve &amp; Birmingham Hippodrome)</p><p>Other: Jochebel has performed at the Wembley FA Cup Finals (2017 &amp; 2018) and performed as a dancer/ drummer for the NFL London Game (Minnesota Vikings vs. Cleveland Browns).</p>",
+                "image": "../images/headshots/jochebel-ohene-maccarthy.jpg"
+            },
+            {
                 "name": "Paige Peddie",
                 "role": "Swing",
                 "bio": "<p>Place of Birth: Nottingham, England</p><p>Training: Royal Academy of Music</p><p>Theatre: <em>Equus</em>, <em>Female Transport</em>, <em>Enron </em>(Nottingham Playhouse)</p><p>Other: Paige appeared on BBC One&rsquo;s <em>Michael McIntyre&rsquo;s Big</em> <em>Show </em>as the &lsquo;Unexpected Star&rsquo; on Christmas Day in 2018.</p>",
                 "image": "../images/headshots/paige-peddie.jpg"
             },
             {
-                "name": "Tara Price",
-                "role": "Ensemble",
-                "bio": "<p>Place of Birth: Kingston, Jamaica</p><p>Training: Wolmer&rsquo;s Dance Troupe; Dance Theatre Xaymaca</p><p>Television: <em>RE TV Charts Show; </em>Smile Jamaica Morning Show; TVJ Daytime Live; <em>Hype TV Up &amp; Live</em>; <em>CVM at Sunrise Buss a Move Segment</em></p><p>Film: <em>Bond 25; Origins; Kingston: Heart of the City</em></p><p>Other: Tara has performed at C&rsquo;Danco Dance Company in Suriname, DTX Tourin Beijing, Reggae Sumfest, Your View Awards, Actor Boy Awards at the Miss Jamaica Universe. Tara has also appeared in a number of music videos - most notably with artist Cardi B.</p>",
-                "image": "../images/headshots/tara-price.jpg"
+                "name": "Connor Pele Williams",
+                "role": "Swing",
+                "bio": "<p>Place of Birth: London, England</p><p>Training: London Contemporary Dance School, The Brit School</p><p>Theatre: <em>The Lion King </em>(Lyceum Theatre); <em>Cendrillon </em>(Glyndebourne Opera); <em>Polaris </em>(Sadler&rsquo;s Wells)</p><p>Other: Connor appeared in music videos for artists Caswell and Elixr. Connor choreographed <em>Taffeta</em> <em>Dreaming </em>for TRAH and CHIPS Theatre Ensemble in 2019 as part of Resolutions festival at The Place (London).</p>",
+                "image": "../images/headshots/conor-pele-williams.jpg"
             },
             {
-                "name": "Charlotte Samaroo Mamido",
+                "name": "Charlotte Samaroo",
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Florida, United States of America</p><p>Training: Grier School, George Mason University</p><p>Theatre: <em>Upfront Convention </em>(CTC Dance Company); <em>Dear Diary Series</em> (O&rsquo;Kody Arts)</p>",
                 "image": "../images/headshots/charlotte-samaroo.jpg"
             },
             {
-                "name": "Bomboko Souchu",
+                "name": "Cristiane Santos De Jesus",
                 "role": "Swing",
-                "bio": "<p>Place of Birth: Kinshasa, Democratic Republic of the Congo</p><p>Training: National Conservatory of Music (Belgium); Institute of Rhythm Methode Dalcroze (Belgium); Masterclass Icom (Paris)</p><p>Television: <em>The Voice </em>(France); <em>Taratata </em>(France)</p><p>Radio: Official voice for NJR radio, Fun Radio, Ado FM, Black Box, 2M, Radio Marseille</p><p>Other: Mamido has performed with artistes including Mylene Farmer, Pascal O&rsquo;zBispo and Axelle Red. Mamido has also worked extensively as an animation voiceover artist with credits including <em>Princess And</em> <em>The Frog</em>, <em>Phineas and Ferb</em>, <em>Kuzco</em> <em>2: King of Kronk </em>and <em>Foot 2 Rue </em>featuring Stomy Bugsy.</p>",
-                "image": "../images/headshots/mamido-bomoko-souchu.jpg"
+                "bio": "<p>Place of Birth: Salvador-Bahia-Brazil</p><p>Training: Candolina School, Ballet Folkloric of Bahia, Cultural Foundation of Bahia, Harmonic Dance School Paris</p><p>Theatre: <em>The Lion King </em>(Brazil and The Netherlands)</p><p>Television: <em>Faustao Globo; Programa Do Faro Record</em></p><p>Film: <em>Copacabana</em></p><p>Other: Christiane has performed with Dance Brazil Company at the Joyce Theatre, New York and with Bale Folclorico da Bahia at the Miguel Santana Theatre. Christiane has also performed with singers Ivete Sangalo and Daniela Mercury.</p>",
+                "image": "../images/headshots/christine-santos-de-jesus.jpg"
             },
             {
                 "name": "Sherry Tay",
@@ -1302,12 +1311,6 @@
                 "role": "Ensemble",
                 "bio": "<p>Place of Birth: Manchester, England</p><p>Training: Gwyneth Hare School; Northern Ballet School</p><p>Other: <em>The Lion King </em>marks Francesca&rsquo;s professional debut.</p>",
                 "image": "../images/headshots/francesca-thompson.jpg"
-            },
-            {
-                "name": "Connor Pele Williams",
-                "role": "Swing",
-                "bio": "<p>Place of Birth: London, England</p><p>Training: London Contemporary Dance School, The Brit School</p><p>Theatre: <em>The Lion King </em>(Lyceum Theatre); <em>Cendrillon </em>(Glyndebourne Opera); <em>Polaris </em>(Sadler&rsquo;s Wells)</p><p>Other: Connor appeared in music videos for artists Caswell and Elixr. Connor choreographed <em>Taffeta</em> <em>Dreaming </em>for TRAH and CHIPS Theatre Ensemble in 2019 as part of Resolutions festival at The Place (London).</p>",
-                "image": "../images/headshots/conor-pele-williams.jpg"
             },
             {
                 "name": "Maria Yim",
@@ -1364,7 +1367,7 @@
             {
                 "name": "Stella Harris",
                 "role": "Young Nala",
-                "bio": "<p>Place of Birth: Addis Ababa, Ethiopia</p><p>Training: The Lion King Cub School; Akoma Asa Performing Arts Theatre: <em>Hansel and Gretel</em> (The Place); <em>Remembering the</em> <em>Transatlantic Slave Trade and</em> <em>its Abolition </em>(City Hall London); <em>Concrete Dreams </em>(Southbank Centre); Narrating <em>The Somatic: Gathering Voices, Sharing Practice </em>(Middlesex University)</p>",
+                "bio": "<p>Place of Birth: Addis Ababa, Ethiopia</p><p>Training: The Lion King Cub School; Akoma Asa Performing Arts</p><p>Theatre: <em>Hansel and Gretel</em> (The Place); <em>Remembering the</em> <em>Transatlantic Slave Trade and</em> <em>its Abolition </em>(City Hall London); <em>Concrete Dreams </em>(Southbank Centre); Narrating <em>The Somatic: Gathering Voices, Sharing Practice </em>(Middlesex University)</p>",
                 "image": "../images/headshots/stella-harris.jpg"
             },
             {
@@ -1380,7 +1383,7 @@
                 "image": "../images/headshots/mary-anne-pity-tiekou.jpg"
             },
             {
-                "name": "Drew Jada Maite Toussaint",
+                "name": "Drew Toussaint",
                 "role": "Young Nala",
                 "bio": "<p>Place of Birth: London, England</p><p>Training: The Lion King Cub School; Creative Kidz Stage School Other: <em>The Lion King </em>marks Drew&rsquo;s professional debut.</p>",
                 "image": "../images/headshots/drew-toussaint.jpg"
