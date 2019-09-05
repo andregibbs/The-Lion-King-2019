@@ -108,12 +108,39 @@ const CastItems = (props) => (
                             }
                             ensemble {
                                 name
+                                role
+                                bio
+                                image {
+                                    childImageSharp {
+                                        fluid(maxWidth: 380) {
+                                            ...GatsbyImageSharpFluid
+                                        }
+                                    }
+                                }
                             }
                             youngsimba {
                                 name
+                                role
+                                bio
+                                image {
+                                    childImageSharp {
+                                        fluid(maxWidth: 380) {
+                                            ...GatsbyImageSharpFluid
+                                        }
+                                    }
+                                }
                             }
                             youngnala {
                                 name
+                                role
+                                bio
+                                image {
+                                    childImageSharp {
+                                        fluid(maxWidth: 380) {
+                                            ...GatsbyImageSharpFluid
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
@@ -154,21 +181,21 @@ const CastItems = (props) => (
                                     {node.youngsimba !== null &&   
                                         <>
                                             <h2 className="py-3 text-center">Young Simba</h2>
-                                            <CustomList data={node.youngsimba} type="youngsimba" /> 
+                                            <CustomCollapse data={node.youngsimba} type="youngsimba" /> 
                                         </>
                                     }
 
                                     {node.youngnala !== null &&  
                                         <>
                                             <h2 className="py-3 text-center">Young Nala</h2> 
-                                            <CustomList data={node.youngnala} type="youngnala" /> 
+                                            <CustomCollapse data={node.youngnala} type="youngnala" /> 
                                         </>
                                     }     
 
                                     {node.ensemble !== null &&   
                                         <>
                                             <h2 className="py-3 text-center">Ensemble</h2>
-                                            <CustomList data={node.ensemble} type="ensemble" /> 
+                                            <CustomCollapse data={node.ensemble} type="ensemble" /> 
                                             
                                         </>
                                     }
