@@ -62,14 +62,15 @@
     }
 
     &--book {
-        min-height: 72px;
+        // min-height: 72px;
+        padding: 25px;
         display: flex;
         align-items: center;
         font-size: $font-size-base * 1.25;
     }
 
     &--sign-up {
-        width: 330px;
+        width: 370px;
         margin: 0 auto;
     }
 
