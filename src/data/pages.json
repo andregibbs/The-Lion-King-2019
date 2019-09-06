@@ -265,8 +265,6 @@
         ]
     },
     {
-<<<<<<< HEAD
-=======
         "id": "londonCast",
         "siteId": "london",
         "template": "cast-template",
@@ -277,7 +275,6 @@
         "headerImageMobile": "../images/headers/LK-header-cast-access-rafiki-576.jpg"
     },
     {
->>>>>>> ag-new-headers-21-08-19
         "id": "londonYourVisit",
         "siteId": "london",
         "template": "default-template",
@@ -435,16 +432,6 @@
                 ]
             }
         ]
-    },
-    {
-        "id": "londonCast",
-        "siteId": "london",
-        "template": "cast-template",
-        "path": "/london/cast-and-creatives/",
-        "title": "Cast & Creatives",
-        "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg"
     },
     {
         "id": "londonRelaxedPerformances",
