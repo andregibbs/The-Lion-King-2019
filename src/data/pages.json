@@ -950,7 +950,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Bradford will go on sale this October – sign up now for priority access to tickets below.</h2><a href='https://www.bradford-theatres.co.uk/priority-booking' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase'>Bradford Priority Sign-Up</a>"
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Bradford will go on sale this October – sign up now for priority access to tickets below.</h2><a href='https://www.bradford-theatres.co.uk/priority-booking' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase interstitial-timed-bradford'>Bradford Priority Sign-Up</a>"
                 }
             }
         ]
