@@ -828,7 +828,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'><span class='font-weight-bold'>Disney's THE LION KING will embark on a UK and Ireland Tour beginning Autumn 2019.</span><br />Priority sign-up is now closed. Tickets for Cardiff go on sale to the public on Tuesday 17 September 2019</h2>"
+                    "content": "<h2 class='h5 font-weight-normal pt-3'><br />Priority sign-up is now closed. Tickets for Cardiff go on sale to the public on Tuesday 17 September 2019.</h2>"
                 }
             }
         ]
