@@ -92,3 +92,9 @@
 		height: 26px;
 	}
 }
+
+.no-underline {
+    &:hover {
+       text-decoration: none;
+    }
+}

@@ -70,7 +70,7 @@
                 "textBlockFullWidth": {
                     "textCenter": false,
                     "fluidContainer": true,
-                    "content": "<h4 class='text-red pb-3'>Learn more about the audition process</h4><p class='text-red text-lg'><strong>Singers & Actors</strong></p><p>Auditions for singers and actors take place in three stages: Initial Auditions, Call-backs & Coaching and Final Auditions with the International Creative Team.</p><p><strong>1. Initial Auditions</strong></p><p>Auditions are advertised in newspapers, online, via agents and contact lists.</p><p>Auditionees are requested to come to the auditions with a contemporary rock, pop or gospel song prepared. A pianist is provided. Clear and well-laid out sheet music is required; and in the correct key for the singer. No backing tapes.</p><p>The auditionee will be given a set time to audition by the audition coordinator. At the audition the singer may be asked to sing only 16 bars (eg. verse and chorus) of the song they have prepared.</p> <p> The Casting Director and Casting Coordinator are present at these auditions.</p><p><strong>2. Call-backs and Coaching</strong></p><p> Due to large-scale logistics we are unable to contact everyone who auditions. Should you be successful at the initial audition, you will be contacted by the Casting Department and sent material from the show to prepare for the next audition.</p> <p> The material is usually a song and an acting piece for a particular character from THE LION KING. After the call-back audition the Casting Director will give feedback and may work on the acting piece with the auditionee. If the Music Director is present, there may also be some coaching on the song.</p> <p> The Casting Director, Casting Coordinator, Music Director and the Resident Director may be present at these auditions.</p><p>There may be additional coaching sessions before the finals.</p> <p><strong>3. Final Auditions</strong></p><p>Successful performers will be short-listed to audition for the International Creative Team.</p> <p> The materials for this final audition will be the material prepared from the show and also a contemporary rock or pop song (not a cappella).</p><hr class='hr-black my-5'><p class='text-red text-lg'><strong>Dancers</strong></p><p>Dance auditions usually take place in two major phases: initial auditions and then call-backs to the International Creative Team.</p> <p><strong>1. Initial Auditions</strong></p><p> Auditions are advertised in newspapers, online, via agents and contact lists.</p><p>At the initial audition dancers may be seen on separate women's or men's days, or at mixed sessions. All dancers arrive at the beginning of auditions to register and are then auditioned during the day.</p><p> A short dance sequence adapted from THE LION KING is taught to the dancers by the Resident Dance Supervisor or Dance Captains. Dancers are assessed on their versatility and technique. At the end of each session unsuccessful dancers are notified and the successful dancers are asked to continue with the next session or asked to come back later in the day. By the end of the audition day the short-listed dancers remain. They may be asked to do another sequence from the show and sing for the Music Director.</p><p><strong>2. Call-backs</strong></p><p> Short-listed dancers are notified of their call-back to dance for the International Creative Team. These auditions follow much the same pattern as the initial auditions. At the end of this audition day male and female dancers are brought together for a final audition for evaluation by the international creative team.</p>"
+                    "content": "<h4 class='text-red pb-3'>Learn more about the audition process</h4><p class='text-red text-lg'><strong>Singers & Actors</strong></p><p>Auditions for singers and actors take place in three stages: Initial Auditions, Call-backs & Coaching and Final Auditions with the International Creative Team.</p><p><strong>1. Initial Auditions</strong></p><p>Auditions are advertised in newspapers, online, via agents and contact lists.</p><p>Auditionees are requested to come to the auditions with a contemporary rock, pop or gospel song prepared. A pianist is provided. Clear and well-laid out sheet music is required; and in the correct key for the singer. No backing tapes.</p><p>The auditionee will be given a set time to audition by the audition coordinator. At the audition the singer may be asked to sing only 16 bars (eg. verse and chorus) of the song they have prepared.</p> <p> The Casting Director and Casting Coordinator are present at these auditions.</p><p><strong>2. Call-backs and Coaching</strong></p><p> Due to large-scale logistics we are unable to contact everyone who auditions. Should you be successful at the initial audition, you will be contacted by the Casting Department and sent material from the show to prepare for the next audition.</p> <p> The material is usually a song and an acting piece for a particular character from THE LION KING. After the call-back audition the Casting Director will give feedback and may work on the acting piece with the auditionee. If the Music Director is present, there may also be some coaching on the song.</p> <p> The Casting Director, Casting Coordinator, Music Director and the Resident Director may be present at these auditions.</p><p>There may be additional coaching sessions before the finals.</p> <p><strong>3. Final Auditions</strong></p><p>Successful performers will be short-listed to audition for the International Creative Team.</p> <p> The materials for this final audition will be the material prepared from the show and also a contemporary rock or pop song (not a cappella).</p><hr class='hr-black my-5'><p class='text-red text-lg'><strong>Dancers</strong></p><p>Dance auditions usually take place in two major phases: initial auditions and then call-backs to the International Creative Team.</p> <p><strong>1. Initial Auditions</strong></p><p> Auditions are advertised in newspapers, online, via agents and contact lists.</p><p>At the initial audition dancers may be seen on separate women's or men's days, or at mixed sessions. All dancers arrive at the beginning of auditions to register and are then auditioned during the day.</p><p> A short dance sequence adapted from THE LION KING is taught to the dancers by the Resident Dance Supervisor or Dance Captains. Dancers are assessed on their versatility and technique. At the end of each session unsuccessful dancers are notified and the successful dancers are asked to continue with the next session or asked to come back later in the day. By the end of the audition day the short-listed dancers remain. They may be asked to do another sequence from the show and sing for the Music Director.</p><p><strong>2. Call-backs</strong></p><p> Short-listed dancers are notified of their call-back to dance for the International Creative Team. These auditions follow much the same pattern as the initial auditions. At the end of this audition day male and female dancers are brought together for a final audition for evaluation by the international creative team.</p>"
                 }
             }
         ]
@@ -186,8 +186,8 @@
         "displayBookNow": false,
         "metaTitle": "Home | London",
         "metaDescription": "",
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "headerImage": "../images/headers/LK-header-home-simba-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-home-simba-576.jpg",
         "contentBlocks": [
             {
                 "type": "thinTwoColumnBlock",
@@ -215,7 +215,7 @@
                             },
                             {
                                 "question": "Day Seats",
-                                "answer": "<p>A limited number of Day Seats priced at £20 per ticket are available to purchase from 10am on the day of each performance, in person at the Lyceum Theatre Box Office.</p><p>Each person is allowed to purchase a maximum of two tickets each. Subject to availability.</p>"
+                                "answer": "<p>A limited number of Day Seats priced at £20 per ticket are available to purchase from 10am on the day of each performance, in person at the Lyceum Theatre Box Office.</p><p>Each person is allowed to purchase a maximum of two tickets each. Subject to availability.</p><p>Please note that Day Seats will <strong>not</strong> be available on 18, 19 or 20 October 2019.</p>"
                             },
                             {
                                 "question": "Bring a School Group",
@@ -243,8 +243,8 @@
         "title": "About the Show",
         "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
         "inFooter": true,
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "headerImage": "../images/headers/LK-header-about-nala-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-about-nala-576.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -258,7 +258,7 @@
                     "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
                     "imgMobile": "../images/backgrounds/bg-lk-banner-md3.jpg",
                     "withGradient": true,
-                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
                 }
             }
@@ -271,8 +271,8 @@
         "path": "/london/cast-and-creatives/",
         "title": "Cast & Creatives",
         "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg"
+        "headerImage": "../images/headers/LK-header-cast-access-rafiki-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-cast-access-rafiki-576.jpg"
     },
     {
         "id": "londonYourVisit",
@@ -281,8 +281,8 @@
         "path": "/london/your-visit/",
         "title": "Your Visit",
         "metaDescription": "Get answers to frequently asked questions about your visit to THE LION KING on the official Disney website.",
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "headerImage": "../images/headers/LK-header-yourvisit-mufasa-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-yourvisit-mufasa-576.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -351,7 +351,7 @@
                             },
                             {
                                 "question": "Does THE LION KING offer day seats?",
-                                "answer": "<p>A limited number of Day Seats priced at £20 per ticket are available to purchase each morning in person at the Lyceum Theatre Box Office. Each person is allowed to purchase a maximum of two tickets each. Subject to availability.</p>"
+                                "answer": "<p>A limited number of Day Seats priced at £20 per ticket are available to purchase each morning in person at the Lyceum Theatre Box Office. Each person is allowed to purchase a maximum of two tickets each. Subject to availability.</p><p>Please note that Day Seats will <strong>not</strong> be available on 18, 19 or 20 October 2019.</p>"
                             },
                             {
                                 "question": "I have a question about my booking, who can I contact?",
@@ -382,8 +382,8 @@
         "path": "/london/access/",
         "title": "Access",
         "metaDescription": "Find out about access performances, wheelchair and hearing facilities at THE LION KING, London’s Landmark Musical, on the official Disney website.",
-        "headerImage": "../images/headers/header-london-1600px.jpg",
-        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "headerImage": "../images/headers/LK-header-cast-access-rafiki-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-cast-access-rafiki-576.jpg",
         "contentBlocks": [
             {
                 "type": "faqBlock",
@@ -397,7 +397,7 @@
                             },
                             {
                                 "question": "Are there facilities for people with visual impairments?",
-                                "answer": "<p>THE LION KING regularly schedules audio described performances for those with visual impairments in association with VocalEyes. Audio description in theatre is a live verbal commentary on the visual elements of a production, delivered as a performance unfolds, through a discreet headset.</p><p>The next audio described performances of THE LION KING will take place on <strong>Sunday 1 September 2019 at 2.30pm</strong> and <strong>Tuesday 17 March 2020 at 7.30pm</strong>.</p><p>Guide Dogs are welcome in the auditorium or can alternatively be left in the care of theatre staff. If you intend to bring a guide dog, please let your sales advisor know at the time of booking.</p><p>The Lyceum Theatre has a limited number of large print and Braille programmes available. Please contact the Front of House Manager in advance on 020 7420 8100 (calls charged at local rate) to request a copy.</p><p>A copy of THE LION KING script is available in braille and an appointment can be made to read it in the theatre by calling 020 7420 8100 (calls charged at local rate) in advance.</p>"
+                                "answer": "<p>THE LION KING regularly schedules audio described performances for those with visual impairments in association with VocalEyes. Audio description in theatre is a live verbal commentary on the visual elements of a production, delivered as a performance unfolds, through a discreet headset.</p><p>The next audio described performance of THE LION KING will take place on&nbsp;<strong>Tuesday 17 March 2020 at 7.30pm</strong>.</p><p>Guide Dogs are welcome in the auditorium or can alternatively be left in the care of theatre staff. If you intend to bring a guide dog, please let your sales advisor know at the time of booking.</p><p>The Lyceum Theatre has a limited number of large print and Braille programmes available. Please contact the Front of House Manager in advance on 020 7420 8100 (calls charged at local rate) to request a copy.</p><p>A copy of THE LION KING script is available in braille and an appointment can be made to read it in the theatre by calling 020 7420 8100 (calls charged at local rate) in advance.</p>"
                             },
                             {
                                 "question": "Are there facilities for people with hearing impairments?",
@@ -405,7 +405,7 @@
                             },
                             {
                                 "question": "When is the next assisted performance?",
-                                "answer": "<p>The next <strong>captioned</strong> performance, presented in association with Stagetext, will take place on <strong>Tuesday 24 March 2020 at 7.30pm</strong>.</p><p>The next <strong>signed</strong> (BSL) performance, presented in association with Theatre Sign, will take place on <strong>Tuesday 21 April 2020 at 7.30pm</strong>.</p><p>The next <strong>audio described</strong> performances of THE LION KING, presented in association with VocalEyes, will take place on <strong>Sunday 1 September 2019 at 2.30pm </strong> and <strong>Tuesday 17 March 2020 at 7.30pm</strong><strong>. </strong></p><p>It is advisable to book for these performances well in advance as tickets are subject to availability.</p>"
+                                "answer": "<p>The next&nbsp;<strong>captioned</strong>&nbsp;performance, presented in association with Stagetext, will take place on&nbsp;<strong>Tuesday 24 March 2020 at 7.30pm</strong>.</p><p>The next&nbsp;<strong>signed</strong>&nbsp;(BSL) performance, presented in association with Theatre Sign, will take place on&nbsp;<strong>Tuesday 21 April 2020 at 7.30pm</strong>.</p><p>The next&nbsp;<strong>audio described</strong>&nbsp;performance of THE LION KING, presented in association with VocalEyes, will take place on&nbsp;<strong>Tuesday 17 March 2020 at 7.30pm.</strong></p><p>It is advisable to book for these performances well in advance as tickets are subject to availability.</p>"
                             },
                             {
                                 "question": "How do I book access concessions?",
@@ -421,7 +421,7 @@
                             },
                             {
                                 "question": "Does THE LION KING schedule relaxed performances?",
-                                "answer": "<p>The Lion King will host a Relaxed Performance in June 2019. <a href='/london/relaxedperformances/'>Click here for more information</a>.</p>"
+                                "answer": "<p>THE LION KING will host a Relaxed Performance in Summer 2020. <a href='/london/relaxedperformances/'>Click here for more information</a>.</p>"
                             },
                             {
                                 "question": "Are there any resources available to help prepare for my visit?",
@@ -562,7 +562,7 @@
                 "bgImageTextBlock": {
                     "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
                     "imgMobile": "../images/backgrounds/bg-lk-banner-md3.jpg",
-                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
                 }
             }
@@ -734,7 +734,7 @@
                 "bgImageTextBlock": {
                     "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
                     "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
-                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
                 }
             }
@@ -828,7 +828,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Cardiff will go on sale this September – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-cardiff-tickets' class='btn btn--red btn--book btn--sign-up my-5 text-uppercase no-interstitial-check'>Cardiff priority sign-up</a>"
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Priority sign-up is now closed. Tickets for Cardiff go on sale to the public on Tuesday 17 September 2019</h2>"
                 }
             }
         ]
@@ -856,7 +856,7 @@
                 "bgImageTextBlock": {
                     "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
                     "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
-                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
                 }
             }
@@ -928,6 +928,128 @@
         ]
     },
     {
+        "id": "bradfordHome",
+        "siteId": "bradford", 
+        "template": "home-template",
+        "path": "/bradford/",
+        "displayBookNow": false,
+        "title": "Home",
+        "metaTitle": "Home | Bradford",
+        "metaDescription": "Tickets go on sale in September 2019 for The Alhambra Theatre. The Lion King, coming April 2020.",
+        "headerImage": "../images/headers/bradford-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "paddingClass": "pb-0",
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>The Alhambra Theatre <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>30 April – 20 June 2020</span></h1>"
+                }
+            },
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "paddingClass": "pb-0",
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Bradford will go on sale this October – sign up now for priority access to tickets below.</h2><a href='https://www.bradford-theatres.co.uk/priority-booking' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase interstitial-timed-bradford'>Bradford Priority Sign-Up</a>"
+                }
+            }
+        ]
+    },
+    {
+        "id": "bradfordAbout",
+        "siteId": "bradford",
+        "inFooter": true,
+        "template": "about-template",
+        "path": "/bradford/about-the-show/",
+        "displayBookNow": false,
+        "title": "About the Show",
+        "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
+        "headerImage": "../images/headers/bradford-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "content": "<div class='pb-3'><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_op6vdai8&flashvars[localizationCode]=en&amp;&wid=1_bco9363r' width='400' height='85' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div></div>"
+                }
+            },
+            {
+                "type": "bgImageTextBlock",
+                "bgImageTextBlock": {
+                    "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "links": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "bradfordCast",
+        "siteId": "bradford",
+        "displayBookNow": false,
+        "template": "cast-template",
+        "path": "/bradford/cast-and-creatives/",
+        "title": "Cast & Creatives",
+        "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
+        "headerImage": "../images/headers/bradford-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-576.jpg"
+    },
+    {
+        "id": "bradfordRelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "bradford",
+        "template": "default-template",
+        "path": "/bradford/relaxedperformances/",
+        "title": "Relaxed Performance",
+        "displayBookNow": false,
+        "metaDescription": "See it now in Edinburgh. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/header-autism-v2-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-autism-v2-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for the Relaxed Performance at the The Alhambra Theatre.</p><p>THE LION KING is committed to creating a friendly and inclusive audience experience. Having hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the Lyceum Theatre London, the landmark musical is delighted to be presenting a Relaxed Performance in the <strong>Edinburgh Playhouse</strong> on Sunday 26 January 2020 at 1.30pm.</p><p>Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment.</p><a href='https://atgtickets.queue-it.net/?c=atgtickets&e=tlkedirp&t_per=59002973-5D67-440B-AFBF-FCF34008E716' class='btn btn--red btn--300'>Book Tickets</a>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_lyhexn9i&flashvars[localizationCode]=en&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_wgbwxrws' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is a Relaxed Performance?</div>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "bradfordTerms",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "bradford",
+        "template": "default-template",
+        "path": "/bradford/terms-and-conditions/",
+        "displayBookNow": false,
+        "title": "Terms and Conditions",
+        "metaDescription": "",
+        "headerImage": "../images/headers/bradford-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "bgColour": "light-grey",
+                    "column1": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>EDUCATION</h2><p><strong>Education Group Rates up to Year 13</strong></p><p>*Education group sales available on selected seats at selected performances, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Thursday evening and Wednesday matinee performances only. On Wednesday and Thursday evening performances, Stalls & Circle reduced to £25, Balcony reduced to £19.50. On Tuesday evening and Wednesday matinee performances, Stalls & Circle reduced to £25, Balcony reduced to £16.50. For every ten (10) tickets purchased the group receives one (1) additional ticket free for use by a teacher. Education group tickets purchased shall not be offered for re-sale via social media channels to individual members, unless otherwise agreed in writing by The Walt Disney Company. Offer is subject to availability, may be revoked at any time and not available on premium seating. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Additional restrictions apply, please enquire for more details. © Disney</p>"
+                    },
+                    "column2": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>GROUPS</h2><p><strong>Group Sales Terms and Conditions</strong></p><p>*Group rates currently available on selected seats at selected performances, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Friday evening and Wednesday matinee performances only. On Wednesday, Thursday and Friday evening performances, tickets for groups 10-24 from £35, groups 25-49 from £32.50 and groups 50+ from £25. On Tuesday evening and Wednesday matinee performances, tickets for groups 10-24 from £25, groups 25-49 from £22.50 and groups 50+ from £20. Group rates can only be applied to tickets being booked at the same time. Not all seats for eligible performances are discounted. No refunds or exchanges. Prices may vary on selected performances. Prices, dates, times and cast subject to change without notice. Group discount may be revoked at any time without notice. © Disney</p>"
+                    }
+                }
+            }
+        ]
+    },
+    {
         "id": "southamptonHome",
         "siteId": "southampton", 
         "template": "home-template",
@@ -950,7 +1072,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Southampton will go on sale this October – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-southampton-tickets?bypass_cache=5&draft_id=58ef7f91af83889305719515' class='btn btn--red btn--book btn--sign-up my-5 text-uppercase no-interstitial-check'>Southampton priority sign-up</a>"
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Southampton will go on sale this October – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-southampton-tickets' class='btn btn--red btn--book btn--sign-up my-5 text-uppercase no-interstitial-check'>Southampton priority sign-up</a>"
                 }
             }
         ]
@@ -1078,6 +1200,34 @@
         ]
     },
     {
+        "id": "RelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "relaxedperformances",
+        "template": "default-template",
+        "path": "/relaxedperformances/",
+        "title": "Relaxed Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/1600-Relaxed_Performances.jpg",
+        "headerImageMobile": "../images/headers/576-Relaxed_Performances.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for Relaxed Performances in <strong>Bristol on 19 November 2019</strong> at 5pm, and <strong>Edinburgh on 26 January 2020</strong> at 1.30pm. The next Relaxed Performance at London’s Lyceum Theatre will be in summer 2020.</p><div class='row pt-1 pb-4'><div class='col-sm-4 d-flex py-1'><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=FAF5EC02-CBFF-4758-8BDB-F70E209120F4&BOparam::WSmap::loadMap::promocode_access_code_url=PRESALE&brandingName=&SessionSecurity::referrer=&q=57fdc600-8f21-4a3c-aa40-7b56af7dfc2e&p=f0691349-9c9c-4492-9900fa9ccc930039&ts=1556801524&c=atgtickets&e=tlkbrsgen&rt=Safetynet&h=078a82c9a0fe140a3263049d9a26b2f8' class='btn btn--red btn--relaxed'>The Bristol Hippodrome</span><br/> <span class='text-thin'>BOOK NOW</span></a></div><div class='col-sm-4 d-flex py-1'><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=59002973-5D67-440B-AFBF-FCF34008E716&BOparam::WSmap::loadMap::promocode_access_code_url=&brandingName=&SessionSecurity::referrer=&q=c98046b7-e2d5-40f9-975a-f190c49eb8e5&p=4919e749-999e-426e-a988-5a9eeb96e6f1&ts=1556801583&c=atgtickets&e=tlkeditcgen&rt=Safetynet&h=a261ec8c1374674ab84940510286be65' class='btn btn--red btn--relaxed'>Edinburgh Playhouse<br/> <span class='text-thin'>BOOK NOW</span></a></div><div class='col-sm-4 d-flex py-1'><a href='https://www.atgtickets.com/the-lion-king-relaxed-performances/' class='btn btn--red btn--relaxed'>London<br/>  <span class='text-thin'>Sign up for priority <br/> waiting list</span></a></div></div> <p>THE LION KING is committed to creating a friendly and inclusive audience experience. The landmark musical is delighted to be presenting a Relaxed Performance in each venue on the UK tour as well as in the Lyceum Theatre in London next summer. The show hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the London.</p><p> Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment.</p><p>Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=0_b6qro5ob&flashvars[localizationCode]=en&&wid=0_twedux9y' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is an autism-friendly performance?</div>"
+                    }
+                }
+            }
+        ]
+    },
+    {
         "id": "relaxedperformancesAbout",
         "siteId": "relaxedperformances",
         "template": "about-template",
@@ -1100,9 +1250,196 @@
                     "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
                     "imgMobile": "../images/backgrounds/bg-lk-banner-md3.jpg",
                     "withGradient": true,
-                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
                 }
+            }
+        ]
+    },
+    {
+        "id": "RAM",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/RAM/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "Celebrate the 20th anniversary of Disney’s landmark musical. Book now.",
+        "headerImage": "../images/headers/LK_Gala_Aug19_1600x572.jpg",
+        "headerImageMobile": "../images/headers/LK_Gala_Aug19_576x240.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance –<br> 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special gala performance at the iconic Lyceum Theatre on 19 October 2019 at 7.30pm. In the last 20 years, over 16 million people have enjoyed performances of THE LION KING in London alone – join us to mark this landmark anniversary.</p> <p>This performance is in support of the Elton John AIDS Foundation and <br>the Royal Academy of Music<div class='col-sm-4 p-0'><a href='https://tickets.disney.co.uk/tickets/series/TLK/the-lion-king-188318?promo=ELTON&startDate=10-19-2019' target='_blank' class='no-underline no-interstitial-check'><div class='btn btn--red'>Book now</div></a></div><div class='row'><div class='col-7 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-5 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": " <p>Yes, the performance is held in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><p>Elton John is the multi award-winning composer of THE LION KING. <a href='https://london.ejaf.org/' target='_blank' rel='noopener noreferrer'>The Elton John AIDS Foundation</a> funds frontline programmes that help to alleviate the pain &ndash; whether physical, emotional or financial &ndash; of those living with, affected by or at risk of HIV/AIDS.</p><p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the <a href='https://www.ram.ac.uk/departments/musical-theatre/disney' target='_blank' rel='noopener noreferrer'>Royal Academy of Music</a>&rsquo;s world-class Musical Theatre Course.</p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": "<p>Your question may be answered <a href='/'>here</a>, or via <a href='/'>DisneyTickets</a>.</p>"
+                            },
+                            {
+                                "question": "When will I receive my tickets?",
+                                "answer": "<p>Your tickets will be posted to you 7-10 working days before the performance. Tickets purchased less than a week before the performance date will be available to collect from the Box Office.</p>"
+                            },
+                            {
+                                "question": "Security information",
+                                "answer": "<p>Please note that enhanced security checks including bag checks will be in operation at the venue. We advise you arrive in plenty of time and request you do not bring any large bags.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "EJAF",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/EJAF/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "Celebrate the 20th anniversary of Disney’s landmark musical. Book now.",
+        "headerImage": "../images/headers/LK_Gala_Aug19_1600x572.jpg",
+        "headerImageMobile": "../images/headers/LK_Gala_Aug19_576x240.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance –<br> 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special gala performance at the iconic Lyceum Theatre on 19 October 2019 at 7.30pm. In the last 20 years, over 16 million people have enjoyed performances of THE LION KING in London alone – join us to mark this landmark anniversary.</p> <p>This performance is in support of the Elton John AIDS Foundation and <br>the Royal Academy of Music<div class='col-sm-4 p-0'><a href='https://tickets.disney.co.uk/tickets/series/TLK/the-lion-king-188318?promo=ELTON&startDate=10-19-2019' target='_blank' class='no-underline no-interstitial-check'><div class='btn btn--red'>Book now</div></a></div><div class='row'><div class='col-7 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-5 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": " <p>Yes, the performance is held in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><p>Elton John is the multi award-winning composer of THE LION KING. <a href='https://london.ejaf.org/' target='_blank' rel='noopener noreferrer'>The Elton John AIDS Foundation</a> funds frontline programmes that help to alleviate the pain &ndash; whether physical, emotional or financial &ndash; of those living with, affected by or at risk of HIV/AIDS.</p><p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the <a href='https://www.ram.ac.uk/departments/musical-theatre/disney' target='_blank' rel='noopener noreferrer'>Royal Academy of Music</a>&rsquo;s world-class Musical Theatre Course.</p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": "<p>Your question may be answered <a href='/'>here</a>, or via <a href='/'>DisneyTickets</a>.</p>"
+                            },
+                            {
+                                "question": "When will I receive my tickets?",
+                                "answer": "<p>Your tickets will be posted to you 7-10 working days before the performance. Tickets purchased less than a week before the performance date will be available to collect from the Box Office.</p>"
+                            },
+                            {
+                                "question": "Security information",
+                                "answer": "<p>Please note that enhanced security checks including bag checks will be in operation at the venue. We advise you arrive in plenty of time and request you do not bring any large bags.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "gala",
+        "inNav": true,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/gala/",
+        "title": "20th Anniversary",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "Celebrate the 20th anniversary of Disney’s landmark musical. Book now.",
+        "headerImage": "../images/headers/LK_Gala_Aug19_1600x572.jpg",
+        "headerImageMobile": "../images/headers/LK_Gala_Aug19_576x240.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance –<br> 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special gala performance at the iconic Lyceum Theatre on 19 October 2019 at 7.30pm. In the last 20 years, over 16 million people have enjoyed performances of THE LION KING in London alone – join us to mark this landmark anniversary.</p> <p>This performance is in support of the Elton John AIDS Foundation and <br>the Royal Academy of Music<div class='col-sm-4 p-0'><a href='https://tickets.disney.co.uk/tickets/series/TLK/the-lion-king-188318?startDate=10-19-2019' target='_blank' class='no-underline no-interstitial-check'><div class='btn btn--red'>Book now</div></a></div><div class='row'><div class='col-7 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-5 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "title": "What is the 20th Anniversary Gala Performance?", 
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": "<p>Yes, the performance is held in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><p>Elton John is the multi award-winning composer of THE LION KING. <a href='https://london.ejaf.org/' target='_blank' rel='noopener noreferrer'>The Elton John AIDS Foundation</a> funds frontline programmes that help to alleviate the pain &ndash; whether physical, emotional or financial &ndash; of those living with, affected by or at risk of HIV/AIDS.</p><p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the <a href='https://www.ram.ac.uk/departments/musical-theatre/disney' target='_blank' rel='noopener noreferrer'>Royal Academy of Music</a>&rsquo;s world-class Musical Theatre Course.</p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": " <p>Your question may be answered <a href='/'>here</a>, or via <a href='/'>DisneyTickets</a>.</p>"
+                            },
+                            {
+                                "question": "When will I receive my tickets?",
+                                "answer": "<p>Your tickets will be posted to you 7-10 working days before the performance. Tickets purchased less than a week before the performance date will be available to collect from the Box Office.</p>"
+                            },
+                            {
+                                "question": "Security information",
+                                "answer": "<p>Please note that enhanced security checks including bag checks will be in operation at the venue. We advise you arrive in plenty of time and request you do not bring any large bags.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
             }
         ]
     }
