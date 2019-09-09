@@ -828,7 +828,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Cardiff will go on sale this September – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-cardiff-tickets' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase no-interstitial-check'>Cardiff priority sign-up</a>"
+                    "content": "<h2 class='h5 font-weight-normal pt-3'><span class='font-weight-bold'>Disney's THE LION KING will embark on a UK and Ireland Tour beginning Autumn 2019.</span><br />Priority sign-up is now closed. Tickets for Cardiff go on sale to the public on Tuesday 17 September 2019</h2>"
                 }
             }
         ]
