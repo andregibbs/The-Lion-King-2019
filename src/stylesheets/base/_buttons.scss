@@ -64,17 +64,13 @@
     &--book {
         // min-height: 72px;
         padding: 25px;
-        display: flex;
+        // display: flex;
         align-items: center;
         font-size: $font-size-base * 1.25;
     }
 
     &--sign-up {
-<<<<<<< HEAD
-        display: inline-flex;
-=======
         width: 370px;
->>>>>>> master
         margin: 0 auto;
     }
 
