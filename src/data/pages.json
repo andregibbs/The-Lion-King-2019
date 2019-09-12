@@ -949,7 +949,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Bradford will go on sale this October – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-bradford-tickets' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase'>Bradford Priority Sign-Up</a>"
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Bradford will go on sale this October – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-bradford-tickets' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase no-interstitial-check'>Bradford Priority Sign-Up</a>"
                 }
             }
         ]
@@ -1064,7 +1064,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Mayflower Theatre, Southampton<span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>3 September – 10 October 2020</span></h1>"
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Mayflower Theatre, Southampton <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>3 September – 10 October 2020</span></h1>"
                 }
             },
             {
@@ -1300,7 +1300,7 @@
                             },
                             {
                                 "question": "I have another question",
-                                "answer": "<p>Your question may be answered <a href='https://thelionking.co.uk/london/your-visit/'>here</a>, or via <a href='https://support.disney.com/hc/en-gb/sections/115002231648-The-Lion-King' target='_blank' rel='noopener noreferrer'>DisneyTickets</a>.</p>"
+                                "answer": "<p>Your question may be answered <a href='/london/your-visit/'>here</a>, or via <a href='https://support.disney.com/hc/en-gb/sections/115002231648-The-Lion-King' target='_blank' rel='noopener noreferrer' class='no-interstitial-check'>DisneyTickets</a>.</p>"
                             },
                             {
                                 "question": "When will I receive my tickets?",
@@ -1350,7 +1350,7 @@
                         "items": [
                             {
                                 "question": "Is the event supporting a charity?",
-                                "answer": " <p>Yes, the performance is held in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><p>Elton John is the multi award-winning composer of THE LION KING. <a href='https://london.ejaf.org/' target='_blank' rel='noopener noreferrer'>The Elton John AIDS Foundation</a> funds frontline programmes that help to alleviate the pain &ndash; whether physical, emotional or financial &ndash; of those living with, affected by or at risk of HIV/AIDS.</p><p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the <a href='https://www.ram.ac.uk/departments/musical-theatre/disney' target='_blank' rel='noopener noreferrer'>Royal Academy of Music</a>&rsquo;s world-class Musical Theatre Course.</p>"
+                                "answer": " <p>Yes, the performance is held in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><p>Elton John is the multi award-winning composer of THE LION KING. <a href='https://london.ejaf.org/' target='_blank' rel='noopener noreferrer'>The Elton John AIDS Foundation</a> funds frontline programmes that help to alleviate the pain &ndash; whether physical, emotional or financial &ndash; of those living with, affected by or at risk of HIV/AIDS.</p><p>Disney Theatrical Productions funds scholarships for students from minority ethnic backgrounds on the <a href='https://www.ram.ac.uk/departments/musical-theatre/disney' target='_blank' rel='noopener noreferrer' >Royal Academy of Music</a>&rsquo;s world-class Musical Theatre Course.</p>"
                             },
                             {
                                 "question": "Is there a dress code?",
@@ -1362,7 +1362,7 @@
                             },
                             {
                                 "question": "I have another question",
-                                "answer": "<p>Your question may be answered <a href='https://thelionking.co.uk/london/your-visit/'>here</a>, or via <a href='https://support.disney.com/hc/en-gb/sections/115002231648-The-Lion-King' target='_blank' rel='noopener noreferrer'>DisneyTickets</a>.</p>"
+                                "answer": "<p>Your question may be answered <a href='/london/your-visit/'>here</a>, or via <a href='https://support.disney.com/hc/en-gb/sections/115002231648-The-Lion-King' target='_blank' rel='noopener noreferrer' class='no-interstitial-check'>DisneyTickets</a>.</p>"
                             },
                             {
                                 "question": "When will I receive my tickets?",
@@ -1425,7 +1425,7 @@
                             },
                             {
                                 "question": "I have another question",
-                                "answer": " <p>Your question may be answered <a href='https://thelionking.co.uk/london/your-visit/'>here</a>, or via <a href='https://support.disney.com/hc/en-gb/sections/115002231648-The-Lion-King' target='_blank' rel='noopener noreferrer'>DisneyTickets</a>.</p>"
+                                "answer": " <p>Your question may be answered <a href='/london/your-visit/'>here</a>, or via <a href='https://support.disney.com/hc/en-gb/sections/115002231648-The-Lion-King' target='_blank' rel='noopener noreferrer' class='no-interstitial-check'>DisneyTickets</a>.</p>"
                             },
                             {
                                 "question": "When will I receive my tickets?",
