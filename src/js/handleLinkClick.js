@@ -19,12 +19,15 @@ export function handleLinkClick(event, link) {
         let atg = false
         let atgBristol = false
         let atgEdinburgh = false
+        let atgWales = false
         let atgBradford = false
 
         if (link.classList.contains('interstitial-timed')) {
             atg = true
         } else if (link.classList.contains('interstitial-timed-bristol')) {
             atgBristol = true
+        } else if (link.classList.contains('interstitial-timed-wales')) {
+            atgWales = true
         } else if (link.classList.contains('interstitial-timed-edinburgh')) {
             atgEdinburgh = true
         } else if (link.classList.contains('interstitial-timed-bradford')) {
@@ -39,6 +42,7 @@ export function handleLinkClick(event, link) {
                 atg,
                 atgBristol,
                 atgEdinburgh,
+                atgWales,
                 atgBradford
             }
         });
