@@ -820,7 +820,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Wales Millennium Centre <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>9 July – 29 August 2020</span></h1>"
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Wales Millennium Centre <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>9 July – 29 August 2020</span></h1><p> For best availability please choose performances in August</p>"
                 }
             },
             {
