@@ -60,7 +60,7 @@ class Interstitial extends Component {
         } else if (atgEdinburgh) {
             office = 'Edinburgh Playhouse Box Office operated by ATG Tickets'
         } else if (atgWales) {
-            office = 'Wales Millenium Centre Box Office operated by ATG Tickets'
+            office = 'Wales Millenium Centre Box Office'
         } else if (atgBradford) {
             office = 'The Alhambra Theatre Box Office operated by Bradford Theatres'
         }
