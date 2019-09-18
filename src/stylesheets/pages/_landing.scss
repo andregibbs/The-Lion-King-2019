@@ -84,7 +84,7 @@
                 font-size: $font-size-lg;
                 letter-spacing: 2px;
                 transition: $transition-base;
-                padding: $spacer;
+                padding: $spacer / 2;
                 background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojQzQyODE5OyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyRjFGMDg7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
                 background-image: -webkit-gradient(linear, left top, 90deg, color-stop(0%, #C42819), color-stop(100%, #2F1F08));
                 background-image: -moz-linear-gradient(90deg,#C42819 0%,#2F1F08 100%);
