@@ -20,12 +20,14 @@
 
 
 /* Which Enviornment? */
-$live = $staging = $local = FALSE;
+$live = $staging = $local = $dave = FALSE;
 
 if (strpos($_SERVER['SERVER_NAME'], 'staging.') !== FALSE) {
 	$staging = TRUE;
 } else if (strpos($_SERVER['SERVER_NAME'], 'localhost') !== FALSE) {
-	$local = TRUE;
+    $local = TRUE; 
+} else if (strpos($_SERVER['SERVER_NAME'], 'local') !== FALSE) {
+    $dave = TRUE;
 } else {
 	$live = TRUE;
 }
@@ -54,7 +56,21 @@ if ($staging) {
 
 	/** MySQL hostname */
 	define('DB_HOST', 'localhost');
-
+	
+} elseif ($dave) {
+    // ** MySQL settings - You can get this info from your web host ** //
+    /** The name of the database for WordPress */
+    define('DB_NAME', 'dewynters_lionking');
+    
+    /** MySQL database username */
+    define('DB_USER', 'miraclemaker');
+    
+    /** MySQL database password */
+    define('DB_PASSWORD', 'mi5acle');
+    
+    /** MySQL hostname */
+    define('DB_HOST', 'localhost');
+    
 } else {
 	// ** MySQL settings - You can get this info from your web host ** //
 	/** The name of the database for WordPress */

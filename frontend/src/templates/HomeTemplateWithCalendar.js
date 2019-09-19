@@ -6,7 +6,7 @@ import Calendar from 'components/Calendar/Calendar'
 
 class HomeTemplate extends Component {
     render() {
-        const data = this.props.data
+        const data = this.props.data;
         return (
             <Layout data={data} displayFooterFindOutMore={true}>
                 <Row className="m-0">
@@ -49,7 +49,7 @@ class HomeTemplate extends Component {
                                     <div class="pb-0 col">
                                         <div>
                                             <div class="d-md-none py-5">
-                                                <Calendar />
+                                                <Calendar site={data.siteId} />
                                             </div>
 
                                             <p class="text-sm m-0 d-none d-md-block">Running: 2hrs 30 mins including interval.</p>
@@ -74,7 +74,7 @@ class HomeTemplate extends Component {
                     </Col>
 
                     <Col lg={6} className="py-5 pt-lg-0 pb-xl-5 d-none d-md-block">
-                        <Calendar />
+                        <Calendar site={data.siteId} />
 
                         <Row className="legend">
                             <Col md={4} className="d-none d-md-block">

@@ -21,6 +21,7 @@ import CalendarToolbar from './CalendarToolbar';
 import CalendarEvent from './CalendarEvent';
 import CalendarOverlay from './CalendarOverlay';
 import "react-big-calendar/lib/css/react-big-calendar.css";
+import { StaticQuery, graphql } from "gatsby";
 const localizer = BigCalendar.momentLocalizer(moment)
 
 const captchaSiteId = "6LdwOKAUAAAAACTWAuP6kQEPo0uT_8zS7xSu3h7A"
@@ -85,42 +86,25 @@ class HouseSeatsForm extends Component {
 
     getEvents() {
 
-        let events = []
-
-        fetchWithTimeout(process.env.HOUSESEATS_ENDPOINT, {
-            method: 'GET'
-        }, 5000)
-            .then((result) => {
-                if (!result.ok) {
-                    throw Error(result.statusText);//catch any server errors
-                }
-                return result;
+        let events = [];
+        
+        const dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates;
+        
+        dates.forEach((event, i) => {
+            const title = event.time === "evening" ? "7:30pm" : "2:30pm"
+            const time = event.time === "evening" ? "19:30" : "14:30"
+            const date = event.date
+            events.push({
+                title: title,
+                start: `${date}T${time}`,
+                end: `${date}T${time}`,
+                resource: event.time
             })
-            .then(res => res.json())//convert response body to json
-            .then((res) => {
-                // Create new object ready for calendar
-                if (res) {
-                    res.acf.dates.forEach((event, i) => {
-                        const title = event.time === "evening" ? "7:30pm" : "2:30pm"
-                        const time = event.time === "evening" ? "19:30" : "14:30"
-                        const date = event.date
-                        events.push({
-                            title: title,
-                            start: `${date}T${time}`,
-                            end: `${date}T${time}`,
-                            resource: event.time
-                        })
-                    })
-
-                    this.setState({
-                        events
-                    })
-                }
-            })
-            .catch((error) => {
-                console.log('caught error', error);
-                // handle errors and timeout error
-            });
+        })
+        
+        this.setState({
+            events
+        })
 
     }
 
@@ -480,4 +464,24 @@ class HouseSeatsForm extends Component {
 
 }
 
-export default HouseSeatsForm
+export default props => (
+  <StaticQuery
+    query={graphql`
+      query {
+          allWordpressAcfOptions {
+		    edges {
+		      node {
+		        options {
+		          dates {
+		            date
+		            time
+		          }
+		        }
+		      }
+		    }
+		  }
+      }
+    `}
+    render={data => <HouseSeatsForm data={data} {...props} />}
+  />
+);

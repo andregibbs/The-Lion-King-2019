@@ -1,5 +1,10 @@
+let activeEnv =
+    process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development";
+
+console.log(`Using environment config: '${activeEnv}'`);
+
 require("dotenv").config({
-	path: `.env.${process.env.NODE_ENV}`,
+    path: `.env.${activeEnv}`,
 });
 
 module.exports = {
@@ -39,6 +44,23 @@ module.exports = {
 				siteUrl: 'https://www.thelionking.co.uk'
 			},
 		},
+        {
+            resolve: `gatsby-source-wordpress`,
+            options: {
+                // your wordpress source
+                baseUrl: process.env.WP_ENDPOINT,
+                protocol: `http`,
+                hostingWPCOM: false,
+                useACF: true,
+            	acfOptionPageIds: ["options"],
+				includedRoutes: [
+				    "/*/*/options",
+				],
+				excludedRoutes: [
+					"/acf/v3/*",
+				],
+            }
+        },
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
 		{
@@ -68,7 +90,7 @@ module.exports = {
 							siteUrl
 						}
 					}
-			
+
 					allSitePage {
 						edges {
 							node {

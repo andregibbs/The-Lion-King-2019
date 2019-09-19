@@ -807,7 +807,7 @@
     {
         "id": "cardiffHome",
         "siteId": "cardiff", 
-        "template": "home-template",
+        "template": "homecalendar-template",
         "path": "/cardiff/",
         "displayBookNow": false,
         "title": "Home",
