@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import Layout from 'components/Layout/Layout'
 import { Row, Col } from 'reactstrap'
 import ContentBlocks from 'components/ContentBlocks/ContentBlocks'
-import Calendar from 'components/Calendar/CalendarCardiff'
+import Calendar from 'components/Calendar/Calendar'
 
 class HomeTemplate extends Component {
     render() {
