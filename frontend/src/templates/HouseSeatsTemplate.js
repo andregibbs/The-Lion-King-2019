@@ -26,16 +26,20 @@ class HouseSeatsTemplate extends Component {
                                 <p><strong>Evenings:</strong> Tuesday - Saturday at 7.30pm<br />
                                     <strong>Matinees:</strong> Wednesday, Saturday & Sunday at 2.30pm.</p>
                                 <hr className="hr-black my-4" />
-                                <p className="text-lg">To request House Seats for Disney's THE LION KING in London please complete the form. Once your request has been processed you will receive a confirmation email with reservation details. You will then need to call the box office and provide your credit card details to complete your booking. If you have any access requirements, please use the Additional Notes box.</p>
+                                <p className="text-lg">To request House Seats for Disney's THE LION KING in London please complete the form.</p>
+                                <div className="py-4">
+                                <a href="https://tickets.disney.co.uk/tickets/houseseats/TLKHOUSE?refId=cacC" class="btn btn--red my-4 interstitial-timed">REQUEST HOUSE SEATS</a>
+                                </div>
+                                <p className="text-lg">If you have not requested house seats before, you will need to register. After completing the request form, it will be reviewed. If your request is successful, you will be sent a link to pay for your tickets online.</p>
                                 <p className="text-red"><strong>PLEASE NOTE THAT YOUR REQUEST MAY TAKE UP TO ONE WEEK PRIOR TO THE PERFORMANCE DATE TO BE CONFIRMED.</strong></p>
                                 <p><strong>Performance prices, dates and times subject to change without notice. Black-out periods may apply. Subject to availability. No refunds/exchanges.</strong></p>
                             </div>
                         </Col>
-                        <Col lg={6}>
+                        {/* <Col lg={6}>
                             <div className="bg-white p-3 p-md-5">
                                 <HouseSeatsForm />
                             </div>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
             </Layout>
