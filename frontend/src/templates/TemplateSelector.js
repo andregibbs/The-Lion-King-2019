@@ -5,6 +5,7 @@ import CastCreativeTemplate from './CastCreativeTemplate';
 import AboutTemplate from './AboutTemplate';
 import HouseSeatsTemplate from './HouseSeatsTemplate';
 import RegisterTemplate from './RegisterTemplate';
+import CardiffCalenderTemplate from './CardiffTemplateWithCalendar';
 import HomeCalenderTemplate from './HomeTemplateWithCalendar';
 import EducationWorkshopTemplate from './EducationWorkshopTemplate';
 import DefaultTemplate from "./DefaultTemplate";
@@ -19,6 +20,8 @@ class TemplateSelector extends Component {
         switch (template) {
             case "home-template":
                 return <HomeTemplate data={data} />
+            case "cardiffcalendar-template":
+                return <CardiffCalenderTemplate data={data} />
             case "homecalendar-template":
                 return <HomeCalenderTemplate data={data} />
             case "about-template":

@@ -20,13 +20,13 @@ class Calendar extends Component {
 
         this.state = {
             //events: [],
-            date: new Date(2019, 10, 1)
+            date: new Date(2019, 6, 1)
         }
     }
 
     checkDate = (date) => {
-        const maxMonth = 12
-        const minMonth = 9
+        const minMonth = 7
+        const maxMonth = 9
         const calendarMonth = moment(date).format('M')
 
         if (parseInt(calendarMonth) < parseInt(maxMonth) && parseInt(calendarMonth) >= parseInt(minMonth)) {
