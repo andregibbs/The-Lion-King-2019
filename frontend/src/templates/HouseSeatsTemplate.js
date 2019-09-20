@@ -27,7 +27,7 @@ class HouseSeatsTemplate extends Component {
                                     <strong>Matinees:</strong> Wednesday, Saturday & Sunday at 2.30pm.</p>
                                 <hr className="hr-black my-4" />
                                 <p className="text-lg">To request House Seats for Disney's THE LION KING in London please complete the form.</p>
-                                <div className="py-4">
+                                <div className="py-0">
                                 <a href="https://tickets.disney.co.uk/tickets/houseseats/TLKHOUSE?refId=cacC" class="btn btn--red my-4 interstitial-timed">REQUEST HOUSE SEATS</a>
                                 </div>
                                 <p className="text-lg">If you have not requested house seats before, you will need to register. After completing the request form, it will be reviewed. If your request is successful, you will be sent a link to pay for your tickets online.</p>
