@@ -20,20 +20,33 @@ class Calendar extends Component {
 
         this.state = {
             //events: [],
-            date: new Date(2019, 6, 1)
+            date: new Date(2019, 10, 1)
+        }
+    }
+
+    componentDidMount() {
+        if (this.props.site === "cardiff") {
+            this.setState({
+                date: new Date(2020, 7, 1)
+            })
         }
     }
 
     checkDate = (date) => {
-        const minMonth = 7
-        const maxMonth = 9
+        let maxMonth = 12
+        let minMonth = 9
         const calendarMonth = moment(date).format('M')
+
+        if (this.props.site === "cardiff") {
+            maxMonth = 9
+            minMonth = 7
+        }
 
         if (parseInt(calendarMonth) < parseInt(maxMonth) && parseInt(calendarMonth) >= parseInt(minMonth)) {
             this.setState({ date: new Date(date) })
-        } 
+        }
     }
-    
+
     processDates = (dates) => {
     	var events = [];
     	dates.forEach((event, i) => {
@@ -69,15 +82,15 @@ class Calendar extends Component {
     render() {
     	const site = this.props.site;
     	var dates;
-    	
+
     	if (site==='cardiff') {
     		dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_cardiff;
     	} else {
     		dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_bristol;
-    	}        
-        
+    	}
+
         var events = this.processDates(dates);
-        
+
         return(
             <div className="calendar-wrapper">
                 <BigCalendar
