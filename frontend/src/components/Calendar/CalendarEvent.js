@@ -8,17 +8,18 @@ class EventBlock extends Component {
     }
 
     render() {
-        const event = this.props.event
+        const event = this.props.event;
         const site = this.props.site;
+        var interstitial;
 
     	if (site === 'cardiff') {
-    		intersitial = 'interstitial-timed-cardiff';
+    		interstitial = "interstitial-timed-cardiff"
     	} else {
-    		intersitial = 'interstitial-timed-bristol';
+    		interstitial = "interstitial-timed-bristol"
     	}
 
         return(
-            <a href={event.url} className={intersitial} rel='noopener noreferrer' onClick={this.handleClick}>
+            <a href={event.url} className={interstitial} rel='noopener noreferrer' onClick={this.handleClick}>
                 <div className={`event-${event.availablity}`}>
                     <div>{event.title}</div>
                 </div>
