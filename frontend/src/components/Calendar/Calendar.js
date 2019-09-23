@@ -90,7 +90,7 @@ class Calendar extends Component {
     	}
 
         var events = this.processDates(dates);
-
+   console.log(this.props.site)
         return(
             <div className="calendar-wrapper">
                 <BigCalendar
@@ -108,6 +108,7 @@ class Calendar extends Component {
                         toolbar: CalendarToolbar,
                         event: CalendarEvent
                     }}
+                    
                 />
             </div>
         )

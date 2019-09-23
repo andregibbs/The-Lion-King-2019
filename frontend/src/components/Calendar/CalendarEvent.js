@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { handleLinkClick } from "js/handleLinkClick"
 
-class EventBlock extends Component {
+class CalendarEvent extends Component {
 
     handleClick(event) {
         handleLinkClick(event, event.currentTarget);
@@ -9,17 +9,17 @@ class EventBlock extends Component {
 
     render() {
         const event = this.props.event;
-        const site = this.props.site;
-        var interstitial;
+        var interstitialClass;
 
-    	if (site === 'cardiff') {
-    		interstitial = "interstitial-timed-cardiff"
+    	if (this.props.site === 'cardiff') {
+    		interstitialClass = 'interstitial-timed-cardiff'
     	} else {
-    		interstitial = "interstitial-timed-bristol"
-    	}
+    		interstitialClass = 'interstitial-timed-bristol'
+        }
+        console.log(this.props.site)
 
         return(
-            <a href={event.url} className={interstitial} rel='noopener noreferrer' onClick={this.handleClick}>
+            <a href={event.url} className={interstitialClass} rel='noopener noreferrer' onClick={this.handleClick}>
                 <div className={`event-${event.availablity}`}>
                     <div>{event.title}</div>
                 </div>
@@ -28,4 +28,4 @@ class EventBlock extends Component {
     }
 }
 
-export default EventBlock
+export default CalendarEvent
