@@ -1,0 +1,1453 @@
+[
+    {
+        "id": "houseseats",
+        "inNav": false,
+        "siteId": "london",
+        "template": "houseseats-template",
+        "path": "/houseseats/",
+        "title": "House seats",
+        "displayBookNow": false,
+        "displayNav": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-houseseats-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-houseseats-576px.jpg"
+    },
+    {
+        "id": "adultAuditions",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/auditions/",
+        "title": "Adult auditions",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-auditions-adult-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-auditions-adult-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Adult Auditions</h1><p class='text-lg'>This site includes information that outlines what we look for in performers so people can assess their suitability for the show, and to help them prepare for auditions.</p><p class='text-lg'>We would like to invite actors, dancers and singers from all backgrounds/ethnic groups to audition to be part of THE LION KING family. Although preferable, no previous training is required and you don't need to have an agent.</p>"
+                    },
+                    "column2": {
+                        "content": "<div class='position-relative'><a href='/auditions/children/'><img src='/images/Kids-auditions.jpg' alt='' /></a><div class='sub-black-title sub-black-title--image'><h4>Childrens Auditions</h4><a href='/auditions/children/'>Find out more about child auditions</a></div></div>"
+                    }
+                }
+            },
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "containerBgColour": "light-grey",
+                    "bgColour": "white",
+                    "column1": {
+                        "content": "<h4 class='text-red'>London</h4><p>The next Open Auditions for the London production of THE LION KING will be held in November 2019.</p><p><a href='/auditions/register/' class='btn btn--red btn--300'>Adult registration form</a></p><p>For all other casting enquiries, please email Pippa Ailion.</p><a href='mailto:enquiries@pippaailioncasting.co.uk' class='btn btn--red btn--300'>Email us</a>"
+                    },
+                    "column2": {
+                        "content": "<h4 class='text-red'>UK & Ireland Tour</h4><p>The next Open Auditions for the UK Touring production of THE LION KING will be held in January 2020.</p><p><a href='/auditions/tour/register/' class='btn btn--red btn--300'>Adult registration form</a></p><p>For all other casting enquiries, please email Jill Green.</p><a href='mailto:office@jillgreencasting.org' class='btn btn--red btn--300'>Email us</a>"
+                    }
+                }
+            },
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "containerBgColour": "light-grey",
+                    "topContent": {
+                        "content": "<h3 class='text-red'>What to prepare for the auditions</h3>"
+                    },
+                    "column1": {
+                        "content": "<p class='text-red text-lg'><strong>Singers</strong></p><p>Performers need to prepare a contemporary rock, pop or gospel song and are asked to bring along sheet music for their song, written in the appropriate key; and presented in a manageable way for the pianist. Backing tapes are not permitted.</p><p>Performers should arrive early and make sure that they have warmed up vocally prior to their audition.</p>"
+                    },
+                    "column2": {
+                        "content": "<p class='text-red text-lg'><strong>Dancers</strong></p><p>Dancers do not need to prepare a dance routine for the audition. Dancers should arrive early for the audition in order to do their own physical warm up. Comfortable clothing that does not hide the dancer's physique should be worn. Flat jazz shoes or bare feet are suggested. Men are encouraged to bring trainers and women should bring pointe shoes, if they have them. Dancers should have a contemporary rock or pop song, with sheet music prepared in case they are short-listed.</p>"
+                    }
+                }
+            },
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "textCenter": false,
+                    "fluidContainer": true,
+                    "content": "<h4 class='text-red pb-3'>Learn more about the audition process</h4><p class='text-red text-lg'><strong>Singers & Actors</strong></p><p>Auditions for singers and actors take place in three stages: Initial Auditions, Call-backs & Coaching and Final Auditions with the International Creative Team.</p><p><strong>1. Initial Auditions</strong></p><p>Auditions are advertised in newspapers, online, via agents and contact lists.</p><p>Auditionees are requested to come to the auditions with a contemporary rock, pop or gospel song prepared. A pianist is provided. Clear and well-laid out sheet music is required; and in the correct key for the singer. No backing tapes.</p><p>The auditionee will be given a set time to audition by the audition coordinator. At the audition the singer may be asked to sing only 16 bars (eg. verse and chorus) of the song they have prepared.</p> <p> The Casting Director and Casting Coordinator are present at these auditions.</p><p><strong>2. Call-backs and Coaching</strong></p><p> Due to large-scale logistics we are unable to contact everyone who auditions. Should you be successful at the initial audition, you will be contacted by the Casting Department and sent material from the show to prepare for the next audition.</p> <p> The material is usually a song and an acting piece for a particular character from THE LION KING. After the call-back audition the Casting Director will give feedback and may work on the acting piece with the auditionee. If the Music Director is present, there may also be some coaching on the song.</p> <p> The Casting Director, Casting Coordinator, Music Director and the Resident Director may be present at these auditions.</p><p>There may be additional coaching sessions before the finals.</p> <p><strong>3. Final Auditions</strong></p><p>Successful performers will be short-listed to audition for the International Creative Team.</p> <p> The materials for this final audition will be the material prepared from the show and also a contemporary rock or pop song (not a cappella).</p><hr class='hr-black my-5'><p class='text-red text-lg'><strong>Dancers</strong></p><p>Dance auditions usually take place in two major phases: initial auditions and then call-backs to the International Creative Team.</p> <p><strong>1. Initial Auditions</strong></p><p> Auditions are advertised in newspapers, online, via agents and contact lists.</p><p>At the initial audition dancers may be seen on separate women's or men's days, or at mixed sessions. All dancers arrive at the beginning of auditions to register and are then auditioned during the day.</p><p> A short dance sequence adapted from THE LION KING is taught to the dancers by the Resident Dance Supervisor or Dance Captains. Dancers are assessed on their versatility and technique. At the end of each session unsuccessful dancers are notified and the successful dancers are asked to continue with the next session or asked to come back later in the day. By the end of the audition day the short-listed dancers remain. They may be asked to do another sequence from the show and sing for the Music Director.</p><p><strong>2. Call-backs</strong></p><p> Short-listed dancers are notified of their call-back to dance for the International Creative Team. These auditions follow much the same pattern as the initial auditions. At the end of this audition day male and female dancers are brought together for a final audition for evaluation by the international creative team.</p>"
+                }
+            }
+        ]
+    },
+    {
+        "id": "adultAuditionsRegister",
+        "inNav": false,
+        "navPaddingBottom": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "register-template",
+        "path": "/auditions/register/",
+        "title": "Adult auditions registration form",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-auditions-adult-register-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-auditions-adult-register-576px.jpg",
+        "auditionFields": {
+            "type": "adult",
+            "tour": false,
+            "content": "<img src='/images/Kids-auditions-narrow.jpg' /><div class='bg-white p-3 p-md-5'><h4 class='text-red'>Adult Auditions: London Registration</h4><p>Open auditions are held for adult roles in Disney’s THE LION KING once a year.</p><p>The next open auditions for <strong>singers</strong> will be held on Saturday 10 November 2018 at Bloomsbury Baptist Church, 235 Shaftesbury Ave, London, WC2H 8EP.<br/> <strong>Registration is at 10am and closes promptly at 12pm</strong>.</p> <p>The next open auditions for <strong>dancers</strong> will be held on Monday 26 November 2018 at Pineapple Studios, 7 Langley Street, London, WC2H 9JA. <br/><strong>Morning registration opens at 10am and closes promptly at 10.30am</strong>. <br/><strong>Afternoon registration opens at 1.30pm and closes promptly at 2pm</strong>.</p><p>To register your interest in auditioning for Disney’s The Lion King and to hear about when these auditions are next taking place, please fill in the registration form below</p></div>"
+        }
+    },
+    {
+        "id": "childrenAuditions",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/auditions/children/",
+        "title": "Children auditions",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-auditions-children-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-auditions-children-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<div class='mb-5'><h4 class='text-red'>London</h4><p> For all casting enquiries relating to the London production of The Lion King, please email Akosua Boakye.</p><a href='mailto:Akosua.boakye@disney.com?subject=The%20Lion%20King%20London%20Children%20Auditions' class='btn btn--red'>Email us</a></div><div class='class='mb-5'><h4 class='text-red'>UK & Ireland Tour</h4><p>For all casting enquiries relating to the UK Touring production of The Lion King, please email Jo Hawes.</p><a href='mailto:joanne.hawes2013@gmail.com?subject=The%20Lion%20King%20UK%20Tour%20casting%20enquiry' class='btn btn--red'>Email us</a></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='position-relative'><a href='/auditions/'><img src='/images/Adult-Auditions.jpg' alt='' /></a><div class='sub-black-title sub-black-title--image'><h4>Adult Auditions</h4><a href='/auditions/'>Find out more about adult auditions</a></div></div>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "childrenAuditionsRegister",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "register-template",
+        "path": "/auditions/children/register/",
+        "title": "Children auditions registration form",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-auditions-children-register-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-auditions-children-register-576px.jpg",
+        "auditionFields": {
+            "type": "children",
+            "tour": false,
+            "content": "<img src='/images/Kids-auditions-narrow.jpg' /><div class='bg-white p-3 p-md-5'><h4 class='text-red'>Children Auditions: London Registration</h4><p>We are always looking for children aged 8-11 to join our Cub School training programme, which will teach them skills in acting, movement and singing to later audition to potentially play these roles professionally in the West End.</p><p>Children are not required to prepare anything in advance of the Cub School auditions. One parent or guardian must accompany each child to the audition and stay on the premises until the audition has ended.</p><p>The next open auditions for Cub School will take place in March 2019</p></div>"
+        }
+    },
+    {
+        "id": "tourAdultAuditionsRegister",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "register-template",
+        "path": "/auditions/tour/register/",
+        "title": "Tour adult auditions registration form",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-auditions-adult-register-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-auditions-adult-register-576px.jpg",
+        "auditionFields": {
+            "type": "adult",
+            "tour": true,
+            "content": "<img src='/images/Kids-auditions-narrow.jpg' /><div class='bg-white p-3 p-md-5'><h4 class='text-red'>Adult Auditions: London Registration</h4><p>Open auditions are held for adult roles in Disney’s THE LION KING once a year.</p><p>The next open auditions for <strong>singers</strong> will be held on Saturday 10 November 2018 at Bloomsbury Baptist Church, 235 Shaftesbury Ave, London, WC2H 8EP.<br/> <strong>Registration is at 10am and closes promptly at 12pm</strong>.</p> <p>The next open auditions for <strong>dancers</strong> will be held on Monday 26 November 2018 at Pineapple Studios, 7 Langley Street, London, WC2H 9JA. <br/><strong>Morning registration opens at 10am and closes promptly at 10.30am</strong>. <br/><strong>Afternoon registration opens at 1.30pm and closes promptly at 2pm</strong>.</p><p>To register your interest in auditioning for Disney’s The Lion King and to hear about when these auditions are next taking place, please fill in the registration form below</p></div>"
+        }
+    },
+    {
+        "id": "tourChildrenAuditionsRegister",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "register-template",
+        "path": "/auditions/tour/children/register/",
+        "title": "Tour children auditions registration form",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "type": "tour",
+        "headerImage": "../images/headers/header-auditions-adult-register-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-auditions-adult-register-576px.jpg",
+        "auditionFields": {
+            "type": "children",
+            "tour": true,
+            "content": "<img src='/images/Kids-auditions-narrow.jpg' /><div class='bg-white p-3 p-md-5'><h4 class='text-red'>Children Auditions: London Registration</h4><p>We are always looking for children aged 8-11 to join our Cub School training programme, which will teach them skills in acting, movement and singing to later audition to potentially play these roles professionally in the West End.</p><p>Children are not required to prepare anything in advance of the Cub School auditions. One parent or guardian must accompany each child to the audition and stay on the premises until the audition has ended.</p><p>The next open auditions for Cub School will take place in March 2019</p></div>"
+        }
+    },
+    {
+        "id": "londonHome",
+        "siteId": "london",
+        "template": "home-template",
+        "path": "/london/",
+        "title": "Home",
+        "displayBookNow": false,
+        "metaTitle": "Home | London",
+        "metaDescription": "",
+        "headerImage": "../images/headers/LK-header-home-simba-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-home-simba-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "thinTwoColumnBlock",
+                "thinTwoColumnBlock": {
+                    "column1": {
+                        "content": "<h5 class='text-red font-weight-bold pb-2'>Book tickets</h5> <p>Some good availability midweek</p><a href='https://thelionking.nliven.co/tickets/series/lionking' class='btn btn--red btn--block mb-2 interstitial-timed'> <span>Book direct with the <br/>Lyceum Theatre Box Office</span> </a> <a href='https://tickets.disney.co.uk/tickets/series/lionking?ex_cmp=dis_uk:events:lio:TLKwebsales:0119' class='btn btn--red btn--block mb-3 no-interstitial-check'> <span>Book direct with <img src='/images/disney-logo-white.svg' alt='Disney'/></span> </a> <p>Call the Lyceum Theatre box office</p><p class='h5 mb-3 text-black font-weight-bold'><span class='icon icon-phone'></span> 0844 871 3000</p><p class='text-sm'>Calls cost 7p per min, plus your phone company’s access charge</p><p class='mb-0'>Book tickets in person</p><a href='https://www.google.co.uk/maps/place/Lyceum+Theatre/@51.5115994,-0.1221759,17z/data=!3m1!4b1!4m5!3m4!1s0x47d8ac8952747c71:0x65cbdd71dcb817f0!8m2!3d51.5115961!4d-0.1199872' target='_blank' rel='noreferrer noopener'><p class='h5 mb-3 text-black font-weight-bold'><span class='icon icon-map-marker'></span> Lyceum Theatre</p></a>"
+                    },
+                    "column2": {
+                        "content": "<h5 class='text-red font-weight-bold pb-2'>Performance Information</h5> <div class='row justify-content-center'> <div class='col col-md-5'> <img src='/images/clock-1.svg' alt='7:30pm' width='75'/><p class='text-lg font-weight-bold'>7:30pm</p> <p>Tuesday to<br/> Saturday</p></div><div class='col col-md-5'> <img src='/images/clock-2.svg' alt='2:30pm' width='75'/> <p class='text-lg font-weight-bold'>2:30pm</p> <p>Wednesdays, Saturdays & Sundays</p></div></div><p> Performance length:<br/> 2.5 hours including interval </p><p> To make your visit as safe as possible, <br/> security checks are in place at the<br/> Lyceum Theatre </p><a href='/london/your-visit/' class='text-red font-weight-bold'>Find out more to help plan your visit</a>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "Bring a Group of 10 or more",
+                                "answer": "<p>Group bookings are currently available on selected seats and performances until October 2020.</p><p><strong>Groups 10+ </strong></p><div class='row'> <div class='col-4'><p class='mb-0'><strong class='text-lg'>£39.50</strong><br>(usually from £42.50 - £57.70)</p></div><div class='col-4'> <p class='mb-0'><strong class='text-lg'>£49.50</strong><br>(usually from £59.50 - £72.50)</p></div><div class='col-4'> <p class='mb-0'><strong class='text-lg'>£59.50</strong><br>(usually from £75 - £87.50)</p></div></div><hr class='hr-black'><p>Group rate available for Tuesday to Friday performances only.<br/>Prices apply to new bookings for performances from 1 October 2019 onwards.</p><h6 class='text-red'><strong>Book with Groupline</strong></h6><a class='btn btn--red btn--300 my-2' href='https://www.groupline.com/tickets/116/The-Lion-King'>Click here</a><p> Or call Group Line on 020 7206 1174<br/> <span class='text-xs'>Calls are charged at your network provider’s standard local rate</span></p><h6 class='text-red'><strong>Book direct with Disney</strong></h6><a class='no-interstitial-check btn btn--red btn--300 my-2' href='https://disney.co.uk/shows/the-lion-king-musical-tickets/group-enquiry' rel='noreferrer noopener' target='_blank'>Complete this form</a><p> Or call Disney Tickets on 0800 640 8101<br/> <span class='text-xs'>Calls are free of charge from a landline, or charged at your network provider’s standard local rate on mobile</span></p><a href='/london/terms-and-conditions' class='text-sm'><strong>Read our terms and conditions</strong></a>"
+                            },
+                            {
+                                "question": "Access Concessions",
+                                "answer": "<p>There are concessionary rates for guests with certain access requirements. These can either be booked over the phone on 0800 912 6972, in person at the Box Office, or by emailing <a href='mailto:Lyceumboxoffice@theambassadors.com'>Lyceumboxoffice@theambassadors.com</a>. Concessions are subject to availability.</p><p>Throughout the year there are a range of performances with enhanced accessibility, such as signed, captioned and audio described performances.</p><p><a href='/london/access'>Click here</a> for upcoming access performance dates and to read more about access facilities at the theatre.</p>"
+                            },
+                            {
+                                "question": "Day Seats",
+                                "answer": "<p>A limited number of Day Seats priced at £20 per ticket are available to purchase from 10am on the day of each performance, in person at the Lyceum Theatre Box Office.</p><p>Each person is allowed to purchase a maximum of two tickets each. Subject to availability.</p>"
+                            },
+                            {
+                                "question": "Bring a School Group",
+                                "answer": "<p>Over one million pupils have already experienced THE LION KING through its award-winning EDUCATION PROGRAMME. Combined with seeing the production, this programme will take your pupils on an engaging journey that they will never forget.</p><p>Developed by teachers, for teachers, the programme is fully curriculum linked to support subjects at KS2 and 3 and is easily adaptable.</p><p>All of the resources are available for free on a brand new online hub, the easy to use search tool allows you to discover activities and lesson plans that are relevant for your classroom.</p><p> <a href='https://lionkingeducation.co.uk' class='btn btn--red btn--300 no-interstitial-check'>Education Resources</a></p><hr class='hr-black'><p>Book now for selected performances until <strong>October 2020</strong>.</p><h6 class='text-red'><strong>STANDARD PRICING</strong></h6><div class='row'><div class='col-6'><p><strong class='text-lg'>£29.50</strong><br>Stalls & Royal Circle</p></div><div class='col-6'><p><strong class='text-lg'>£22.50</strong><br>Grand Circle</p></div></div><h6 class='text-red'><strong>OFF-PEAK PRICING</strong></h6><p>Off-peak pricing applies to some performances in September 2019</p><div class='row'><div class='col-6'><p><strong class='text-lg'>£25</strong><br>Stalls & Royal Circle</p></div><div class='col-6'><p><strong class='text-lg'>£19.50</strong><br>Grand Circle</p></div></div><p>Plus one teacher goes free with every ten paid tickets.</p><p>Available Tuesday - Thursday at 7:30pm performances and Wednesday matinee performances at 2:30pm. Unavailable during school holiday periods. University and Full Time Education Group rates are also available. Please see terms and conditions for details.</p><h6 class='text-red'><strong>Book with Groupline</strong></h6><a class='btn btn--red btn--300 my-2' href='https://www.groupline.com/tickets/116/The-Lion-King'>Click here</a><p>Or call Group Line on 020 7206 1174<br><span class='text-xs'>Calls are charged at your network provider’s standard local rate</span></p><h6 class='text-red'><strong>Book direct with Disney</strong></h6><a class='no-interstitial-check btn btn--red btn--300 my-2' href='https://disney.co.uk/shows/the-lion-king-musical-tickets/group-enquiry' rel='noreferrer noopener' target='_blank'>Complete this form</a><p>Or call Disney Tickets on 0800 640 8101<br><span class='text-xs'>Calls are free of charge from a landline, or charged at your network provider’s standard local rate on mobile</span></p><p><a href='/london/terms-and-conditions' class='text-sm'><strong>Read our terms and conditions</strong></a></p>"
+                            },
+                            {
+                                "question": "Senior Group Rates",
+                                "answer": "<p>Senior groups of 10+ pay £35.00 per ticket for best available Stalls or Royal Circle seats for Wednesday (matinee and evening) performances only.</p><h6 class='text-red'><strong>Book with Groupline</strong></h6><a class='btn btn--red btn--300 my-2' href='https://www.groupline.com/tickets/116/The-Lion-King'>Click here</a><p>Or call Group Line on 020 7206 1174<br><span class='text-xs'>Calls are charged at your network provider’s standard local rate</span></p><h6 class='text-red'><strong>Book direct with Disney</strong></h6><a class='no-interstitial-check btn btn--red btn--300 my-2' href='https://disney.co.uk/shows/the-lion-king-musical-tickets/group-enquiry' rel='noreferrer noopener' target='_blank'>Complete this form</a><p>Or call Disney Tickets on 0800 640 8101<br><span class='text-xs'>Calls are free of charge from a landline, or charged at your network provider’s standard local rate on mobile</span></p><a class='text-sm' href='/london/terms-and-conditions/'><strong>Read our terms and conditions</strong></a>"
+                            },
+                            {
+                                "question": "Relaxed Performances",
+                                "answer": "<p>The next Relaxed Performance of The Lion King in London will take place at the Lyceum Theatre in summer 2020. <a href='/london/relaxedperformances/' class='no-interstitial-check'>Click here for more information</a>.</p>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "londonAbout",
+        "siteId": "london",
+        "template": "about-template",
+        "path": "/london/about-the-show/",
+        "title": "About the Show",
+        "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
+        "inFooter": true,
+        "headerImage": "../images/headers/LK-header-about-nala-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-about-nala-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "content": "<div class='pb-3'><div class='embed-responsive embed-responsive-16by9'><iframe id='kaltura_player' class='embed-responsive-item' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div></div>"
+                }
+            },
+            {
+                "type": "bgImageTextBlock",
+                "bgImageTextBlock": {
+                    "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md3.jpg",
+                    "withGradient": true,
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "links": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "londonCast",
+        "siteId": "london",
+        "template": "cast-template",
+        "path": "/london/cast-and-creatives/",
+        "title": "Cast & Creatives",
+        "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
+        "headerImage": "../images/headers/LK-header-cast-access-rafiki-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-cast-access-rafiki-576.jpg"
+    },
+    {
+        "id": "londonYourVisit",
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/london/your-visit/",
+        "title": "Your Visit",
+        "metaDescription": "Get answers to frequently asked questions about your visit to THE LION KING on the official Disney website.",
+        "headerImage": "../images/headers/LK-header-yourvisit-mufasa-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-yourvisit-mufasa-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "content": "<h1 class='h4 font-weight-bold'>How do I get there?</h1><p>Lyceum Theatre<br/>21 Wellington Street<br/>London WC2E 7RQ</p><p><a class='text-red font-weight-bold' href='https://www.google.co.uk/maps/place/Lyceum+Theatre/@51.5115994,-0.1221759,17z/data=!3m1!4b1!4m5!3m4!1s0x47d8ac8952747c71:0x65cbdd71dcb817f0!8m2!3d51.5115961!4d-0.1199872'>Click to check your route</a></p>"
+                }
+            },
+            {
+                "type": "infoBlock",
+                "infoBlock": [
+                    {
+                        "items": [
+                            {
+                                "title": "Underground & Train",
+                                "image": "/images/icons/tube.svg",
+                                "content": "<p>The nearest stations are:</p><ul> <li>Charing Cross – Network South East</li><li>Waterloo and Waterloo East – Bakerloo, Northern and Jubilee Lines</li><li>Covent Garden – Piccadilly Line</li><li>Temple – Circle & District Lines</li><li>Leicester Square – Piccadilly and Northern Lines </li><li>Charing Cross – Bakerloo, Norther and Jubilee Lines</li><li>Holborn – Piccadilly and Central Lines</li><li>Embankment – Bakerloo, Northern, and District & Circle Lines</li></ul>"
+                            },
+                            {
+                                "title": "Bus",
+                                "image": "/images/icons/bus.svg",
+                                "content": "<p>To reach the theatre by bus, use numbers 1, 6, 9, 11, 13, 15, 23, 68, 77A, 91, 176 or 341 with Leicester Square as the destination. The closest bus interchange for all London routes and night buses is Trafalgar Square.</p>"
+                            },
+                            {
+                                "title": "Parking",
+                                "image": "/images/icons/car.svg",
+                                "content": "<p>You can save 50% with Q-Park’s Theatreland Parking Scheme. <a href='https://www.q-park.co.uk/en-gb/theatreland/'>Click here for full details.</a></p><p>The nearest NCP car parks are on Parker Street, Museum Street, Holborn and the St. Martin’s Lane Hotel.</p>"
+                            },
+                            {
+                                "title": "Cycle",
+                                "image": "/images/icons/cycling.svg",
+                                "content": "<p>There is a self-hire bike docking station directly outside the theatre, provided by Transport for London. <a href='https://tfl.gov.uk/modes/cycling/santander-cycles'>Click here for details</a></p>"
+                            }
+                        ]
+                    }
+                ] 
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "title": "Click to open",
+                        "items": [
+                            {
+                                "question": "How long is the show?",
+                                "answer": "<p>The performance lasts approximately 2 hours and 30 minutes including an interval.</p>"
+                            },
+                            {
+                                "question": "Is there a minimum age requirement to attend the show?",
+                                "answer": "<p>THE LION KING is recommended for a general audience. We recommend THE LION KING for ages 6 and up. Children under the age of 3 will not be admitted into the theatre. </p><p>All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. </p><p>All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": "What should I wear?",
+                                "answer": "<p>There is no dress code at the theatre. For all performances, attire should be comfortable and appropriate for the occasion.</p>"
+                            },
+                            {
+                                "question": "Does the show use any special effects?",
+                                "answer": "<p>THE LION KING contains theatrical smoke and fog effects as well as strobe lighting during parts of the show.</p>"
+                            },
+                            {
+                                "question": "How can I audition to be in the show?",
+                                "answer": "<p>For information about auditioning <a href='/auditions/' class='no-interstitial-check'>click here.</a></p>"
+                            },
+                            {
+                                "question": "Is THE LION KING playing in a city near me?",
+                                "answer": "<p>THE LION KING continues to be performed at the Lyceum Theatre in London. In addition, a UK and Ireland tour begins in September 2019. To find out more, click ‘Select City’ at the top of this page and choose the location nearest to you for more details. Further cities will be announced in the coming months. The show will continue to play in London while the tour takes place.</p><p>In addition to the UK and Ireland, THE LION KING is also performed in cities around the world.<br/><a href='https://www.lionking.com/worldwide' target='_blank' rel='noopener noreferrer'>Click here for worldwide productions.</a></p>"
+                            },
+                            {
+                                "question": "Does THE LION KING offer day seats?",
+                                "answer": "<p>A limited number of Day Seats priced at £20 per ticket are available to purchase each morning in person at the Lyceum Theatre Box Office. Each person is allowed to purchase a maximum of two tickets each. Subject to availability.</p>"
+                            },
+                            {
+                                "question": "I have a question about my booking, who can I contact?",
+                                "answer": "<p>If you booked through <img src='/images/disney-logo-black.svg' alt='Disney' style='width: 60px;margin-bottom: -6px;'> Tickets, please <a href='https://support.disney.com/hc/en-gb/categories/115001274668-Disney-Tickets?ex_cmp=dis_uk:events:lio:TLKDTSFAQs:0318' target='_blank' class='no-interstitial-check' rel='noopener noreferrer'>click here</a> for more information.</p><p>If you booked via ATG Tickets or the Lyceum Theatre Box Office, please <a href='http://www.atgtickets.com/customer-care/contact-us/'>click here</a>.</p><p>If you booked elsewhere, please contact your point of purchase.</p>"
+                            },
+                            {
+                                "question": "Is official THE LION KING merchandise available to purchase at the theatre?",
+                                "answer": "<p>Merchandise is available to purchase before and after the show, and during the interval across a number of locations inside the theatre. You can pay for merchandise with either cash or credit/debit card – all card types are accepted. For pre-orders or for any other enquiries contact <a href='mailto:merchandise@disneytheatrical.co.uk'>merchandise@disneytheatrical.co.uk</a>.</p>"
+                            },
+                            {
+                                "question": "How do I contact someone at THE LION KING?",
+                                "answer": "<p>If you would like to write to a member of the cast please send a letter to:<br/><strong>[Cast member Name]<br>The Lyceum Theatre<br>21 Wellington Street<br>London, WC2E 7RQ</strong><br>Please note that we cannot guarantee that all letters will receive a response.</p><p>To reach the Disney Theatrical Group press office, submit your request <a href='mailto:maisie@thecornershoppr.com'>here</a>.</p><p> To discover employment opportunities with Disney Theatrical Group, visit <a href='https://jobs.disneycareers.com/location/united-kingdom-jobs/391-5733-5732/2635167/2' class='no-interstitial-check' targe='_blank' rel='noopener noreferrer'>Disney Careers</a>.</p>"
+                            },
+                            {
+                                "question": "Are there cloakroom facilities available?",
+                                "answer": "<p>Cloakroom facilities are available for coats and umbrellas, however we are unable to accept large bags and luggage. We strongly advise that you do not bring large bags to the theatre.</p>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "londonAccess",
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/london/access/",
+        "title": "Access",
+        "metaDescription": "Find out about access performances, wheelchair and hearing facilities at THE LION KING, London’s Landmark Musical, on the official Disney website.",
+        "headerImage": "../images/headers/LK-header-cast-access-rafiki-1920.jpg",
+        "headerImageMobile": "../images/headers/LK-header-cast-access-rafiki-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "title": "Click to open",
+                        "items": [
+                            {
+                                "question": "How do I find out about access facilities at the theatre?",
+                                "answer": "<p>The Lyceum Theatre is fully accessible to disabled, deaf and visually impaired guests. THE LION KING is committed to making your experience as easy and enjoyable as possible.</p><p>If you have any specific requirements / questions please call 0800 912 6972 or email <a href='mailto:lyceumbo@theambassadors.com'>lyceumbo@theambassadors.com</a>.</p>"
+                            },
+                            {
+                                "question": "Are there facilities for people with visual impairments?",
+                                "answer": "<p>THE LION KING regularly schedules audio described performances for those with visual impairments in association with VocalEyes. Audio description in theatre is a live verbal commentary on the visual elements of a production, delivered as a performance unfolds, through a discreet headset.</p><p>The next audio described performance of THE LION KING will take place on&nbsp;<strong>Tuesday 17 March 2020 at 7.30pm</strong>.</p><p>Guide Dogs are welcome in the auditorium or can alternatively be left in the care of theatre staff. If you intend to bring a guide dog, please let your sales advisor know at the time of booking.</p><p>The Lyceum Theatre has a limited number of large print and Braille programmes available. Please contact the Front of House Manager in advance on 020 7420 8100 (calls charged at local rate) to request a copy.</p><p>A copy of THE LION KING script is available in braille and an appointment can be made to read it in the theatre by calling 020 7420 8100 (calls charged at local rate) in advance.</p>"
+                            },
+                            {
+                                "question": "Are there facilities for people with hearing impairments?",
+                                "answer": "<p>THE LION KING regularly schedules sign-interpreted performances in association with Theatre Sign. Throughout the performance, a qualified theatre sign interpreter stands on the left of the stage and uses sign language to relay music and words to deaf and hearing impaired patrons, all of whom are seated within easy viewing distance of both the stage and interpreter.</p><p>The next signed performance will take place on <strong>Tuesday 21 April 2020 at 7.30pm</strong>.</p><p>We regularly schedule captioned performances of THE LION KING in association with Stagetext. Captioning is a way of converting the spoken word into visible text that provides deaf, deafened and hard of hearing people with access to live performance.</p><p>The next captioned performance of THE LION KING will take place on <strong>Tuesday 24 March 2020 at 7.30pm</strong>.</p>"
+                            },
+                            {
+                                "question": "When is the next assisted performance?",
+                                "answer": "<p>The next&nbsp;<strong>captioned</strong>&nbsp;performance, presented in association with Stagetext, will take place on&nbsp;<strong>Tuesday 24 March 2020 at 7.30pm</strong>.</p><p>The next&nbsp;<strong>signed</strong>&nbsp;(BSL) performance, presented in association with Theatre Sign, will take place on&nbsp;<strong>Tuesday 21 April 2020 at 7.30pm</strong>.</p><p>The next&nbsp;<strong>audio described</strong>&nbsp;performance of THE LION KING, presented in association with VocalEyes, will take place on&nbsp;<strong>Tuesday 17 March 2020 at 7.30pm.</strong></p><p>It is advisable to book for these performances well in advance as tickets are subject to availability.</p>"
+                            },
+                            {
+                                "question": "How do I book access concessions?",
+                                "answer": "<p>Disabled, deaf and visually impaired concessions can either be booked over the phone on 0800 912 6972, in person at the Box Office, or by emailing <a href='mailto:lyceumbo@theambassadors.com'> lyceumbo@theambassadors.com</a>. Concessions are subject to availability.</p>"
+                            },
+                            {
+                                "question": "Is the theatre accessible for wheelchair users?",
+                                "answer": "<p>There are six wheelchair spaces available in the Stalls seating area.</p><p>The wheelchair accessible entrance is via a double exit door situated at the front of the theatre on Wellington Street. This is clearly marked and provides level access to the Accessible Toilets, the Stalls Bar and the Stalls seating area. </p><p>The theatre’s main entrance is up three steps to the lower foyer. From here there are 7 steps down to the Stalls and 12 steps up to the Royal Circle landing. The Grand Circle is up 83 steps.</p><p>There are lift facilities available to all levels of the Lyceum Theatre, located via the entrance on Exeter Street. All levels, apart from the Stalls, are laid out over a number of steps. </p>"
+                            },
+                            {
+                                "question": "Are there disabled parking spaces close to the theatre?",
+                                "answer": "<p>There are parking spaces for blue badge holders close to the theatre.</p><p>The nearest car parks are located in Chinatown and Leicester Square and can be booked in advance by calling Qpark on 0800 243 348</p><p>Tickets for the Theatreland parking scheme can be validated within the Lyceum Theatre. This can be done in the foyer cloakroom.</p>"
+                            },
+                            {
+                                "question": "Does THE LION KING schedule relaxed performances?",
+                                "answer": "<p>THE LION KING will host a Relaxed Performance in Summer 2020. <a href='/london/relaxedperformances/'>Click here for more information</a>.</p>"
+                            },
+                            {
+                                "question": "Are there any resources available to help prepare for my visit?",
+                                "answer": "<p>Watch the video visual story below to learn what you will experience when you arrive at the Lyceum Theatre.</p><br><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_tj96c8vr&flashvars[localizationCode]=en&amp;&wid=1_jh8cwwtm' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><br><p>You can also download a PDF copy of the Lyceum Theatre visual story <a href='/docs/pdf/The_Lion_King_Visual_Story.pdf' target='_blank' rel='noopener noreferrer' class='no-interstitial-check'>here</a>.</p>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "londonRelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/london/relaxedperformances/",
+        "title": "Relaxed Performances",
+        "displayBookNow": false,
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-autism-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-autism-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>The next Relaxed Performance of The Lion King in London will take place at the Lyceum Theatre in summer 2020.</p><p>THE LION KING is committed to creating a friendly and inclusive audience experience at the Lyceum Theatre, London and is delighted to announce that its seventh Relaxed Performance in London will take place in the Lyceum Theatre in summer 2020.</p><p>Relaxed Performances are specially adapted to be accessible to a wide range of audiences such as those with autism, those with a learning disability, or anyone with additional sensory needs. There are extra trained staff on hand, and dedicated quiet areas inside the theatre should anyone need to leave their seat.</p><p>Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p><p>If you would like to receive information about when tickets will go on sale for this performance please sign up to the waiting list.</p><a href='https://www.atgtickets.com/the-lion-king-relaxed-performances/' class='btn btn--red btn--300'>Join waiting list</a>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_efumgbui&flashvars[localizationCode]=en&amp;&wid=1_a3tmw6hy' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is an autism-friendly performance?</div>"                    }
+                }
+            },
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "containerBgColour": "light-grey",
+                    "column1": {
+                        "content": "<h4 class='text-red'>Visual Story</h4><p>Our 'Visual Story' will guide you step-by-step through your visit to the Lyceum Theatre to see The Lion King.</p><p><a href='/docs/pdf/The_Lion_King_Visual_Story.pdf' class='btn btn--red no-interstitial-check' target='_blank'>Download PDF</a></p><h4 class='text-red'>Watch Film</h4><div class='embed-responsive embed-responsive-16by9'><iframe id='kaltura_player' class='embed-responsive-item mt-2' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_tj96c8vr&flashvars[localizationCode]=en&amp;&wid=1_jh8cwwtm' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    },
+                    "column2": {
+                        "content": "<h4 class='text-red pt-3'>“Hakuna Matata on a Sunday Afternoon”</h4><p>Read a moving account of the 2013 performance at The Lyceum by Lizi Jackson from her blog Through Accepting Limits.</p><p><a href='https://throughacceptinglimits.com/2013/04/15/hakuna-matata-on-a-sunday-afternoon/' class='btn btn--red'>Read blog</a></p><h4 class='text-red'>Autism Friendly Award</h4><p>In 2018 The National Autistic Society awarded Disney’s THE LION KING and the Lyceum Theatre an Autism-Friendly Award.</p><p>The award demonstrates our commitment to making the theatre experience welcoming to autistic people and their families at every stage, with clear information available before and during your visit, trained members of staff across the theatre teams, and a commitment to raising awareness of autism among the general public.</p>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "londonTerms",
+        "inNav": false,
+        "bookingInfo": false,
+        "displayBookNow": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/london/terms-and-conditions/",
+        "title": "Terms and Conditions",
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-london-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "bgColour": "light-grey",
+                    "column1": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>EDUCATION</h2><p><strong>Education Group Rates up to Year 13</strong></p><p>Education group sales currently available on selected seats and performances until 4 October 2020, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Thursday evenings and Wednesday matinee performances only. Rate applies for groups of 10+ (primary or secondary school pupils up to and including Year 13). Groups pay £29.50 per ticket in the Stalls & Royal Circle and £22.50 in Grand Circle for the same performance. For off-peak performances, groups pay £25 per ticket in the Stalls & Royal Circle and £19.50 in Grand Circle for the same performance. For every ten (10) paid tickets, Group receives one (1) free ticket for use by a teacher. Education group tickets purchased shall not be offered for re-sale via social media channels to individual members, unless otherwise agreed in writing by The Walt Disney Company and all attendees must be from the same University or education group (we reserve the right to verify these details at the theatre). Offer is subject to availability and may be revoked at any time. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Once issued, tickets cannot be replaced if lost, stolen or destroyed and is only valid for the event for which it is issued. The unlawful resale or attempted resale of the ticket is grounds for seizure and cancellation without compensation. Holder agrees, by the use of the ticket, not to transmit or aid in transmitting any description, account, picture, or reproduction of the show. Holder grants permission to Disney to use the holder’s image or likeness in connection with any live or recorded video or other transmission of the show. Children under the age of 3 will not be admitted to the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own in the auditorium.</p><p><strong>Education Group Rates for University and Full Time Education Groups</strong></p><p>University and Full Time Education group sales currently available on selected seats and performances until 4 October 2020, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Thursday evenings and Wednesday matinee performances only. Groups of 10+ (post Year 13) pay £33.50 per ticket in the Stalls & Royal Circle and £29.50 in Grand Circle for the same performance. Education group tickets purchased shall not be offered for re-sale via social media channels to individual members, unless agreed in writing by The Walt Disney Company. Offer is subject to availability and may be revoked at any time. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Once issued, tickets cannot be replaced if lost, stolen or destroyed and is only valid for the event for which it is issued. The unlawful resale or attempted resale of the ticket is grounds for seizure and cancellation without compensation. Holder agrees, by the use of the ticket, not to transmit or aid in transmitting any description, account, picture, or reproduction of the show. Holder grants permission to Disney to use the holder’s image or likeness in connection with any live or recorded video or other transmission of the show. Children under the age of 3 will not be admitted to the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own in the auditorium.</p>"
+                    },
+                    "column2": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>GROUPS</h2><p><strong>Group Sales Terms and Conditions</strong></p><p>Group sales currently available on selected seats and performances until 4 October 2020, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Friday evenings and Wednesday matinee performances only. For performances from 1 October 2019, eligible tickets from £42.50 - £57.50 reduced to £39.50; tickets from £59.50 - £72.50 reduced to £49.50; tickets from £75 - £87.50 reduced to £59.50. Minimum group size 10+. Not all seats are discounted. Prices may vary on selected performances. Group Tickets purchased shall not be offered for re-sale via social media channels to individual members, unless otherwise agreed in writing by The Walt Disney Company. Offer is subject to availability and may be revoked at any time. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Once issued, tickets cannot be replaced if lost, stolen or destroyed and is only valid for the event for which it is issued. The unlawful resale or attempted resale of the ticket is grounds for seizure and cancellation without compensation. Holder agrees, by the use of the ticket, not to transmit or aid in transmitting any description, account, picture, or reproduction of the show. Holder grants permission to Disney to use the holder’s image or likeness in connection with any live or recorded video or other transmission of the show. Children under the age of 3 will not be admitted to the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own in the auditorium.</p><p><strong>Senior Citizens Group Sales Terms and Conditions</strong></p><p>Senior Citizens group rates currently available on selected seats and performances until 4 October 2020, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Wednesday matinee and evening performances only. Groups of 10+ pay £35.00 per ticket in the Stalls & Royal Circle for the same performance. Senior Citizen group tickets purchased shall not be offered for re-sale via social media channels to individual members, unless agreed in writing by The Walt Disney Company. Offer is subject to availability and may be revoked at any time. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Once issued, tickets cannot be replaced if lost, stolen or destroyed and is only valid for the event for which it is issued. The unlawful resale or attempted resale of the ticket is grounds for seizure and cancellation without compensation. Holder agrees, by the use of the ticket, not to transmit or aid in transmitting any description, account, picture, or reproduction of the show. Holder grants permission to Disney to use the holder’s image or likeness in connection with any live or recorded video or other transmission of the show. Children under the age of 3 will not be admitted to the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own in the auditorium.</p>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "bristolHome",
+        "siteId": "bristol", 
+        "template": "homecalendar-template",
+        "path": "/bristol/",
+        "displayBookNow": false,
+        "title": "Home",
+        "metaTitle": "Home | Bristol",
+        "metaDescription": "Tickets now on sale for The Lion King at Bristol Hippodrome from September 2019. Best availability at midweek performances.",
+        "headerImage": "../images/headers/header-bristol-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-bristol-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "faqBlock",
+                "paddingClass": "pb-5",
+                "faqBlock": [
+                    {
+                        "colour": "yellow", 
+                        "items": [
+                            {
+                                "question": "Bring a Group",
+                                "answer": "<p><strong>Group rates are available.</strong></p><p> To make an enquiry online, visit the Bristol Hippodrome Groups Booking page, by <a href='https://www.atgtickets.com/group-bookings-enquiry-form/'>clicking here</a>.</p><p> To make an enquiry by phone, call:</p> <p class='h5 mb-0 text-black font-weight-bold'><span class='icon icon-phone'></span> 0333 009 5385</p><p class='text-sm'> Calls charged at local rate. Group rates are subject to terms and conditions, for more information please <a href='/bristol/terms-and-conditions/' class='no-interstitial-check'>click here</a>.</p>"
+                            },
+                            {
+                                "question": "Plan your visit",
+                                "answer": "<p>For information on venue location, Box Office opening hours, transport links to the venue and other venue-related information, <a href='https://www.atgtickets.com/venues/bristol-hippodrome/info/'>click here</a>.</p>"
+                            },
+                            {
+                                "question": "Bring an Education Group",
+                                "answer": " <p><strong>Education group rates are available.</strong></p><p> To make an enquiry online, visit the Bristol Hippodrome Groups Booking page, by <a href='https://www.atgtickets.com/group-bookings-enquiry-form/'>clicking here</a>.</p><p class='m-0'> To make an enquiry by phone, call:</p><p class='h5 mb-0 text-black font-weight-bold'><span class='icon icon-phone'></span> 0333 009 5385</p><p class='text-sm'> Calls charged at local rate. Education group rates are subject to terms and conditions, for more information please <a href='/bristol/terms-and-conditions/' class='no-interstitial-check'>click here</a>.</p><p> Enhance your visit with The Lion King’s award-winning EDUCATION PROGRAMME, free to use online.<br/><a href='https://www.lionkingeducation.co.uk/' class='no-interstitial-check' target='_blank' rel='noopener noreferrer'>Explore the comprehensive resources here</a>.</p>"
+                            },
+                            {
+                                "question": "Access and Relaxed Performances",
+                                "answer": " <p> For information on access facilities at the theatre please <a href='https://www.atgtickets.com/venues/bristol-hippodrome/access/'>click here</a>. </p><p>To find out about relaxed performances <a href='/bristol/relaxedperformances/'>click here</a></p><p class='mb-0'> For information on assisted performances or relaxed performances, or to contact the access booking line, please call:</p><p class='h5 mb-0 text-black font-weight-bold'><span class='icon icon-phone'></span> 0800 912 6971</p>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "bristolAbout",
+        "siteId": "bristol",
+        "inFooter": true,
+        "template": "about-template",
+        "path": "/bristol/about-the-show/",
+        "displayBookNow": false,
+        "title": "About the Show",
+        "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
+        "headerImage": "../images/headers/header-bristol-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-bristol-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "content": "<div class='pb-3'><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_op6vdai8&flashvars[localizationCode]=en&amp;&wid=1_bco9363r' width='400' height='85' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div></div>"
+                }
+            },
+            {
+                "type": "bgImageTextBlock",
+                "bgImageTextBlock": {
+                    "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md3.jpg",
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "links": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "bristolCast",
+        "siteId": "bristol",
+        "template": "cast-template",
+        "displayBookNow": false,
+        "path": "/bristol/cast-and-creatives/",
+        "title": "Cast & Creatives",
+        "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
+        "headerImage": "../images/headers/header-bristol-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-bristol-576px.jpg"
+    },
+    {
+        "id": "bristolRelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "bristol",
+        "template": "default-template",
+        "path": "/bristol/relaxedperformances/",
+        "title": "Relaxed Performance",
+        "displayBookNow": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/header-autism-v2-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-autism-v2-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for the Relaxed Performance at The Bristol Hippodrome.</p><p> THE LION KING is committed to creating a friendly and inclusive audience experience. Having hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the Lyceum Theatre London, the landmark musical is delighted to be presenting a Relaxed Performance in <strong>The Bristol Hippodrome</strong> on Tuesday 19 November at 5pm. </p><p> Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment. </p><p> Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p><a href='https://atgtickets.queue-it.net/?c=atgtickets&e=tlkbrstc&t_per=FAF5EC02-CBFF-4758-8BDB-F70E209120F4&t_pro=PRESALE' class='btn btn--red btn--300'>Book Tickets</a>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_lyhexn9i&flashvars[localizationCode]=en&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_wgbwxrws' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is a Relaxed Performance?</div>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "bristolEducationWorkshops",
+        "inNav": false,
+        "siteId": "bristol",
+        "template": "educationworkshop-template",
+        "path": "/bristol/educationworkshops/",
+        "title": "Education Workshops",
+        "displayBookNow": false,
+        "displayNav": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/header-educationworkshops-adult-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-educationworkshops-adult-576px.jpg"
+    },
+    {
+        "id": "bristolTerms",
+        "inNav": false,
+        "bookingInfo": false,
+        "displayBookNow": false,
+        "siteId": "bristol",
+        "template": "default-template",
+        "path": "/bristol/terms-and-conditions/",
+        "title": "Terms and Conditions",
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-bristol-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-bristol-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "bgColour": "light-grey",
+                    "column1": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>EDUCATION</h2><p><strong>Education Group Rates up to Year 13</strong></p><p>*Education group sales available on selected seats at selected performances, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Wednesday matinee and Wednesday evening performances only. Stalls & Grand Circle reduced to £27.50, Upper Circle reduced to £20.50. For every ten (10) tickets purchased the group receives one (1) additional ticket free for use by a teacher. Education group tickets purchased shall not be offered for re-sale via social media channels to individual members, unless otherwise agreed in writing by The Walt Disney Company. Offer is subject to availability, may be revoked at any time and not available on premium seating. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Additional restrictions apply, please enquire for more details. © Disney</p>"
+                    },
+                    "column2": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>GROUPS</h2><p><strong>Group Sales Terms and Conditions</strong></p><p>Group rates currently available from 10 September 2019 through to 21 November 2019. Valid only for Tue to Thur evenings and Wed matinee performances. Tickets for groups 10-39 from £30 and groups 40+ from £28. Group rates are unavailable during school holiday periods, additional blackout dates and restrictions apply. Group rates can only be applied to tickets being booked at the same time. Not all seats for eligible performances are discounted. No refunds or exchanges. Prices may vary on selected performances. Prices, dates, times and cast subject to change without notice. Group discount may be revoked at any time without notice. © Disney</p>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "edinburghHome",
+        "siteId": "edinburgh", 
+        "template": "home-template",
+        "path": "/edinburgh/",
+        "displayBookNow": false,
+        "title": "Home",
+        "metaTitle": "Home | Edinburgh",
+        "metaDescription": "Tickets now on sale for Edinburgh Playhouse. The Lion King, coming December 2019.",
+        "headerImage": "../images/headers/header-edinburgh-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-edinburgh-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "paddingClass": "pb-0",
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Edinburgh Playhouse <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>5 December 2019 - 29 March 2020</span></h1><p> For best availability choose performances in January, February and March</p>"
+                }
+            },
+            {
+                "type": "thinTwoColumnBlock",
+                "thinTwoColumnBlock": {
+                    "column1": {
+                        "content": "<a href='https://www.atgtickets.com/shows/the-lion-king/edinburgh-playhouse/' class='btn btn--red btn--book btn--block mb-2 interstitial-timed-edinburgh'>Book tickets with the Edinburgh Playhouse Box Office</a><a href='https://tickets.disney.co.uk/tickets/series/lionkingedinburghtour' class='btn btn--red btn--block btn--book mb-3 no-interstitial-check'> <span>Book direct with <img src='/images/disney-logo-white.svg' alt='Disney'/></span> </a> <p class='h5 mb-3 text-black font-weight-bold'><span class='icon icon-phone'></span> 0844 241 0092*</p><p class='text-sm'>*Calls cost 7p per min, plus your phone company’s access charge</p><p class='mb-0'>Book tickets in person</p><a href='https://www.google.co.uk/maps/place/Edinburgh+Playhouse/@55.9568751,-3.1871043,17z/data=!3m1!4b1!4m5!3m4!1s0x4887bf755a743965:0x6307b4e1846d981a!8m2!3d55.9568721!4d-3.1849156' target='_blank' rel='noreferrer noopener'><p class='h5 mb-3 text-black font-weight-bold'><span class='icon icon-map-marker'></span> Edinburgh Playhouse</p></a>"
+                    },
+                    "column2": {
+                        "content": "<div class='row justify-content-center'> <div class='col col-md-5'> <img src='/images/clock-1.svg' alt='7:30pm' width='75'/><p class='text-lg font-weight-bold'>7:30pm</p> <p>Tuesday to<br/> Saturday</p></div><div class='col col-md-5'> <img src='/images/clock-2.svg' alt='2:30pm' width='75'/> <p class='text-lg font-weight-bold'>2:30pm</p> <p>Wednesdays, Saturdays & Sundays</p></div></div><p class='text-sm m-0'>Running: 2hrs 30 mins including interval.</p><p class='text-sm m-0'>Recommended for all ages 6+, minimum age 3.</p>"
+                    }
+                }
+            },
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "paddingClass": "pb-0",
+                    "content": "<p><a href='/'>Click here</a> to book tickets for London or other UK cities.</p>"
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "colour": "yellow",
+                        "items": [
+                            {
+                                "question": "Bring a Group",
+                                "answer": "<p><strong>Group bookings are currently available on selected seats and performances until 27 March 2020.</strong></p><p><strong>OFF PEAK (Tuesday evening and Wednesday matinee performances)</strong></p><p>GROUPS 10-24 from £25<br>GROUPS 25-49 from £22.50<br>GROUPS 50+ from £20</p><p><strong>STANDARD (Wednesday – Friday evening performances)</strong></p><p>GROUPS 10-24 from £35<br>GROUPS 25-49 from £32.50<br>GROUPS 50+ from £25</p><p>To make an enquiry online, visit the Edinburgh Playhouse Groups Booking page, by <a href='https://www.atgtickets.com/group-bookings-enquiry-form/'>clicking here</a>.</p><p> To make an enquiry by phone, call:</p> <p class='h5 mb-0 text-black font-weight-bold'><span class='icon icon-phone'></span> 0333 009 5388</p><p class='text-sm'> Calls charged at local rate. Group rates are subject to terms and conditions, for more information please <a href='/edinburgh/terms-and-conditions/' class='no-interstitial-check'>click here</a>.</p>"
+                            },
+                            {
+                                "question": "Plan your visit",
+                                "answer": "<p>For information on venue location, Box Office opening hours, transport links to the venue and other venue-related information, <a href='https://www.atgtickets.com/venues/edinburgh-playhouse/info/'>click here</a>.</p>"
+                            },
+                            {
+                                "question": "Bring an Education Group",
+                                "answer": " <p><strong>Education bookings are currently available on selected seats and performances until 26 March 2020.</strong></p><p><strong>OFF PEAK (Tuesday evening & Wednesday matinee performances)</strong></p><p>From £16.50</p><p><strong>STANDARD (Wednesday & Thursday evening performances)</strong></p><p>From £19.50</p><p>Plus one teacher goes free with every ten paid tickets</p><p>To make an enquiry online, visit the Edinburgh Playhouse Booking page, by <a href='https://www.atgtickets.com/group-bookings-enquiry-form/'>clicking here</a>.</p><p class='m-0'>To make an enquiry by phone, call:</p><p class='h5 mb-0 text-black font-weight-bold'><span class='icon icon-phone'></span> 0333 009 5388</p><p class='text-sm'> Calls charged at local rate. Education group rates are subject to terms and conditions, for more information please <a href='/edinburgh/terms-and-conditions/' class='no-interstitial-check'>click here</a>.</p><p> Enhance your visit with The Lion King’s award-winning EDUCATION PROGRAMME, free to use online.<br/><a href='https://www.lionkingeducation.co.uk/' class='no-interstitial-check' target='_blank' rel='noopener noreferrer'>Explore the comprehensive resources here</a>.</p>"
+                            },
+                            {
+                                "question": "Access and Relaxed Performances",
+                                "answer": " <p><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=D1C73546-173F-44B6-8BFF-F03B0A2C4AC7&BOparam::WSmap::loadMap::promocode_access_code_url=&brandingName=&SessionSecurity::referrer=&q=bea4363a-9a40-4dbc-955e-929d2afc59c5&p=ae5988c9-9a9d-4541-8925-0990079558eb&ts=1562852717&c=atgtickets&e=tlkeditcgen&rt=Safetynet&h=161c88dd710fb72b664a2aaae7d2410a' class='interstitial-timed'>Wednesday 11 December 2019 19.30pm – AUDIO DESCRIBED PERFORMANCE </a></p><p><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=F8D93F27-C691-4895-8F43-2966063A3DB6&BOparam::WSmap::loadMap::promocode_access_code_url=&brandingName=&SessionSecurity::referrer=&q=a7d4d841-a1f9-45c7-a2d0-157fdfd05ce1&p=72f92789-9e9d-44e0-9903-16980091be59&ts=1562852745&c=atgtickets&e=tlkeditcgen&rt=Safetynet&h=e9de673091641cc40dd82ceb06f7782e' class='interstitial-timed'>Wednesday 15 January 2020 19.30pm – SIGNED PERFORMANCE </a></p><p><a href='relaxedperformances/' class='no-interstitial-check'>Sunday 26 January 2020 13.30pm – RELAXED PERFORMANCE</a></p><p><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=65797C10-466C-4421-8B95-E200621C6B53&BOparam::WSmap::loadMap::promocode_access_code_url=&brandingName=&SessionSecurity::referrer=&q=abcf7fb3-2f46-4232-9b0f-af1e93873b6e&p=81e9e549-9998-41d3-99ee-e19607907113&ts=1562852807&c=atgtickets&e=tlkeditcgen&rt=Safetynet&h=cefd774e571ac2eda97483f55798ed4b' class='interstitial-timed'>Wednesday 5 February 2020 19.30pm – CAPTIONED PERFORMANCE </a></p><p> For information on access facilities at the theatre please <a href='https://www.atgtickets.com/venues/edinburgh-playhouse/access/'>click here</a>. </p><p>To find out about relaxed performances <a href='/edinburgh/relaxedperformances/'>click here</a></p><p class='mb-0'> For information on assisted performances or relaxed performances, or to contact the access booking line, please call:</p><p class='h5 mb-0 text-black font-weight-bold'><span class='icon icon-phone'></span> 0800 912 6971</p>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "edinburghAbout",
+        "siteId": "edinburgh",
+        "inFooter": true,
+        "template": "about-template",
+        "path": "/edinburgh/about-the-show/",
+        "displayBookNow": false,
+        "title": "About the Show",
+        "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
+        "headerImage": "../images/headers/header-edinburgh-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-edinburgh-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "content": "<div class='pb-3'><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_op6vdai8&flashvars[localizationCode]=en&amp;&wid=1_bco9363r' width='400' height='85' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div></div>"
+                }
+            },
+            {
+                "type": "bgImageTextBlock",
+                "bgImageTextBlock": {
+                    "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "links": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "edinburghCast",
+        "siteId": "edinburgh",
+        "displayBookNow": false,
+        "template": "cast-template",
+        "path": "/edinburgh/cast-and-creatives/",
+        "title": "Cast & Creatives",
+        "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
+        "headerImage": "../images/headers/header-edinburgh-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-edinburgh-576px.jpg"
+    },
+    {
+        "id": "edinburghRelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "edinburgh",
+        "template": "default-template",
+        "path": "/edinburgh/relaxedperformances/",
+        "title": "Relaxed Performance",
+        "displayBookNow": false,
+        "metaDescription": "See it now in Edinburgh. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/header-autism-v2-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-autism-v2-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for the Relaxed Performance at the Edinburgh Playhouse.</p><p>THE LION KING is committed to creating a friendly and inclusive audience experience. Having hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the Lyceum Theatre London, the landmark musical is delighted to be presenting a Relaxed Performance in the <strong>Edinburgh Playhouse</strong> on Sunday 26 January 2020 at 1.30pm.</p><p>Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment.</p><a href='https://atgtickets.queue-it.net/?c=atgtickets&e=tlkedirp&t_per=59002973-5D67-440B-AFBF-FCF34008E716' class='btn btn--red btn--300'>Book Tickets</a>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_lyhexn9i&flashvars[localizationCode]=en&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_wgbwxrws' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is a Relaxed Performance?</div>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "edinburghTerms",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "edinburgh",
+        "template": "default-template",
+        "path": "/edinburgh/terms-and-conditions/",
+        "displayBookNow": false,
+        "title": "Terms and Conditions",
+        "metaDescription": "",
+        "headerImage": "../images/headers/header-edinburgh-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-edinburgh-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "bgColour": "light-grey",
+                    "column1": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>EDUCATION</h2><p><strong>Education Group Rates up to Year 13</strong></p><p>*Education group sales available on selected seats at selected performances, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Thursday evening and Wednesday matinee performances only. On Wednesday and Thursday evening performances, Stalls & Circle reduced to £25, Balcony reduced to £19.50. On Tuesday evening and Wednesday matinee performances, Stalls & Circle reduced to £25, Balcony reduced to £16.50. For every ten (10) tickets purchased the group receives one (1) additional ticket free for use by a teacher. Education group tickets purchased shall not be offered for re-sale via social media channels to individual members, unless otherwise agreed in writing by The Walt Disney Company. Offer is subject to availability, may be revoked at any time and not available on premium seating. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Additional restrictions apply, please enquire for more details. © Disney</p>"
+                    },
+                    "column2": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>GROUPS</h2><p><strong>Group Sales Terms and Conditions</strong></p><p>*Group rates currently available on selected seats at selected performances, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Friday evening and Wednesday matinee performances only. On Wednesday, Thursday and Friday evening performances, tickets for groups 10-24 from £35, groups 25-49 from £32.50 and groups 50+ from £25. On Tuesday evening and Wednesday matinee performances, tickets for groups 10-24 from £25, groups 25-49 from £22.50 and groups 50+ from £20. Group rates can only be applied to tickets being booked at the same time. Not all seats for eligible performances are discounted. No refunds or exchanges. Prices may vary on selected performances. Prices, dates, times and cast subject to change without notice. Group discount may be revoked at any time without notice. © Disney</p>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "cardiffHome",
+        "siteId": "cardiff", 
+        "template": "cardiffcalendar-template",
+        "path": "/cardiff/",
+        "displayBookNow": false,
+        "title": "Home",
+        "metaTitle": "Home | Cardiff",
+        "metaDescription": "Tickets go osn sale in September 2019 for Wales Millennium Centre. The Lion King, coming July 2020.",
+        "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg",
+        "contentBlocks": [
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "colour": "yellow",
+                        "items": [
+                            {
+                                "question": "Bring a Group",
+                                "answer": "<p>Groups rates are available</p><p>To make an enquiry online, visit the Wales Millennium Centre Groups Booking page, by <a href='https://www.wmc.org.uk/en/your-visit/group-bookings-and-travel-trade/' ' target='_blank' rel='noopener noreferrer'><strong>clicking here</strong></a></p><p>To make an enquiry by phone, call: 029 2063 6464 (option 4)</p><p>Calls charged at local rate. Group rates are subject to terms and conditions, for more information <a href='/cardiff/terms-and-conditions/' class='no-interstitial-check'> <strong>click here</strong></a></p>"
+                            },
+                            {
+                                "question": "Plan your visit",
+                                "answer": "<p>For information on venue location, Box Office opening hours, transport links to the venue and other venue-related information, <a href=' https://www.wmc.org.uk/en/your-visit/' target='_blank' rel='noopener noreferrer'>click here</a>.</p>"
+                            },
+                            {
+                                "question": "Access and Relaxed Performances",
+                                "answer": "<p>For information on access facilities at the theatre please <a href='https://www.wmc.org.uk/en/your-visit/facilities-and-access/'>click here</a>. </p><p>To find out about relaxed performances <a href='/cardiff/relaxedperformances/'>click here</a></p>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "cardiffAbout",
+        "siteId": "cardiff",
+        "inFooter": true,
+        "template": "about-template",
+        "path": "/cardiff/about-the-show/",
+        "displayBookNow": false,
+        "title": "About the Show",
+        "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
+        "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "content": "<div class='pb-3'><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_op6vdai8&flashvars[localizationCode]=en&amp;&wid=1_bco9363r' width='400' height='85' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div></div>"
+                }
+            },
+            {
+                "type": "bgImageTextBlock",
+                "bgImageTextBlock": {
+                    "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "links": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "cardiffCast",
+        "siteId": "cardiff",
+        "displayBookNow": false,
+        "template": "cast-template",
+        "path": "/cardiff/cast-and-creatives/",
+        "title": "Cast & Creatives",
+        "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
+        "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg"
+    },
+    {
+        "id": "cardiffRelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "cardiff",
+        "template": "default-template",
+        "path": "/cardiff/relaxedperformances/",
+        "title": "Relaxed Performance",
+        "displayBookNow": false,
+        "metaDescription": "See it now in Edinburgh. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/header-autism-v2-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-autism-v2-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for the Relaxed Performance at the Wales Millennium Centre.</p><p>THE LION KING is committed to creating a friendly and inclusive audience experience. Having hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the Lyceum Theatre London, the landmark musical is delighted to be presenting a Relaxed Performance in the <strong>Wales Millennium Centre</strong> on Thursday 20 August at 13.30pm.</p><p>Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment.</p><p>Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p><a href='https://www.wmc.org.uk/en/whats-on/2020/the-lion-king-relaxed/' class='btn btn--red btn--300'>Book Tickets</a><p class='mt-4'>For information on assisted performances or relaxed performances, or to contact the access booking line, please call: 01446 401 744</p>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_lyhexn9i&flashvars[localizationCode]=en&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_wgbwxrws' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is a Relaxed Performance?</div>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "cardiffTerms",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "cardiff",
+        "template": "default-template",
+        "path": "/cardiff/terms-and-conditions/",
+        "displayBookNow": false,
+        "title": "Terms and Conditions",
+        "metaDescription": "",
+        "headerImage": "../images/headers/Wales-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/Wales-576-sponsor.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "bgColour": "light-grey",
+                    "column1": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>GROUPS</h2><p><strong>Group Sales Terms and Conditions</strong></p><p>*Group rates currently available on selected seats at selected performances, excluding black-out dates as determined by Disney in its sole discretion. Valid on all Tuesday to Thursday performances and on Friday 17th July 2:30pm and Friday 28th August 2.30pm. On these performances tickets for groups 10+ get £5 off £75, £65, £45 & £40 tickets. Groups discounts are not available on Tuesday 14 July 2020. Group rates can only be applied to tickets being booked at the same time. Not all seats for eligible performances are discounted. No refunds or exchanges. Prices may vary on selected performances. Prices, dates, times and cast subject to change without notice. Group discount may be revoked at any time without notice. © Disney)</p>"
+                    },
+                    "column2": {
+                        "content": ""
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "bradfordHome",
+        "siteId": "bradford", 
+        "template": "home-template",
+        "path": "/bradford/",
+        "displayBookNow": false,
+        "title": "Home",
+        "metaTitle": "Home | Bradford",
+        "metaDescription": "Tickets go on sale in September 2019 for The Alhambra Theatre. The Lion King, coming April 2020.",
+        "headerImage": "../images/headers/bradford-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "paddingClass": "pb-0",
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>The Alhambra Theatre <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>30 April – 20 June 2020</span></h1>"
+                }
+            },
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "paddingClass": "pb-0",
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Bradford will go on sale this October – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-bradford-tickets' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase no-interstitial-check'>Bradford Priority Sign-Up</a>"
+                }
+            }
+        ]
+    },
+    {
+        "id": "bradfordAbout",
+        "siteId": "bradford",
+        "inFooter": true,
+        "template": "about-template",
+        "path": "/bradford/about-the-show/",
+        "displayBookNow": false,
+        "title": "About the Show",
+        "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
+        "headerImage": "../images/headers/bradford-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "content": "<div class='pb-3'><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_op6vdai8&flashvars[localizationCode]=en&amp;&wid=1_bco9363r' width='400' height='85' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div></div>"
+                }
+            },
+            {
+                "type": "bgImageTextBlock",
+                "bgImageTextBlock": {
+                    "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "links": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "bradfordCast",
+        "siteId": "bradford",
+        "displayBookNow": false,
+        "template": "cast-template",
+        "path": "/bradford/cast-and-creatives/",
+        "title": "Cast & Creatives",
+        "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
+        "headerImage": "../images/headers/bradford-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-576.jpg"
+    },
+    {
+        "id": "bradfordRelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "bradford",
+        "template": "default-template",
+        "path": "/bradford/relaxedperformances/",
+        "title": "Relaxed Performance",
+        "displayBookNow": false,
+        "metaDescription": "See it now in Edinburgh. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/header-autism-v2-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-autism-v2-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for the Relaxed Performance at the The Alhambra Theatre.</p><p>THE LION KING is committed to creating a friendly and inclusive audience experience. Having hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the Lyceum Theatre London, the landmark musical is delighted to be presenting a Relaxed Performance in the <strong>Edinburgh Playhouse</strong> on Sunday 26 January 2020 at 1.30pm.</p><p>Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment.</p><a href='https://atgtickets.queue-it.net/?c=atgtickets&e=tlkedirp&t_per=59002973-5D67-440B-AFBF-FCF34008E716' class='btn btn--red btn--300'>Book Tickets</a>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_lyhexn9i&flashvars[localizationCode]=en&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_wgbwxrws' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is a Relaxed Performance?</div>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "bradfordTerms",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "bradford",
+        "template": "default-template",
+        "path": "/bradford/terms-and-conditions/",
+        "displayBookNow": false,
+        "title": "Terms and Conditions",
+        "metaDescription": "",
+        "headerImage": "../images/headers/bradford-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-576.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "bgColour": "light-grey",
+                    "column1": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>EDUCATION</h2><p><strong>Education Group Rates up to Year 13</strong></p><p>*Education group sales available on selected seats at selected performances, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Thursday evening and Wednesday matinee performances only. On Wednesday and Thursday evening performances, Stalls & Circle reduced to £25, Balcony reduced to £19.50. On Tuesday evening and Wednesday matinee performances, Stalls & Circle reduced to £25, Balcony reduced to £16.50. For every ten (10) tickets purchased the group receives one (1) additional ticket free for use by a teacher. Education group tickets purchased shall not be offered for re-sale via social media channels to individual members, unless otherwise agreed in writing by The Walt Disney Company. Offer is subject to availability, may be revoked at any time and not available on premium seating. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Additional restrictions apply, please enquire for more details. © Disney</p>"
+                    },
+                    "column2": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>GROUPS</h2><p><strong>Group Sales Terms and Conditions</strong></p><p>*Group rates currently available on selected seats at selected performances, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Friday evening and Wednesday matinee performances only. On Wednesday, Thursday and Friday evening performances, tickets for groups 10-24 from £35, groups 25-49 from £32.50 and groups 50+ from £25. On Tuesday evening and Wednesday matinee performances, tickets for groups 10-24 from £25, groups 25-49 from £22.50 and groups 50+ from £20. Group rates can only be applied to tickets being booked at the same time. Not all seats for eligible performances are discounted. No refunds or exchanges. Prices may vary on selected performances. Prices, dates, times and cast subject to change without notice. Group discount may be revoked at any time without notice. © Disney</p>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "southamptonHome",
+        "siteId": "southampton", 
+        "template": "home-template",
+        "path": "/southampton/",
+        "displayBookNow": false,
+        "title": "Home",
+        "metaTitle": "Home | Southampton",
+        "metaDescription": "Tickets go on sale in September 2019 for Southampton Mayflower. The Lion King, coming July 2020.",
+        "headerImage": "../images/headers/southampton-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/southampton-576-sponsor.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "paddingClass": "pb-0",
+                    "content": "<h1 class='h4 font-weight-bold'><span class='text-red'>Mayflower Theatre, Southampton <span class='d-none d-md-inline'>|</span></span> <br class='d-md-none'/><span class='mobile-title'>3 September – 10 October 2020</span></h1>"
+                }
+            },
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "paddingClass": "pb-0",
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Southampton will go on sale this October – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-southampton-tickets' class='btn btn--red btn--book my-5 text-uppercase no-interstitial-check'>Southampton priority sign-up</a>"
+                }
+            }
+        ]
+    },
+    {
+        "id": "southamptonAbout",
+        "siteId": "southampton",
+        "inFooter": true,
+        "template": "about-template",
+        "path": "/southampton/about-the-show/",
+        "displayBookNow": false,
+        "title": "About the Show",
+        "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
+        "headerImage": "../images/headers/southampton-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/southampton-576-sponsor.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "content": "<div class='pb-3'><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_op6vdai8&flashvars[localizationCode]=en&amp;&wid=1_bco9363r' width='400' height='85' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div></div>"
+                }
+            },
+            {
+                "type": "bgImageTextBlock",
+                "bgImageTextBlock": {
+                    "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md2.jpg",
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "links": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "southamptonCast",
+        "siteId": "southampton",
+        "displayBookNow": false,
+        "template": "cast-template",
+        "path": "/southampton/cast-and-creatives/",
+        "title": "Cast & Creatives",
+        "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
+        "headerImage": "../images/headers/southampton-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/southampton-576-sponsor.jpg"
+    },
+    {
+        "id": "southamptonRelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "southampton",
+        "template": "default-template",
+        "path": "/southampton/relaxedperformances/",
+        "title": "Relaxed Performance",
+        "displayBookNow": false,
+        "metaDescription": "See it now in Edinburgh. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/header-autism-v2-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-autism-v2-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for the Relaxed Performance at the Wales Millennium Centre.</p><p>THE LION KING is committed to creating a friendly and inclusive audience experience. Having hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the Lyceum Theatre London, the landmark musical is delighted to be presenting a Relaxed Performance in the <strong>Edinburgh Playhouse</strong> on Sunday 26 January 2020 at 1.30pm.</p><p>Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment.</p><a href='https://atgtickets.queue-it.net/?c=atgtickets&e=tlkedirp&t_per=59002973-5D67-440B-AFBF-FCF34008E716' class='btn btn--red btn--300'>Book Tickets</a>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_lyhexn9i&flashvars[localizationCode]=en&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_wgbwxrws' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is a Relaxed Performance?</div>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "southamptonTerms",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "southampton",
+        "template": "default-template",
+        "path": "/southampton/terms-and-conditions/",
+        "displayBookNow": false,
+        "title": "Terms and Conditions",
+        "metaDescription": "",
+        "headerImage": "../images/headers/southampton-1600-sponsor.jpg",
+        "headerImageMobile": "../images/headers/southampton-576-sponsor.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "bgColour": "light-grey",
+                    "column1": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>EDUCATION</h2><p><strong>Education Group Rates up to Year 13</strong></p><p>*Education group sales available on selected seats at selected performances, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Thursday evening and Wednesday matinee performances only. On Wednesday and Thursday evening performances, Stalls & Circle reduced to £25, Balcony reduced to £19.50. On Tuesday evening and Wednesday matinee performances, Stalls & Circle reduced to £25, Balcony reduced to £16.50. For every ten (10) tickets purchased the group receives one (1) additional ticket free for use by a teacher. Education group tickets purchased shall not be offered for re-sale via social media channels to individual members, unless otherwise agreed in writing by The Walt Disney Company. Offer is subject to availability, may be revoked at any time and not available on premium seating. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Additional restrictions apply, please enquire for more details. © Disney</p>"
+                    },
+                    "column2": {
+                        "content": "<h2 class='text-red h4 font-weight-bold'>GROUPS</h2><p><strong>Group Sales Terms and Conditions</strong></p><p>*Group rates currently available on selected seats at selected performances, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Friday evening and Wednesday matinee performances only. On Wednesday, Thursday and Friday evening performances, tickets for groups 10-24 from £35, groups 25-49 from £32.50 and groups 50+ from £25. On Tuesday evening and Wednesday matinee performances, tickets for groups 10-24 from £25, groups 25-49 from £22.50 and groups 50+ from £20. Group rates can only be applied to tickets being booked at the same time. Not all seats for eligible performances are discounted. No refunds or exchanges. Prices may vary on selected performances. Prices, dates, times and cast subject to change without notice. Group discount may be revoked at any time without notice. © Disney</p>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "RelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "relaxedperformances",
+        "template": "default-template",
+        "path": "/relaxedperformances/",
+        "title": "Relaxed Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/1600-Relaxed_Performances.jpg",
+        "headerImageMobile": "../images/headers/576-Relaxed_Performances.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for Relaxed Performances in <strong>Bristol on 19 November 2019</strong> at 5pm, and <strong>Edinburgh on 26 January 2020</strong> at 1.30pm. The next Relaxed Performance at London’s Lyceum Theatre will be in summer 2020.</p><div class='row pt-1 pb-4'><div class='col-sm-4 d-flex py-1'><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=FAF5EC02-CBFF-4758-8BDB-F70E209120F4&BOparam::WSmap::loadMap::promocode_access_code_url=PRESALE&brandingName=&SessionSecurity::referrer=&q=57fdc600-8f21-4a3c-aa40-7b56af7dfc2e&p=f0691349-9c9c-4492-9900fa9ccc930039&ts=1556801524&c=atgtickets&e=tlkbrsgen&rt=Safetynet&h=078a82c9a0fe140a3263049d9a26b2f8' class='btn btn--red btn--relaxed'>The Bristol Hippodrome</span><br/> <span class='text-thin'>BOOK NOW</span></a></div><div class='col-sm-4 d-flex py-1'><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=59002973-5D67-440B-AFBF-FCF34008E716&BOparam::WSmap::loadMap::promocode_access_code_url=&brandingName=&SessionSecurity::referrer=&q=c98046b7-e2d5-40f9-975a-f190c49eb8e5&p=4919e749-999e-426e-a988-5a9eeb96e6f1&ts=1556801583&c=atgtickets&e=tlkeditcgen&rt=Safetynet&h=a261ec8c1374674ab84940510286be65' class='btn btn--red btn--relaxed'>Edinburgh Playhouse<br/> <span class='text-thin'>BOOK NOW</span></a></div><div class='col-sm-4 d-flex py-1'><div class='btn btn--auto btn--red btn--relaxed'>London<br/>  <span class='text-thin'> Waiting list opening soon</span></div></div></div> <p>THE LION KING is committed to creating a friendly and inclusive audience experience. The landmark musical is delighted to be presenting a Relaxed Performance in each venue on the UK tour as well as in the Lyceum Theatre in London next summer. The show hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the London.</p><p> Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment.</p><p>Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=0_b6qro5ob&flashvars[localizationCode]=en&&wid=0_twedux9y' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is an autism-friendly performance?</div>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "RelaxedPerformances",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "relaxedperformances",
+        "template": "default-template",
+        "path": "/relaxedperformances/",
+        "title": "Relaxed Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "See it now in Bristol. Book tickets here. Coming to Bristol and Edinburgh in 2019. Sign up now.",
+        "headerImage": "../images/headers/1600-Relaxed_Performances.jpg",
+        "headerImageMobile": "../images/headers/576-Relaxed_Performances.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for Relaxed Performances in <strong>Bristol on 19 November 2019</strong> at 5pm, and <strong>Edinburgh on 26 January 2020</strong> at 1.30pm. The next Relaxed Performance at London’s Lyceum Theatre will be in summer 2020.</p><div class='row pt-1 pb-4'><div class='col-sm-4 d-flex py-1'><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=FAF5EC02-CBFF-4758-8BDB-F70E209120F4&BOparam::WSmap::loadMap::promocode_access_code_url=PRESALE&brandingName=&SessionSecurity::referrer=&q=57fdc600-8f21-4a3c-aa40-7b56af7dfc2e&p=f0691349-9c9c-4492-9900fa9ccc930039&ts=1556801524&c=atgtickets&e=tlkbrsgen&rt=Safetynet&h=078a82c9a0fe140a3263049d9a26b2f8' class='btn btn--red btn--relaxed'>The Bristol Hippodrome</span><br/> <span class='text-thin'>BOOK NOW</span></a></div><div class='col-sm-4 d-flex py-1'><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=59002973-5D67-440B-AFBF-FCF34008E716&BOparam::WSmap::loadMap::promocode_access_code_url=&brandingName=&SessionSecurity::referrer=&q=c98046b7-e2d5-40f9-975a-f190c49eb8e5&p=4919e749-999e-426e-a988-5a9eeb96e6f1&ts=1556801583&c=atgtickets&e=tlkeditcgen&rt=Safetynet&h=a261ec8c1374674ab84940510286be65' class='btn btn--red btn--relaxed'>Edinburgh Playhouse<br/> <span class='text-thin'>BOOK NOW</span></a></div><div class='col-sm-4 d-flex py-1'><a href='https://www.atgtickets.com/the-lion-king-relaxed-performances/' class='btn btn--red btn--relaxed'>London<br/>  <span class='text-thin'>Sign up for priority <br/> waiting list</span></a></div></div> <p>THE LION KING is committed to creating a friendly and inclusive audience experience. The landmark musical is delighted to be presenting a Relaxed Performance in each venue on the UK tour as well as in the Lyceum Theatre in London next summer. The show hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the London.</p><p> Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment.</p><p>Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=0_b6qro5ob&flashvars[localizationCode]=en&&wid=0_twedux9y' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is an autism-friendly performance?</div>"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "relaxedperformancesAbout",
+        "siteId": "relaxedperformances",
+        "template": "about-template",
+        "path": "/relaxedperformances/about-the-show/",
+        "title": "About the Show",
+        "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
+        "inFooter": true,
+        "headerImage": "../images/headers/header-london-1600px.jpg",
+        "headerImageMobile": "../images/headers/header-london-576px.jpg",
+        "contentBlocks": [
+            {
+                "type": "textBlockFullWidth",
+                "textBlockFullWidth": {
+                    "content": "<div class='pb-3'><div class='embed-responsive embed-responsive-16by9'><iframe id='kaltura_player' class='embed-responsive-item' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div></div>"
+                }
+            },
+            {
+                "type": "bgImageTextBlock",
+                "bgImageTextBlock": {
+                    "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
+                    "imgMobile": "../images/backgrounds/bg-lk-banner-md3.jpg",
+                    "withGradient": true,
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "links": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "RAM",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/RAM/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "Celebrate the 20th anniversary of Disney’s landmark musical. Book now.",
+        "headerImage": "../images/headers/LK_Gala_Aug19_1600x572.jpg",
+        "headerImageMobile": "../images/headers/LK_Gala_Aug19_576x240.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance –<br> 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special red carpet gala performance at the iconic Lyceum Theatre on 19 October 2019 at 7.30pm. In the last 20 years, over 16 million people have enjoyed performances of THE LION KING in London alone – join us to mark this landmark anniversary.</p> <p>Guests will receive a complimentary welcome drink as well as a souvenir 20th anniversary brochure to remember this very special evening.</p><p>This performance is in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><div class='col-sm-4 p-0'><a href='https://tickets.disney.co.uk/tickets/series/TLK/the-lion-king-188318?promo=RAM&startDate=10-19-2019' target='_blank' class='no-underline no-interstitial-check'><div class='btn btn--red'>Book now</div></a></div><div class='row'><div class='col-7 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-5 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": "<p>Yes, the performance is held in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><p><strong>About the Elton John AIDS Foundation</strong></p><p>At the Elton John AIDS Foundation, we believe AIDS can be beaten. We act on that belief by raising funds for evidence-based programs and policies, and also by speaking out with honesty and compassion about the realities of people&rsquo;s lives.&nbsp;Sir Elton John created EJAF 27 years ago. Over the last quarter century, through hard work and with the help of our network of kind and generous friends and supporters, the foundation has raised more than $450 million globally to combat stigma, prevent infections, provide treatment and services, and motivate governments to end AIDS. This work has reached millions of people in Africa, Asia, Europe and across the United States. Join us in speaking out, taking action, and contributing to our efforts to achieve a world without AIDS. For more information, please visit&nbsp;<a href='http://www.ejaf.org/'  target='_blank' rel='noopener noreferrer'>www.ejaf.org</a>.</p><p><strong>About the Royal Academy of Music</strong></p><p>The Royal Academy of Music has been training musicians to the highest professional standards since its foundation in 1822. Every year some of the most talented young musicians from more than 50 countries come to study here, attracted by renowned teachers and a rich culture that broadens musical horizons, develops professional creativity and fosters entrepreneurial spirit. For more information, please visit <a href='http://www.ram.ac.uk/'  target='_blank' rel='noopener noreferrer'>www.ram.ac.uk/</a></p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": "<p>Your question may be answered <a href='/london/your-visit/'>here</a>, or via <a href='https://support.disney.com/hc/en-gb/sections/115002231648-The-Lion-King' target='_blank' rel='noopener noreferrer' class='no-interstitial-check'>DisneyTickets</a>.</p>"
+                            },
+                            {
+                                "question": "When will I receive my tickets?",
+                                "answer": "<p>Your tickets will be posted to you 7-10 working days before the performance. Tickets purchased less than a week before the performance date will be available to collect from the Box Office.</p>"
+                            },
+                            {
+                                "question": "Security information",
+                                "answer": "<p>Please note that enhanced security checks including bag checks will be in operation at the venue. We advise you arrive in plenty of time and request you do not bring any large bags.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "EJAF",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/EJAF/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "Celebrate the 20th anniversary of Disney’s landmark musical. Book now.",
+        "headerImage": "../images/headers/LK_Gala_Aug19_1600x572.jpg",
+        "headerImageMobile": "../images/headers/LK_Gala_Aug19_576x240.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance –<br> 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special red carpet gala performance at the iconic Lyceum Theatre on 19 October 2019 at 7.30pm. In the last 20 years, over 16 million people have enjoyed performances of THE LION KING in London alone – join us to mark this landmark anniversary.</p><p>Guests will receive a complimentary welcome drink as well as a souvenir 20th anniversary brochure to remember this very special evening.</p><p>This performance is in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><div class='col-sm-4 p-0'><a href='https://tickets.disney.co.uk/tickets/series/TLK/the-lion-king-188318?promo=ELTON&startDate=10-19-2019' target='_blank' class='no-underline no-interstitial-check'><div class='btn btn--red'>Book now</div></a></div><div class='row'><div class='col-7 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-5 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": "<p>Yes, the performance is held in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><p><strong>About the Elton John AIDS Foundation</strong></p><p>At the Elton John AIDS Foundation, we believe AIDS can be beaten. We act on that belief by raising funds for evidence-based programs and policies, and also by speaking out with honesty and compassion about the realities of people&rsquo;s lives.&nbsp;Sir Elton John created EJAF 27 years ago. Over the last quarter century, through hard work and with the help of our network of kind and generous friends and supporters, the foundation has raised more than $450 million globally to combat stigma, prevent infections, provide treatment and services, and motivate governments to end AIDS. This work has reached millions of people in Africa, Asia, Europe and across the United States. Join us in speaking out, taking action, and contributing to our efforts to achieve a world without AIDS. For more information, please visit&nbsp;<a href='http://www.ejaf.org/'  target='_blank' rel='noopener noreferrer'>www.ejaf.org</a>.</p><p><strong>About the Royal Academy of Music</strong></p><p>The Royal Academy of Music has been training musicians to the highest professional standards since its foundation in 1822. Every year some of the most talented young musicians from more than 50 countries come to study here, attracted by renowned teachers and a rich culture that broadens musical horizons, develops professional creativity and fosters entrepreneurial spirit. For more information, please visit <a href='http://www.ram.ac.uk/' target='_blank' rel='noopener noreferrer'>www.ram.ac.uk/</a></p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": "<p>Your question may be answered <a href='/london/your-visit/'>here</a>, or via <a href='https://support.disney.com/hc/en-gb/sections/115002231648-The-Lion-King' target='_blank' rel='noopener noreferrer' class='no-interstitial-check'>DisneyTickets</a>.</p>"
+                            },
+                            {
+                                "question": "When will I receive my tickets?",
+                                "answer": "<p>Your tickets will be posted to you 7-10 working days before the performance. Tickets purchased less than a week before the performance date will be available to collect from the Box Office.</p>"
+                            },
+                            {
+                                "question": "Security information",
+                                "answer": "<p>Please note that enhanced security checks including bag checks will be in operation at the venue. We advise you arrive in plenty of time and request you do not bring any large bags.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "gala",
+        "inNav": true,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/gala/",
+        "title": "20th Anniversary",
+        "displayNav": true,
+        "displayBookNow": false,
+        "metaDescription": "Celebrate the 20th anniversary of Disney’s landmark musical. Book now.",
+        "headerImage": "../images/headers/LK_Gala_Aug19_1600x572.jpg",
+        "headerImageMobile": "../images/headers/LK_Gala_Aug19_576x240.jpg",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>20th Anniversary Gala Performance –<br> 19 October 2019, 7.30pm</h1><p>Celebrate the 20th anniversary of Disney’s landmark musical THE LION KING by attending this special red carpet gala performance at the iconic Lyceum Theatre on 19 October 2019 at 7.30pm. In the last 20 years, over 16 million people have enjoyed performances of THE LION KING in London alone – join us to mark this landmark anniversary.</p> <p>Guests will receive a complimentary welcome drink as well as a souvenir 20th anniversary brochure to remember this very special evening.</p><p>This performance is in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><div class='col-sm-4 p-0'><a href='https://tickets.disney.co.uk/tickets/series/TLK/the-lion-king-188318?startDate=10-19-2019' target='_blank' class='no-underline no-interstitial-check'><div class='btn btn--red'>Book now</div></a></div><div class='row'><div class='col-7 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/EJAF-logo.svg' /></div><div class='col-5 col-sm-6 py-3 py-md-5 d-flex'><img src='/images/RAM-logo.png'></div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "title": "What is the 20th Anniversary Gala Performance?", 
+                "faqBlock": [
+                    {
+                        "items": [
+                            {
+                                "question": "Is the event supporting a charity?",
+                                "answer": "<p>Yes, the performance is held in support of the Elton John AIDS Foundation and the Royal Academy of Music.</p><p><strong>About the Elton John AIDS Foundation</strong></p><p>At the Elton John AIDS Foundation, we believe AIDS can be beaten. We act on that belief by raising funds for evidence-based programs and policies, and also by speaking out with honesty and compassion about the realities of people&rsquo;s lives.&nbsp;Sir Elton John created EJAF 27 years ago. Over the last quarter century, through hard work and with the help of our network of kind and generous friends and supporters, the foundation has raised more than $450 million globally to combat stigma, prevent infections, provide treatment and services, and motivate governments to end AIDS. This work has reached millions of people in Africa, Asia, Europe and across the United States. Join us in speaking out, taking action, and contributing to our efforts to achieve a world without AIDS. For more information, please visit&nbsp;<a href='http://www.ejaf.org/'  target='_blank' rel='noopener noreferrer'>www.ejaf.org</a>.</p><p><strong>About the Royal Academy of Music</strong></p><p>The Royal Academy of Music has been training musicians to the highest professional standards since its foundation in 1822. Every year some of the most talented young musicians from more than 50 countries come to study here, attracted by renowned teachers and a rich culture that broadens musical horizons, develops professional creativity and fosters entrepreneurial spirit. For more information, please visit <a href='http://www.ram.ac.uk/' target='_blank' rel='noopener noreferrer'>www.ram.ac.uk/</a></p>"
+                            },
+                            {
+                                "question": "Is there a dress code?",
+                                "answer": " <p>This is a formal event so guests are invited to dress smartly.</p>"
+                            },
+                            {
+                                "question": "Is it suitable for children?",
+                                "answer": " <p>THE LION KING is recommended for ages 6 and up – children under 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied by an adult and may not sit on their own within the auditorium. All persons entering the theatre, regardless of age, must have a ticket.</p>"
+                            },
+                            {
+                                "question": "I have another question",
+                                "answer": " <p>Your question may be answered <a href='/london/your-visit/'>here</a>, or via <a href='https://support.disney.com/hc/en-gb/sections/115002231648-The-Lion-King' target='_blank' rel='noopener noreferrer' class='no-interstitial-check'>DisneyTickets</a>.</p>"
+                            },
+                            {
+                                "question": "When will I receive my tickets?",
+                                "answer": "<p>Your tickets will be posted to you 7-10 working days before the performance. Tickets purchased less than a week before the performance date will be available to collect from the Box Office.</p>"
+                            },
+                            {
+                                "question": "Security information",
+                                "answer": "<p>Please note that enhanced security checks including bag checks will be in operation at the venue. We advise you arrive in plenty of time and request you do not bring any large bags.</p>"
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
