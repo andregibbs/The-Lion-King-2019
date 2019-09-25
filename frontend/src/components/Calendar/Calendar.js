@@ -73,7 +73,8 @@ class Calendar extends Component {
                 start: `${date}T${time}`,
                 end: `${date}T${time}`,
                 resource: event.time,
-                availablity: event.availablity
+                availablity: event.availablity,
+                site: this.props.site
             })
         })
         return events;

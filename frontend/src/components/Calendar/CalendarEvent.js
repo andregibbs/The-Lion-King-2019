@@ -11,12 +11,12 @@ class CalendarEvent extends Component {
         const event = this.props.event;
         var interstitialClass;
 
-    	if (this.props.site === 'cardiff') {
+    	if (event.site === 'cardiff') {
     		interstitialClass = 'interstitial-timed-cardiff'
     	} else {
     		interstitialClass = 'interstitial-timed-bristol'
         }
-        console.log(this.props.site)
+        console.log(event.site)
 
         return(
             <a href={event.url} className={interstitialClass} rel='noopener noreferrer' onClick={this.handleClick}>
