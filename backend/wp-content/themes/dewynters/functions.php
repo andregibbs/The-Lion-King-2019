@@ -15,3 +15,4 @@ require_once 'functions/func-script.php';
 require_once 'functions/func-style.php';
 require_once 'functions/func-acf.php';
 require_once 'functions/func-minify-html.php';
+require_once 'functions/func-build.php';
