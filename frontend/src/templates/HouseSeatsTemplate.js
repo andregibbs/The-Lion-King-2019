@@ -20,7 +20,7 @@ class HouseSeatsTemplate extends Component {
                         <Col xs={12}>
                             <div className="bg-white p-3 p-md-5">
                                 <h2 className="text-red font-special font-special--spacing">LONDON</h2>
-                                <p className="text-lg">The production holds a very limited number of top price seats for every performance, which are not available to the general public. Seats are subject to availability and requests will be reviewed and prioritised accordingly. Please note that filling out the request form is not a guarantee of tickets. Tickets are priced between £69.50 - £72.50 dependant on performance.</p>
+                                <p className="text-lg">The production holds a very limited number of top price seats for every performance, which are not available to the general public. Seats are subject to availability and requests will be reviewed and prioritised accordingly. Please note that filling out the request form is not a guarantee of tickets. Tickets are priced between £69.50 - £85.00 dependant on performance.</p>
                                 <hr className="hr-black my-4" />
                                 <p className="text-red text-lg"><strong>Performance schedule</strong></p>
                                 <p><strong>Evenings:</strong> Tuesday - Saturday at 7.30pm<br />
