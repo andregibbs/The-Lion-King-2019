@@ -74,6 +74,8 @@
         text-align: center;
         text-transform: uppercase;
         padding-top: $spacer;
+        height: 50vh;
+        overflow-y: auto;
 
         li {
             border: 2px solid $tlk-red;
