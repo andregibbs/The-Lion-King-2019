@@ -943,8 +943,8 @@
         "title": "Home",
         "metaTitle": "Home | Bradford",
         "metaDescription": "Tickets go on sale in September 2019 for The Alhambra Theatre. The Lion King, coming April 2020.",
-        "headerImage": "../images/headers/bradford-1600.jpg",
-        "headerImageMobile": "../images/headers/bradford-576.jpg",
+        "headerImage": "../images/headers/bradford-2-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-2-576.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -971,8 +971,8 @@
         "displayBookNow": false,
         "title": "About the Show",
         "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
-        "headerImage": "../images/headers/bradford-1600.jpg",
-        "headerImageMobile": "../images/headers/bradford-576.jpg",
+        "headerImage": "../images/headers/bradford-2-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-2-576.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -999,8 +999,8 @@
         "path": "/bradford/cast-and-creatives/",
         "title": "Cast & Creatives",
         "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
-        "headerImage": "../images/headers/bradford-1600.jpg",
-        "headerImageMobile": "../images/headers/bradford-576.jpg"
+        "headerImage": "../images/headers/bradford-2-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-2-576.jpg"
     },
     {
         "id": "bradfordRelaxedPerformances",
@@ -1039,8 +1039,8 @@
         "displayBookNow": false,
         "title": "Terms and Conditions",
         "metaDescription": "",
-        "headerImage": "../images/headers/bradford-1600.jpg",
-        "headerImageMobile": "../images/headers/bradford-576.jpg",
+        "headerImage": "../images/headers/bradford-2-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-2-576.jpg",
         "contentBlocks": [
             {
                 "type": "twoColumnBlock",
