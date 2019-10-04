@@ -147,72 +147,75 @@ class EducationWorkshopForm extends Component {
     handleSubmit(e) {
         e.preventDefault();
 
-        //disable the button so we can't send multiple requests
-        this.setState({ sendingFormRequest: true });
+        if (!this.state.sendingFormRequest) {
+        
+            //disable the button so we can't send multiple requests
+            this.setState({ sendingFormRequest: true });
 
-        // Create form data ready for api wrapper call
-        let formData = new FormData();
-        for (let key in this.state) {
-            formData.append(key, this.state[key]);
-        }
+            // Create form data ready for api wrapper call
+            let formData = new FormData();
+            for (let key in this.state) {
+                formData.append(key, this.state[key]);
+            }
 
 
-        // fetch with a *30* second timeout
-        fetchWithTimeout(process.env.EDUCATIONWORKSHOP_API_URL, {
-            method: 'POST',
-            body: formData,
-        }, 30000)
-            .then((result) => {
-                console.log(result);
-                if (!result.ok) {
-                    throw Error(result.statusText);//catch any server errors
-                }
-                return result;
-            })
-            .then(res => res.json()) //convert response body to json
-            .then((response) => {
-                console.log('got response:', response);
+            // fetch with a *30* second timeout
+            fetchWithTimeout(process.env.EDUCATIONWORKSHOP_API_URL, {
+                method: 'POST',
+                body: formData,
+            }, 30000)
+                .then((result) => {
+                    console.log(result);
+                    if (!result.ok) {
+                        throw Error(result.statusText);//catch any server errors
+                    }
+                    return result;
+                })
+                .then(res => res.json()) //convert response body to json
+                .then((response) => {
+                    console.log('got response:', response);
 
-                console.log(response.errors)
+                    console.log(response.errors)
 
-                // If there are errors update validation state
-                if (response.errors !== false && response.errors !== undefined) {
+                    // If there are errors update validation state
+                    if (response.errors !== false && response.errors !== undefined) {
 
-                    const { validate } = this.state
+                        const { validate } = this.state
 
-                    for (let key in response.errors) {
-                        if (response.errors[key] === true) {
-                            validate[key] = 'has-danger'
-                        } else {
-                            validate[key] = 'has-danger'
-                            validate[`${key}ErrorMsg`] = response.errors[key]
+                        for (let key in response.errors) {
+                            if (response.errors[key] === true) {
+                                validate[key] = 'has-danger'
+                            } else {
+                                validate[key] = 'has-danger'
+                                validate[`${key}ErrorMsg`] = response.errors[key]
+                            }
+
+                            this.setState({ validate });
                         }
 
-                        this.setState({ validate });
+                    } else {
+                        console.log(response.result);
+                        if (response.success === true) {
+                            this.setState({
+                                success: true
+                            });
+                        }
                     }
+                    //re-enable the button
+                    this.setState({ sendingFormRequest: false });
 
-                } else {
-                    console.log(response.result);
-                    if (response.success === true) {
-                        this.setState({
-                            success: true
-                        });
-                    }
-                }
-                //re-enable the button
-                this.setState({ sendingFormRequest: false });
-
-                // Scroll top top of form
-                const domNode = ReactDOM.findDOMNode(this.form.current)
-                window.scrollTo({
-                    top: domNode.offsetTop,
-                    behavior: 'smooth'
+                    // Scroll top top of form
+                    const domNode = ReactDOM.findDOMNode(this.form.current)
+                    window.scrollTo({
+                        top: domNode.offsetTop,
+                        behavior: 'smooth'
+                    })
                 })
-            })
-            .catch((error) => {
-                //if there's a server-side error
-                console.log(error)
-            });
+                .catch((error) => {
+                    //if there's a server-side error
+                    console.log(error)
+                });
+        }
 
     }
 
