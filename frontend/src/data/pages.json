@@ -316,7 +316,7 @@
                             }
                         ]
                     }
-                ] 
+                ]
             },
             {
                 "type": "faqBlock",
@@ -453,7 +453,8 @@
                         "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>The next Relaxed Performance of The Lion King in London will take place at the Lyceum Theatre on Sunday 31 May 2020 at 1.30pm.</p><p>THE LION KING is committed to creating a friendly and inclusive audience experience at the Lyceum Theatre, London and is delighted to announce that its seventh Relaxed Performance in London will take place in the Lyceum Theatre in May 2020.</p><p>Relaxed Performances are specially adapted to be accessible to a wide range of audiences such as those with autism, those with a learning disability, or anyone with additional sensory needs. There are extra trained staff on hand, and dedicated quiet areas inside the theatre should anyone need to leave their seat.</p><p>Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p><p>If you would like to receive information about when tickets will go on sale for this performance please sign up to the waiting list.</p><a href='https://www.atgtickets.com/the-lion-king-relaxed-performances/' class='btn btn--red btn--300'>Book tickets</a>"
                     },
                     "column2": {
-                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_efumgbui&flashvars[localizationCode]=en&amp;&wid=1_a3tmw6hy' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is an autism-friendly performance?</div>"                    }
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/27176231/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_efumgbui&flashvars[localizationCode]=en&amp;&wid=1_a3tmw6hy' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is an autism-friendly performance?</div>"
+                    }
                 }
             },
             {
@@ -499,7 +500,7 @@
     },
     {
         "id": "bristolHome",
-        "siteId": "bristol", 
+        "siteId": "bristol",
         "template": "homecalendar-template",
         "path": "/bristol/",
         "displayBookNow": false,
@@ -514,7 +515,7 @@
                 "paddingClass": "pb-5",
                 "faqBlock": [
                     {
-                        "colour": "yellow", 
+                        "colour": "yellow",
                         "items": [
                             {
                                 "question": "Bring a Group",
@@ -647,7 +648,7 @@
     },
     {
         "id": "edinburghHome",
-        "siteId": "edinburgh", 
+        "siteId": "edinburgh",
         "template": "home-template",
         "path": "/edinburgh/",
         "displayBookNow": false,
@@ -806,7 +807,7 @@
     },
     {
         "id": "cardiffHome",
-        "siteId": "cardiff", 
+        "siteId": "cardiff",
         "template": "cardiffcalendar-template",
         "path": "/cardiff/",
         "displayBookNow": false,
@@ -936,15 +937,15 @@
     },
     {
         "id": "bradfordHome",
-        "siteId": "bradford", 
+        "siteId": "bradford",
         "template": "home-template",
         "path": "/bradford/",
         "displayBookNow": false,
         "title": "Home",
         "metaTitle": "Home | Bradford",
         "metaDescription": "Tickets go on sale in September 2019 for The Alhambra Theatre. The Lion King, coming April 2020.",
-        "headerImage": "../images/headers/bradford-1600.jpg",
-        "headerImageMobile": "../images/headers/bradford-576.jpg",
+        "headerImage": "../images/headers/bradford-2-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-2-576.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -957,7 +958,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'>Tickets for Bradford will go on sale this October – sign up now for priority access to tickets below.</h2><a href='https://disney.co.uk/shows/the-lion-king-musical-tour-bradford-tickets' class='btn btn--red btn--book btn--block btn--sign-up my-5 text-uppercase no-interstitial-check'>Bradford Priority Sign-Up</a>"
+                    "content": "<h2 class='h5 font-weight-normal pt-3'>Priority sign-up is now closed. Tickets for Bradford go on sale to the public on Friday 11 October at 10am.</h2>"
                 }
             }
         ]
@@ -971,8 +972,8 @@
         "displayBookNow": false,
         "title": "About the Show",
         "metaDescription": "Watch the trailer and latest videos from The Lion King on the official Disney website.",
-        "headerImage": "../images/headers/bradford-1600.jpg",
-        "headerImageMobile": "../images/headers/bradford-576.jpg",
+        "headerImage": "../images/headers/bradford-2-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-2-576.jpg",
         "contentBlocks": [
             {
                 "type": "textBlockFullWidth",
@@ -999,8 +1000,8 @@
         "path": "/bradford/cast-and-creatives/",
         "title": "Cast & Creatives",
         "metaDescription": "Find out more about the cast and creatives of The Lion King, London’s Landmark Musical, and buy tickets from the official Disney website.",
-        "headerImage": "../images/headers/bradford-1600.jpg",
-        "headerImageMobile": "../images/headers/bradford-576.jpg"
+        "headerImage": "../images/headers/bradford-2-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-2-576.jpg"
     },
     {
         "id": "bradfordRelaxedPerformances",
@@ -1039,8 +1040,8 @@
         "displayBookNow": false,
         "title": "Terms and Conditions",
         "metaDescription": "",
-        "headerImage": "../images/headers/bradford-1600.jpg",
-        "headerImageMobile": "../images/headers/bradford-576.jpg",
+        "headerImage": "../images/headers/bradford-2-1600.jpg",
+        "headerImageMobile": "../images/headers/bradford-2-576.jpg",
         "contentBlocks": [
             {
                 "type": "twoColumnBlock",
@@ -1058,7 +1059,7 @@
     },
     {
         "id": "southamptonHome",
-        "siteId": "southampton", 
+        "siteId": "southampton",
         "template": "home-template",
         "path": "/southampton/",
         "displayBookNow": false,
@@ -1109,7 +1110,7 @@
                             },
                             {
                                 "question": "Bring an Education Group",
-                                "answer": "<p>Education rates are available</p><p>To make an enquiry online, visit the Mayflower Theatre Groups Booking page, by <a href='https://www.mayflower.org.uk/your-visit/booking-information/offers-discounts-and-groups/' target='_blank' rel='noopener noreferrer' class='interstitial-timed-southampton'>clicking here</a></p>"
+                                "answer": "<p>Education rates are available</p><p>To make an enquiry online, visit the Mayflower Theatre Groups Booking page, by <a href='https://www.mayflower.org.uk/your-visit/booking-information/offers-discounts-and-groups/' target='_blank' rel='noopener noreferrer' class='interstitial-timed-southampton'>clicking here</a></p><p>Education rates are subject to terms and conditions, for more information <a href='/southampton/terms-and-conditions/' class='no-interstitial-check'> <strong>click here</strong></a></p>"
                             },
                             {
                                 "question": "Access and Relaxed Performances",
@@ -1206,10 +1207,10 @@
                 "twoColumnBlock": {
                     "bgColour": "light-grey",
                     "column1": {
-                        "content": "<h2 class='text-red h4 font-weight-bold'>EDUCATION</h2><p><strong>Education Sales Terms and Conditions</strong></p><p>*Education group sales available on selected seats at selected performances, subject to availability. Valid for Tuesday, Wednesday eveningsand Thursday matinee performances only. School rate available on tickets Band B to band D. Stalls and Rear Circle reduced to £25.00 andBalcony reduced to £19.50. For every ten (10) tickets purchased the group receives one (1) additional ticket free for use by a teacher. Educationgroup tickets purchased shall not be offered for re-sale via social media channels to individual members, unless otherwise agreed in writing by The Walt Disney Company. Offer may be revoked at any time and not available on premium seating. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Additional restrictions apply, please enquire for more details.© Disney</p>"
+                        "content": "<h2 class='text-red h4 font-weight-bold'>EDUCATION</h2><p><strong>Education Group Rates up to Year 13</strong></p><p>*Education group sales available on selected seats at selected performances, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Thursday evening and Wednesday matinee performances only. On Wednesday and Thursday evening performances, Stalls & Circle reduced to £25, Balcony reduced to £19.50. On Tuesday evening and Wednesday matinee performances, Stalls & Circle reduced to £25, Balcony reduced to £16.50. For every ten (10) tickets purchased the group receives one (1) additional ticket free for use by a teacher. Education group tickets purchased shall not be offered for re-sale via social media channels to individual members, unless otherwise agreed in writing by The Walt Disney Company. Offer is subject to availability, may be revoked at any time and not available on premium seating. All sales final. No refunds or exchanges permitted. Prices, dates, times and cast subject to change without notice. Additional restrictions apply, please enquire for more details. © Disney</p>"
                     },
                     "column2": {
-                        "content": "<h2 class='text-red h4 font-weight-bold'>GROUPS</h2><p><strong>Group Sales Terms and Conditions</strong></p><p>*Group rates available on selected seats at selected performances, subject to availability. Valid only for Tuesday to Thursday evenings and Thursday matinee performances. Tickets for groups 10-19 from £30 and groups 20+ from £27.50 plus one free ticket for every 20 tickets purchased (21st ticket free). Additional blackout dates and restrictions apply. Group rates can only be applied to tickets being booked at the same time. Not all seats for eligible performances are discounted. No refunds or exchanges. Prices may vary on selected performances. Prices, dates, times and cast subject to change without notice. Group discount may be revoked at any time without notice. © Disney</p>"
+                        "content": "<h2 class='text-red h4 font-weight-bold'>GROUPS</h2><p><strong>Group Sales Terms and Conditions</strong></p><p>*Group rates currently available on selected seats at selected performances, excluding school holiday periods and additional black-out dates as determined by Disney in its sole discretion. Valid for Tuesday to Friday evening and Wednesday matinee performances only. On Wednesday, Thursday and Friday evening performances, tickets for groups 10-24 from £35, groups 25-49 from £32.50 and groups 50+ from £25. On Tuesday evening and Wednesday matinee performances, tickets for groups 10-24 from £25, groups 25-49 from £22.50 and groups 50+ from £20. Group rates can only be applied to tickets being booked at the same time. Not all seats for eligible performances are discounted. No refunds or exchanges. Prices may vary on selected performances. Prices, dates, times and cast subject to change without notice. Group discount may be revoked at any time without notice. © Disney</p>"
                     }
                 }
             }
@@ -1234,7 +1235,7 @@
                 "twoColumnBlock": {
                     "paddingTop": false,
                     "column1": {
-                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for Relaxed Performances in&nbsp;<strong>Bristol on 19 November 2019</strong>&nbsp;at 5pm,&nbsp;<strong>Edinburgh on 26 January 2020</strong>&nbsp;at 1.30pm, and <strong>Cardiff on 20 August 2020</strong> at 1.30pm. The next Relaxed Performance at London’s Lyceum Theatre will be on Sunday 31 May 2020 at 1.30pm.</p><p class='text-lg'>Relaxed Performances have also been announced for <strong>Bradford on 16 June 2020</strong> at 5pm (on-sale 11 October at 10am) and <strong>Southampton on 7 October 2020</strong> at 1.30pm (on sale 9 October at 8am).</p><div class='row pt-1 pb-4'><div class='col-sm-3 col-md-6 d-flex py-1'><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=FAF5EC02-CBFF-4758-8BDB-F70E209120F4&BOparam::WSmap::loadMap::promocode_access_code_url=PRESALE&brandingName=&SessionSecurity::referrer=&q=57fdc600-8f21-4a3c-aa40-7b56af7dfc2e&p=f0691349-9c9c-4492-9900fa9ccc930039&ts=1556801524&c=atgtickets&e=tlkbrsgen&rt=Safetynet&h=078a82c9a0fe140a3263049d9a26b2f8' class='btn btn--red btn--relaxed'>The Bristol Hippodrome</span><br/> <span class='text-thin'>BOOK NOW</span></a></div><div class='col-sm-3 col-md-6 d-flex py-1'><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=59002973-5D67-440B-AFBF-FCF34008E716&BOparam::WSmap::loadMap::promocode_access_code_url=&brandingName=&SessionSecurity::referrer=&q=c98046b7-e2d5-40f9-975a-f190c49eb8e5&p=4919e749-999e-426e-a988-5a9eeb96e6f1&ts=1556801583&c=atgtickets&e=tlkeditcgen&rt=Safetynet&h=a261ec8c1374674ab84940510286be65' class='btn btn--red btn--relaxed'>Edinburgh Playhouse<br/> <span class='text-thin'>BOOK NOW</span></a></div> <div class='col-sm-3 col-md-6 d-flex py-1'><a href='https://www.wmc.org.uk/en/whats-on/2020/the-lion-king-relaxed/' class='btn btn--red btn--relaxed'>Wales Millennium Centre<br/> <span class='text-thin'>BOOK NOW</span></a></div><div class='col-sm-3 col-md-6 d-flex py-1'><a href='https://www.atgtickets.com/the-lion-king-relaxed-performances/' class='btn btn--red btn--relaxed'>London Lyceum<br/>  <span class='text-thin'>BOOK NOW</span></a></div></div> <p>THE LION KING is committed to creating a friendly and inclusive audience experience. The landmark musical is delighted to be presenting a Relaxed Performance in each venue on the UK tour as well as in the Lyceum Theatre in London next summer. The show hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the London.</p><p> Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment.</p><p>Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p>"
+                        "content": "<h1 class='text-red h3'>Relaxed Performances</h1><p class='text-lg'>Tickets are now on sale for Relaxed Performances in&nbsp;<strong>Bristol on 19 November 2019</strong>&nbsp;at 5pm,&nbsp;<strong>Edinburgh on 26 January 2020</strong>&nbsp;at 1.30pm, and <strong>Cardiff on 20 August 2020</strong> at 1.30pm. The next Relaxed Performance at London’s Lyceum Theatre will be on  <strong>Sunday 31 May 2020</strong> at 1.30pm.</p><p class='text-lg'>Relaxed Performances have also been announced for <strong>Bradford on 16 June 2020</strong> at 5pm (on-sale 11 October at 10am) and <strong>Southampton on 7 October 2020</strong> at 1.30pm (on sale 9 October at 8am).</p><div class='row pt-1 pb-4'><div class='col-sm-3 col-md-6 d-flex py-1'><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=FAF5EC02-CBFF-4758-8BDB-F70E209120F4&BOparam::WSmap::loadMap::promocode_access_code_url=PRESALE&brandingName=&SessionSecurity::referrer=&q=57fdc600-8f21-4a3c-aa40-7b56af7dfc2e&p=f0691349-9c9c-4492-9900fa9ccc930039&ts=1556801524&c=atgtickets&e=tlkbrsgen&rt=Safetynet&h=078a82c9a0fe140a3263049d9a26b2f8' class='btn btn--red btn--relaxed'>The Bristol Hippodrome</span><br/> <span class='text-thin'>BOOK NOW</span></a></div><div class='col-sm-3 col-md-6 d-flex py-1'><a href='https://secure.atgtickets.com//Online/mapSelect.asp?BOset::WSmap::seatmap::performance_ids=59002973-5D67-440B-AFBF-FCF34008E716&BOparam::WSmap::loadMap::promocode_access_code_url=&brandingName=&SessionSecurity::referrer=&q=c98046b7-e2d5-40f9-975a-f190c49eb8e5&p=4919e749-999e-426e-a988-5a9eeb96e6f1&ts=1556801583&c=atgtickets&e=tlkeditcgen&rt=Safetynet&h=a261ec8c1374674ab84940510286be65' class='btn btn--red btn--relaxed'>Edinburgh Playhouse<br/> <span class='text-thin'>BOOK NOW</span></a></div> <div class='col-sm-3 col-md-6 d-flex py-1'><a href='https://www.wmc.org.uk/en/whats-on/2020/the-lion-king-relaxed/' class='btn btn--red btn--relaxed'>Wales Millennium Centre<br/> <span class='text-thin'>BOOK NOW</span></a></div><div class='col-sm-3 col-md-6 d-flex py-1'><a href='https://secure1.atgtickets.com/WebPages/EntaWebGateway/gateway.aspx?E=N&QL=S796|RLKAUS|ALOT|VLYC|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx' class='btn btn--red btn--relaxed'>London Lyceum Theatre<br/>  <span class='text-thin'>BOOK NOW</span></a></div></div> <p>THE LION KING is committed to creating a friendly and inclusive audience experience. The landmark musical is delighted to be presenting a Relaxed Performance in each venue on the UK tour as well as in the Lyceum Theatre in London next summer. The show hosted a hugely successful Autism-Friendly Performance in its inaugural tour in 2013, along with five Autism-Friendly Performances in the London.</p><p> Relaxed performances are designed to provide an opportunity for people with autism, learning difficulties or other sensory and communication needs who might prefer a more relaxed environment.</p><p>Any patrons who feel this performance might suit their specific needs, or the needs of their family members or companions, are warmly encouraged to attend.</p>"
                     },
                     "column2": {
                         "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_lyhexn9i&flashvars[localizationCode]=en&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_wgbwxrws' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is an autism-friendly performance?</div>"
@@ -1327,7 +1328,6 @@
                                 "question": "Security information",
                                 "answer": "<p>Please note that enhanced security checks including bag checks will be in operation at the venue. We advise you arrive in plenty of time and request you do not bring any large bags.</p>"
                             }
-                            
                         ]
                     }
                 ]
@@ -1389,7 +1389,6 @@
                                 "question": "Security information",
                                 "answer": "<p>Please note that enhanced security checks including bag checks will be in operation at the venue. We advise you arrive in plenty of time and request you do not bring any large bags.</p>"
                             }
-                            
                         ]
                     }
                 ]
@@ -1424,7 +1423,7 @@
             },
             {
                 "type": "faqBlock",
-                "title": "What is the 20th Anniversary Gala Performance?", 
+                "title": "What is the 20th Anniversary Gala Performance?",
                 "faqBlock": [
                     {
                         "items": [
@@ -1452,7 +1451,6 @@
                                 "question": "Security information",
                                 "answer": "<p>Please note that enhanced security checks including bag checks will be in operation at the venue. We advise you arrive in plenty of time and request you do not bring any large bags.</p>"
                             }
-                            
                         ]
                     }
                 ]
