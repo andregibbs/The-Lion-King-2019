@@ -6,6 +6,7 @@ import AboutTemplate from './AboutTemplate';
 import HouseSeatsTemplate from './HouseSeatsTemplate';
 import RegisterTemplate from './RegisterTemplate';
 import CardiffCalenderTemplate from './CardiffTemplateWithCalendar';
+import EdinburghCalenderTemplate from './EdinburghTemplateWithCalendar';
 import HomeCalenderTemplate from './HomeTemplateWithCalendar';
 import EducationWorkshopTemplate from './EducationWorkshopTemplate';
 import DefaultTemplate from "./DefaultTemplate";
@@ -22,6 +23,8 @@ class TemplateSelector extends Component {
                 return <HomeTemplate data={data} />
             case "cardiffcalendar-template":
                 return <CardiffCalenderTemplate data={data} />
+            case "edinburghcalendar-template":
+                return <EdinburghCalenderTemplate data={data} />
             case "homecalendar-template":
                 return <HomeCalenderTemplate data={data} />
             case "about-template":

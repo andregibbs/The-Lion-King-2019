@@ -86,9 +86,11 @@ class Calendar extends Component {
 
     	if (site==='cardiff') {
     		dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_cardiff;
-    	} else {
+    	} else if (site==='bristol') {
     		dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_bristol;
-    	}
+    	} else {
+            dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_edinburgh;
+        }
 
         var events = this.processDates(dates);
    console.log(this.props.site)
@@ -132,6 +134,12 @@ export default props => (
 		            availablity
 		          }
 		          dates_cardiff {
+		            date
+		            time
+		            show_url
+		            availablity
+                  }
+                  dates_edinburgh {
 		            date
 		            time
 		            show_url
