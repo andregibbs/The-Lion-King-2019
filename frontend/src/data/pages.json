@@ -1,5 +1,113 @@
 [
     {
+        "id": "home",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "default-template",
+        "path": "/20-anniversary/",
+        "title": "20th Anniversary Gala Performance",
+        "displayNav": true,
+        "displayBookNow": false,
+        "inFooter": true,
+        "metaTitle": "20th Anniversary Gala Performance",
+        "metaDescription": "Celebrate the 20th anniversary of Disney’s landmark musical. Book now.",
+        "headerImage": "../images/headers/LK_SEP19_Updated_Website_Banner_1600x570.jpg",
+        "headerImageMobile": "../images/headers/LK_SEP19_Updated_Website_Banner_576x438.jpg",
+        "navPaddingBottom": "",
+        "contentBlocks": [
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "containerBgColour": "",
+                    "bgColour": "",
+                    "topContent": {
+                        "content": ""
+                    },
+                    "column1": {
+                        "content": "<h1 class='text-red h3'>To celebrate 20 years on the London stage, THE LION KING is giving away 2,000 tickets to the 7:30pm performance on Friday 18 October 2019</h1><p><br/><strong>How to claim tickets:</strong></p><p>1. At midday GMT on Sunday 13 October 2019 follow the on-screen instructions on this page to claim up to two tickets per person for the 7.30pm performance on Friday 18 October 2019 at the Lyceum Theatre in London.</p><p>2. 2,000 free tickets and a limited number of standing positions will be available on a first-come first-served basis (of which 44 will be accessible seating and 6 will be wheelchair spaces).</p><p>3. Tickets will be emailed approximately 48 hours before the performance.</p><p>4. Claimants must be aged 18+ and photo ID matching the name on the tickets will be required for entry into the theatre.</p>  <p>5. Tickets only. Travel, accommodation and expenses are not included.</p><p>6. Guests under the age of 16 must be accompanied by their parent/guardian at all times. THE LION KING is recommended for ages 6+ and children under the age of 3 will not be admitted.</p><p>7. <a href='/docs/pdf/TLK_ANNIVERSARY_TERMS_AND_CONDITIONS_AMENDS.pdf' target='_blank' rel='noopener noreferrer' class='no-interstitial-check'>Click here to read the full terms and conditions</a></p>"
+                    },
+                    "column2": {
+                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_wvhghm4b&flashvars[localizationCode]=en&&wid=1_xsesf4l7' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div>"
+                    }
+                }
+            },
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "paddingTop": false,
+                    "containerBgColour": "",
+                    "bgColour": "",
+                    "topContent": {
+                        "content": ""
+                    },
+                    "column1": {
+                        "content": "<div class='p-0'><div class='btn btn--red btn--no-pointer d-block'>GIVEAWAY TICKETS<br/>This link will go live at 12pm on Sunday 13 October.<br/>Please read the Terms & Conditions below.</div></div>"
+                    },
+                    "column2": {
+                        "content": "<div class='p-0'><div class='btn btn--red btn--no-pointer d-block'>GIVEAWAY ACCESS TICKETS<br/>This link will go live at 12pm on Sunday 13 October.<br/>Please read the Terms & Conditions below.</div></div>"
+                    },
+                    "column1v2": {
+                        "content": "<div class='p-0'><a href='/' target='_blank' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY TICKETS<br/>CLAIM NOW<br/>Please read the Terms & Conditions below.</div></a></div>"
+                    },
+                    "column2v2": {
+                        "content": "<div class='p-0'><a href='/access-tickets/' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY ACCESS TICKETS<br/>CLAIM NOW<br/>Please read the Terms & Conditions below.</div></a></div>"
+                    },
+                    "column1v3": {
+                        "content": "<div class='p-0'><a href='/' target='_blank' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY TICKETS<br/>We’re sorry, all tickets have now been claimed.</div></a></div>"
+                    },
+                    "column2v3": {
+                        "content": "<div class='p-0'><a href='/access-tickets/' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY ACCESS TICKETS<br/>We’re sorry, all tickets have now been claimed.</div></a></div>"
+                    }
+                }
+            },
+            {
+                "type": "faqBlock",
+                "faqBlock": [
+                    {
+                        "colour": "",
+                        "title": "Have a question?",
+                        "items": [
+                            {
+                                "question": "When will I receive my tickets?",
+                                "answer": "<p>All tickets for this performance will be sent electronically. If successfully allocated tickets, you will receive an email confirmation. Your tickets will then be emailed within 48 hours of the performance. You will need to print your tickets for entry to the theatre and the person named on the ticket must be present with photo ID.</p>"
+                            },
+                            {
+                                "question": "How many tickets can I claim?",
+                                "answer": " <p>You will have the opportunity to request one or two tickets. Once pairs of tickets are all allocated, entrants may be offered two single seats which may not be positioned next to each other. Guests under the age of 16 must be seated next to an adult.</p>"
+                            },
+                            {
+                                "question": "Can I bring a child?",
+                                "answer": " <p>THE LION KING is recommended for age 6+, and children under the age of 3 will not be admitted to the theatre. Children must be seated next to an adult at all times. If you claim two tickets which are not positioned next to each other and bring a child, we regret we will not be able to accommodate you at the performance.</p>"
+                            },
+                            {
+                                "question": "Do I need to bring photo ID?",
+                                "answer": "<p>The person named on the electronic ticket must be present at the performance and be prepared to show photographic ID. This is to prevent tickets being resold. Any tickets found to be resold or listed for re-sale will be immediately cancelled and void for entry.</p>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "access-tickets",
+        "inNav": false,
+        "bookingInfo": false,
+        "siteId": "london",
+        "template": "access-tickets-template",
+        "path": "/20-anniversary/access-tickets/",
+        "title": "20th Anniversary Gala Performance - GIVEAWAY ACCESS TICKETS",
+        "displayNav": true,
+        "displayBookNow": false,
+        "inFooter": true,
+        "metaTitle": "20th Anniversary Gala Performance - GIVEAWAY ACCESS TICKETS",
+        "metaDescription": "Celebrate the 20th anniversary of Disney’s landmark musical. Book now.",
+        "headerImage": "../images/headers/LK_SEP19_Updated_Website_Banner_1600x570.jpg",
+        "headerImageMobile": "../images/headers/LK_SEP19_Updated_Website_Banner_576x438.jpg"
+    },
+    {
         "id": "houseseats",
         "inNav": false,
         "siteId": "london",
