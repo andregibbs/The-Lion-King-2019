@@ -1091,7 +1091,7 @@
                 "type": "textBlockFullWidth",
                 "textBlockFullWidth": {
                     "paddingClass": "pb-0",
-                    "content": "<h2 class='h5 font-weight-normal pt-3'>Priority sign-up is now closed. Tickets for Southampton go on sale to the public on Wednesday 9 October at 10am.</h2>"
+                    "content": "<p><a href='/'>Click here</a> to book tickets for London or other UK cities.</p>"
                 }
             },
             {
