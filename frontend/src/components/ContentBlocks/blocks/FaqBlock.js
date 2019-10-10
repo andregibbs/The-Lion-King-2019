@@ -18,7 +18,7 @@ class FaqBlock extends Component {
                 <div key={i}>
                     <Container fluid className={`faq-block ${colour !== undefined ? `faq-block--${colour}` : ''}`}>
                     {block.title !== null &&
-                        <Container fluid className="text-center pb-4 pb-md-5">
+                        <Container fluid className="text-center py-4">
                             <h4 className="mb-0 font-weight-semi-bold">{block.title}</h4>
                         </Container>
                     }

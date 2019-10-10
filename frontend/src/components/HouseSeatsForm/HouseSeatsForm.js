@@ -195,80 +195,82 @@ class HouseSeatsForm extends Component {
     handleSubmit(e) {
         e.preventDefault();
 
-        //disable the button so we can't send multiple requests
-        this.setState({ sendingFormRequest: true });
+        if (!this.state.sendingFormRequest) {
+            //disable the button so we can't send multiple requests
+            this.setState({ sendingFormRequest: true });
 
-        // Create form data ready for api wrapper call
-        let formData = new FormData();
-        for (let key in this.state) {
-            if (typeof this.state[key] === 'object' && this.state[key].constructor === Object) {
-                for (let k in this.state[key]) {
-                    formData.append(key + '[' + k + ']', this.state[key][k])
+            // Create form data ready for api wrapper call
+            let formData = new FormData();
+            for (let key in this.state) {
+                if (typeof this.state[key] === 'object' && this.state[key].constructor === Object) {
+                    for (let k in this.state[key]) {
+                        formData.append(key + '[' + k + ']', this.state[key][k])
+                    }
+                } else {
+                    formData.append(key, this.state[key]);
                 }
-            } else {
-                formData.append(key, this.state[key]);
             }
-        }
 
-        //fetch with a *30* second timeout
-        fetchWithTimeout(process.env.HOUSESEATS_API_URL, {
-            method: 'POST',
-            body: formData,
-        }, 30000)
-            .then((result) => {
-                console.log(result.ok);
-                if (!result.ok) {
-                    throw Error(result.statusText);//catch any server errors
-                }
-                return result;
-            })
-            .then(res => res.json()) //convert response body to json
-            .then((response) => {
-                console.log('got response:', response);
+            //fetch with a *30* second timeout
+            fetchWithTimeout(process.env.HOUSESEATS_API_URL, {
+                method: 'POST',
+                body: formData,
+            }, 30000)
+                .then((result) => {
+                    console.log(result.ok);
+                    if (!result.ok) {
+                        throw Error(result.statusText);//catch any server errors
+                    }
+                    return result;
+                })
+                .then(res => res.json()) //convert response body to json
+                .then((response) => {
+                    console.log('got response:', response);
 
-                // If there are errors update validation state
-                if (response.errors !== false && response.errors !== undefined) {
+                    // If there are errors update validation state
+                    if (response.errors !== false && response.errors !== undefined) {
+                        // Scroll top top of form
+                        const domNode = ReactDOM.findDOMNode(this.form.current)
+                        window.scrollTo({
+                            top: domNode.offsetTop,
+                            behavior: 'smooth'
+                        })
+
+                        const { validate } = this.state
+
+                        for (let key in response.errors) {
+                            if (response.errors[key] === true) {
+                                validate[key] = 'has-danger'
+                            } else {
+                                validate[key] = response.errors[key]
+                            }
+
+                            this.setState({ validate });
+                        }
+
+                    } else {
+                        console.log(response.result);
+                        if (response.success === true) {
+                            this.setState({ 
+                                success: true
+                            });
+                        }
+                    }
+                    //re-enable the button
+                    this.setState({ sendingFormRequest: false });
+
                     // Scroll top top of form
                     const domNode = ReactDOM.findDOMNode(this.form.current)
                     window.scrollTo({
                         top: domNode.offsetTop,
                         behavior: 'smooth'
                     })
-
-                    const { validate } = this.state
-
-                    for (let key in response.errors) {
-                        if (response.errors[key] === true) {
-                            validate[key] = 'has-danger'
-                        } else {
-                            validate[key] = response.errors[key]
-                        }
-
-                        this.setState({ validate });
-                    }
-
-                } else {
-                    console.log(response.result);
-                    if (response.success === true) {
-                        this.setState({ 
-                            success: true
-                        });
-                    }
-                }
-                //re-enable the button
-                this.setState({ sendingFormRequest: false });
-
-                // Scroll top top of form
-                const domNode = ReactDOM.findDOMNode(this.form.current)
-                window.scrollTo({
-                    top: domNode.offsetTop,
-                    behavior: 'smooth'
                 })
-            })
-            .catch((error) => {
-                //if there's a server-side error
-                console.log(error)
-            });
+                .catch((error) => {
+                    //if there's a server-side error
+                    console.log(error)
+                });
+        }
 
     }
 
