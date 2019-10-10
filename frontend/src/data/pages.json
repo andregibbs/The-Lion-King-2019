@@ -1,11 +1,11 @@
 [
     {
-        "id": "home",
+        "id": "20",
         "inNav": false,
         "bookingInfo": false,
         "siteId": "london",
         "template": "default-template",
-        "path": "/20-anniversary/",
+        "path": "/20/",
         "title": "20th Anniversary Gala Performance",
         "displayNav": true,
         "displayBookNow": false,
@@ -14,7 +14,6 @@
         "metaDescription": "Celebrate the 20th anniversary of Disney’s landmark musical. Book now.",
         "headerImage": "../images/headers/LK_SEP19_Updated_Website_Banner_1600x570.jpg",
         "headerImageMobile": "../images/headers/LK_SEP19_Updated_Website_Banner_576x438.jpg",
-        "navPaddingBottom": "",
         "contentBlocks": [
             {
                 "type": "twoColumnBlock",
@@ -43,22 +42,22 @@
                         "content": ""
                     },
                     "column1": {
-                        "content": "<div class='p-0'><div class='btn btn--red btn--no-pointer d-block'>GIVEAWAY TICKETS<br/>This link will go live at 12pm on Sunday 13 October.<br/>Please read the Terms & Conditions below.</div></div>"
+                        "content": "<div class='p-0'><div class='btn btn--red btn--no-pointer d-block'>GIVEAWAY TICKETS<br/>This link will go live at 12pm on Sunday 13 October.<br/>Please read the Terms & Conditions below.</div></div><div class='p-0 pt-3'><div class='btn btn--red btn--no-pointer d-block'>GIVEAWAY ACCESS TICKETS<br/>This link will go live at 12pm on Sunday 13 October.<br/>Please read the Terms & Conditions below.</div></div>"
                     },
                     "column2": {
-                        "content": "<div class='p-0'><div class='btn btn--red btn--no-pointer d-block'>GIVEAWAY ACCESS TICKETS<br/>This link will go live at 12pm on Sunday 13 October.<br/>Please read the Terms & Conditions below.</div></div>"
+                        "content": ""
                     },
                     "column1v2": {
-                        "content": "<div class='p-0'><a href='/' target='_blank' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY TICKETS<br/>CLAIM NOW<br/>Please read the Terms & Conditions below.</div></a></div>"
+                        "content": "<div class='p-0'><a href='/' target='_blank' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY TICKETS<br/>CLAIM NOW<br/>Please read the Terms & Conditions below.</div></a></div><div class='p-0 pt-3'><a href='/access-tickets/' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY ACCESS TICKETS<br/>CLAIM NOW<br/>Please read the Terms & Conditions below.</div></a></div>"
                     },
                     "column2v2": {
-                        "content": "<div class='p-0'><a href='/access-tickets/' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY ACCESS TICKETS<br/>CLAIM NOW<br/>Please read the Terms & Conditions below.</div></a></div>"
+                        "content": ""
                     },
                     "column1v3": {
-                        "content": "<div class='p-0'><a href='/' target='_blank' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY TICKETS<br/>We’re sorry, all tickets have now been claimed.</div></a></div>"
+                        "content": "<div class='p-0'><a href='/' target='_blank' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY TICKETS<br/>We’re sorry, all tickets have now been claimed.</div></a></div><div class='p-0 pt-3'><a href='/access-tickets/' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY ACCESS TICKETS<br/>We’re sorry, all tickets have now been claimed.</div></a></div>"
                     },
                     "column2v3": {
-                        "content": "<div class='p-0'><a href='/access-tickets/' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY ACCESS TICKETS<br/>We’re sorry, all tickets have now been claimed.</div></a></div>"
+                        "content": ""
                     }
                 }
             },
@@ -92,12 +91,12 @@
         ]
     },
     {
-        "id": "access-tickets",
+        "id": "20-access-tickets",
         "inNav": false,
         "bookingInfo": false,
         "siteId": "london",
         "template": "access-tickets-template",
-        "path": "/20-anniversary/access-tickets/",
+        "path": "/20/access-tickets/",
         "title": "20th Anniversary Gala Performance - GIVEAWAY ACCESS TICKETS",
         "displayNav": true,
         "displayBookNow": false,
