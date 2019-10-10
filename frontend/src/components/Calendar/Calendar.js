@@ -39,23 +39,31 @@ class Calendar extends Component {
     }
 
     checkDate = (date) => {
-        let maxMonth = 12
-        let minMonth = 9
-        const calendarMonth = moment(date).format('M')
+        const maxDate = new Date(2020, 2, 1)
+        const minDate = new Date(2019, 11, 1)
 
-        if (this.props.site === "cardiff") {
-            maxMonth = 9
-            minMonth = 7
-        }
-
-        if (this.props.site === "edinburgh") {
-            maxMonth = 4
-            minMonth = 0
-        }
-
-        if (parseInt(calendarMonth) < parseInt(maxMonth) && parseInt(calendarMonth) >= parseInt(minMonth)) {
+        if (date <= maxDate && date >= minDate ) {
             this.setState({ date: new Date(date) })
         }
+
+        // console.log(calendarYear)
+
+        // if (this.props.site === "cardiff") {
+        //     maxMonth = 9
+        //     minMonth = 7
+        // }
+
+        // if (this.props.site === "edinburgh") {
+        //     maxMonth = 4
+        //     minMonth = 0
+        // }
+
+        // if (
+        //     parseInt(calendarMonth) < parseInt(maxMonth) && 
+        //     parseInt(calendarMonth) >= parseInt(minMonth)
+        // ) {
+        //     this.setState({ date: new Date(date) })
+        // }
     }
 
     processDates = (dates) => {
