@@ -30,6 +30,12 @@ class Calendar extends Component {
                 date: new Date(2020, 7, 1)
             })
         }
+
+        if (this.props.site === "edinburgh") {
+            this.setState({
+                date: new Date(2020, 2, 1)
+            })
+        }
     }
 
     checkDate = (date) => {
@@ -40,6 +46,11 @@ class Calendar extends Component {
         if (this.props.site === "cardiff") {
             maxMonth = 9
             minMonth = 7
+        }
+
+        if (this.props.site === "edinburgh") {
+            maxMonth = 4
+            minMonth = 0
         }
 
         if (parseInt(calendarMonth) < parseInt(maxMonth) && parseInt(calendarMonth) >= parseInt(minMonth)) {
