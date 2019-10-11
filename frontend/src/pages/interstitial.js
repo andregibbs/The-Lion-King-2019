@@ -26,7 +26,7 @@ class Interstitial extends Component {
 
         console.log(this.props.location.state)
 
-        const { href, previousUrl, atg, atgBristol, atgEdinburgh, atgWales, atgBradford} = this.props.location.state
+        const { href, previousUrl, atg, atgBristol, atgEdinburgh, atgWales, atgBradford, atgSouthampton} = this.props.location.state
 
         this.setState({
             href,
@@ -35,11 +35,12 @@ class Interstitial extends Component {
             atgBristol,
             atgEdinburgh,
             atgWales,
-            atgBradford
+            atgBradford,
+            atgSouthampton
         })
 
         // Set up auto redirect if atg link
-        if (atg || atgBristol || atgEdinburgh || atgWales || atgBradford) {
+        if (atg || atgBristol || atgEdinburgh || atgWales || atgBradford || atgSouthampton) {
             this.redirect = setTimeout(function() {  window.location.href = href;  }, 4000);
         }
 
@@ -51,7 +52,7 @@ class Interstitial extends Component {
 
     render() {
 
-        const { href, previousUrl, atg, atgBristol, atgEdinburgh, atgWales, atgBradford} = this.state
+        const { href, previousUrl, atg, atgBristol, atgEdinburgh, atgWales, atgBradford, atgSouthampton} = this.state
 
         let office = 'Lyceum Theatre Box Office operated by ATG Tickets'
 
@@ -63,6 +64,8 @@ class Interstitial extends Component {
             office = 'Wales Millenium Centre Box Office'
         } else if (atgBradford) {
             office = 'The Alhambra Theatre Box Office operated by Bradford Theatres'
+        } else if (atgSouthampton) {
+            office = 'Mayflower Theatre Box Office'
         }
         
 
@@ -83,7 +86,7 @@ class Interstitial extends Component {
                                             </h1>
                                             <h2 className="pt-3">PLEASE NOTE</h2>
 
-                                            {!atg && !atgBristol && !atgEdinburgh && !atgBradford && !atgWales ? (
+                                            {!atg && !atgBristol && !atgEdinburgh && !atgBradford && !atgWales && !atgSouthampton ? (
                                                 <>
                                                     <p>Disney does not control this website so please click below to say you are happy to continue. Disney’s privacy practices and controls do not apply once you leave our site.</p>
                                                     <Row>

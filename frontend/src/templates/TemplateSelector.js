@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { graphql } from 'gatsby';
 import HomeTemplate from './HomeTemplate';
+import AccessTicketsTemplate from "./AccessTicketsTemplate";
 import CastCreativeTemplate from './CastCreativeTemplate';
 import AboutTemplate from './AboutTemplate';
 import HouseSeatsTemplate from './HouseSeatsTemplate';
@@ -20,6 +21,8 @@ class TemplateSelector extends Component {
         switch (template) {
             case "home-template":
                 return <HomeTemplate data={data} />
+            case "access-tickets-template":
+                return <AccessTicketsTemplate data={data} />
             case "cardiffcalendar-template":
                 return <CardiffCalenderTemplate data={data} />
             case "homecalendar-template":
