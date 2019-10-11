@@ -30,21 +30,42 @@ class Calendar extends Component {
                 date: new Date(2020, 7, 1)
             })
         }
+
+        if (this.props.site === "edinburgh") {
+            this.setState({
+                date: new Date(2020, 2, 1)
+            })
+        }
     }
 
     checkDate = (date) => {
-        let maxMonth = 12
-        let minMonth = 9
-        const calendarMonth = moment(date).format('M')
+        let maxDate = new Date(2019, 10, 1)
+        let minDate = new Date(2019, 8, 1)
+
 
         if (this.props.site === "cardiff") {
-            maxMonth = 9
-            minMonth = 7
+            maxDate = new Date(2020, 7, 1)
+            minDate = new Date(2020, 5, 1)
+       }
+
+        if (this.props.site === "edinburgh") {
+            maxDate = new Date(2020, 2, 1)
+            minDate = new Date(2019, 11, 1)
         }
 
-        if (parseInt(calendarMonth) < parseInt(maxMonth) && parseInt(calendarMonth) >= parseInt(minMonth)) {
+        if (date <= maxDate && date >= minDate ) {
             this.setState({ date: new Date(date) })
         }
+
+        // console.log(calendarYear)
+
+
+        // if (
+        //     parseInt(calendarMonth) < parseInt(maxMonth) && 
+        //     parseInt(calendarMonth) >= parseInt(minMonth)
+        // ) {
+            // this.setState({ date: new Date(date) })
+        // }
     }
 
     processDates = (dates) => {
@@ -86,9 +107,11 @@ class Calendar extends Component {
 
     	if (site==='cardiff') {
     		dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_cardiff;
-    	} else {
+    	} else if (site==='bristol') {
     		dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_bristol;
-    	}
+    	} else {
+            dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_edinburgh;
+        }
 
         var events = this.processDates(dates);
    console.log(this.props.site)
@@ -132,6 +155,12 @@ export default props => (
 		            availablity
 		          }
 		          dates_cardiff {
+		            date
+		            time
+		            show_url
+		            availablity
+                  }
+                  dates_edinburgh {
 		            date
 		            time
 		            show_url
