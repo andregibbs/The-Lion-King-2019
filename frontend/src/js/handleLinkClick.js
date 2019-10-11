@@ -21,6 +21,7 @@ export function handleLinkClick(event, link) {
         let atgEdinburgh = false
         let atgWales = false
         let atgBradford = false
+        let atgSouthampton = false
 
         if (link.classList.contains('interstitial-timed')) {
             atg = true
@@ -32,6 +33,8 @@ export function handleLinkClick(event, link) {
             atgEdinburgh = true
         } else if (link.classList.contains('interstitial-timed-bradford')) {
             atgBradford = true
+        } else if (link.classList.contains('interstitial-timed-southampton')) {
+            atgSouthampton = true
         }
 
         // Redirect to interstitial with correct state
@@ -43,7 +46,8 @@ export function handleLinkClick(event, link) {
                 atgBristol,
                 atgEdinburgh,
                 atgWales,
-                atgBradford
+                atgBradford,
+                atgSouthampton
             }
         });
     }
