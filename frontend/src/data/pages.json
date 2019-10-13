@@ -87,22 +87,6 @@
         ]
     },
     {
-        "id": "20-access-tickets",
-        "inNav": false,
-        "bookingInfo": false,
-        "siteId": "london",
-        "template": "access-tickets-template",
-        "path": "/20/access-tickets/",
-        "title": "20th Anniversary Gala Performance - GIVEAWAY ACCESS TICKETS",
-        "displayNav": true,
-        "displayBookNow": false,
-        "inFooter": true,
-        "metaTitle": "20th Anniversary Gala Performance - GIVEAWAY ACCESS TICKETS",
-        "metaDescription": "Celebrate the 20th anniversary of Disney’s landmark musical. Book now.",
-        "headerImage": "../images/headers/LK_SEP19_Updated_Website_Banner_1600x570.jpg",
-        "headerImageMobile": "../images/headers/LK_SEP19_Updated_Website_Banner_576x438.jpg"
-    },
-    {
         "id": "houseseats",
         "inNav": false,
         "siteId": "london",

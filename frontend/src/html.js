@@ -38,9 +38,9 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
           <div id="goc-footer"></div>
-          <div style={{ width: "100%", padding: "0 64px 20px 64px", maxWidth: "1347px", position: "relative", zIndex: "1000"}}>
+          {/* <div style={{ width: "100%", padding: "0 64px 20px 64px", maxWidth: "1347px", position: "relative", zIndex: "1000"}}>
             <a href="/sitemap/" style={{ color: "black", fontSize: "12px", display: "block"}}>Sitemap</a>
-          </div>
+          </div> */}
           
           <script src="https://snavbar.disneyinternational.com/emea/inc-chrome-cookie.js?cookie_banner=0"/>
           <link href="https://fast.fonts.net/t/1.css?apiType=css&amp;projectid=492ff5f6-ecf8-48e8-b54e-5bfa6c5c1874" rel="stylesheet" />
