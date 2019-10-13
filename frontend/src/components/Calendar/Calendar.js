@@ -33,7 +33,7 @@ class Calendar extends Component {
 
         if (this.props.site === "edinburgh") {
             this.setState({
-                date: new Date(2020, 2, 1)
+                date: new Date(2019, 11, 1)
             })
         }
     }
