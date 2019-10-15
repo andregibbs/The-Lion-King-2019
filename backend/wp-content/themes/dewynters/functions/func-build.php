@@ -99,7 +99,7 @@ function lk_build() {
             print "Build complete!";
         } else {
             //the build failed - send an error email with the output
-            wp_mail('feltond@usefuldigital.co.uk', 'Lion King build failed', get_bloginfo('wpurl')."\n\n".$cmd."\n\n".$result);
+            wp_mail('T.Roberts@dewynters.com', 'Lion King build failed', get_bloginfo('wpurl')."\n\n".$cmd."\n\n".$result);
             print "Build failed. Dev staff have been notified.";
         }
 
