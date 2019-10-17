@@ -15,8 +15,12 @@ class CalendarEvent extends Component {
     		interstitialClass = 'interstitial-timed-wales'
     	} else if (event.site === 'bristol') {
     		interstitialClass = 'interstitial-timed-bristol'
-        } else {
+        } else if (event.site === 'edinburgh') {
             interstitialClass = 'interstitial-timed-edinburgh'
+        } else if (event.site === 'bradford') {
+            interstitialClass = 'interstitial-timed-bradford'
+        } else {
+            interstitialClass = 'interstitial-timed-southampton'
         }
         
         console.log(event.site)

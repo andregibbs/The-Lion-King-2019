@@ -4,7 +4,7 @@ import { Row, Col } from 'reactstrap'
 import ContentBlocks from 'components/ContentBlocks/ContentBlocks'
 import Calendar from 'components/Calendar/Calendar'
 
-class HomeTemplate extends Component {
+class CardiffCalendarTemplate extends Component {
     render() {
         const data = this.props.data
         return (
@@ -103,4 +103,4 @@ class HomeTemplate extends Component {
     }
 }
 
-export default HomeTemplate 
+export default CardiffCalendarTemplate 

@@ -6,9 +6,11 @@ import CastCreativeTemplate from './CastCreativeTemplate';
 import AboutTemplate from './AboutTemplate';
 import HouseSeatsTemplate from './HouseSeatsTemplate';
 import RegisterTemplate from './RegisterTemplate';
-import CardiffCalenderTemplate from './CardiffTemplateWithCalendar';
-import EdinburghCalenderTemplate from './EdinburghTemplateWithCalendar';
-import HomeCalenderTemplate from './HomeTemplateWithCalendar';
+import CardiffCalendarTemplate from './CardiffTemplateWithCalendar';
+import EdinburghCalendarTemplate from './EdinburghTemplateWithCalendar';
+import BradfordCalendarTemplate from './BradfordTemplateWithCalendar';
+import SouthamptonCalendarTemplate from './SouthamptonTemplateWithCalendar';
+import HomeCalendarTemplate from './HomeTemplateWithCalendar';
 import EducationWorkshopTemplate from './EducationWorkshopTemplate';
 import DefaultTemplate from "./DefaultTemplate";
 
@@ -25,11 +27,15 @@ class TemplateSelector extends Component {
             case "access-tickets-template":
                 return <AccessTicketsTemplate data={data} />
             case "cardiffcalendar-template":
-                return <CardiffCalenderTemplate data={data} />
+                return <CardiffCalendarTemplate data={data} />
             case "edinburghcalendar-template":
-                return <EdinburghCalenderTemplate data={data} />
+                return <EdinburghCalendarTemplate data={data} />
+            case "bradfordcalendar-template":
+                return <BradfordCalendarTemplate data={data} />
+            case "southamptoncalendar-template":
+                return <SouthamptonCalendarTemplate data={data} />
             case "homecalendar-template":
-                return <HomeCalenderTemplate data={data} />
+                return <HomeCalendarTemplate data={data} />
             case "about-template":
                 return <AboutTemplate data={data} />
             case "cast-template":

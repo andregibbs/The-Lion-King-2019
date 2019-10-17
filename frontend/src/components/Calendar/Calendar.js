@@ -36,6 +36,18 @@ class Calendar extends Component {
                 date: new Date(2019, 11, 1)
             })
         }
+
+        if (this.props.site === "bradford") {
+            this.setState({
+                date: new Date(2020, 4, 1)
+            })
+        }
+
+        if (this.props.site === "southampton") {
+            this.setState({
+                date: new Date(2020, 8, 1)
+            })
+        }
     }
 
     checkDate = (date) => {
@@ -51,6 +63,16 @@ class Calendar extends Component {
         if (this.props.site === "edinburgh") {
             maxDate = new Date(2020, 2, 1)
             minDate = new Date(2019, 11, 1)
+        }
+
+        if (this.props.site === "bradford") {
+            maxDate = new Date(2020, 5, 1)
+            minDate = new Date(2020, 3, 1)
+        }
+
+        if (this.props.site === "southampton") {
+            maxDate = new Date(2020, 9, 1)
+            minDate = new Date(2020, 8, 1)
         }
 
         if (date <= maxDate && date >= minDate ) {
@@ -109,8 +131,12 @@ class Calendar extends Component {
     		dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_cardiff;
     	} else if (site==='bristol') {
     		dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_bristol;
-    	} else {
+    	} else if (site==='edinburgh') {
             dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_edinburgh;
+        } else if (site==='bradford') {
+            dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_bradford;
+        } else {
+            dates = this.props.data.allWordpressAcfOptions.edges[0].node.options.dates_southampton;
         }
 
         var events = this.processDates(dates);
@@ -161,6 +187,18 @@ export default props => (
 		            availablity
                   }
                   dates_edinburgh {
+		            date
+		            time
+		            show_url
+		            availablity
+                  }
+                  dates_bradford {
+		            date
+		            time
+		            show_url
+		            availablity
+                  }
+                  dates_southampton {
 		            date
 		            time
 		            show_url
