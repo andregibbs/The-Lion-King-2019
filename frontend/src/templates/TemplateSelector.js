@@ -144,7 +144,6 @@ query($id: String!) {
                 textCenter
                 fluidContainer
                 content
-                paddingClass
             }
 
             faqBlock {
