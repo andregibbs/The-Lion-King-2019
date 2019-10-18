@@ -696,7 +696,7 @@
                 "twoColumnBlock": {
                     "containerBgColour": "light-grey",
                     "column1": {
-                        "content": "<h4 class='text-red'>Visual Story</h4><p>Our 'Visual Story' will guide you step-by-step through your visit to the Bristol Hippodrome to see The Lion King.</p><p><a href='/pdf/TheLionKing_TheBristolHippodrome_VisualStory_A4_1.pdf' class='btn btn--red no-interstitial-check' target='_blank'>Download PDF</a></p>"
+                        "content": "<h4 class='text-red'>Visual Story</h4><p>Our 'Visual Story' will guide you step-by-step through your visit to the Bristol Hippodrome to see The Lion King.</p><p><a href='/docs/pdf/TheLionKing_TheBristolHippodrome_VisualStory_A4_1.pdf' class='btn btn--red no-interstitial-check' target='_blank'>Download PDF</a></p>"
                     },
                     "column2": {
                         "content": ""
