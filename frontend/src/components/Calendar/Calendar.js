@@ -103,6 +103,9 @@ class Calendar extends Component {
             } else if (event.time === "earlyevening") {
                 title = "5:00pm"
                 time = "17:00"
+            } else if (event.time === "earlyafternoon") {
+                title = "2:00pm"
+                time = "14:00"
             } else {
                 title = "2:30pm"
                 time = "14:30"
