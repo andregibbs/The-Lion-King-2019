@@ -690,6 +690,18 @@
                         "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_lyhexn9i&flashvars[localizationCode]=en&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_wgbwxrws' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameborder='0' title='Kaltura Player'></iframe></div><div class='sub-black-title'>What is a Relaxed Performance?</div>"
                     }
                 }
+            },
+            {
+                "type": "twoColumnBlock",
+                "twoColumnBlock": {
+                    "containerBgColour": "light-grey",
+                    "column1": {
+                        "content": "<h4 class='text-red'>Visual Story</h4><p>Our 'Visual Story' will guide you step-by-step through your visit to the Bristol Hippodrome to see The Lion King.</p><p><a href='/docs/pdf/TheLionKing_TheBristolHippodrome_VisualStory_A4_1.pdf' class='btn btn--red no-interstitial-check' target='_blank'>Download PDF</a></p>"
+                    },
+                    "column2": {
+                        "content": ""
+                    }
+                }
             }
         ]
     },
