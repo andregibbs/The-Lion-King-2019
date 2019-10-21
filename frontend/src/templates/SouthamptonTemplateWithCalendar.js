@@ -31,10 +31,10 @@ class SouthamptonCalendarTemplate extends Component {
                                         <div>
                                         <div class="row py-4">
                                         <Col md={6}>
-                                            <a href=' https://www.wmc.org.uk/en/whats-on/2020/the-lion-king/' class='btn btn--red btn--block mb-2 interstitial-timed-wales'>Book tickets with<br/> Mayflower Theatre</a>
+                                            <a href='https://www.mayflower.org.uk/whats-on/the-lion-king-2020/' class='btn btn--red btn--block mb-2 interstitial-timed-southampton'>Book tickets with<br/> Mayflower Theatre</a>
                                         </Col>
                                         <Col md={6}>
-                                        <a href='http://www.mayflower.org.uk/whats-on/the-lion-king-2020/' class='btn btn--red btn--block mb-3 no-interstitial-check'> <span>Book direct with <img src='/images/disney-logo-white.svg' alt='Disney'/></span> </a>
+                                        <a href='https://tickets.disney.co.uk/tickets/series/lionkingsouthampton/' class='btn btn--red btn--block mb-3 no-interstitial-check'> <span>Book direct with <img src='/images/disney-logo-white.svg' alt='Disney'/></span> </a>
                                         </Col>
                                         </div>
                                             <p class="h5 mb-3 text-black">Or select a performance using the availability calendar</p>

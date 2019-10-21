@@ -31,7 +31,7 @@ class BradfordCalendarTemplate extends Component {
                                         <div>
                                         <div class="row py-4">
                                         <Col md={6}>
-                                            <a href='https://www.bradford-theatres.co.uk/whats-on/the-lion-king' class='btn btn--red btn--block mb-2 interstitial-timed-wales'>Book tickets with<br /> the Alhambra Theatre</a>
+                                            <a href='https://www.bradford-theatres.co.uk/whats-on/the-lion-king' class='btn btn--red btn--block mb-2 interstitial-timed-bradford'>Book tickets with<br /> the Alhambra Theatre</a>
                                         </Col>
                                         <Col md={6}>
                                         <a href='https://tickets.disney.co.uk/tickets/series/lionkingbradford' class='btn btn--red btn--block mb-3 no-interstitial-check'> <span>Book direct with <img src='/images/disney-logo-white.svg' alt='Disney'/></span> </a>
