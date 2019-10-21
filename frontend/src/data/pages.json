@@ -1516,7 +1516,7 @@
     },
     {
         "id": "gala",
-        "inNav": true,
+        "inNav": false,
         "bookingInfo": false,
         "siteId": "london",
         "template": "default-template",
