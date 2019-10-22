@@ -63,7 +63,7 @@ class Interstitial extends Component {
         } else if (atgWales) {
             office = 'Wales Millenium Centre Box Office'
         } else if (atgBradford) {
-            office = 'The Alhambra Theatre Box Office operated by Bradford Theatres'
+            office = 'Alhambra Theatre Box Office operated by Bradford Theatres'
         } else if (atgSouthampton) {
             office = 'Mayflower Theatre Box Office'
         }
