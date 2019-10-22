@@ -1,92 +1,5 @@
 [
     {
-        "id": "20",
-        "inNav": false,
-        "bookingInfo": false,
-        "siteId": "london",
-        "template": "default-template",
-        "path": "/20/",
-        "title": "20th Anniversary Gala Performance",
-        "displayNav": true,
-        "displayBookNow": false,
-        "inFooter": true,
-        "metaTitle": "20th Anniversary Gala Performance",
-        "metaDescription": "Celebrate the 20th anniversary of Disney’s landmark musical. Book now.",
-        "headerImage": "../images/headers/LK_SEP19_Updated_Website_Banner_1600x570.jpg",
-        "headerImageMobile": "../images/headers/LK_SEP19_Updated_Website_Banner_576x438.jpg",
-        "contentBlocks": [
-            {
-                "type": "twoColumnBlock",
-                "twoColumnBlock": {
-                    "paddingTop": false,
-                    "containerBgColour": "",
-                    "bgColour": "",
-                    "topContent": null,
-                    "column1": {
-                        "content": "<h1 class='text-red h3'>To celebrate 20 years on the London stage, THE LION KING is giving away 2,000 tickets to the 7:30pm performance on Friday 18 October 2019</h1><p><br/><strong>How to claim tickets:</strong></p><p>1. At midday GMT on Sunday 13 October 2019 follow the on-screen instructions on this page to claim up to two tickets per person for the 7.30pm performance on Friday 18 October 2019 at the Lyceum Theatre in London.</p><p>2. 2,000 free tickets and a limited number of standing positions will be available on a first-come first-served basis (of which 44 will be accessible seating and 6 will be wheelchair spaces).</p><p>3. Tickets will be emailed approximately 48 hours before the performance.</p><p>4. Claimants must be aged 18+ and photo ID matching the name on the tickets will be required for entry into the theatre.</p>  <p>5. Tickets only. Travel, accommodation and expenses are not included.</p><p>6. Guests under the age of 16 must be accompanied by their parent/guardian at all times. THE LION KING is recommended for ages 6+ and children under the age of 3 will not be admitted.</p><p class='m-0'>7. <a href='/docs/pdf/TLK_ANNIVERSARY_TERMS_AND_CONDITIONS_AMENDS.pdf' target='_blank' rel='noopener noreferrer' class='no-interstitial-check'>Click here to read the full terms and conditions</a></p>"
-                    },
-                   "column2": {
-                        "content": "<div class='embed-responsive embed-responsive-16by9 mt-md-1'><iframe class='embed-responsive-item' id='kaltura_player' src='https://cdnapisec.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/40058201/partner_id/1068292?iframeembed=true&playerId=kaltura_player&entry_id=1_0anax60z&flashvars[localizationCode]=en&flashvars[Kaltura.addCrossoriginToIframe]=true&&wid=1_gmieracc' width='400' height='285' allowfullscreen webkitallowfullscreen mozAllowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' sandbox='allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups' frameborder='0' title='Kaltura Player'></iframe></div>"
-                    }
-                }
-            },
-            {
-                "type": "twoColumnBlock",
-                "twoColumnBlock": {
-                    "paddingTop": false,
-                    "containerBgColour": "",
-                    "bgColour": "",
-                    "topContent": null,
-                    "column1": {
-                        "content": "<div class='p-0'><div class='btn btn--red btn--no-pointer d-block'>GIVEAWAY TICKETS<br/>This link will go live at 12pm on Sunday 13 October.<br/>Please read the Terms & Conditions.</div></div><div class='p-0 py-3'><div class='btn btn--red btn--no-pointer d-block'>GIVEAWAY ACCESS TICKETS<br/>This link will go live at 12pm on Sunday 13 October.<br/>Please read the Terms & Conditions.</div></div>"
-                    },
-                    "column2": {
-                        "content": ""
-                    },
-                    "column1v2": {
-                        "content": "<div class='p-0'><a href='/' target='_blank' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY TICKETS<br/>CLAIM NOW<br/>Please read the Terms & Conditions.</div></a></div><div class='p-0 py-3'><a href='/access-tickets/' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY ACCESS TICKETS<br/>CLAIM NOW<br/>Please read the Terms & Conditions.</div></a></div>"
-                    },
-                    "column2v2": {
-                        "content": ""
-                    },
-                    "column1v3": {
-                        "content": "<div class='p-0'><a href='/' target='_blank' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY TICKETS<br/>We’re sorry, all tickets have now been claimed.</div></a></div><div class='p-0 py-3'><a href='/access-tickets/' class='no-underline no-interstitial-check d-block'><div class='btn btn--red d-block'>GIVEAWAY ACCESS TICKETS<br/>We’re sorry, all tickets have now been claimed.</div></a></div>"
-                    },
-                    "column2v3": {
-                        "content": ""
-                    }
-                }
-            },
-            {
-                "type": "faqBlock",
-                "faqBlock": [
-                    {
-                        "colour": "",
-                        "title": "Have a question?",
-                        "items": [
-                            {
-                                "question": "When will I receive my tickets?",
-                                "answer": "<p>All tickets for this performance will be sent electronically. If successfully allocated tickets, you will receive an email confirmation. Your tickets will then be emailed within 48 hours of the performance. You will need to print your tickets for entry to the theatre and the person named on the ticket must be present with photo ID.</p>"
-                            },
-                            {
-                                "question": "How many tickets can I claim?",
-                                "answer": " <p>You will have the opportunity to request one or two tickets. Once pairs of tickets are all allocated, entrants may be offered two single seats which may not be positioned next to each other. Guests under the age of 16 must be seated next to an adult.</p>"
-                            },
-                            {
-                                "question": "Can I bring a child?",
-                                "answer": " <p>THE LION KING is recommended for age 6+, and children under the age of 3 will not be admitted to the theatre. Children must be seated next to an adult at all times. If you claim two tickets which are not positioned next to each other and bring a child, we regret we will not be able to accommodate you at the performance.</p>"
-                            },
-                            {
-                                "question": "Do I need to bring photo ID?",
-                                "answer": "<p>The person named on the electronic ticket must be present at the performance and be prepared to show photographic ID. This is to prevent tickets being resold. Any tickets found to be resold or listed for re-sale will be immediately cancelled and void for entry.</p>"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id": "houseseats",
         "inNav": false,
         "siteId": "london",
@@ -157,7 +70,7 @@
                 "textBlockFullWidth": {
                     "textCenter": false,
                     "fluidContainer": true,
-                    "content": "<h4 class='text-red pb-3'>Learn more about the audition process</h4><p class='text-red text-lg'><strong>Singers & Actors</strong></p><p>Auditions for singers and actors take place in three stages: Initial Auditions, Call-backs & Coaching and Final Auditions with the International Creative Team.</p><p><strong>1. Initial Auditions</strong></p><p>Auditions are advertised in newspapers, online, via agents and contact lists.</p><p>Auditionees are requested to come to the auditions with a contemporary rock, pop or gospel song prepared. A pianist is provided. Clear and well-laid out sheet music is required; and in the correct key for the singer. No backing tapes.</p><p>The auditionee will be given a set time to audition by the audition coordinator. At the audition the singer may be asked to sing only 16 bars (eg. verse and chorus) of the song they have prepared.</p> <p> The Casting Director and Casting Coordinator are present at these auditions.</p><p><strong>2. Call-backs and Coaching</strong></p><p> Due to large-scale logistics we are unable to contact everyone who auditions. Should you be successful at the initial audition, you will be contacted by the Casting Department and sent material from the show to prepare for the next audition.</p> <p> The material is usually a song and an acting piece for a particular character from THE LION KING. After the call-back audition the Casting Director will give feedback and may work on the acting piece with the auditionee. If the Music Director is present, there may also be some coaching on the song.</p> <p> The Casting Director, Casting Coordinator, Music Director and the Resident Director may be present at these auditions.</p><p>There may be additional coaching sessions before the finals.</p> <p><strong>3. Final Auditions</strong></p><p>Successful performers will be short-listed to audition for the International Creative Team.</p> <p> The materials for this final audition will be the material prepared from the show and also a contemporary rock or pop song (not a cappella).</p><hr class='hr-black my-5'><p class='text-red text-lg'><strong>Dancers</strong></p><p>Dance auditions usually take place in two major phases: initial auditions and then call-backs to the International Creative Team.</p> <p><strong>1. Initial Auditions</strong></p><p> Auditions are advertised in newspapers, online, via agents and contact lists.</p><p>At the initial audition dancers may be seen on separate women's or men's days, or at mixed sessions. All dancers arrive at the beginning of auditions to register and are then auditioned during the day.</p><p> A short dance sequence adapted from THE LION KING is taught to the dancers by the Resident Dance Supervisor or Dance Captains. Dancers are assessed on their versatility and technique. At the end of each session unsuccessful dancers are notified and the successful dancers are asked to continue with the next session or asked to come back later in the day. By the end of the audition day the short-listed dancers remain. They may be asked to do another sequence from the show and sing for the Music Director.</p><p><strong>2. Call-backs</strong></p><p> Short-listed dancers are notified of their call-back to dance for the International Creative Team. These auditions follow much the same pattern as the initial auditions. At the end of this audition day male and female dancers are brought together for a final audition for evaluation by the international creative team.</p>"
+                    "content": "<h4 class='text-red pb-3'>Learn more about the audition process</h4><p class='text-red text-lg'><strong>Singers & Actors</strong></p><p>Auditions for singers and actors take place in three stages: Initial Auditions, Call-backs & Coaching and Final Auditions with the International Creative Team.</p><p><strong>1. Initial Auditions</strong></p><p>Auditions are advertised in newspapers, online, via agents and contact lists.</p><p>Auditionees are requested to come to the auditions with a contemporary rock, pop or gospel song prepared. A pianist is provided. Clear and well-laid out sheet music is required; and in the correct key for the singer. No backing tapes.</p><p>The auditionee will be given a set time to audition by the audition coordinator. At the audition the singer may be asked to sing only 16 bars (eg. verse and chorus) of the song they have prepared.</p> <p> The Casting Director and Casting Coordinator are present at these auditions.</p><p><strong>2. Call-backs and Coaching</strong></p><p> Due to large-scale logistics we are unable to contact everyone who auditions. Should you be successful at the initial audition, you will be contacted by the Casting Department and sent material from the show to prepare for the next audition.</p> <p> The material is usually a song and an acting piece for a particular character from THE LION KING. After the call-back audition the Casting Director will give feedback and may work on the acting piece with the auditionee. If the Music Director is present, there may also be some coaching on the song.</p> <p> The Casting Director, Casting Coordinator, Music Director and the Resident Director may be present at these auditions.</p><p>There may be additional coaching sessions before the finals.</p> <p><strong>3. Final Auditions</strong></p><p>Successful performers will be short-listed to audition for the International Creative Team.</p> <p> The materials for this final audition will be the material prepared from the show and also a contemporary rock or pop song (not a cappella).</p><h class='hr-black my-5'><p class='text-red text-lg'><strong>Dancers</strong></p><p>Dance auditions usually take place in two major phases: initial auditions and then call-backs to the International Creative Team.</p> <p><strong>1. Initial Auditions</strong></p><p> Auditions are advertised in newspapers, online, via agents and contact lists.</p><p>At the initial audition dancers may be seen on separate women's or men's days, or at mixed sessions. All dancers arrive at the beginning of auditions to register and are then auditioned during the day.</p><p> A short dance sequence adapted from THE LION KING is taught to the dancers by the Resident Dance Supervisor or Dance Captains. Dancers are assessed on their versatility and technique. At the end of each session unsuccessful dancers are notified and the successful dancers are asked to continue with the next session or asked to come back later in the day. By the end of the audition day the short-listed dancers remain. They may be asked to do another sequence from the show and sing for the Music Director.</p><p><strong>2. Call-backs</strong></p><p> Short-listed dancers are notified of their call-back to dance for the International Creative Team. These auditions follow much the same pattern as the initial auditions. At the end of this audition day male and female dancers are brought together for a final audition for evaluation by the international creative team.</p>"
                 }
             }
         ]
@@ -344,7 +257,7 @@
                     "imgDesktop": "../images/backgrounds/bg-lk-banner-lg.jpg",
                     "imgMobile": "../images/backgrounds/bg-lk-banner-md3.jpg",
                     "withGradient": true,
-                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 20th year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
+                    "text": "<p class='text-lg'>Disney’s award-winning musical THE LION KING explodes with glorious colours, stunning effects and enchanting music. It follows the powerful story of Simba as he journeys from wide-eyed cub to his destined role as King of the Pridelands.</p><p>Now in its 21st year at London's Lyceum Theatre, visionary director Julie Taymor’s acclaimed reimagining of Disney's beloved film will redefine your expectation of theatre.</p>",
                     "links": ""
                 }
             }
